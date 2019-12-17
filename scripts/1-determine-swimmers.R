@@ -58,6 +58,8 @@ coordsOSM3 <- st_as_stars(coordsOSM2) %>%
 
 coordsOSM3$island <- seq_along(coordsOSM3$geometry)
 
+plot(coordsOSM3)
+
 r <- raster(ymn = st_bbox(coordsOSM3)$ymin,
             ymx = st_bbox(coordsOSM3)$ymax, 
             xmn = st_bbox(coordsOSM3)$xmin,
@@ -67,13 +69,15 @@ r <- fasterize(coordsOSM3, r, field = "island")
 
 swimmers[, islands := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
 
+## determine area of islands
+plot(r)
+
 
 swimmers[, .N, by = "islands"]
-
 plot(r, xlim = c(685000, 710000), 
      ylim = c(5490000, 5502000))
 par(new = T)
-plot(NORTHING ~ EASTING, data = swimmers[islands == 71], 
+plot(NORTHING ~ EASTING, data = swimmers[islands == 68], 
      xlim = c(685000, 710000), 
      ylim = c(5490000, 5502000))
 
@@ -116,7 +120,23 @@ swimmers$islands3[swimmers$difference == -2] <- "W. Indian"
 swimmers2 <- swimmers[difference !=0]
 swimmers2$swimDir <- paste(swimmers2$islands2, swimmers2$islands3, sep = "_")
 
-## summary stats
+### summary stats
+## calculate area
+
+areaIsl <- data.table(st_area(coordsOSM3))
+areaIsl$island <- rownames(areaIsl)
+areaIsl$island[areaIsl$island == 43] <- "Fogo"
+areaIsl$island[areaIsl$island == 53] <- "North Long"
+areaIsl$island[areaIsl$island == 55] <- "North Long"
+areaIsl$island[areaIsl$island == 58] <- "Blundon"
+areaIsl$island[areaIsl$island == 67] <- "Brother"
+areaIsl$island[areaIsl$island == 68] <- "W. Indian"
+areaIsl$island[areaIsl$island == 70] <- "South Long"
+areaIsl$island[areaIsl$island == 71] <- "E. Indian"
+areaIsl$island[areaIsl$island == 74] <- "Kate"
+areaIsl$V1 <- areaIsl$V1/100000
+
+
 
 swimmers2[, .N, by = c("ANIMAL_ID", "swimDir")]
 
