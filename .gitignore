@@ -2,7 +2,7 @@
 ################################
 input/
 output/
-
+rosm.cache/
 
 # R related files #
 ###################
