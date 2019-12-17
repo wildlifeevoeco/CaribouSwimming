@@ -29,18 +29,20 @@ swimmers <- caribou[ANIMAL_ID == "FO2016011" |
 ## Extract points on different islands
 swimmers[, islands := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
 
-## 
+## check points in reference to raster map
 swimmers[, .N, by = "islands"]
 plot(r, xlim = c(685000, 710000), 
      ylim = c(5490000, 5502000))
 par(new = T)
-plot(NORTHING ~ EASTING, data = swimmers[islands == 68], 
+plot(NORTHING ~ EASTING, data = swimmers[islands == 55], 
      xlim = c(685000, 710000), 
      ylim = c(5490000, 5502000))
 
-## rename islands
+
+## cut points that aren't on an island
 swimmers <- swimmers[!is.na(islands),]
 
+## rename islands
 swimmers$islands2[swimmers$islands == 43] <- "Fogo"
 swimmers$islands2[swimmers$islands == 53] <- "North Long"
 swimmers$islands2[swimmers$islands == 55] <- "North Long"
@@ -51,10 +53,10 @@ swimmers$islands2[swimmers$islands == 70] <- "South Long"
 swimmers$islands2[swimmers$islands == 71] <- "E. Indian"
 swimmers$islands2[swimmers$islands == 74] <- "Kate"
 
-
+## determine when swimming occurred 
 swimmers[, difference := data.table::shift(islands, type = "lead") - islands, by = .(ANIMAL_ID, Year)]
 
-
+## rename the shifted difference column to the inhabited island
 swimmers$islands3[swimmers$difference == -10] <- "Blundon"
 swimmers$islands3[swimmers$difference == 3] <- "E. Indian"
 swimmers$islands3[swimmers$difference == -3] <- "W. Indian"
@@ -73,6 +75,19 @@ swimmers$islands3[swimmers$difference == -6] <- "W. Indian"
 swimmers$islands3[swimmers$difference == 6] <- "Kate"
 swimmers$islands3[swimmers$difference == 2] <- "South Long"
 swimmers$islands3[swimmers$difference == -2] <- "W. Indian"
+swimmers$islands3[swimmers$difference == 0] <- "Stay"
+
+
+swimmers[, counter := rowid(rleid(islands3))]
+
+
+
+ggplot(swimmers[counter == 1 & ANIMAL_ID == "FO2016011"], aes(EASTING, NORTHING)) +
+  geom_path() +
+  geom_point() +
+  facet_wrap(~Year)
+
+swimmers[counter == 1]
 
 swimmers2 <- swimmers[difference !=0]
 swimmers2$swimDir <- paste(swimmers2$islands2, swimmers2$islands3, sep = "_")
