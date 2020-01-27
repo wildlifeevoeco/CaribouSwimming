@@ -43,72 +43,43 @@ plot(NORTHING ~ EASTING, data = swimmers[islands == 55],
 swimmers <- swimmers[!is.na(islands),]
 
 ## rename islands
-swimmers$islands2[swimmers$islands == 43] <- "Fogo"
-swimmers$islands2[swimmers$islands == 53] <- "North Long"
-swimmers$islands2[swimmers$islands == 55] <- "North Long"
-swimmers$islands2[swimmers$islands == 58] <- "Blundon"
-swimmers$islands2[swimmers$islands == 67] <- "Brother"
-swimmers$islands2[swimmers$islands == 68] <- "W. Indian"
-swimmers$islands2[swimmers$islands == 70] <- "South Long"
-swimmers$islands2[swimmers$islands == 71] <- "E. Indian"
-swimmers$islands2[swimmers$islands == 74] <- "Kate"
+swimmers$StartIsland[swimmers$islands == 43] <- "Fogo"
+swimmers$StartIsland[swimmers$islands == 53] <- "North Long"
+swimmers$StartIsland[swimmers$islands == 55] <- "North Long"
+swimmers$StartIsland[swimmers$islands == 58] <- "Blundon"
+swimmers$StartIsland[swimmers$islands == 67] <- "Brother"
+swimmers$StartIsland[swimmers$islands == 68] <- "W. Indian"
+swimmers$StartIsland[swimmers$islands == 70] <- "South Long"
+swimmers$StartIsland[swimmers$islands == 71] <- "E. Indian"
+swimmers$StartIsland[swimmers$islands == 74] <- "Kate"
 
 ## determine when swimming occurred 
 swimmers[, difference := data.table::shift(islands, type = "lead") - islands, by = .(ANIMAL_ID, Year)]
 
 ## rename the shifted difference column to the inhabited island
-swimmers$islands3[swimmers$difference == -10] <- "Blundon"
-swimmers$islands3[swimmers$difference == 3] <- "E. Indian"
-swimmers$islands3[swimmers$difference == -3] <- "W. Indian"
-swimmers$islands3[swimmers$difference == -1] <- "Brother"
-swimmers$islands3[swimmers$difference == 1] <- "W. Indian"
-swimmers$islands3[swimmers$islands2 == "Blundon" & 
+swimmers$MoveIsland[swimmers$difference == -10] <- "Blundon"
+swimmers$MoveIsland[swimmers$difference == 3] <- "E. Indian"
+swimmers$MoveIsland[swimmers$difference == -3] <- "W. Indian"
+swimmers$MoveIsland[swimmers$difference == -1] <- "Brother"
+swimmers$MoveIsland[swimmers$difference == 1] <- "W. Indian"
+swimmers$MoveIsland[swimmers$StartIsland == "Blundon" & 
                     swimmers$difference == 13] <- "E. Indian"
-swimmers$islands3[swimmers$islands2 == "North Long" & 
+swimmers$MoveIsland[swimmers$StartIsland == "North Long" & 
                     swimmers$difference == 13] <- "W. Indian"
-swimmers$islands3[swimmers$difference == -13] <- "North Long"
-swimmers$islands3[swimmers$difference == -25] <- "Fogo"
-swimmers$islands3[swimmers$difference == 25] <- "W. Indian"
-swimmers$islands3[swimmers$difference == -15] <- "North Long"
-swimmers$islands3[swimmers$difference == 15] <- "W. Indian"
-swimmers$islands3[swimmers$difference == -6] <- "W. Indian"
-swimmers$islands3[swimmers$difference == 6] <- "Kate"
-swimmers$islands3[swimmers$difference == 2] <- "South Long"
-swimmers$islands3[swimmers$difference == -2] <- "W. Indian"
-swimmers$islands3[swimmers$difference == 0] <- "Stay"
+swimmers$MoveIsland[swimmers$difference == -13] <- "North Long"
+swimmers$MoveIsland[swimmers$difference == -25] <- "Fogo"
+swimmers$MoveIsland[swimmers$difference == 25] <- "W. Indian"
+swimmers$MoveIsland[swimmers$difference == -15] <- "North Long"
+swimmers$MoveIsland[swimmers$difference == 15] <- "W. Indian"
+swimmers$MoveIsland[swimmers$difference == -6] <- "W. Indian"
+swimmers$MoveIsland[swimmers$difference == 6] <- "Kate"
+swimmers$MoveIsland[swimmers$difference == 2] <- "South Long"
+swimmers$MoveIsland[swimmers$difference == -2] <- "W. Indian"
+swimmers$MoveIsland[swimmers$difference == 0] <- "Stay"
 
+## count number of fixes on each island
+swimmers[, counter := rowid(rleid(StartIsland))]
 
-swimmers[, counter := rowid(rleid(islands3))]
+duration <- swimmers[difference != 0]
 
-
-
-ggplot(swimmers[counter == 1 & ANIMAL_ID == "FO2016011"], aes(EASTING, NORTHING)) +
-  geom_path() +
-  geom_point() +
-  facet_wrap(~Year)
-
-swimmers[counter == 1]
-
-swimmers2 <- swimmers[difference !=0]
-swimmers2$swimDir <- paste(swimmers2$islands2, swimmers2$islands3, sep = "_")
-
-### summary stats
-## calculate area
-
-areaIsl <- data.table(st_area(coordsOSM3))
-areaIsl$island <- rownames(areaIsl)
-areaIsl$island[areaIsl$island == 43] <- "Fogo"
-areaIsl$island[areaIsl$island == 53] <- "North Long"
-areaIsl$island[areaIsl$island == 55] <- "North Long"
-areaIsl$island[areaIsl$island == 58] <- "Blundon"
-areaIsl$island[areaIsl$island == 67] <- "Brother"
-areaIsl$island[areaIsl$island == 68] <- "W. Indian"
-areaIsl$island[areaIsl$island == 70] <- "South Long"
-areaIsl$island[areaIsl$island == 71] <- "E. Indian"
-areaIsl$island[areaIsl$island == 74] <- "Kate"
-areaIsl$V1 <- areaIsl$V1/100000
-
-
-
-swimmers2[, .N, by = c("ANIMAL_ID", "swimDir")]
-
+fwrite(duration, "output/duration.csv")

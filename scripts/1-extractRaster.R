@@ -25,6 +25,7 @@ r <- raster(ymn = st_bbox(coordsOSM3)$ymin,
             crs = CRS('+proj=utm +zone=21 ellps=WGS84'))
 r2 <- fasterize(coordsOSM3, r, field = "island")
 
+saveRDS(coordsOSM3, "output/coordsOSM.RDS")
 saveRDS(r2, "output/islandRaster.RDS")
 
 
