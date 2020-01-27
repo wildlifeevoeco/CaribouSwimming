@@ -1,0 +1,10 @@
+---
+title: The problem and promise of scale in multilayer networks
+author: Quinn M.R. Webber^1^, Jack Hendrix^1^, Alec L. Robitaille^2^,  Eric Vander Wal^1,2^
+header-includes:  ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland^2^; Department of Biology, Memorial University of Newfoundland, Canada.
+
+output: 
+    #word_document
+    github_document
+---
+
