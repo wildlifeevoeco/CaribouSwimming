@@ -1,3 +1,5 @@
+### Island area vs ====
+# Quinn M.R. Webber, Jack G. Hendrix, Alec L. Robitaille,  Eric Vander Wal
 
 ### Packages ----
 libs <- c('data.table', 'ggplot2', 'dplyr',
