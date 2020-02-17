@@ -7,6 +7,7 @@ libs <- c('data.table',
           'ggplot2',
           # 'dplyr',
           'raster',
+          'sp',
           # 'prettymapr',
           'rosm',
           'stars',
@@ -14,8 +15,7 @@ libs <- c('data.table',
 lapply(libs, require, character.only = TRUE)
 
 ### extract islands from osm
-coords <- makebbox(49.5194,-54.1878,
-                   49.65,-54.3533)
+coords <- bbox(SpatialPoints(cbind(c(49.5194, 49.65), c(-54.1878, -54.3533))))
 
 coordsOSM <-
   osm.raster(coords,
