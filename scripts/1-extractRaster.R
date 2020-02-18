@@ -5,10 +5,8 @@
 ### Packages ----
 libs <- c('data.table',
           'ggplot2',
-          # 'dplyr',
           'raster',
           'sf',
-          # 'prettymapr',
           'rosm',
           'stars',
           'fasterize')
