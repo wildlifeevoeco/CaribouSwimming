@@ -18,12 +18,15 @@ lapply(libs, require, character.only = TRUE)
 # Set min max coords
 coords <- c(ymin = 49.5194,
             ymax = 49.65,
-            xmin = -54.1878, 
-            xmax = -54.3533)
+            xmin = -54.3533,
+            xmax = -54.1878)
 latlon <- st_crs(4326)
-
-coordsOSM <- osm.raster(st_bbox(coords),
-                        projection = CRS(latlon$proj4string),
+bb <- bbox(matrix(c(coords[['xmin']], coords[['xmax']], 
+                    coords[['ymin']], coords[['ymax']]), 
+                  nrow = 2))
+utm <- CRS('+proj=utm +zone=21 ellps=WGS84')
+coordsOSM <- osm.raster(bb,
+                        projection = utm,
                         crop = TRUE)
 
 coordsOSM2 <- coordsOSM[[1]] != 170
