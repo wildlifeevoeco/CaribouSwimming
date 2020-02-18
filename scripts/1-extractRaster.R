@@ -38,15 +38,11 @@ coordsOSM3 <- st_as_sf(
 )
 coordsOSM3$island <- seq_along(coordsOSM3$geometry)
 
-r <- raster(
-  ymn = st_bbox(coordsOSM3)$ymin,
-  ymx = st_bbox(coordsOSM3)$ymax,
-  xmn = st_bbox(coordsOSM3)$xmin,
-  xmx = st_bbox(coordsOSM3)$xmax,
-  crs = CRS('+proj=utm +zone=21 ellps=WGS84')
-)
-r2 <- fasterize(coordsOSM3, r, field = "island")
+# zzz
+utmbb <- projectExtent(raster(ext = extent(bb), crs = latlon$proj4string), 
+                       crs = utm)
+r2 <- fasterize(coordsOSM3, utmbb, field = "island")
 
-saveRDS(coordsOSM3, "output/coordsOSM.RDS")
-saveRDS(r2, "output/islandRaster.RDS")
+saveRDS(coordsOSM3, "output/coordsOSM.Rds")
+saveRDS(r2, "output/islandRaster.Rds")
 
