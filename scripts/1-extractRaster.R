@@ -7,24 +7,29 @@ libs <- c('data.table',
           'ggplot2',
           # 'dplyr',
           'raster',
-          'sp',
+          'sf',
           # 'prettymapr',
           'rosm',
           'stars',
           'fasterize')
 lapply(libs, require, character.only = TRUE)
 
-### extract islands from osm
-coords <- bbox(SpatialPoints(cbind(c(49.5194, 49.65), c(-54.1878, -54.3533))))
+### Extract islands from OSM ----
+# Set min max coords
+coords <- c(ymin = 49.5194,
+            ymax = 49.65,
+            xmin = -54.1878, 
+            xmax = -54.3533)
+latlon <- st_crs(4326)
 
-coordsOSM <-
-  osm.raster(coords,
-             projection = CRS('+proj=utm +zone=21 ellps=WGS84'),
-             crop = TRUE)
+coordsOSM <- osm.raster(st_bbox(coords),
+                        projection = CRS(latlon$proj4string),
+                        crop = TRUE)
+
 coordsOSM2 <- coordsOSM[[1]] != 170
 coordsOSM2[coordsOSM2 == 0] <- NA
 coordsOSM3 <- st_as_sf(
-  st_as_stars(coordsOSM2),
+  st_as_stars(coordsOSM),
   as_points = FALSE,
   use_integer = TRUE,
   merge = TRUE,
