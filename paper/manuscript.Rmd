@@ -7,12 +7,24 @@ output:
     github_document
 ---
 
-## Abstract 
+Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
+that caribou swim in streams, rivers, and lakes during migration (Leblond et al.
+2016) to avoid predators (Bergerud 1985) and access islands during calving
+(Bergerud et al. 1990). Despite a large number of coastal and island caribou
+herds, limited evidence exists suggesting that caribou swim in the ocean as
+readily as they swim in freshwater (see Table 1). A key exception is Peary
+caribou swimming up to 2.6 km between the Queen Elizabeth Islands (Miller 1995;
+Miller 2002). Swimming for quadrupedal terrestrial mammals can be thought of as
+a set of trade-offs. Costs include high energy expenditure and risk of drowning.
+Specifically, even though caribou are adept swimmers, the energetic expenditure
+associated with swimming for quadrupedal mammals is significantly higher than
+walking or running (Fish 1993). Additionally, drowning is also possible (Miller
+& Gunn 1985) although the proportion of caribou that die from drowning is
+unknown. Swimming between islands or from the mainland to nearby islands can be
+beneficial. Among the most important benefits are predator avoidance and seeking
+under-foraged areas.
 
-## Introduction
-Caribou are exceptional swimmers. Ample evidence exists that caribou swim in streams, rivers, and lakes during migration (Leblond et al. 2016) to avoid predators (Bergerud 1985) and access islands during calving (Bergerud et al. 1990). Despite a large number of coastal and island caribou herds, limited evidence exists suggesting that caribou swim in the ocean as readily as they swim in freshwater (see Table 1). A key exception is Peary caribou swimming up to 2.6km between the Queen Elizabeth Islands (Miller 1995; Miller 2002). For caribou living on small islands in the ocean, the same notions for why caribou swim in freshwater may also explain why caribou swim in the ocean (Leblond et al. 2016). Specifically, forage limitation (Miller 2002) and predator avoidance (Jeffery et al. 2007) have been proposed as potential explanations.
-
-Swimming for quadrupedal terrestrial mammals can be thought of as a set of trade-offs. Costs include high energy expenditure and risk of drowning. Specifically, even though caribou are adept swimmers, the energetic expenditure associated with swimming for quadrupedal mammals is significantly higher than walking or running (Fish 1993). Additionally, drowning is also possible (Miller & Gunn 1985) although the proportion of caribou that die from drowning is unknown. Swimming between islands or from the mainland to nearby islands can be beneficial. Among the most important benefits are predator avoidance and seeking under-foraged areas.
+For caribou living on small islands in the ocean, the same notions for why caribou swim in freshwater may also explain why caribou swim in the ocean (Leblond et al. 2016). Specifically, forage limitation (Miller 2002) and predator avoidance (Jeffery et al. 2007) have been proposed as potential explanations.
 
 Forage limitation could explain movement between islands. Forage scarcity has been proposed as a potential reason why caribou move between arctic islands on the sea-ice in winter (Miller et al. 1977). For very small islands, over-grazing by newly arrived caribou may rapidly limit forage (Bergerud et al. 1990). Without sea ice, movement from the mainland to an island as well as between islands requires caribou to assess the trade-off associated with swimming. The underlying mechanism driving forage limitation and the trade-off associated with swimming could be density-dependent habitat selection governed by the Ideal Free Distribution (Morris 1987; Bradbury et al. 2015). Ideal Free Distribution theory suggests that habitat selection is density-dependent and that variation in density between habitat patches leads to a fitness equilibrium (Bradbury et al. 2015). Fitness in a habitat patch depends on density where, ideally, the available resources on a habitat patch can sustain a specific number of individuals. In a hypothetical example, when density of a given habitat patch has exceeded the fitness equilibrium, animals are predicted to relocate and settle new habitat patches to reach equilibrium. Islands therefore represent distinct habitat patches with clear costs and benefits associated with swimming.
 
