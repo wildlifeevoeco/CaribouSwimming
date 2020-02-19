@@ -101,20 +101,17 @@ possible that forage limitation and increased conspecific competition influences
 swimming between islands.
 
 Predator avoidance could contribute to swimming behaviour of caribou (Miller
-2002). Although caribou co-evolved with wolves (*Canis lupus*) throughout their range, wolves are extirpated from Newfoundland, including Fogo Island. Coyotes (*Canis latrans*)
-and black bears are the primary predators of
-caribou (Bastille-Rousseau et al. 2016). While predation by coyotes on adult
-female caribou is possible, it is relatively rare on Fogo Island (Webber &
-Vander Wal unpublished data). Therefore, any effect of predation on swimming
-behaviour is likely related to fine-scale encounters between coyotes and caribou
-which result in caribou swimming as a flight response. Alternatively, during
-calving, females may swim to small islands to give birth (Bergerud & Page 1987)
-or swim to islands with a calf at heel to avoid predation. Swimming with a calf
-at heel has been observed for caribou in freshwater lakes on Fogo Island (Webber
-& Vander Wal unpublished data), so we anticipate it may also be possible in the
-ocean. We suggest future studies assess encounter rates among caribou and
-coyotes to determine what proportion of encounters result in swimming
-behaviour.Woodland caribou are well known to disperse to remote locations,
+2002). Although caribou co-evolved with wolves (*Canis lupus*) throughout their
+range, wolves are extirpated from Newfoundland, including Fogo Island. Coyotes
+(*Canis latrans*) and black bears (*Ursus americanus*) are the primary predators
+of caribou in Newfoundland (Bastille-Rousseau et al. 2016). While predation by
+coyotes on adult female caribou does occur (ref?), it is relatively rare and the
+effect of predation on swimming behaviour is more likely the result of
+encounters which result in a flight response. For example, during calving,
+females may swim to small islands to give birth (Bergerud & Page 1987) or swim
+to islands in freshwater lakes with their calves to avoid predation.
+
+Woodland caribou are also well known to disperse to remote locations,
 including islands, during calving (Bergerud & Page 1987; Cumming & Beange 1987).
 Moving to remote locations is a viable anti-predator strategy for caribou
 because it reduces detection and encounter rates by predators. For instance, the
