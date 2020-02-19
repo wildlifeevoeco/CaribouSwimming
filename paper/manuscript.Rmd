@@ -24,12 +24,19 @@ unknown. Swimming between islands or from the mainland to nearby islands can be
 beneficial. Among the most important benefits are predator avoidance and seeking
 under-foraged areas.
 
-For caribou living on small islands in the ocean, the same notions for why caribou swim in freshwater may also explain why caribou swim in the ocean (Leblond et al. 2016). Specifically, forage limitation (Miller 2002) and predator avoidance (Jeffery et al. 2007) have been proposed as potential explanations.
 
-Forage limitation could explain movement between islands. Forage scarcity has been proposed as a potential reason why caribou move between arctic islands on the sea-ice in winter (Miller et al. 1977). For very small islands, over-grazing by newly arrived caribou may rapidly limit forage (Bergerud et al. 1990). Without sea ice, movement from the mainland to an island as well as between islands requires caribou to assess the trade-off associated with swimming. The underlying mechanism driving forage limitation and the trade-off associated with swimming could be density-dependent habitat selection governed by the Ideal Free Distribution (Morris 1987; Bradbury et al. 2015). Ideal Free Distribution theory suggests that habitat selection is density-dependent and that variation in density between habitat patches leads to a fitness equilibrium (Bradbury et al. 2015). Fitness in a habitat patch depends on density where, ideally, the available resources on a habitat patch can sustain a specific number of individuals. In a hypothetical example, when density of a given habitat patch has exceeded the fitness equilibrium, animals are predicted to relocate and settle new habitat patches to reach equilibrium. Islands therefore represent distinct habitat patches with clear costs and benefits associated with swimming.
+We describe visual observation of a single swimming event by a caribou in the
+North Atlantic Ocean. This observation led us to investigate the prevalence of
+swimming of GPS radio-collared caribou in the Fogo Island archipelago in
+Newfoundland, Canada. We posit two potential mechanisms explaining the
+trade-offs associated with swimming in the North Atlantic Ocean: forage
+limitation and the associated density-dependent habitat selection and predator
+avoidance. For caribou living on small islands in the ocean, the same notions
+for why caribou swim in freshwater may also explain why caribou swim in the
+ocean (Leblond et al. 2016). Specifically, forage limitation (Miller 2002) and
+predator avoidance (Jeffery et al. 2007) have been proposed as potential
+explanations.
 
-Woodland caribou are well known to disperse to remote locations, including islands, during calving (Bergerud & Page 1987; Cumming & Beange 1987). Moving to remote locations is a viable anti-predator strategy for caribou because it reduces detection and encounter rates by predators. For instance, the use of shoreline habitat in summer was deemed an effective anti-predator calving strategy because caribou avoided predators by using islands and peninsulas or swimming as a flight response (Bergerud et al. 1990). The use of water, and by association occasionally swimming, is therefore part of the fine-scale interactions between caribou and their predators and the use of islands appears to be an effective anti-predator strategy.
-	Here, we describe visual observation of a single swimming event by a caribou in the North Atlantic Ocean. This observation led us to investigate the prevalence of swimming of GPS radio-collared caribou in the Fogo Island archipelago in Newfoundland, Canada. We posit two potential mechanisms explaining the trade-offs associated with swimming in the North Atlantic Ocean: forage limitation and the associated density-dependent habitat selection and predator avoidance.
 
 ## Materials and methods
 
@@ -50,6 +57,13 @@ During routine fieldwork on May 30, 2017, we observed an unmarked male caribou s
 We were interested in determining what factors might influence how long an individual remains on the terminal island. We therefore used linear regressions to test how the Julian date of arrival to the island, size of the terminal island, and the paired identity of islands (i.e., Fogo to Perry or Perry to Eastern Indian) influenced the duration of time spent on the terminal island. All statistical analyses were conducted in R.
 
 ## Discussion
+
+
+
+Forage limitation could explain movement between islands. Forage scarcity has been proposed as a potential reason why caribou move between arctic islands on the sea-ice in winter (Miller et al. 1977). For very small islands, over-grazing by newly arrived caribou may rapidly limit forage (Bergerud et al. 1990). Without sea ice, movement from the mainland to an island as well as between islands requires caribou to assess the trade-off associated with swimming. The underlying mechanism driving forage limitation and the trade-off associated with swimming could be density-dependent habitat selection governed by the Ideal Free Distribution (Morris 1987; Bradbury et al. 2015). Ideal Free Distribution theory suggests that habitat selection is density-dependent and that variation in density between habitat patches leads to a fitness equilibrium (Bradbury et al. 2015). Fitness in a habitat patch depends on density where, ideally, the available resources on a habitat patch can sustain a specific number of individuals. In a hypothetical example, when density of a given habitat patch has exceeded the fitness equilibrium, animals are predicted to relocate and settle new habitat patches to reach equilibrium. Islands therefore represent distinct habitat patches with clear costs and benefits associated with swimming.
+
+Woodland caribou are well known to disperse to remote locations, including islands, during calving (Bergerud & Page 1987; Cumming & Beange 1987). Moving to remote locations is a viable anti-predator strategy for caribou because it reduces detection and encounter rates by predators. For instance, the use of shoreline habitat in summer was deemed an effective anti-predator calving strategy because caribou avoided predators by using islands and peninsulas or swimming as a flight response (Bergerud et al. 1990). The use of water, and by association occasionally swimming, is therefore part of the fine-scale interactions between caribou and their predators and the use of islands appears to be an effective anti-predator strategy.
+
 We observed one swimming event in the field as well as 86 remotely sensed swimming events from three individual caribou over a three-year period. In general, caribou swam more frequently to larger islands. Fogo, Perry, and Eastern Indian islands are the largest, and the most commonly occupied. While caribou often swim across streams, rivers, and lakes (Leblond et al. 2016), few observations exist of caribou swimming in the ocean (see Table 1). Of the existing or inferred observations of caribou swimming in the ocean, none appear to be as prolific as the number and frequency of swimming events we observed. We surmise that for caribou living on small islands, the primary drivers of swimming are likely related to forage limitation and predator avoidance.
 
 ### Forage limitation and density-dependence
