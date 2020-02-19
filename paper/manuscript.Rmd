@@ -1,34 +1,46 @@
 ---
 title: Interisland movements of woodland caribou in Newfoundland
-author: Quinn M.R. Webber^1^, Jack G. Hendrix^1^, Alec L. Robitaille^2^,  Eric Vander Wal^1,2^
-date:  ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland; ^2^ Department of Biology, Memorial University of Newfoundland, Canada.
+author: Quinn M.R. Webber^1\*^, Jack G. Hendrix^1^, Alec L. Robitaille^2^,  Eric Vander Wal^1,2^
+date: |
+  | ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland
+  | ^2^Department of Biology, Memorial University of Newfoundland, Canada
+  | \*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
-    #word_document
     github_document
+  # bookdown::pdf_document2:
+  #    number_sections: true
+  #    toc: false
+  #bookdown::word_document2:
+  #  reference_docx: template.docx
+#bibliography: ../references/knitcite.bib
+#csl: csl.csl
 ---
+
+\newpage
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration (Leblond et al.
 2016) to avoid predators (Bergerud 1985) and access islands during calving
-(Bergerud et al. 1990). Despite a large number of coastal and island caribou
-herds, limited evidence exists suggesting that caribou swim in the ocean as
-readily as they swim in freshwater (see Table 1). A key exception is Peary
+(Bergerud et al. 1990). Swimming for quadrupedal terrestrial mammals can be
+thought of as a set of trade-offs. Costs include high energy expenditure and
+risk of drowning. Specifically, even though caribou are adept swimmers, the
+energetic expenditure associated with swimming for quadrupedal mammals is
+significantly higher than walking or running (Fish 1993). Additionally, drowning
+is also possible (Miller & Gunn 1985) although the proportion of caribou that
+die from drowning is unknown. Despite a large number of coastal and island
+caribou herds, limited evidence exists suggesting that caribou swim in the ocean
+as readily as they swim in freshwater (see Table 1). A key exception is Peary
 caribou swimming up to 2.6 km between the Queen Elizabeth Islands (Miller 1995;
-Miller 2002). Swimming for quadrupedal terrestrial mammals can be thought of as
-a set of trade-offs. Costs include high energy expenditure and risk of drowning.
-Specifically, even though caribou are adept swimmers, the energetic expenditure
-associated with swimming for quadrupedal mammals is significantly higher than
-walking or running (Fish 1993). Additionally, drowning is also possible (Miller
-& Gunn 1985) although the proportion of caribou that die from drowning is
-unknown. Swimming between islands or from the mainland to nearby islands can be
-beneficial. Among the most important benefits are predator avoidance and seeking
-under-foraged areas.
+Miller 2002).
 
+Here, we describe the visual observation of an adult male caribou swimming
+between islands in the Fogo Island archipleago in the North Atlantic Ocean. This
+observation prompted us to query a large database of GPS radio-collared caribou
+in the Fogo Island caribou herd in Newfoundland, Canada. We identified  86
+remotely sensed swimming events between XX islands from three individual caribou
+over a three-year period.
 
-We describe visual observation of a single swimming event by a caribou in the
-North Atlantic Ocean. This observation led us to investigate the prevalence of
-swimming of GPS radio-collared caribou in the Fogo Island archipelago in
-Newfoundland, Canada. We posit two potential mechanisms explaining the
+We posit two potential mechanisms explaining the
 trade-offs associated with swimming in the North Atlantic Ocean: forage
 limitation and the associated density-dependent habitat selection and predator
 avoidance. For caribou living on small islands in the ocean, the same notions
@@ -37,17 +49,13 @@ ocean (Leblond et al. 2016). Specifically, forage limitation (Miller 2002) and
 predator avoidance (Jeffery et al. 2007) have been proposed as potential
 explanations.
 
-
-We observed one swimming event in the field as well as 86 remotely sensed
-swimming events from three individual caribou over a three-year period. In
-general, caribou swam more frequently to larger islands. Fogo, Perry, and
-Eastern Indian islands are the largest, and the most commonly occupied. While
-caribou often swim across streams, rivers, and lakes (Leblond et al. 2016), few
-observations exist of caribou swimming in the ocean (see Table 1). Of the
-existing or inferred observations of caribou swimming in the ocean, none appear
-to be as prolific as the number and frequency of swimming events we observed. We
-surmise that for caribou living on small islands, the primary drivers of
-swimming are likely related to forage limitation and predator avoidance.
+While caribou often swim across streams, rivers, and lakes (Leblond et al.
+2016), few observations exist of caribou swimming in the ocean (see Table 1). Of
+the existing or inferred observations of caribou swimming in the ocean, none
+appear to be as prolific as the number and frequency of swimming events we
+observed. We surmise that for caribou living on small islands, the primary
+drivers of swimming are likely related to forage limitation and predator
+avoidance.
 
 The Fogo Island archipelago is located in Newfoundland, Canada (49°N, 54°W), and
 comprises approximately ten islands. While Fogo Island is the largest island
@@ -205,4 +213,4 @@ were collected and analyzed as the ancestral homelands of the Beothuk, and the
 island of Newfoundland as the ancestral homelands of the Mi’kmaq and Beothuk.
 
 
-## References
+## Literature Cited
