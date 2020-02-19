@@ -200,8 +200,9 @@ thank T. Bergerud and S. Mahoney for their vision in initiating much of the work
 on caribou in Newfoundland. Funding for this study was provided by a National
 Sciences and Engineering Research Council (NSERC) Vanier Canada Graduate
 Scholarship to QMRW, NSERC Canda Graduate Scholarship to JGH, and a NSERC
-Discovery Grant to EVW.
+Discovery Grant to EVW. We respectfully acknowledge the territory in which data
+were collected and analyzed as the ancestral homelands of the Beothuk, and the
+island of Newfoundland as the ancestral homelands of the Mi’kmaq and Beothuk.
 
-Land acknowledgement of Beothuk & Mi'kmaq people?
 
 ## References
