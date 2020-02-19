@@ -25,13 +25,10 @@ that caribou swim in streams, rivers, and lakes during migration (Leblond et al.
 thought of as a set of trade-offs. Costs include high energy expenditure and
 risk of drowning. Specifically, even though caribou are adept swimmers, the
 energetic expenditure associated with swimming for quadrupedal mammals is
-significantly higher than walking or running (Fish 1993). Additionally, drowning
-is also possible (Miller & Gunn 1985) although the proportion of caribou that
-die from drowning is unknown. Despite a large number of coastal and island
-caribou herds, limited evidence exists suggesting that caribou swim in the ocean
-as readily as they swim in freshwater (see Table 1). A key exception is Peary
-caribou swimming up to 2.6 km between the Queen Elizabeth Islands (Miller 1995;
-Miller 2002).
+significantly higher than walking or running (Fish 1993), whiledrowning
+is also possible (Miller & Gunn 1985). Despite a large number of coastal and
+island caribou herds, only a handful of examples have documented caribou
+swimming in the ocean (Table 1).
 
 Here, we describe the visual observation of an adult male caribou swimming
 between islands in the Fogo Island archipleago off the coast of Newfoundland,
