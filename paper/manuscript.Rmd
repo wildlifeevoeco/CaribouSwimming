@@ -6,11 +6,11 @@ date: |
   | ^2^Department of Biology, Memorial University of Newfoundland, Canada
   | \*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
-    github_document
+   # github_document
   # bookdown::pdf_document2:
   #    number_sections: true
   #    toc: false
-  #bookdown::word_document2:
+  bookdown::word_document2:
   #  reference_docx: template.docx
 bibliography: ../references/knitcite.bib
 #csl: csl.csl
@@ -18,6 +18,7 @@ bibliography: ../references/knitcite.bib
 
 \newpage
 
+## Introduction
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration (Leblond et al.
 2016) to avoid predators [@Bergerud_1985] and access islands during calving
@@ -62,6 +63,7 @@ caribou swim in freshwater may also explain why caribou swim in the ocean
 predator avoidance (Jeffery et al. 2007) have been proposed as potential
 explanations.
 
+<!--I don't know if we need this and if yes, where it will go - thoughts?--> 
 The Fogo Island archipelago is located in Newfoundland, Canada (49°N, 54°W), and
 comprises approximately ten islands. While Fogo Island is the largest island
 (237.71 km^2^), the archipelago includes at least three larger islands: Western
@@ -73,6 +75,7 @@ largely of coniferous and mixed forests of balsam fir (Abies balsamea), black
 spruce (Picea mariana), and white birch (Betula payrifera) as well as bogs,
 lakes, lichen and rocky barrens.
 
+## Forage limitation
 Forage limitation and over-grazing is a major issue for caribou populations
 (Schaefer et al. 2016; Zamin et al. 2017) and could explain movement between
 islands. Reduced access to foraging opportunities can result in higher
@@ -100,6 +103,7 @@ animal habitat selection patterns and movement remains unknown, but it is
 possible that forage limitation and increased conspecific competition influences
 swimming between islands.
 
+## Predator avoidance
 Predator avoidance could contribute to swimming behaviour of caribou (Miller
 2002). Although caribou co-evolved with wolves (*Canis lupus*) throughout their
 range, wolves are extirpated from Newfoundland, including Fogo Island. Coyotes
@@ -126,9 +130,7 @@ responsible for the majority of mortalities for neonate caribou calves
 calving period (Lewis & Mahoney 2014). However, on Fogo Island, coyotes are the
 only predator of caribou.
 
-
-
-
+## Summary and conclusion
 Caribou were introduced to Fogo Island in the 1960s and for several decades the
 population did not exceed ~100 individuals (Bergerud & Mercer 1989; Newfoundland
 and Labrador Wildlife Division, unpublished data). During the 1990s, population
@@ -152,18 +154,17 @@ Ideal Free Distribution theory (van Beest et al. 2014). Taken together, caribou
 may follow density-dependent habitat selection (Wittmer et al. 2007) and as
 population density increased, forage was depleted and competition increased.
 
-
-Our observations represent the most frequent and numerous swimming events for
-caribou in the ocean (for comparison see Table 1). While past observations (e.g.
-Miller 1995, 2002; Jeffery et al. 2007; Ricca et al. 2012) have noted the unique
-nature of caribou swimming in the ocean, we suggest that this behaviour is
-likely more common than previously thought for caribou living on oceanic
-islands. We posit forage limitation and density-dependent habitat selection is
-an ultimate explanation for why caribou swimming in the ocean while predator
-avoidance is a proximate explanation. Although our inference is limited to
-observations, we suggest that because swimming behaviour is so common in our
-system, that density-dependent habitat selection and predation are plausible
-mechanisms explaining swimming behaviour in Fogo Island caribou.
+Our observations add to the evidence that caribou can, and occaissionaly do,
+swim in the ocean (Table 1). While past observations (e.g. Miller 1995, 2002;
+Jeffery et al. 2007; Ricca et al. 2012) have noted the unique nature of caribou
+swimming in the ocean, we suggest that this behaviour is likely more common than
+previously thought for caribou living on oceanic islands. We posit forage
+limitation and the associated density-dependent habitat selection is an ultimate
+explanation for why caribou swimming in the ocean while predator avoidance is a
+proximate explanation. Although our inference is limited to observations, our
+observations suggest that islands represent discrete foraging patches for
+terrestrial animals that could influence fitness via increased foraging
+opportunities and safety from predators.
 
 ## Acknowledgements 
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
