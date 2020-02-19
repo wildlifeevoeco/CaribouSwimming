@@ -25,15 +25,14 @@ exception is Peary caribou swimming up to 2.6 km between the Queen
 Elizabeth Islands (Miller 1995; Miller 2002).
 
 Here, we describe the visual observation of an adult male caribou
-swimming between islands in the Fogo Island archipleago in the North
-Atlantic Ocean. During routine fieldwork on May 30, 2017, we observed an
-unmarked adult male caribou swim between Perry and Eastern Indian
-Islands (Figure 1), a swim of at least 470 m which took ~9 minutes (~52
-m per minute). This observation prompted us to query a large database of
-GPS radio-collared caribou in the Fogo Island caribou herd in
-Newfoundland, Canada. We identified 86 remotely sensed swimming events
-between XX islands from three individual caribou over a three-year
-period.
+swimming between islands in the Fogo Island archipleago off the coast of
+Newfoundland, Canada. During routine fieldwork on May 30, 2017, we
+observed an unmarked adult male caribou swim between Perry and Eastern
+Indian Islands (Figure 1), a swim of at least 470 m which took ~9
+minutes (~52 m per minute). This observation prompted us to query a
+large database of GPS radio-collared caribou. We identified 86 remotely
+sensed swimming events between XX islands from three individual caribou
+over a three-year period.
 
 Caribou were introduced to Fogo Island (n = 26 animals introduced
 between 1964–67) and Change Island (n = 5 animals introduced in 1964)
@@ -206,3 +205,15 @@ the Beothuk, and the island of Newfoundland as the ancestral homelands
 of the Mi’kmaq and Beothuk.
 
 ## Literature Cited
+
+<div id="refs" class="references">
+
+<div id="ref-Bergerud_1985">
+
+Bergerud, A. T. 1985. “Antipredator Strategies of Caribou: Dispersion
+Along Shorelines.” *Canadian Journal of Zoology* 63 (6). Canadian
+Science Publishing: 1324–9. <https://doi.org/10.1139/z85-199>.
+
+</div>
+
+</div>
