@@ -34,14 +34,13 @@ caribou swimming up to 2.6 km between the Queen Elizabeth Islands (Miller 1995;
 Miller 2002).
 
 Here, we describe the visual observation of an adult male caribou swimming
-between islands in the Fogo Island archipleago in the North Atlantic Ocean.
-During routine fieldwork on May 30, 2017, we observed an unmarked adult male
-caribou swim between Perry and Eastern Indian Islands (Figure 1), a swim of at
-least 470 m which took ~9 minutes (~52 m per minute). This observation prompted
-us to query a large database of GPS radio-collared caribou in the Fogo Island
-caribou herd in Newfoundland, Canada. We identified  86 remotely sensed swimming
-events between XX islands from three individual caribou over a three-year
-period.
+between islands in the Fogo Island archipleago off the coast of Newfoundland,
+Canada. During routine fieldwork on May 30, 2017, we observed an unmarked adult
+male caribou swim between Perry and Eastern Indian Islands (Figure 1), a swim of
+at least 470 m which took ~9 minutes (~52 m per minute). This observation
+prompted us to query a large database of GPS radio-collared caribou. We
+identified  86 remotely sensed swimming events between XX islands from three
+individual caribou over a three-year period.
 
 Caribou were introduced to Fogo Island (n = 26 animals introduced between
 1964–67) and Change Island (n = 5 animals introduced in 1964) from the main
@@ -74,12 +73,9 @@ observed. We surmise that for caribou living on small islands, the primary
 drivers of swimming are likely related to forage limitation and predator
 avoidance.
 
-
-
-
 The Fogo Island archipelago is located in Newfoundland, Canada (49°N, 54°W), and
 comprises approximately ten islands. While Fogo Island is the largest island
-(237.71 km^2), the archipelago includes at least three larger islands: Western
+(237.71 km^2^), the archipelago includes at least three larger islands: Western
 Indian (77.6 km2), Eastern Indian (38.7 km2) and Change (XX km2) Islands, as
 well as numerous smaller islands, including Blundon’s (1.18 km2), North Long
 (1.01 km2), South Long (0.48 km2), Kate’s (1.64 km2), and Brother’s (1.59 km2)

@@ -11,57 +11,29 @@ Canada
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence
 exists that caribou swim in streams, rivers, and lakes during migration
 (Leblond et al. 2016) to avoid predators (Bergerud 1985) and access
-islands during calving (Bergerud et al. 1990). Despite a large number of
-coastal and island caribou herds, limited evidence exists suggesting
-that caribou swim in the ocean as readily as they swim in freshwater
-(see Table 1). A key exception is Peary caribou swimming up to 2.6 km
-between the Queen Elizabeth Islands (Miller 1995; Miller 2002). Swimming
-for quadrupedal terrestrial mammals can be thought of as a set of
-trade-offs. Costs include high energy expenditure and risk of drowning.
-Specifically, even though caribou are adept swimmers, the energetic
-expenditure associated with swimming for quadrupedal mammals is
-significantly higher than walking or running (Fish 1993). Additionally,
-drowning is also possible (Miller & Gunn 1985) although the proportion
-of caribou that die from drowning is unknown. Swimming between islands
-or from the mainland to nearby islands can be beneficial. Among the most
-important benefits are predator avoidance and seeking under-foraged
-areas.
+islands during calving (Bergerud et al. 1990). Swimming for quadrupedal
+terrestrial mammals can be thought of as a set of trade-offs. Costs
+include high energy expenditure and risk of drowning. Specifically, even
+though caribou are adept swimmers, the energetic expenditure associated
+with swimming for quadrupedal mammals is significantly higher than
+walking or running (Fish 1993). Additionally, drowning is also possible
+(Miller & Gunn 1985) although the proportion of caribou that die from
+drowning is unknown. Despite a large number of coastal and island
+caribou herds, limited evidence exists suggesting that caribou swim in
+the ocean as readily as they swim in freshwater (see Table 1). A key
+exception is Peary caribou swimming up to 2.6 km between the Queen
+Elizabeth Islands (Miller 1995; Miller 2002).
 
-We describe visual observation of a single swimming event by a caribou
-in the North Atlantic Ocean. This observation led us to investigate the
-prevalence of swimming of GPS radio-collared caribou in the Fogo Island
-archipelago in Newfoundland, Canada. We posit two potential mechanisms
-explaining the trade-offs associated with swimming in the North Atlantic
-Ocean: forage limitation and the associated density-dependent habitat
-selection and predator avoidance. For caribou living on small islands in
-the ocean, the same notions for why caribou swim in freshwater may also
-explain why caribou swim in the ocean (Leblond et al. 2016).
-Specifically, forage limitation (Miller 2002) and predator avoidance
-(Jeffery et al. 2007) have been proposed as potential explanations.
-
-We observed one swimming event in the field as well as 86 remotely
-sensed swimming events from three individual caribou over a three-year
-period. In general, caribou swam more frequently to larger islands.
-Fogo, Perry, and Eastern Indian islands are the largest, and the most
-commonly occupied. While caribou often swim across streams, rivers, and
-lakes (Leblond et al. 2016), few observations exist of caribou swimming
-in the ocean (see Table 1). Of the existing or inferred observations of
-caribou swimming in the ocean, none appear to be as prolific as the
-number and frequency of swimming events we observed. We surmise that for
-caribou living on small islands, the primary drivers of swimming are
-likely related to forage limitation and predator avoidance.
-
-The Fogo Island archipelago is located in Newfoundland, Canada (49°N,
-54°W), and comprises approximately ten islands. While Fogo Island is
-the largest island (237.71 km^2), the archipelago includes at least
-three larger islands: Western Indian (77.6 km2), Eastern Indian (38.7
-km2) and Change (XX km2) Islands, as well as numerous smaller islands,
-including Blundon’s (1.18 km2), North Long (1.01 km2), South Long (0.48
-km2), Kate’s (1.64 km2), and Brother’s (1.59 km2) Islands (see Figure
-1). All islands in the Fogo Island archipelago consist largely of
-coniferous and mixed forests of balsam fir (Abies balsamea), black
-spruce (Picea mariana), and white birch (Betula payrifera) as well as
-bogs, lakes, lichen and rocky barrens.
+Here, we describe the visual observation of an adult male caribou
+swimming between islands in the Fogo Island archipleago in the North
+Atlantic Ocean. During routine fieldwork on May 30, 2017, we observed an
+unmarked adult male caribou swim between Perry and Eastern Indian
+Islands (Figure 1), a swim of at least 470 m which took ~9 minutes (~52
+m per minute). This observation prompted us to query a large database of
+GPS radio-collared caribou in the Fogo Island caribou herd in
+Newfoundland, Canada. We identified 86 remotely sensed swimming events
+between XX islands from three individual caribou over a three-year
+period.
 
 Caribou were introduced to Fogo Island (n = 26 animals introduced
 between 1964–67) and Change Island (n = 5 animals introduced in 1964)
@@ -71,7 +43,42 @@ Mercer 1989). While caribou populations are in decline throughout Canada
 (Festa-Bianchet et al. 2011), as well as in Newfoundland
 (Bastille-Rousseau et al. 2013), the Fogo Island herd has not declined
 to the same extent and currently consists of approximately 300 animals
-(Newfoundland and Labrador Wildlife Division, unpublished data).
+(Newfoundland and Labrador Wildlife Division, unpublished data). Since
+2016 we have been studying the Fogo Island caribou herd (Bonar et
+al. 2017; Bonar et al. 2018; Peignier et al. 2019). To date, we have
+fitted XX adult female caribou with GPS collars (1240g, GPS 4400M; Lotek
+Wireless Inc., Newmarket, Ontario, Canada), which were programmed to
+collect relocation fixes every 2 hours (see Bonar et al. 2018 for
+details).
+
+We posit two potential mechanisms explaining the trade-offs associated
+with swimming in the North Atlantic Ocean: forage limitation and the
+associated density-dependent habitat selection and predator avoidance.
+For caribou living on small islands in the ocean, the same notions for
+why caribou swim in freshwater may also explain why caribou swim in the
+ocean (Leblond et al. 2016). Specifically, forage limitation (Miller
+2002) and predator avoidance (Jeffery et al. 2007) have been proposed as
+potential explanations.
+
+While caribou often swim across streams, rivers, and lakes (Leblond et
+al. 2016), few observations exist of caribou swimming in the ocean (see
+Table 1). Of the existing or inferred observations of caribou swimming
+in the ocean, none appear to be as prolific as the number and frequency
+of swimming events we observed. We surmise that for caribou living on
+small islands, the primary drivers of swimming are likely related to
+forage limitation and predator avoidance.
+
+The Fogo Island archipelago is located in Newfoundland, Canada (49°N,
+54°W), and comprises approximately ten islands. While Fogo Island is
+the largest island (237.71 km<sup>2</sup>), the archipelago includes at
+least three larger islands: Western Indian (77.6 km2), Eastern Indian
+(38.7 km2) and Change (XX km2) Islands, as well as numerous smaller
+islands, including Blundon’s (1.18 km2), North Long (1.01 km2), South
+Long (0.48 km2), Kate’s (1.64 km2), and Brother’s (1.59 km2) Islands
+(see Figure 1). All islands in the Fogo Island archipelago consist
+largely of coniferous and mixed forests of balsam fir (Abies balsamea),
+black spruce (Picea mariana), and white birch (Betula payrifera) as well
+as bogs, lakes, lichen and rocky barrens.
 
 In Newfoundland, wolves (Canis lupus) are extirpated, so coyotes (Canis
 latrans) and black bears (Ursus americanus) are the primary predators of
@@ -80,29 +87,6 @@ responsible for the majority of mortalities for neonate caribou calves
 (Bastille-Rousseau et al. 2016), although predation can still occur
 after the calving period (Lewis & Mahoney 2014). However, on Fogo
 Island, coyotes are the only predator of caribou.
-
-We fitted 29 (n = 15 in 2016; n = 14 in 2017) adult female caribou on
-Fogo Island (n = 25) and Western Indian Island (n = 4) with GPS collars
-(1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario, Canada).
-Collars were deployed on individual caribou for two years and collars
-were redeployed on the same individuals for the duration of our study.
-Collars were programmed to collect relocation fixes every 2 hours. All
-animal capture and handling procedures were consistent with the American
-Society of Mammologists guidelines (Sikes & Gannon 2011) and were
-approved by Memorial University Animal Use Protocol No. 20152067. During
-routine fieldwork on May 30, 2017, we observed an unmarked male caribou
-swim between Perry and Eastern Indian Islands, a swim of at least 470m
-which took ~9 minutes (~52m/minute). To determine the prevalence of
-ocean swimming for the Fogo Island caribou herd, we queried nearly
-200,000 GPS relocations from 26/29 collared adult female caribou between
-April 2016 and March 2019. We determined all instances of individual
-caribou moving between islands. We restricted the GPS dataset to the
-ice-free months of the year (beginning of April to end of November) and
-we assumed caribou swam in the ocean between islands when consecutive
-relocation fixes, i.e., 2 hour intervals, were located on different
-islands. For each swimming event, we identified the origin island, the
-terminal island, and the duration of time spent on the terminal island
-before swimming again.
 
 Forage limitation could explain movement between islands. Forage
 scarcity has been proposed as a potential reason why caribou move
