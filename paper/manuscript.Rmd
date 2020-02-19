@@ -39,6 +39,7 @@ prompted us to query a large database of GPS radio-collared caribou. We
 identified  86 remotely sensed swimming events between XX islands from three
 individual caribou over a three-year period.
 
+<!--DO WE NEED THIS SECTION?--> 
 Caribou were introduced to Fogo Island (n = 26 animals introduced between
 1964–67) and Change Island (n = 5 animals introduced in 1964) from the main
 Island of Newfoundland as part of a series of translocations and introductions
@@ -53,22 +54,13 @@ with GPS collars (1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario,
 Canada), which were programmed to collect relocation fixes every 2 hours (see
 Bonar et al. 2018 for details).
 
-We posit two potential mechanisms explaining the
-trade-offs associated with swimming in the North Atlantic Ocean: forage
-limitation and the associated density-dependent habitat selection and predator
-avoidance. For caribou living on small islands in the ocean, the same notions
-for why caribou swim in freshwater may also explain why caribou swim in the
-ocean (Leblond et al. 2016). Specifically, forage limitation (Miller 2002) and
+We posit two potential mechanisms explaining the trade-offs associated with
+swimming in the North Atlantic Ocean: forage limitation and predator avoidance.
+For caribou living on small islands in the ocean, the same notions for why
+caribou swim in freshwater may also explain why caribou swim in the ocean
+(Leblond et al. 2016). Specifically, forage limitation (Miller 2002) and
 predator avoidance (Jeffery et al. 2007) have been proposed as potential
 explanations.
-
-While caribou often swim across streams, rivers, and lakes (Leblond et al.
-2016), few observations exist of caribou swimming in the ocean (see Table 1). Of
-the existing or inferred observations of caribou swimming in the ocean, none
-appear to be as prolific as the number and frequency of swimming events we
-observed. We surmise that for caribou living on small islands, the primary
-drivers of swimming are likely related to forage limitation and predator
-avoidance.
 
 The Fogo Island archipelago is located in Newfoundland, Canada (49°N, 54°W), and
 comprises approximately ten islands. While Fogo Island is the largest island
