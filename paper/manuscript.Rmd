@@ -78,11 +78,12 @@ appear to be relatively commonplace in the population.
 ## Forage limitation
 Forage limitation and over-grazing is a major concern for caribou populations
 (Schaefer et al. 2016; Zamin et al. 2017) and could explain movement between
-islands. Conspecific competition for resources driven by reduced foraging opportunities can decrease reproductive success of adult females
-(Schaefer et al. 2016). Forage scarcity has been proposed as a potential reason
-for caribou moving between arctic islands on the sea-ice in winter (Miller et
-al. 1977).  For very small islands, over-grazing by newly arrived caribou may
-rapidly deplete forage (Bergerud et al. 1990). Without sea ice, movement from the
+islands. Conspecific competition for resources driven by reduced foraging
+opportunities can decrease reproductive success of adult females (Schaefer et
+al. 2016). Forage scarcity has been proposed as a potential reason for caribou
+moving between arctic islands on the sea-ice in winter (Miller et al. 1977).
+For very small islands, over-grazing by newly arrived caribou may rapidly
+deplete forage (Bergerud et al. 1990). Without sea ice, movement from the
 mainland to an island, or between islands, requires caribou to assess the
 trade-off associated with swimming.
 
@@ -110,8 +111,14 @@ therefore part of the fine-scale interactions between caribou and their
 predators and the use of islands appears to be an effective anti-predator
 strategy.
 
-Historic predators of caribou such as wolves (*Canis lupus*) and black bears (*Ursus americanus*) are not present in the Fogo Island archipelago; coyotes (*Canis latrans*) are the top predator in this region. Predation by
-coyotes on adult caribou is relatively rare (ref?), so the potential predator effect on caribou swimming behaviour is likely to be a flight response to non-lethal encounters. Calves are susceptible to coyotes, particularly young calves, but the energetic costs to oceanic swimming are likely to be far greater for small calves.
+Historic predators of caribou such as wolves (*Canis lupus*) and black bears
+(*Ursus americanus*) are not present in the Fogo Island archipelago; coyotes
+(*Canis latrans*) are the top predator in this region. Predation by coyotes on
+adult caribou is relatively rare (ref?), so the potential predator effect on
+caribou swimming behaviour is likely to be a flight response to non-lethal
+encounters. Calves are susceptible to coyotes, particularly young calves, but
+the energetic costs to oceanic swimming are likely to be far greater for small
+calves.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
