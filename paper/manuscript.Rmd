@@ -33,10 +33,11 @@ The Fogo Island archipelago, off the coast of Newfoundland, Canada (49°N, 54°W
 is home to approximately 300 woodland caribou. During routine fieldwork on May
 30, 2017, we observed an unmarked adult male caribou swim between Perry and
 Eastern Indian Islands (Figure 1), a swim of at least 470 m which took ~9
-minutes (~52 m per minute). This observation prompted us to investigate the
-subset of GPS radio-collared caribou in the population (n = 29 adult females).
-Using these remotely sensed relocations, we determined that this observation was
-not unique and that several individuals engaged in this behaviour (details below).
+minutes (~52 m per minute). This observation prompted us to investigate whether
+GPS radio-collared caribou in the population (n = 29 adult females) also swam
+between islands. Using these remotely sensed relocations, we determined that
+this observation was not unique and that several individuals engaged in this
+behaviour (details below).
 <!--Is it better to just state our results here, or give this sort of teaser? Initially I had "86 events by 3 individuals" here, but then we ignore that for a couple paragraphs of context before getting back into it... which seemed weird--> 
 
 Fogo Island is the largest island in the archipelago (237.71 km^2^), but there
@@ -64,11 +65,15 @@ We identified swimming events as two consecutive GPS locations from an
 individual on different islands. This region typically experiences pack ice
 during the winter, so that caribou may be able to travel between islands by
 walking over the ice. We restricted our GPS data to the ice-free period of the
-year (April 1 - November 25) to avoid this possibility. Using these criteria, we identified three adult female caribou that collectively engaged in 86 swimming events (Fig 1??).
+year (April 1 - November 25) to avoid this possibility. Using these criteria, we
+identified three adult female caribou that collectively engaged in 86 swimming
+events (Fig 1??).
 
-Caribou may swim between islands in the ocean for similar reasons that drive caribou swimming in freshwater (Leblond et al. 2016). We present two such
+Caribou may swim between islands in the ocean for similar reasons that drive
+caribou swimming in freshwater (Leblond et al. 2016). We present two such
 explanations for these swimming events, forage limitation (Miller 2002) and
-predator avoidance (Jeffery et al. 2007), and discuss why these swimming events appear to be relatively commonplace for only a small subset of the population.
+predator avoidance (Jeffery et al. 2007), and discuss why these swimming events
+appear to be relatively commonplace for only a small subset of the population.
 
 ## Forage limitation
 Forage limitation and over-grazing is a major concern for caribou populations
