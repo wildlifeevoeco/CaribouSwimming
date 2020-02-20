@@ -1,10 +1,10 @@
 ---
 title: Interisland movements of woodland caribou in Newfoundland
 author: Quinn M.R. Webber^1\*^, Jack G. Hendrix^1^, Alec L. Robitaille^2^,  Eric Vander Wal^1,2^
-date: |
-  | ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland
-  | ^2^Department of Biology, Memorial University of Newfoundland, Canada
-  | \*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
+date: 
+   ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland
+   ^2^Department of Biology, Memorial University of Newfoundland, Canada
+   #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
    # github_document
   # bookdown::pdf_document2:
@@ -49,15 +49,16 @@ and mixed forests of balsam fir (*Abies balsamea*), black spruce (*Picea
 mariana*), and white birch (*Betula papyrifera*) as well as bogs, lakes, lichen
 and rocky barrens.
 
-Caribou were introduced to Fogo Island (n = 26 animals between
-1964–67) and Change Island (n = 5 animals in 1964) from the main
-Island of Newfoundland as part of a series of translocations and introductions
-throughout the province (Bergerud & Mercer 1989). Since 2016 we
-have been studying the Fogo Island caribou herd (Bonar et al. 2017; Bonar et al.
-2018; Peignier et al. 2019). To date, we have fitted 29 adult female caribou
-with GPS collars (1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario,
-Canada), which were programmed to collect relocation fixes every 2 hours (see
-Bonar et al. 2018 for details). We used GPS locations from these individuals to investigate oceanic swimming events.
+Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
+Change Island (n = 5 animals in 1964) from the main Island of Newfoundland as
+part of a series of translocations and introductions throughout the province
+(Bergerud & Mercer 1989). Since 2016 we have been studying the Fogo Island
+caribou herd (Bonar et al. 2017; Bonar et al. 2018; Peignier et al. 2019). To
+date, we have fitted 29 adult female caribou with GPS collars (1240g, GPS 4400M;
+Lotek Wireless Inc., Newmarket, Ontario, Canada), which were programmed to
+collect relocation fixes every 2 hours (see Bonar et al. 2018 for details). We
+used GPS locations from these individuals to investigate oceanic swimming
+events.
 
 We identified swimming events as two consecutive GPS locations from an
 individual on different islands. This region typically experiences pack ice
