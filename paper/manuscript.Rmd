@@ -6,11 +6,11 @@ date:
    ^2^Department of Biology, Memorial University of Newfoundland, Canada
    #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
-   # github_document
+    github_document
   # bookdown::pdf_document2:
   #    number_sections: true
   #    toc: false
-  bookdown::word_document2:
+  #bookdown::word_document2:
   #  reference_docx: template.docx
 bibliography: ../references/knitcite.bib
 #csl: csl.csl
@@ -63,17 +63,17 @@ events.
 
 We identified swimming events as two consecutive GPS locations from an
 individual on different islands. This region typically experiences pack ice
-during the winter, so that caribou may be able to travel between islands by
+during the winter, so caribou may be able to travel between islands by
 walking over the ice. We restricted our GPS data to the ice-free period of the
 year (April 1 - November 25) to avoid this possibility. Using these criteria, we
 identified three adult female caribou that collectively engaged in 86 swimming
-events (Fig 1??).
+events (Figure 2).
 
 Caribou may swim between islands in the ocean for similar reasons that drive
-caribou swimming in freshwater (Leblond et al. 2016). We present two such
+caribou swimming in freshwater (Leblond et al. 2016). We present two
 explanations for these swimming events, forage limitation (Miller 2002) and
 predator avoidance (Jeffery et al. 2007), and discuss why these swimming events
-appear to be relatively commonplace for only a small subset of the population.
+appear to be relatively commonplace in the population.
 
 ## Forage limitation
 Forage limitation and over-grazing is a major concern for caribou populations
