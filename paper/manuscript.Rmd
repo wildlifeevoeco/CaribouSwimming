@@ -11,39 +11,41 @@ output:
   #    number_sections: true
   #    toc: false
    bookdown::word_document2:
-    reference_docx: template.docx
+    #reference_docx: template.docx
 bibliography: ../references/knitcite.bib
 #csl: csl.csl
 ---
 
 \newpage
 
-## Introduction
+# Introduction
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
-that caribou swim in streams, rivers, and lakes during migration [@Leblond_2016]
-to avoid predators [@Bergerud_1985] and access islands during calving
+that caribou swim in streams, rivers, and lakes during migration [@Leblond_2016],
+to avoid predators [@Bergerud_1985], and access islands during calving
 [@Bergerud_1990]. Even for adept swimmers like caribou, the energetic
 expenditure of swimming for quadrupedal mammals is significantly higher than
-walking or running, while drowning is also possible [@Miller_1986].
+walking or running [@Fish_1994], while drowning is also possible [@Miller_1986].
 Despite a large number of coastal and island caribou herds, only a handful of
 examples have documented caribou swimming in the ocean [e.g. @Jeffery_2007;
 @Ricca_2012]. <!-- add Miller 1995/2002 or reference table 1 if we decide to
 keep this -->
 
-The Fogo Island archipelago, off the coast of Newfoundland, Canada,
-is home to approximately 300 woodland caribou. During routine fieldwork on May
-30, 2017, we observed an unmarked adult male caribou swim between Wester and
-Eastern Indian Islands (Figure 1), a swim of at least 470 m which took ~9
-minutes (~52 m per minute). This observation prompted us to investigate whether
-swimming behaviour was common among GPS radio-collared caribou in the population
-(n = 29 adult females: 1240g, GPS 4400M; Lotek Wireless Inc., Newmarket,
-Ontario, Canada). We identified swimming events when two consecutive GPS (2-hour
-relocation rates) locations from an individual occurred on different islands.
-This region typically experiences pack ice during the winter, so caribou may be
-able to travel between islands by walking over the ice. We restricted our GPS
+The Fogo Island archipelago, off the coast of Newfoundland, Canada, is home to
+approximately 300 woodland caribou. During routine fieldwork on May 30, 2017, we
+observed an unmarked adult male caribou swim between Western and Eastern Indian
+Islands (Figure 1), a swim of at least 470 m which took ~9 minutes (~52 m per
+minute). This observation prompted us to investigate whether swimming behaviour
+was common among GPS radio-collared caribou in the population (n = 29 adult
+females; 1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario, Canada). We
+identified swimming events as two consecutive GPS (2-hour relocation rates)
+locations from an individual occurred on different islands. Northeastern
+Newfoundland typically experiences pack ice during winter and caribou are known
+locally to travel between islands by walking over the ice. We restricted our GPS
 data to the ice-free period of the year (April 1 - November 25) and we
-identified three adult female caribou that collectively had 86 swimming
-events (Figure 2).
+identified three adult female caribou that collectively had 86 swimming events
+(Figure 2). In addition to our own visual and remotely sensed observations,
+residents of Fogo Island have also reported observing caribou swimming between
+islands on numerous occaisions.
 
 In total, these 86 swimming events occured in month (n = Y), month (n = Y), and
 month (n = Y), while the remaining events were in month, month, and month (n =
@@ -81,7 +83,7 @@ explanations for these swimming events, forage limitation (Miller 2002) and
 predator avoidance [@Jeffrey_2007], and discuss why these swimming events
 appear to be relatively commonplace in the population.
 
-## Forage limitation
+# Forage limitation
 Forage limitation and over-grazing is a major concern for caribou populations
 [@Schaefer_2015] and could explain movement between islands. Conspecific
 competition for resources driven by reduced foraging opportunities can decrease
@@ -104,7 +106,7 @@ limitation in animal habitat selection patterns remains unknown,
 but swimming between islands may in part be explained by forage limitation and
 conspecific competition.
 
-## Predator avoidance
+# Predator avoidance
 Predator avoidance could also contribute to swimming behaviour of caribou
 (Miller 2002) <!-- find doi for this article -->. During calving, female caribou
 are known to swim to small islands in freshwater lakes give birth, or with their
@@ -127,7 +129,7 @@ calves compared to adults.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
-## Individual variation 
+# Individual variation 
 In total, 3 of 29 collared female caribou swam between islands in the Fogo
 archipelago. These swimming events were relatively frequent, on average occuring
 once every 24 <!--double check--> days during ice-free seasons. However, despite
@@ -160,7 +162,7 @@ influence how animals vary in their assessments of swimming trade-offs remains
 unknown. Future work could assess the role of age, stress, or an individuals
 tendency to move potential predictors of swimming behaviour.
 
-## Summary and conclusion
+# Summary and conclusion
 For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals (Bergerud & Mercer 1989; Newfoundland
 and Labrador Wildlife Division, unpublished data). During the 1990s, population
@@ -195,7 +197,7 @@ fitness via increased foraging opportunities and safety from predators. We also
 suggest that individuals vary in their evaluation of costs and benefits of
 movement between these habitat patches.
 
-## Acknowledgements 
+# Acknowledgements 
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
 Logistical support was provided by L. Bixby. We also thank members of the
 Newfoundland Wildlife Division including S. Moores, B. Adams, K. Lewis, C.
@@ -211,4 +213,4 @@ ancestral homelands of the Mi’kmaq and Beothuk.
 <!-- Simplified the funding statement, do we need to name the specific scholarships/grants? Eric opinion??-->
 
 
-## Literature Cited
+# Literature Cited
