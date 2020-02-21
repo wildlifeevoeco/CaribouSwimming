@@ -11,7 +11,7 @@ output:
   #    number_sections: true
   #    toc: false
    bookdown::word_document2:
-  #  reference_docx: template.docx
+    reference_docx: template.docx
 bibliography: ../references/knitcite.bib
 #csl: csl.csl
 ---
