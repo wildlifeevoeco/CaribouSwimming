@@ -3,6 +3,9 @@ library(knitcitations)
 
 ## only 15 citations
 
+## Bastille-Rousseau et al 2016
+citep('10.1139/cjz-2015-0127')
+
 ## Bergerud 1985
 citep('10.1139/z85-199')
 
@@ -41,6 +44,9 @@ citep('10.2307/2937087')
 
 ## Schaefer 2016
 citep('10.1093/jmammal/gyv184')
+
+## Rayl et al 2014
+citep('10.1644/13-MAMM-A-133.1')
 
 ## Ricca et al 2012
 citep('10.1007/s10530-012-0195-z')
