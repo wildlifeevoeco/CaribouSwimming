@@ -10,7 +10,7 @@ lapply(libs, require, character.only = TRUE)
 
 ## load data
 caribou <- fread('input/FogoCaribou.csv')
-r <- readRDS('output/islandRaster.RDS')
+r <- readRDS('output/islandsRaster.RDS')
 
 ## Loc fields
 utm21N <- '+proj=utm +zone=21 ellps=WGS84'

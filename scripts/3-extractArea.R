@@ -9,7 +9,7 @@ lapply(libs, require, character.only = TRUE)
 
 ## load files
 duration <- fread("output/duration.csv")
-r <- readRDS('output/coordsOSM.RDS')
+r <- readRDS('output/islandsPoly.RDS')
 
 ## subset duration data
 duration <- duration[, c("ANIMAL_ID","Year","StartIsland","counter")]
