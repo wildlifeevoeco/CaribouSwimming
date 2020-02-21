@@ -12,6 +12,7 @@ libs <- c(
   # 'rosm',
   # 'stars',
   # 'fasterize',
+  'mapview',
   'rgdal'
 )
 lapply(libs, require, character.only = TRUE)
@@ -41,7 +42,17 @@ caribou <- caribou[JDate > 90 & JDate < 365]
 caribou[, islands := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
 
 ## check points in reference to raster map
-swimmers[, .N, by = "islands"]
+caribou[, .N, islands]
+
+
+mapview(
+  caribou[islands != 32280],
+  xcol = 'EASTING',
+  ycol = 'NORTHING',
+  zcol = 'ANIMAL_ID',
+  crs = utm21N
+)
+
 plot(r, xlim = c(685000, 710000), 
      ylim = c(5490000, 5502000))
 par(new = T)
