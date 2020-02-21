@@ -91,16 +91,16 @@ all patches (Bradbury, Vehrencamp, and Clifton 2015). Islands act as
 discrete habitat patches in this case, but the costs associated with
 swimming create a trade-off when moving between patches. For caribou in
 the Fogo Island archipelago, the role of forage limitation in animal
-habitat selection patterns and movement remains unknown, but swimming
-between islands may in part be explained by forage limitation and
-conspecific competition.
+habitat selection patterns remains unknown, but swimming between islands
+may in part be explained by forage limitation and conspecific
+competition.
 
 ## Predator avoidance
 
 Predator avoidance could also contribute to swimming behaviour of
 caribou (Miller 2002). During calving, female caribou are known to swim
 to small islands in freshwater lakes give birth, or with their calves
-after birth, to avoid predation (Bergerud & Page 1987). The use of
+after birth, to avoid predation (Bergerud and Page 1987). The use of
 shoreline habitat in summer is considered an effective anti-predator
 calving strategy by allowing for swimming to islands or peninsulas as a
 predation avoidance flight response (Bergerud et al. 1990). The use of
@@ -224,6 +224,15 @@ Bergerud, A.T., R. Ferguson, and H.E. Butler. 1990. “Spring Migration
 and Dispersion of Woodland Caribou at Calving.” *Animal Behaviour* 39
 (2). Elsevier BV: 360–68.
 <https://doi.org/10.1016/s0003-3472(05)80882-6>.
+
+</div>
+
+<div id="ref-Bergerud_1987">
+
+Bergerud, A. T., and R. E. Page. 1987. “Displacement and Dispersion of
+Parturient Caribou at Calving as Antipredator Tactics.” *Canadian
+Journal of Zoology* 65 (7). Canadian Science Publishing: 1597–1606.
+<https://doi.org/10.1139/z87-249>.
 
 </div>
 

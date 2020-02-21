@@ -102,13 +102,12 @@ conspecific competition.
 Predator avoidance could also contribute to swimming behaviour of caribou
 (Miller 2002). During calving, female caribou are known to swim to small islands
 in freshwater lakes give birth, or with their calves after birth, to avoid
-predation (Bergerud & Page 1987). The use of shoreline habitat in summer is
-considered an effective anti-predator calving strategy by allowing for swimming
-to islands or peninsulas as a predation avoidance flight response (Bergerud et
-al. 1990). The use of water, and by association occasionally swimming, is
-therefore part of the fine-scale interactions between caribou and their
-predators and the use of islands appears to be an effective anti-predator
-strategy.
+predation [@Bergerud_1987]. The use of shoreline habitat in summer is considered
+an effective anti-predator calving strategy by allowing for swimming to islands
+or peninsulas as a predation avoidance flight response [@Bergerud_1990]. The use
+of water, and by association occasionally swimming, is therefore part of the
+fine-scale interactions between caribou and their predators and the use of
+islands appears to be an effective anti-predator strategy.
 
 Historic predators of caribou such as wolves (*Canis lupus*) and black bears
 (*Ursus americanus*) are not present in the Fogo Island archipelago; coyotes

@@ -6,6 +6,9 @@ library(knitcitations)
 ## Bergerud 1985
 citep('10.1139/z85-199')
 
+## Bergerud and Page 1987
+citep('10.1139/z87-249')
+
 ## Bergerud 1990
 citep('10.1016/S0003-3472(05)80882-6')
 
@@ -20,6 +23,9 @@ citep('10.1139/z77-131')
 
 ## Miller and Gunn 1986 
 citep('10.14430/arctic2052')
+
+## Miller 2002
+#citep('10.2307/40512446')
 
 ## Morris 1987
 citep('10.2307/2937087')
