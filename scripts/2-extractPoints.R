@@ -17,36 +17,39 @@ libs <- c(
 )
 lapply(libs, require, character.only = TRUE)
 
-## load data
+
+### Load data ----
 caribou <- fread('input/FogoCaribou.csv')
 r <- readRDS('output/islandsRaster.Rds')
 
-## Loc fields
+### Prep data ----
+# Project coordinates
 utm21N <- '+proj=utm +zone=21 ellps=WGS84'
 caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COORD), utm21N))]
 
-## Sub by bounding box
+# Sub by bounding box
 # caribou <- caribou[EASTING > 690000 & EASTING < 800000 &
 #                      NORTHING > 5470000  & NORTHING < 5520000]
 
-## Sub by date 
+# Sub by date 
 # caribou <- caribou[JDate > 90 & JDate < 365]
 
-## Sub by animals that swam
+# Sub by animals that swam
 # TODO: why explicitly selecting?
 # swimmers <- caribou[ANIMAL_ID == "FO2016011" |
 #                       ANIMAL_ID == "FO2017001" |
 #                       ANIMAL_ID == "FO2017013"]
 
-## Extract points on different islands
+
+### Extract islands ----
+# Extract points on different islands
 caribou[, islands := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
 
-## check points in reference to raster map
+# Count locs by islands
 caribou[, .N, islands]
 
-
-## cut points that aren't on an island
-swimmers <- swimmers[!is.na(islands),]
+# Cut points that aren't on an island
+swimmers <- caribou[!is.na(islands)]
 
 ## rename islands
 # TODO: update... these values dont match island numbers 
@@ -61,7 +64,8 @@ swimmers <- swimmers[!is.na(islands),]
 # swimmers$StartIsland[swimmers$islands == 74] <- "Kate"
 
 ## determine when swimming occurred 
-swimmers[, difference := data.table::shift(islands, type = "lead") - islands, by = .(ANIMAL_ID, Year)]
+swimmers[, difference := paste(islands, shift(islands, type = "lead"), sep = '-'), 
+         by = .(ANIMAL_ID, Year)]
 
 ## rename the shifted difference column to the inhabited island
 swimmers$MoveIsland[swimmers$difference == -10] <- "Blundon"
