@@ -22,10 +22,10 @@ bibliography: ../references/knitcite.bib
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond_2016] 
 to avoid predators [@Bergerud_1985] and access islands during calving
-(Bergerud et al. 1990). Even for adept swimmers like caribou, the
+[@Bergerud_1990]. Even for adept swimmers like caribou, the
 energetic expenditure of swimming for quadrupedal mammals is
 significantly higher than walking or running (Fish 1993), while drowning
-is also possible (Miller & Gunn 1985). Despite a large number of coastal and
+is also possible [@Miller_1986]. Despite a large number of coastal and
 island caribou herds, only a handful of examples have documented caribou
 swimming in the ocean (Table 1).
 
@@ -33,13 +33,17 @@ The Fogo Island archipelago, off the coast of Newfoundland, Canada (49°N, 54°W
 is home to approximately 300 woodland caribou. During routine fieldwork on May
 30, 2017, we observed an unmarked adult male caribou swim between Perry and
 Eastern Indian Islands (Figure 1), a swim of at least 470 m which took ~9
-minutes (~52 m per minute). This observation prompted us to investigate whether swimming behaviour was common among GPS radio-collared caribou (n = 29 adult females) in the population. We identified swimming events as two consecutive GPS locations from an
-individual on different islands. This region typically experiences pack ice
-during the winter, so caribou may be able to travel between islands by
-walking over the ice. We restricted our GPS data to the ice-free period of the
-year (April 1 - November 25) to avoid this possibility. Using these criteria, we
-identified three adult female caribou that collectively engaged in 86 swimming
-events (Figure 2).
+minutes (~52 m per minute). This observation prompted us to investigate whether
+swimming behaviour was common among GPS radio-collared caribou in the population
+(n = 29 adult females: 1240g, GPS 4400M; Lotek Wireless Inc., Newmarket,
+Ontario, Canada). We identified swimming events when two consecutive GPS (2-hour
+relocation rates) locations from an individual occurred on different islands.
+This region typically experiences pack ice during the winter, so caribou may be
+able to travel between islands by walking over the ice. We restricted our GPS
+data to the ice-free period of the year (April 1 - November 25) to avoid this
+possibility. Using these criteria, we identified three adult female caribou that
+collectively engaged in 86 swimming events (Figure 2).
+
 <!--Is it better to just state our results here, or give this sort of teaser? Initially I had "86 events by 3 individuals" here, but then we ignore that for a couple paragraphs of context before getting back into it... which seemed weird--> 
 
 Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
@@ -54,7 +58,6 @@ used GPS locations from these individuals to investigate oceanic swimming
 events.
 
 
-
 Fogo Island is the largest island in the archipelago (237.71 km^2^), but there
 are at least three other large islands: Western Indian (77.6 km2), Eastern
 Indian (38.7 km2) and Change (XX km2) Islands, as well as numerous smaller
@@ -64,8 +67,6 @@ Habitats are similar across the archipelago, consisting largely of coniferous
 and mixed forests of balsam fir (*Abies balsamea*), black spruce (*Picea
 mariana*), and white birch (*Betula papyrifera*) as well as bogs, lakes, lichen
 and rocky barrens.
-
-
 
 Caribou may swim between islands in the ocean for similar reasons that drive
 caribou swimming in freshwater (Leblond et al. 2016). We present two

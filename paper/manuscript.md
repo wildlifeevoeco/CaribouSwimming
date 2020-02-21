@@ -11,36 +11,32 @@ Memorial University of Newfoundland, Canada
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence
 exists that caribou swim in streams, rivers, and lakes during migration
 (Leblond, St-Laurent, and ’e 2016) to avoid predators (Bergerud 1985)
-and access islands during calving (Bergerud et al. 1990). Even for adept
-swimmers like caribou, the energetic expenditure of swimming for
-quadrupedal mammals is significantly higher than walking or running
-(Fish 1993), while drowning is also possible (Miller & Gunn 1985).
-Despite a large number of coastal and island caribou herds, only a
-handful of examples have documented caribou swimming in the ocean (Table
-1).
+and access islands during calving (Bergerud, Ferguson, and Butler 1990).
+Even for adept swimmers like caribou, the energetic expenditure of
+swimming for quadrupedal mammals is significantly higher than walking or
+running (Fish 1993), while drowning is also possible (Miller and Gunn
+1986). Despite a large number of coastal and island caribou herds, only
+a handful of examples have documented caribou swimming in the ocean
+(Table 1).
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada
 (49°N, 54°W), is home to approximately 300 woodland caribou. During
 routine fieldwork on May 30, 2017, we observed an unmarked adult male
 caribou swim between Perry and Eastern Indian Islands (Figure 1), a swim
 of at least 470 m which took ~9 minutes (~52 m per minute). This
-observation prompted us to investigate whether GPS radio-collared
-caribou in the population (n = 29 adult females) also swam between
-islands. Using these remotely sensed relocations, we determined that
-this observation was not unique and that several individuals engaged in
-this behaviour (details below).
-<!--Is it better to just state our results here, or give this sort of teaser? Initially I had "86 events by 3 individuals" here, but then we ignore that for a couple paragraphs of context before getting back into it... which seemed weird-->
+observation prompted us to investigate whether swimming behaviour was
+common among GPS radio-collared caribou (n = 29 adult females) in the
+population. We identified swimming events when two consecutive GPS
+(2-hour relocation rates) locations from an individual occurred on
+different islands. This region typically experiences pack ice during the
+winter, so caribou may be able to travel between islands by walking over
+the ice. We restricted our GPS data to the ice-free period of the year
+(April 1 - November 25) to avoid this possibility. Using these criteria,
+we identified three adult female caribou that collectively engaged in 86
+swimming events (Figure
+2).
 
-Fogo Island is the largest island in the archipelago (237.71
-km<sup>2</sup>), but there are at least three other large islands:
-Western Indian (77.6 km2), Eastern Indian (38.7 km2) and Change (XX km2)
-Islands, as well as numerous smaller islands, including Blundon’s (1.18
-km2), North Long (1.01 km2), South Long (0.48 km2), Kate’s (1.64 km2),
-and Brother’s (1.59 km2) Islands (see Figure 1). Habitats are similar
-across the archipelago, consisting largely of coniferous and mixed
-forests of balsam fir (*Abies balsamea*), black spruce (*Picea
-mariana*), and white birch (*Betula papyrifera*) as well as bogs, lakes,
-lichen and rocky barrens.
+<!--Is it better to just state our results here, or give this sort of teaser? Initially I had "86 events by 3 individuals" here, but then we ignore that for a couple paragraphs of context before getting back into it... which seemed weird-->
 
 Caribou were introduced to Fogo Island (n = 26 animals between 1964–67)
 and Change Island (n = 5 animals in 1964) from the main Island of
@@ -53,13 +49,16 @@ Newmarket, Ontario, Canada), which were programmed to collect relocation
 fixes every 2 hours (see Bonar et al. 2018 for details). We used GPS
 locations from these individuals to investigate oceanic swimming events.
 
-We identified swimming events as two consecutive GPS locations from an
-individual on different islands. This region typically experiences pack
-ice during the winter, so caribou may be able to travel between islands
-by walking over the ice. We restricted our GPS data to the ice-free
-period of the year (April 1 - November 25) to avoid this possibility.
-Using these criteria, we identified three adult female caribou that
-collectively engaged in 86 swimming events (Figure 2).
+Fogo Island is the largest island in the archipelago (237.71
+km<sup>2</sup>), but there are at least three other large islands:
+Western Indian (77.6 km2), Eastern Indian (38.7 km2) and Change (XX km2)
+Islands, as well as numerous smaller islands, including Blundon’s (1.18
+km2), North Long (1.01 km2), South Long (0.48 km2), Kate’s (1.64 km2),
+and Brother’s (1.59 km2) Islands (see Figure 1). Habitats are similar
+across the archipelago, consisting largely of coniferous and mixed
+forests of balsam fir (*Abies balsamea*), black spruce (*Picea
+mariana*), and white birch (*Betula papyrifera*) as well as bogs, lakes,
+lichen and rocky barrens.
 
 Caribou may swim between islands in the ocean for similar reasons that
 drive caribou swimming in freshwater (Leblond et al. 2016). We present
@@ -218,6 +217,15 @@ Science Publishing: 1324–9. <https://doi.org/10.1139/z85-199>.
 
 </div>
 
+<div id="ref-Bergerud_1990">
+
+Bergerud, A.T., R. Ferguson, and H.E. Butler. 1990. “Spring Migration
+and Dispersion of Woodland Caribou at Calving.” *Animal Behaviour* 39
+(2). Elsevier BV: 360–68.
+<https://doi.org/10.1016/s0003-3472(05)80882-6>.
+
+</div>
+
 <div id="ref-Leblond_2016">
 
 Leblond, Mathieu, Martin-Hugues St-Laurent, and Steeve D. Cô ’e. 2016.
@@ -225,6 +233,15 @@ Leblond, Mathieu, Martin-Hugues St-Laurent, and Steeve D. Cô ’e. 2016.
 Ungulate in the Context of Climate Change.” *Movement Ecology* 4 (1).
 Springer Science; Business Media LLC.
 <https://doi.org/10.1186/s40462-016-0079-4>.
+
+</div>
+
+<div id="ref-Miller_1986">
+
+Miller, Frank L., and Anne Gunn. 1986. “Observations of Barren-Ground
+Caribou Travelling on Thin Ice During Autumn Migration.” *ARCTIC* 39
+(1). The Arctic Institute of North America.
+<https://doi.org/10.14430/arctic2052>.
 
 </div>
 
