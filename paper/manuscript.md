@@ -14,10 +14,12 @@ exists that caribou swim in streams, rivers, and lakes during migration
 and access islands during calving (Bergerud, Ferguson, and Butler 1990).
 Even for adept swimmers like caribou, the energetic expenditure of
 swimming for quadrupedal mammals is significantly higher than walking or
-running (Fish 1993), while drowning is also possible (Miller and Gunn
-1986). Despite a large number of coastal and island caribou herds, only
-a handful of examples have documented caribou swimming in the ocean
-(Table 1).
+running, while drowning is also possible (Miller and Gunn 1986). Despite
+a large number of coastal and island caribou herds, only a handful of
+examples have documented caribou swimming in the ocean (e.g. Jeffery,
+Otto, and Phillips 2007; Ricca et al. 2012).
+<!-- add Miller 1995/2002 or reference table 1 if we decide to
+keep this -->
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada, is
 home to approximately 300 woodland caribou. During routine fieldwork on
@@ -186,15 +188,14 @@ suspect predator is a possible, but less likely explanation.
 QW: changed it a bit -->
 
 Our observations add to the evidence that caribou can, and occasionally
-do, swim in the ocean (Table 1). While past observations (e.g.
-(<span class="citeproc-not-found" data-reference-id="Miller_1995">**???**</span>);
-(<span class="citeproc-not-found" data-reference-id="Jeffrey_2007">**???**</span>);
-Ricca et al. (2012)\] have noted the exceptional nature of caribou
-swimming in the ocean, we suggest that this behaviour is likely more
-common than previously thought for caribou living on oceanic islands. We
-posit forage limitation and the associated density-dependent habitat
-selection is an ultimate explanation for why caribou swimming in the
-ocean, with predator avoidance as a potential proximate explanation.
+do, swim in the ocean (Table 1). While past observations (e.g. Jeffery,
+Otto, and Phillips (2007); Ricca et al. (2012)\]
+<!-- add Miller 1995, Miller 2002 --> have noted the exceptional nature
+of caribou swimming in the ocean, we suggest that this behaviour is
+likely more common than previously thought for caribou living on oceanic
+islands. We posit forage limitation and the associated density-dependent
+habitat selection is an ultimate explanation for why caribou swimming in
+the ocean, with predator avoidance as a potential proximate explanation.
 Although our inference is limited to observations, our observations
 suggest that islands represent discrete foraging patches for terrestrial
 animals that could influence fitness via increased foraging
@@ -255,6 +256,15 @@ Bradbury, Jack W., Sandra L. Vehrencamp, and Kenneth E. Clifton. 2015.
 “The Ideal Free Antelope: Foraging Dispersions.” *Behavioral Ecology*
 26 (5). Oxford University Press (OUP): 1303–13.
 <https://doi.org/10.1093/beheco/arv078>.
+
+</div>
+
+<div id="ref-Jeffery_2007">
+
+Jeffery, Rebecca A., Robert D. Otto, and Frank R. Phillips. 2007.
+“George’s Island, Labrador - a High-Density Predator-Free Refuge for a
+Woodland Caribou Subpopulation?” *Rangifer* 27 (4). UiT The Arctic
+University of Norway: 51. <https://doi.org/10.7557/2.27.4.320>.
 
 </div>
 

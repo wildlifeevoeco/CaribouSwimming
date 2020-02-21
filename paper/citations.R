@@ -10,13 +10,15 @@ citep('10.1139/z85-199')
 citep('10.1139/z87-249')
 
 ## Bergerud and Mercer 1989 - get actual doi
-#citep('10.2307/3782635')
 
 ## Bergerud 1990
 citep('10.1016/S0003-3472(05)80882-6')
 
 ## Bradbury et al 2015
 citep('10.1093/beheco/arv078')
+
+## Fish 1993
+citep('10.1071/ZO9940079')
 
 ## Jeffrey et al 2007
 citep('10.7557/2.27.4.320')
@@ -31,10 +33,8 @@ citep('10.1139/z77-131')
 citep('10.14430/arctic2052')
 
 ## Miller 1995 -- get actual doi
-#citep('40511612')
 
 ## Miller 2002 -- get actual doi
-#citep('10.2307/40512446')
 
 ## Morris 1987
 citep('10.2307/2937087')
