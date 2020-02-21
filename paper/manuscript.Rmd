@@ -42,11 +42,16 @@ relocation rates) locations from an individual occurred on different islands.
 This region typically experiences pack ice during the winter, so caribou may be
 able to travel between islands by walking over the ice. We restricted our GPS
 data to the ice-free period of the year (April 1 - November 25) and we
-identified three adult female caribou that collectively engaged in 86 swimming
+identified three adult female caribou that collectively had 86 swimming
 events (Figure 2).
 
-In total, 
-<!--Is it better to just state our results here, or give this sort of teaser? Initially I had "86 events by 3 individuals" here, but then we ignore that for a couple paragraphs of context before getting back into it... which seemed weird--> 
+In total, these 86 swimming events occured in month (n = Y), month (n = Y), and
+month (n = Y), while the remaining events were in month, month, and month (n =
+Y). On average, caribou swam between islands approximately ever 24 days, but
+some individuals swam up to XX times per week/month/whatever. <!--Is it better
+to just state our results here, or give this sort of teaser? Initially I had "86
+events by 3 individuals" here, but then we ignore that for a couple paragraphs
+of context before getting back into it... which seemed weird-->
 
 <!-- Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
 Change Island (n = 5 animals in 1964) from the main Island of Newfoundland as
@@ -59,16 +64,16 @@ collect relocation fixes every 2 hours (see Bonar et al. 2018 for details). We
 used GPS locations from these individuals to investigate oceanic swimming
 events. -->
 
-
-Fogo Island is the largest island in the archipelago (237.71 km^2^), but there
-are at least three other large islands: Western Indian (77.6 km2), Eastern
-Indian (38.7 km2) and Change (XX km2) Islands, as well as numerous smaller
-islands, including Blundon’s (1.18 km2), North Long (1.01 km2), South Long (0.48
-km2), Kate’s (1.64 km2), and Brother’s (1.59 km2) Islands (see Figure 1).
-Habitats are similar across the archipelago, consisting largely of coniferous
-and mixed forests of balsam fir (*Abies balsamea*), black spruce (*Picea
-mariana*), and white birch (*Betula papyrifera*) as well as bogs, lakes, lichen
-and rocky barrens.
+<!-- still not sure we need this paragraph, I wonder if the island size
+information could be included in the figure caption?--> Fogo Island is the
+largest island in the archipelago (237.71 km^2^), but there are at least three
+other large islands: Western Indian (77.6 km2), Eastern Indian (38.7 km2) and
+Change (XX km2) Islands, as well as numerous smaller islands, including
+Blundon’s (1.18 km2), North Long (1.01 km2), South Long (0.48 km2), Kate’s (1.64
+km2), and Brother’s (1.59 km2) Islands (see Figure 1). Habitats are similar
+across the archipelago, consisting largely of coniferous and mixed forests of
+balsam fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch
+(*Betula papyrifera*) as well as bogs, lakes, lichen and rocky barrens.
 
 Caribou may swim between islands in the ocean for similar reasons that drive
 caribou swimming in freshwater [@Leblond_2016]. We present two
