@@ -54,15 +54,16 @@ plot(NORTHING ~ EASTING, data = swimmers[islands == 55],
 swimmers <- swimmers[!is.na(islands),]
 
 ## rename islands
-swimmers$StartIsland[swimmers$islands == 43] <- "Fogo"
-swimmers$StartIsland[swimmers$islands == 53] <- "North Long"
-swimmers$StartIsland[swimmers$islands == 55] <- "North Long"
-swimmers$StartIsland[swimmers$islands == 58] <- "Blundon"
-swimmers$StartIsland[swimmers$islands == 67] <- "Brother"
-swimmers$StartIsland[swimmers$islands == 68] <- "W. Indian"
-swimmers$StartIsland[swimmers$islands == 70] <- "South Long"
-swimmers$StartIsland[swimmers$islands == 71] <- "E. Indian"
-swimmers$StartIsland[swimmers$islands == 74] <- "Kate"
+# TODO: update... these values dont match island numbers 
+# swimmers$StartIsland[swimmers$islands == 43] <- "Fogo"
+# swimmers$StartIsland[swimmers$islands == 53] <- "North Long"
+# swimmers$StartIsland[swimmers$islands == 55] <- "North Long"
+# swimmers$StartIsland[swimmers$islands == 58] <- "Blundon"
+# swimmers$StartIsland[swimmers$islands == 67] <- "Brother"
+# swimmers$StartIsland[swimmers$islands == 68] <- "W. Indian"
+# swimmers$StartIsland[swimmers$islands == 70] <- "South Long"
+# swimmers$StartIsland[swimmers$islands == 71] <- "E. Indian"
+# swimmers$StartIsland[swimmers$islands == 74] <- "Kate"
 
 ## determine when swimming occurred 
 swimmers[, difference := data.table::shift(islands, type = "lead") - islands, by = .(ANIMAL_ID, Year)]
