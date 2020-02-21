@@ -14,36 +14,43 @@ libs <- c('data.table',
 lapply(libs, require, character.only = TRUE)
 
 ### Extract islands from OSM ----
-# Set min max coords
+# Set up bounding box
 coords <- c(ymin = 49.5194,
             ymax = 49.65,
             xmin = -54.3533,
             xmax = -54.1878)
-latlon <- st_crs(4326)
 bb <- bbox(matrix(c(coords[['xmin']], coords[['xmax']], 
                     coords[['ymin']], coords[['ymax']]), 
                   nrow = 2))
+
+# Projections
+latlon <- st_crs(4326)
 utm <- CRS('+proj=utm +zone=21 ellps=WGS84')
+
+# Download osm in bbox as raster stack
 coordsOSM <- osm.raster(bb,
                         projection = utm,
                         crop = TRUE)
+layer1 <- coordsOSM[[1]]
+islands <- layer1 != 170
+islands[islands == 0] <- NA
 
-coordsOSM2 <- coordsOSM[[1]] != 170
-coordsOSM2[coordsOSM2 == 0] <- NA
-coordsOSM3 <- st_as_sf(
-  st_as_stars(coordsOSM),
+# Convert to an sf object
+sfislands <- st_as_sf(
+  st_as_stars(islands),
   as_points = FALSE,
   use_integer = TRUE,
   merge = TRUE,
   na.rm = TRUE
 )
-coordsOSM3$island <- seq_along(coordsOSM3$geometry)
+sfislands$island <- seq_along(sfislands$geometry)
 
-# zzz
+# Project to UTM
 utmbb <- projectExtent(raster(ext = extent(bb), crs = latlon$proj4string), 
                        crs = utm)
-r2 <- fasterize(coordsOSM3, utmbb, field = "island")
+out <- fasterize(sfislands, utmbb, field = "island")
 
-saveRDS(coordsOSM3, "output/coordsOSM.Rds")
-saveRDS(r2, "output/islandRaster.Rds")
+### Output ----
+saveRDS(sfislands, "output/islandsPoly.Rds")
+saveRDS(out, "output/islandsRaster.Rds")
 
