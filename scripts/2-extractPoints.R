@@ -65,22 +65,30 @@ swimmers <- caribou[!is.na(island)]
 
 
 # Determine between which island swimming occured
-swimmers[, endisland]
-swimmers[, difference := paste(island, data.table::shift(island, type = "lead"), 
-                               sep = '-'), 
+swimmers[, endisland := data.table::shift(island, type = "lead")]
+swimmers[island != endisland, 
+         diff := paste(island, endisland, sep = '-'), 
          by = .(ANIMAL_ID, Year)]
 
-## count number of fixes on each island
-swimmers[, counter := rowid(rleid(StartIsland))]
+# Count number of fixes on each island
+swimmers[, counter := .N, island]
 
-duration <- swimmers[difference != 0]
-duration[!is.na(MoveIsland)]
+duration <- swimmers[island != endisland]
 
 
+### Output ----
 fwrite(duration, "output/duration.csv")
 
 
 ### Maps ----
+mapview(
+  duration],
+  xcol = 'EASTING',
+  ycol = 'NORTHING',
+  zcol = 'ANIMAL_ID',
+  crs = utm21N
+)
+
 mapview(
   caribou[island != 32280],
   xcol = 'EASTING',
