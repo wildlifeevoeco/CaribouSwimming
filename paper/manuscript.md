@@ -10,13 +10,14 @@ Memorial University of Newfoundland, Canada
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence
 exists that caribou swim in streams, rivers, and lakes during migration
-(Leblond et al. 2016) to avoid predators (Bergerud 1985) and access
-islands during calving (Bergerud et al. 1990). Even for adept swimmers
-like caribou, the energetic expenditure of swimming for quadrupedal
-mammals is significantly higher than walking or running (Fish 1993),
-while drowning is also possible (Miller & Gunn 1985). Despite a large
-number of coastal and island caribou herds, only a handful of examples
-have documented caribou swimming in the ocean (Table 1).
+(Leblond, St-Laurent, and ’e 2016) to avoid predators (Bergerud 1985)
+and access islands during calving (Bergerud et al. 1990). Even for adept
+swimmers like caribou, the energetic expenditure of swimming for
+quadrupedal mammals is significantly higher than walking or running
+(Fish 1993), while drowning is also possible (Miller & Gunn 1985).
+Despite a large number of coastal and island caribou herds, only a
+handful of examples have documented caribou swimming in the ocean (Table
+1).
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada
 (49°N, 54°W), is home to approximately 300 woodland caribou. During
@@ -214,6 +215,16 @@ Newfoundland as the ancestral homelands of the Mi’kmaq and Beothuk.
 Bergerud, A. T. 1985. “Antipredator Strategies of Caribou: Dispersion
 Along Shorelines.” *Canadian Journal of Zoology* 63 (6). Canadian
 Science Publishing: 1324–9. <https://doi.org/10.1139/z85-199>.
+
+</div>
+
+<div id="ref-Leblond_2016">
+
+Leblond, Mathieu, Martin-Hugues St-Laurent, and Steeve D. Cô ’e. 2016.
+“Caribou, Water, and Ice Fine-Scale Movements of a Migratory Arctic
+Ungulate in the Context of Climate Change.” *Movement Ecology* 4 (1).
+Springer Science; Business Media LLC.
+<https://doi.org/10.1186/s40462-016-0079-4>.
 
 </div>
 
