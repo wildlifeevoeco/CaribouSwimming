@@ -39,6 +39,9 @@ citep('10.2307/2937087')
 ## Schaefer 2016
 citep('10.1093/jmammal/gyv184')
 
+## Ricca et al 2012
+citep('10.1007/s10530-012-0195-z')
+
 ## Webber and Vander Wal 2018
 citep('10.1111/1365-2656.12773')
 

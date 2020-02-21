@@ -176,18 +176,18 @@ contribute to caribou swimming behaviour, but given the presumed low density of 
 QW: changed it a bit -->
 
 Our observations add to the evidence that caribou can, and occasionally do, swim
-in the ocean (Table 1). While past observations (e.g. @Miller_1995;
-@Jeffrey_2007; @Ricca_2012] have noted the exceptional nature of caribou
-swimming in the ocean, we suggest that this behaviour is likely more common than
-previously thought for caribou living on oceanic islands. We posit forage
-limitation and the associated density-dependent habitat selection is an ultimate
-explanation for why caribou swimming in the ocean, with predator avoidance as a
-potential proximate explanation. Although our inference is limited to
-observations, our observations suggest that islands represent discrete foraging
-patches for terrestrial animals that could influence fitness via increased
-foraging opportunities and safety from predators. We also suggest that
-individuals vary in their evaluation of costs and benefits of movement between
-these habitat patches.
+in the ocean (Table 1). While past observations (e.g.
+@Jeffery_2007; @Ricca_2012] <!-- add Miller 1995, Miller 2002 --> have noted the
+exceptional nature of caribou swimming in the ocean, we suggest that this
+behaviour is likely more common than previously thought for caribou living on
+oceanic islands. We posit forage limitation and the associated density-dependent
+habitat selection is an ultimate explanation for why caribou swimming in the
+ocean, with predator avoidance as a potential proximate explanation. Although
+our inference is limited to observations, our observations suggest that islands
+represent discrete foraging patches for terrestrial animals that could influence
+fitness via increased foraging opportunities and safety from predators. We also
+suggest that individuals vary in their evaluation of costs and benefits of
+movement between these habitat patches.
 
 ## Acknowledgements 
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.

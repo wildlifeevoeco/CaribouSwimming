@@ -63,9 +63,10 @@ lichen and rocky barrens.
 Caribou may swim between islands in the ocean for similar reasons that
 drive caribou swimming in freshwater (Leblond, St-Laurent, and ’e 2016).
 We present two explanations for these swimming events, forage limitation
-(Miller 2002) and predator avoidance (Jeffery et al. 2007), and discuss
-why these swimming events appear to be relatively commonplace in the
-population.
+(Miller 2002) and predator avoidance
+(<span class="citeproc-not-found" data-reference-id="Jeffrey_2007">**???**</span>),
+and discuss why these swimming events appear to be relatively
+commonplace in the population.
 
 ## Forage limitation
 
@@ -171,32 +172,35 @@ selection resulted in expansion of the population to nearby islands.
 Following Ideal Free Distribution theory, caribou should swim to new
 islands when the average fitness of individuals on the starting island
 exceeds the density-fitness equilibrium (Morris 1987). While this is an
-ultimate explanation to a series of proximate observations, it is
-possible for density-dependent habitat selection to operate at such a
-fine-scale (Webber and Wal 2017). For horses (*Equus ferus caballus*),
-selection for high quality habitat was strongest at low population
-densities, but individuals tended to settle in lower quality habitats as
-population density increased, following Ideal Free Distribution theory
-(van Beest et al. 2013). Predator avoidance can also contribute to
-caribou swimming behaviour, but in this situation it seems a less likely
-explanation given predation is primarily a concern for young calves,
-which are the least likely to engage in this costly behaviour.
-<!-- this last bit is sort of me bullshitting, not sure it's actually defensible?-->
+ultimate explanation to a series of proximate observations, fine-scale
+density-dependent habitat selection is theoretically possible (Webber
+and Wal 2017). For horses (*Equus ferus caballus*), selection for high
+quality habitat was strongest at low population densities, but
+individuals tended to settle in lower quality habitats as population
+density increased, following Ideal Free Distribution theory (van Beest
+et al. 2013). Predator avoidance could also contribute to caribou
+swimming behaviour, but given the presumed low density of coyotes on
+Fogo Island and that predation primarily only affects young calves, we
+suspect predator is a possible, but less likely explanation.
+<!-- this last bit is sort of me bullshitting, not sure it's actually defensible? 
+QW: changed it a bit -->
 
 Our observations add to the evidence that caribou can, and occasionally
-do, swim in the ocean (Table 1). While past observations (e.g. Miller
-1995, 2002; Jeffery et al. 2007; Ricca et al. 2012) have noted the
-exceptional nature of caribou swimming in the ocean, we suggest that
-this behaviour is likely more common than previously thought for caribou
-living on oceanic islands. We posit forage limitation and the associated
-density-dependent habitat selection is an ultimate explanation for why
-caribou swimming in the ocean, with predator avoidance as a potential
-proximate explanation. Although our inference is limited to
-observations, our observations suggest that islands represent discrete
-foraging patches for terrestrial animals that could influence fitness
-via increased foraging opportunities and safety from predators. We also
-suggest that individuals vary in their evaluation of costs and benefits
-of movement between these habitat patches.
+do, swim in the ocean (Table 1). While past observations (e.g.
+(<span class="citeproc-not-found" data-reference-id="Miller_1995">**???**</span>);
+(<span class="citeproc-not-found" data-reference-id="Jeffrey_2007">**???**</span>);
+Ricca et al. (2012)\] have noted the exceptional nature of caribou
+swimming in the ocean, we suggest that this behaviour is likely more
+common than previously thought for caribou living on oceanic islands. We
+posit forage limitation and the associated density-dependent habitat
+selection is an ultimate explanation for why caribou swimming in the
+ocean, with predator avoidance as a potential proximate explanation.
+Although our inference is limited to observations, our observations
+suggest that islands represent discrete foraging patches for terrestrial
+animals that could influence fitness via increased foraging
+opportunities and safety from predators. We also suggest that
+individuals vary in their evaluation of costs and benefits of movement
+between these habitat patches.
 
 ## Acknowledgements
 
@@ -287,6 +291,16 @@ Canadian Science Publishing: 1029–37. <https://doi.org/10.1139/z77-131>.
 Morris, Douglas W. 1987. “Tests of Density-Dependent Habitat Selection
 in a Patchy Environment.” *Ecological Monographs* 57 (4). Wiley: 269–81.
 <https://doi.org/10.2307/2937087>.
+
+</div>
+
+<div id="ref-Ricca_2012">
+
+Ricca, Mark A., Floyd W. Weckerly, Adam Duarte, and Jeffrey C. Williams.
+2012. “Range Expansion of Nonindigenous Caribou in the Aleutian
+Archipelago of Alaska.” *Biological Invasions* 14 (9). Springer Science;
+Business Media LLC: 1779–84.
+<https://doi.org/10.1007/s10530-012-0195-z>.
 
 </div>
 
