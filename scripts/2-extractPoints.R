@@ -51,7 +51,7 @@ caribou[, .N, islands]
 # Cut points that aren't on an island
 swimmers <- caribou[!is.na(islands)]
 
-## rename islands
+# rename islands
 # TODO: update... these values dont match island numbers 
 # swimmers$StartIsland[swimmers$islands == 43] <- "Fogo"
 # swimmers$StartIsland[swimmers$islands == 53] <- "North Long"
@@ -63,30 +63,10 @@ swimmers <- caribou[!is.na(islands)]
 # swimmers$StartIsland[swimmers$islands == 71] <- "E. Indian"
 # swimmers$StartIsland[swimmers$islands == 74] <- "Kate"
 
-## determine when swimming occurred 
+
+# Determine between which islands swimming occured
 swimmers[, difference := paste(islands, shift(islands, type = "lead"), sep = '-'), 
          by = .(ANIMAL_ID, Year)]
-
-## rename the shifted difference column to the inhabited island
-swimmers$MoveIsland[swimmers$difference == -10] <- "Blundon"
-swimmers$MoveIsland[swimmers$difference == 3] <- "E. Indian"
-swimmers$MoveIsland[swimmers$difference == -3] <- "W. Indian"
-swimmers$MoveIsland[swimmers$difference == -1] <- "Brother"
-swimmers$MoveIsland[swimmers$difference == 1] <- "W. Indian"
-swimmers$MoveIsland[swimmers$StartIsland == "Blundon" & 
-                    swimmers$difference == 13] <- "E. Indian"
-swimmers$MoveIsland[swimmers$StartIsland == "North Long" & 
-                    swimmers$difference == 13] <- "W. Indian"
-swimmers$MoveIsland[swimmers$difference == -13] <- "North Long"
-swimmers$MoveIsland[swimmers$difference == -25] <- "Fogo"
-swimmers$MoveIsland[swimmers$difference == 25] <- "W. Indian"
-swimmers$MoveIsland[swimmers$difference == -15] <- "North Long"
-swimmers$MoveIsland[swimmers$difference == 15] <- "W. Indian"
-swimmers$MoveIsland[swimmers$difference == -6] <- "W. Indian"
-swimmers$MoveIsland[swimmers$difference == 6] <- "Kate"
-swimmers$MoveIsland[swimmers$difference == 2] <- "South Long"
-swimmers$MoveIsland[swimmers$difference == -2] <- "W. Indian"
-swimmers$MoveIsland[swimmers$difference == 0] <- "Stay"
 
 ## count number of fixes on each island
 swimmers[, counter := rowid(rleid(StartIsland))]
@@ -106,3 +86,5 @@ mapview(
   zcol = 'ANIMAL_ID',
   crs = utm21N
 )
+
+
