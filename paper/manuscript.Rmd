@@ -72,7 +72,7 @@ and rocky barrens.
 Caribou may swim between islands in the ocean for similar reasons that drive
 caribou swimming in freshwater [@Leblond_2016]. We present two
 explanations for these swimming events, forage limitation (Miller 2002) and
-predator avoidance (Jeffery et al. 2007), and discuss why these swimming events
+predator avoidance [@Jeffrey_2007], and discuss why these swimming events
 appear to be relatively commonplace in the population.
 
 ## Forage limitation
@@ -135,7 +135,9 @@ Western Indian Island swim are more likely to swim between islands because
 inter-island distances are shorter than between Western Indian and Fogo Islands
 (Figure 2). Furthermore, it is unclear whether swimming is more common among
 males or females. Our initial observation  was of an adult male, but our GPS
-data only includes females. It is theoretically possible that these other
+data only includes females. 
+<!-- QW: I'm not sure we need to say this.. 
+It is theoretically possible that these other
 females moved rapidly back and forth between islands within the 2 hour fix rate
 of our GPS collars, which we would be unable to detect. We consider this highly
 unlikely given the range of residency times for caribou on any given island (min
@@ -144,12 +146,13 @@ unlikely given the range of residency times for caribou on any given island (min
 
 The forage limitation and predator avoidance hypotheses are generally thought to
 apply uniformly across populations, but individual caribou could evaluate the
-costs and benefits of swimming to another island differently. Potentially those
-three females, compared to the other 26, considered swimming less costly or
-perceived competition or predation to be of greater concern. The individual
-attributes that might influence how animals vary in their assessments of these
-trade-offs are unknown, and potential predictors such as age or personality
-traits are unknown for these caribou.
+costs and benefits of swimming to another island differently. It is possible
+that some individuals, in our case ~10%, considered swimming less costly or that
+they perceived competition or predation more acutely than their conspecifics.
+Intrinsic life-history, physiological, or behavioural traits that might
+influence how animals vary in their assessments of swimming trade-offs remains
+unknown. Future work could assess the role of age, stress, or an individuals
+tendency to move potential predictors of swimming behaviour.
 
 ## Summary and conclusion
 For several decades after their introduction to Fogo Island, the caribou
@@ -161,23 +164,20 @@ competition among conspecifics increased along with population size,
 density-dependent habitat selection resulted in expansion of the population to
 nearby islands. Following Ideal Free Distribution theory, caribou should swim to
 new islands when the average fitness of individuals on the starting island
-exceeds the density-fitness equilibrium [@Morris_1987]. While this is an ultimate
-explanation to a series of proximate observations, it is possible for
-density-dependent habitat selection to operate at such a fine-scale (Webber &
-Vander Wal 2018). Evidence from the Sable Island horse (Equus ferus caballus)
-system corroborates this hypothesis (van Beest et al. 2014). For horses,
-selection for high quality habitat was strongest at low population densities,
-but individuals tended to settle in lower quality habitats as population density
-increased, following Ideal Free Distribution theory (van Beest et al. 2014).
-Predator avoidance can also contribute to caribou swimming behaviour, but in
-this situation it seems a less likely explanation given predation is primarily a
-concern for young calves, which are the least likely to engage in this costly
-behaviour.
-<!-- this last bit is sort of me bullshitting, not sure it's actually defensible?-->
+exceeds the density-fitness equilibrium [@Morris_1987]. While this is an
+ultimate explanation to a series of proximate observations, fine-scale
+density-dependent habitat selection is theoretically possible
+[@Webber_2017]. For horses (*Equus ferus caballus*), selection for high quality
+habitat was strongest at low population densities, but individuals tended to
+settle in lower quality habitats as population density increased, following
+Ideal Free Distribution theory [@van_Beest_2013]. Predator avoidance could also
+contribute to caribou swimming behaviour, but given the presumed low density of coyotes on Fogo Island and that predation primarily only affects young calves, we suspect predator is a possible, but less likely explanation.
+<!-- this last bit is sort of me bullshitting, not sure it's actually defensible? 
+QW: changed it a bit -->
 
 Our observations add to the evidence that caribou can, and occasionally do, swim
-in the ocean (Table 1). While past observations (e.g. Miller 1995, 2002; Jeffery
-et al. 2007; Ricca et al. 2012) have noted the exceptional nature of caribou
+in the ocean (Table 1). While past observations (e.g. @Miller_1995;
+@Jeffrey_2007; @Ricca_2012] have noted the exceptional nature of caribou
 swimming in the ocean, we suggest that this behaviour is likely more common than
 previously thought for caribou living on oceanic islands. We posit forage
 limitation and the associated density-dependent habitat selection is an ultimate

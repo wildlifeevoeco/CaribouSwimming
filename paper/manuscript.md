@@ -98,54 +98,65 @@ competition.
 ## Predator avoidance
 
 Predator avoidance could also contribute to swimming behaviour of
-caribou (Miller 2002). During calving, female caribou are known to swim
-to small islands in freshwater lakes give birth, or with their calves
-after birth, to avoid predation (Bergerud and Page 1987). The use of
-shoreline habitat in summer is considered an effective anti-predator
-calving strategy by allowing for swimming to islands or peninsulas as a
-predation avoidance flight response (Bergerud et al. 1990). The use of
-water, and by association occasionally swimming, is therefore part of
-the fine-scale interactions between caribou and their predators and the
-use of islands appears to be an effective anti-predator strategy.
+caribou (Miller 2002) <!-- find doi for this article -->. During
+calving, female caribou are known to swim to small islands in freshwater
+lakes give birth, or with their calves after birth, to avoid predation
+(Bergerud and Page 1987). The use of shoreline habitat in summer is
+considered an effective anti-predator calving strategy by allowing for
+swimming to islands or peninsulas as a predation avoidance flight
+response (Bergerud, Ferguson, and Butler 1990). The use of water, and by
+association occasionally swimming, is therefore part of the fine-scale
+interactions between caribou and their predators and the use of islands
+appears to be an effective anti-predator strategy.
 
 Historic predators of caribou such as wolves (*Canis lupus*) and black
 bears (*Ursus americanus*) are not present in the Fogo Island
 archipelago; coyotes (*Canis latrans*) are the top predator in this
 region. Predation by coyotes on adult caribou is relatively rare (ref?),
-so the potential predator effect on caribou swimming behaviour is likely
-to be a flight response to non-lethal encounters. Calves are susceptible
-to coyotes, particularly young calves, but the energetic costs to
-oceanic swimming are likely to be far greater for small
-calves.
+so the potential effect of predators on caribou swimming behaviour is
+likely to be a flight response to non-lethal encounters. Calves are
+susceptible to coyotes, particularly young calves, but the energetic
+costs to oceanic swimming for calves is likely to be far greater for
+small calves compared to
+adults.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
 ## Individual variation
 
-Three of 29 GPS-collared female caribou swam between islands in the Fogo
-archipelago. These swimming events were relatively frequent, on average
-occuring once every 24 days within our date range. However, we
-identified zero swimming events for the other 26 collared females. It
-remains unclear why this behaviour is seemingly common among 10% of our
-marked population, while 90% never engaged in it. Our initial direct
-observation of swimming was an adult male, but as we only have GPS data
-for females, we are unable to make conclusions on the prevalence of this
-behaviour among male caribou. It is theoretically possible that these
-other females moved rapidly back and forth between islands within the 2
-hour fix rate of our GPS collars, which we would be unable to detect. We
-consider this highly unlikely given the range of residency times for
-caribou on any given island (min - max: XX - XX).
-<!-- What is the typical residency time? Is this a true statement or am I just making this up? -->
+In total, 3 of 29 collared female caribou swam between islands in the
+Fogo archipelago. These swimming events were relatively frequent, on
+average occuring once every 24 <!--double check--> days during ice-free
+seasons. However, despite relatively frequent swimming events for these
+three individuals, we were unable to identify any swimming events for
+the other 26 collared females. It remains unclear why ocean swimming is
+relatively common among ~10% of our marked population, while the other
+90% never swam. Of the three collared individuals, two were collared on
+Western Indian Island and the third was collared on Fogo Island. It is
+possible that individuals born on, or that live on, Eastern and Western
+Indian Island swim are more likely to swim between islands because
+inter-island distances are shorter than between Western Indian and Fogo
+Islands (Figure 2). Furthermore, it is unclear whether swimming is more
+common among males or females. Our initial observation was of an adult
+male, but our GPS data only includes females.
+<!-- QW: I'm not sure we need to say this.. 
+It is theoretically possible that these other
+females moved rapidly back and forth between islands within the 2 hour fix rate
+of our GPS collars, which we would be unable to detect. We consider this highly
+unlikely given the range of residency times for caribou on any given island (min
+- max: XX - XX). <!--double check-->
+<!-- What is the typical residency time? Is this a true statement or am I just making this up? QW: this is something we will look into, I think. -->
 
-The two hypotheses presented above are generally thought to apply
-uniformly across populations, but individual caribou could evaluate the
-costs and benefits of swimming to another island differently.
-Potentially those three females, compared to the other 26, considered
-swimming less costly or perceived competition or predation to be of
-greater concern. The individual attributes that might influence how
-animals vary in their assessments of these trade-offs are unknown, and
-potential predictors such as age or personality traits are unknown for
-these caribou.
+The forage limitation and predator avoidance hypotheses are generally
+thought to apply uniformly across populations, but individual caribou
+could evaluate the costs and benefits of swimming to another island
+differently. It is possible that some individuals, in our case ~10%,
+considered swimming less costly or that they perceived competition or
+predation more acutely than their conspecifics. Intrinsic life-history,
+physiological, or behavioural traits that might influence how animals
+vary in their assessments of swimming trade-offs remains unknown. Future
+work could assess the role of age, stress, or an individuals tendency to
+move potential predictors of swimming behaviour.
 
 ## Summary and conclusion
 
@@ -162,16 +173,14 @@ islands when the average fitness of individuals on the starting island
 exceeds the density-fitness equilibrium (Morris 1987). While this is an
 ultimate explanation to a series of proximate observations, it is
 possible for density-dependent habitat selection to operate at such a
-fine-scale (Webber & Vander Wal 2018). Evidence from the Sable Island
-horse (Equus ferus caballus) system corroborates this hypothesis (van
-Beest et al. 2014). For horses, selection for high quality habitat was
-strongest at low population densities, but individuals tended to settle
-in lower quality habitats as population density increased, following
-Ideal Free Distribution theory (van Beest et al. 2014). Predator
-avoidance can also contribute to caribou swimming behaviour, but in this
-situation it seems a less likely explanation given predation is
-primarily a concern for young calves, which are the least likely to
-engage in this costly behaviour.
+fine-scale (Webber and Wal 2017). For horses (*Equus ferus caballus*),
+selection for high quality habitat was strongest at low population
+densities, but individuals tended to settle in lower quality habitats as
+population density increased, following Ideal Free Distribution theory
+(van Beest et al. 2013). Predator avoidance can also contribute to
+caribou swimming behaviour, but in this situation it seems a less likely
+explanation given predation is primarily a concern for young calves,
+which are the least likely to engage in this costly behaviour.
 <!-- this last bit is sort of me bullshitting, not sure it's actually defensible?-->
 
 Our observations add to the evidence that caribou can, and occasionally
@@ -288,6 +297,26 @@ and Colleen E. Soulliere. 2015. “Decades of Habitat Use Reveal Food
 Limitation of Newfoundland Caribou.” *Journal of Mammalogy* 97 (2).
 Oxford University Press (OUP): 386–93.
 <https://doi.org/10.1093/jmammal/gyv184>.
+
+</div>
+
+<div id="ref-van_Beest_2013">
+
+van Beest, Floris M., Antonio Uzal, Eric Vander Wal, Michel P. Laforge,
+Adrienne L. Contasti, David Colville, and Philip D. McLoughlin. 2013.
+“Increasing Density Leads to Generalization in Both Coarse-Grained
+Habitat Selection and Fine-Grained Resource Selection in a Large
+Mammal.” Edited by Stan Boutin. *Journal of Animal Ecology* 83 (1).
+Wiley: 147–56. <https://doi.org/10.1111/1365-2656.12115>.
+
+</div>
+
+<div id="ref-Webber_2017">
+
+Webber, Quinn M. R., and Eric Vander Wal. 2017. “An Evolutionary
+Framework Outlining the Integration of Individual Social and Spatial
+Ecology.” Edited by Elizabeth Derryberry. *Journal of Animal Ecology* 87
+(1). Wiley: 113–27. <https://doi.org/10.1111/1365-2656.12773>.
 
 </div>
 
