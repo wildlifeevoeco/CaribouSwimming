@@ -9,7 +9,6 @@ libs <- c('data.table',
           'sf',
           'rosm',
           'stars',
-          'mapview',
           'fasterize')
 lapply(libs, require, character.only = TRUE)
 
