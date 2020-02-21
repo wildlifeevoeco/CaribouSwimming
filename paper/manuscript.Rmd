@@ -20,8 +20,8 @@ bibliography: ../references/knitcite.bib
 
 ## Introduction
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
-that caribou swim in streams, rivers, and lakes during migration (Leblond et al.
-2016) to avoid predators [@Bergerud_1985] and access islands during calving
+that caribou swim in streams, rivers, and lakes during migration [@Leblond_2016] 
+to avoid predators [@Bergerud_1985] and access islands during calving
 (Bergerud et al. 1990). Even for adept swimmers like caribou, the
 energetic expenditure of swimming for quadrupedal mammals is
 significantly higher than walking or running (Fish 1993), while drowning
