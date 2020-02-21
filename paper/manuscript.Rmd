@@ -40,13 +40,14 @@ Ontario, Canada). We identified swimming events when two consecutive GPS (2-hour
 relocation rates) locations from an individual occurred on different islands.
 This region typically experiences pack ice during the winter, so caribou may be
 able to travel between islands by walking over the ice. We restricted our GPS
-data to the ice-free period of the year (April 1 - November 25) to avoid this
-possibility. Using these criteria, we identified three adult female caribou that
-collectively engaged in 86 swimming events (Figure 2).
+data to the ice-free period of the year (April 1 - November 25) and we
+identified three adult female caribou that collectively engaged in 86 swimming
+events (Figure 2).
 
+In total, 
 <!--Is it better to just state our results here, or give this sort of teaser? Initially I had "86 events by 3 individuals" here, but then we ignore that for a couple paragraphs of context before getting back into it... which seemed weird--> 
 
-Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
+<!-- Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
 Change Island (n = 5 animals in 1964) from the main Island of Newfoundland as
 part of a series of translocations and introductions throughout the province
 (Bergerud & Mercer 1989). Since 2016 we have been studying the Fogo Island
@@ -55,7 +56,7 @@ date, we have fitted 29 adult female caribou with GPS collars (1240g, GPS 4400M;
 Lotek Wireless Inc., Newmarket, Ontario, Canada), which were programmed to
 collect relocation fixes every 2 hours (see Bonar et al. 2018 for details). We
 used GPS locations from these individuals to investigate oceanic swimming
-events.
+events. -->
 
 
 Fogo Island is the largest island in the archipelago (237.71 km^2^), but there
