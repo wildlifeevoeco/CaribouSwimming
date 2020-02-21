@@ -9,6 +9,9 @@ citep('10.1139/z85-199')
 ## Bergerud and Page 1987
 citep('10.1139/z87-249')
 
+## Bergerud and Mercer 1989 - get actual doi
+#citep('10.2307/3782635')
+
 ## Bergerud 1990
 citep('10.1016/S0003-3472(05)80882-6')
 
@@ -24,7 +27,7 @@ citep('10.1139/z77-131')
 ## Miller and Gunn 1986 
 citep('10.14430/arctic2052')
 
-## Miller 2002
+## Miller 2002 -- get actual doi
 #citep('10.2307/40512446')
 
 ## Morris 1987
