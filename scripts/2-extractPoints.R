@@ -75,8 +75,18 @@ swimmers[island != endisland,
 swimmers[, counter := .N, island]
 # TODO: get duration on islands rowid(rleid(StartIsland))]
 
+# Routes
+# TODO: careful island != isnt because endisland is na
+swimmers[, i := .I]
+swimmers[island != endisland & !is.na(endisland), swim := 'start']
+swimmers[i %in% swimmers[!is.na(swim), i+1], swim := 'end']
 
+swimmers[swim == 'start', event := .I]
+swimmers[order(i)][swim == 'end', event := data.table::shift(event, 1, 'lag')]
 
+ggplot(swimmers[!is.na(swim)]) +
+  geom_line(aes(EASTING, NORTHING, color = ANIMAL_ID, )) + 
+  
 
 duration <- swimmers[island != endisland]
 
@@ -86,6 +96,13 @@ fwrite(duration, "output/duration.csv")
 
 
 ### Maps ----
+mapview(
+  swimmers[!is.na(swim)],
+  xcol = 'EASTING',
+  ycol = 'NORTHING',
+  zcol = 'ANIMAL_ID',
+  crs = utm21N
+)
 mapview(
   duration,
   xcol = 'EASTING',
