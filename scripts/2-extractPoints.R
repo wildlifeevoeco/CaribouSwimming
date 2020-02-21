@@ -21,7 +21,7 @@ caribou <- caribou[EASTING > 690000 & EASTING < 800000 &
                      NORTHING > 5470000  & NORTHING < 5520000]
 
 ## Sub by date 
-caribou <- caribou[JDate > 90 & JDate < 330]
+caribou <- caribou[JDate > 90 & JDate < 365]
 
 ## Sub by animals that swam
 swimmers <- caribou[ANIMAL_ID == "FO2016011" |
@@ -83,5 +83,7 @@ swimmers$MoveIsland[swimmers$difference == 0] <- "Stay"
 swimmers[, counter := rowid(rleid(StartIsland))]
 
 duration <- swimmers[difference != 0]
+duration[!is.na(MoveIsland)]
+
 
 fwrite(duration, "output/duration.csv")
