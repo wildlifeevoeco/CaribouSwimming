@@ -100,39 +100,40 @@ conspecific competition.
 
 ## Predator avoidance
 Predator avoidance could also contribute to swimming behaviour of caribou
-(Miller 2002). During calving, female caribou are known to swim to small islands
-in freshwater lakes give birth, or with their calves after birth, to avoid
-predation [@Bergerud_1987]. The use of shoreline habitat in summer is considered
-an effective anti-predator calving strategy by allowing for swimming to islands
-or peninsulas as a predation avoidance flight response [@Bergerud_1990]. The use
-of water, and by association occasionally swimming, is therefore part of the
-fine-scale interactions between caribou and their predators and the use of
-islands appears to be an effective anti-predator strategy.
+(Miller 2002) <!-- find doi for this article -->. During calving, female caribou
+are known to swim to small islands in freshwater lakes give birth, or with their
+calves after birth, to avoid predation [@Bergerud_1987]. The use of shoreline
+habitat in summer is considered an effective anti-predator calving strategy by
+allowing for swimming to islands or peninsulas as a predation avoidance flight
+response [@Bergerud_1990]. The use of water, and by association occasionally
+swimming, is therefore part of the fine-scale interactions between caribou and
+their predators and the use of islands appears to be an effective anti-predator
+strategy.
 
 Historic predators of caribou such as wolves (*Canis lupus*) and black bears
 (*Ursus americanus*) are not present in the Fogo Island archipelago; coyotes
 (*Canis latrans*) are the top predator in this region. Predation by coyotes on
-adult caribou is relatively rare (ref?), so the potential predator effect on
+adult caribou is relatively rare (ref?), so the potential effect of predators on
 caribou swimming behaviour is likely to be a flight response to non-lethal
 encounters. Calves are susceptible to coyotes, particularly young calves, but
-the energetic costs to oceanic swimming are likely to be far greater for small
-calves.
+the energetic costs to oceanic swimming for calves is likely to be far greater for small
+calves compared to adults.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
 ## Individual variation 
-Three of 29 GPS-collared female caribou swam between islands in the Fogo
+In total, 3 of 29 collared female caribou swam between islands in the Fogo
 archipelago. These swimming events were relatively frequent, on average occuring
-once every 24 days within our date range. However, we identified zero swimming
-events for the other 26 collared females. It remains unclear why this behaviour
-is seemingly common among 10% of our marked population, while 90% never engaged
-in it. Our initial direct observation of swimming was an adult male, but as we
-only have GPS data for females, we are unable to make conclusions on the
-prevalence of this behaviour among male caribou. It is theoretically possible
-that these other females moved rapidly back and forth between islands within the
-2 hour fix rate of our GPS collars, which we would be unable to detect. We
-consider this highly unlikely given the range of residency times for caribou on
-any given island (min - max: XX - XX).
+once every 24 <!--double check--> days during ice-free seasons. However, we
+identified zero swimming events for the other 26 collared females. It remains
+unclear why this behaviour is seemingly common among 10% of our marked
+population, while 90% never engaged in it. Our initial direct observation of
+swimming was an adult male, but as we only have GPS data for females, we are
+unable to make conclusions on the prevalence of this behaviour among male
+caribou. It is theoretically possible that these other females moved rapidly
+back and forth between islands within the 2 hour fix rate of our GPS collars,
+which we would be unable to detect. We consider this highly unlikely given the
+range of residency times for caribou on any given island (min - max: XX - XX).
 <!-- What is the typical residency time? Is this a true statement or am I just making this up? -->
 
 The two hypotheses presented above are generally thought to apply uniformly
