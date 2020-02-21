@@ -28,8 +28,8 @@ utm21N <- '+proj=utm +zone=21 ellps=WGS84'
 caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COORD), utm21N))]
 
 # Sub by bounding box
-# caribou <- caribou[EASTING > 690000 & EASTING < 800000 &
-#                      NORTHING > 5470000  & NORTHING < 5520000]
+caribou <- caribou[EASTING > 690000 & EASTING < 800000 &
+                     NORTHING > 5470000  & NORTHING < 5520000]
 
 # Sub by date 
 # caribou <- caribou[JDate > 90 & JDate < 365]
@@ -82,7 +82,7 @@ fwrite(duration, "output/duration.csv")
 
 ### Maps ----
 mapview(
-  duration],
+  duration,
   xcol = 'EASTING',
   ycol = 'NORTHING',
   zcol = 'ANIMAL_ID',
