@@ -29,9 +29,9 @@ is also possible [@Miller_1986]. Despite a large number of coastal and
 island caribou herds, only a handful of examples have documented caribou
 swimming in the ocean (Table 1).
 
-The Fogo Island archipelago, off the coast of Newfoundland, Canada (49°N, 54°W),
+The Fogo Island archipelago, off the coast of Newfoundland, Canada,
 is home to approximately 300 woodland caribou. During routine fieldwork on May
-30, 2017, we observed an unmarked adult male caribou swim between Perry and
+30, 2017, we observed an unmarked adult male caribou swim between Wester and
 Eastern Indian Islands (Figure 1), a swim of at least 470 m which took ~9
 minutes (~52 m per minute). This observation prompted us to investigate whether
 swimming behaviour was common among GPS radio-collared caribou in the population
@@ -70,25 +70,24 @@ mariana*), and white birch (*Betula papyrifera*) as well as bogs, lakes, lichen
 and rocky barrens.
 
 Caribou may swim between islands in the ocean for similar reasons that drive
-caribou swimming in freshwater (Leblond et al. 2016). We present two
+caribou swimming in freshwater [@Leblond_2016]. We present two
 explanations for these swimming events, forage limitation (Miller 2002) and
 predator avoidance (Jeffery et al. 2007), and discuss why these swimming events
 appear to be relatively commonplace in the population.
 
 ## Forage limitation
 Forage limitation and over-grazing is a major concern for caribou populations
-(Schaefer et al. 2016; Zamin et al. 2017) and could explain movement between
+[@Schaefer_2016] and could explain movement between
 islands. Conspecific competition for resources driven by reduced foraging
-opportunities can decrease reproductive success of adult females (Schaefer et
-al. 2016). Forage scarcity has been proposed as a potential reason for caribou
-moving between arctic islands on the sea-ice in winter (Miller et al. 1977).
+opportunities can decrease reproductive success of adult females [@Schaefer_2016]. Forage scarcity has been proposed as a potential reason for caribou
+moving between arctic islands on the sea-ice in winter [@Miller_1977].
 For very small islands, over-grazing by newly arrived caribou may rapidly
-deplete forage (Bergerud et al. 1990). Without sea ice, movement from the
+deplete forage [@Bergerud_1990]. Without sea ice, movement from the
 mainland to an island, or between islands, requires caribou to assess the
 trade-off associated with swimming.
 
 This trade-off can be understood as density-dependent habitat selection governed
-by the Ideal Free Distribution (Morris 1987; Bradbury et al. 2015). Ideal Free
+by the Ideal Free Distribution [@Morris_1987; @Bradbury_2015]. Ideal Free
 Distribution theory predicts a fitness equilibrium: when the density in a given
 habitat patch has exceeded the optimum for fitness within that patch, animals
 should relocate and settle new habitat patches, so that fitness is equal across
