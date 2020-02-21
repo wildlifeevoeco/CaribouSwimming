@@ -33,12 +33,12 @@ caribou <- caribou[JDate > 90 & JDate < 365]
 
 ## Sub by animals that swam
 # TODO: why explicitly selecting?
-swimmers <- caribou[ANIMAL_ID == "FO2016011" |
-                      ANIMAL_ID == "FO2017001" |
-                      ANIMAL_ID == "FO2017013"]
+# swimmers <- caribou[ANIMAL_ID == "FO2016011" |
+#                       ANIMAL_ID == "FO2017001" |
+#                       ANIMAL_ID == "FO2017013"]
 
 ## Extract points on different islands
-swimmers[, islands := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
+caribou[, islands := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
 
 ## check points in reference to raster map
 swimmers[, .N, by = "islands"]
