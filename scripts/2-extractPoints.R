@@ -7,12 +7,12 @@ libs <- c(
   'data.table',
   'ggplot2',
   # 'dplyr',
-  'raster'
+  'raster',
   # 'prettymapr',
   # 'rosm',
   # 'stars',
   # 'fasterize',
-  # 'rgdal'
+  'rgdal'
 )
 lapply(libs, require, character.only = TRUE)
 
@@ -32,6 +32,7 @@ caribou <- caribou[EASTING > 690000 & EASTING < 800000 &
 caribou <- caribou[JDate > 90 & JDate < 365]
 
 ## Sub by animals that swam
+# TODO: why explicitly selecting?
 swimmers <- caribou[ANIMAL_ID == "FO2016011" |
                       ANIMAL_ID == "FO2017001" |
                       ANIMAL_ID == "FO2017013"]
