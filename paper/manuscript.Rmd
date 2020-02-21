@@ -124,10 +124,10 @@ calves compared to adults.
 ## Individual variation 
 In total, 3 of 29 collared female caribou swam between islands in the Fogo
 archipelago. These swimming events were relatively frequent, on average occuring
-once every 24 <!--double check--> days during ice-free seasons. However, we
-identified zero swimming events for the other 26 collared females. It remains
-unclear why this behaviour is seemingly common among 10% of our marked
-population, while 90% never engaged in it. Our initial direct observation of
+once every 24 <!--double check--> days during ice-free seasons. However, despite relatively frequent swimming events for these three individuals, we were unable to
+identify any swimming events for the other 26 collared females. It remains
+unclear why ocean swimming is relatively common among ~10% of our marked
+population, while the other 90% never swam. A potential explanation is the Our initial direct observation of
 swimming was an adult male, but as we only have GPS data for females, we are
 unable to make conclusions on the prevalence of this behaviour among male
 caribou. It is theoretically possible that these other females moved rapidly
