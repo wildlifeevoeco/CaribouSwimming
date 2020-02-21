@@ -43,29 +43,31 @@ caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COO
 
 ### Extract islands ----
 # Extract points on different islands
-caribou[, islands := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
+caribou[, island := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
 
-# Count locs by islands
-caribou[, .N, islands]
+# Count locs by island
+caribou[, .N, island]
 
 # Cut points that aren't on an island
-swimmers <- caribou[!is.na(islands)]
+swimmers <- caribou[!is.na(island)]
 
-# rename islands
+# rename island
 # TODO: update... these values dont match island numbers 
-# swimmers$StartIsland[swimmers$islands == 43] <- "Fogo"
-# swimmers$StartIsland[swimmers$islands == 53] <- "North Long"
-# swimmers$StartIsland[swimmers$islands == 55] <- "North Long"
-# swimmers$StartIsland[swimmers$islands == 58] <- "Blundon"
-# swimmers$StartIsland[swimmers$islands == 67] <- "Brother"
-# swimmers$StartIsland[swimmers$islands == 68] <- "W. Indian"
-# swimmers$StartIsland[swimmers$islands == 70] <- "South Long"
-# swimmers$StartIsland[swimmers$islands == 71] <- "E. Indian"
-# swimmers$StartIsland[swimmers$islands == 74] <- "Kate"
+# swimmers$StartIsland[swimmers$island == 43] <- "Fogo"
+# swimmers$StartIsland[swimmers$island == 53] <- "North Long"
+# swimmers$StartIsland[swimmers$island == 55] <- "North Long"
+# swimmers$StartIsland[swimmers$island == 58] <- "Blundon"
+# swimmers$StartIsland[swimmers$island == 67] <- "Brother"
+# swimmers$StartIsland[swimmers$island == 68] <- "W. Indian"
+# swimmers$StartIsland[swimmers$island == 70] <- "South Long"
+# swimmers$StartIsland[swimmers$island == 71] <- "E. Indian"
+# swimmers$StartIsland[swimmers$island == 74] <- "Kate"
 
 
-# Determine between which islands swimming occured
-swimmers[, difference := paste(islands, shift(islands, type = "lead"), sep = '-'), 
+# Determine between which island swimming occured
+swimmers[, endisland]
+swimmers[, difference := paste(island, data.table::shift(island, type = "lead"), 
+                               sep = '-'), 
          by = .(ANIMAL_ID, Year)]
 
 ## count number of fixes on each island
@@ -80,7 +82,7 @@ fwrite(duration, "output/duration.csv")
 
 ### Maps ----
 mapview(
-  caribou[islands != 32280],
+  caribou[island != 32280],
   xcol = 'EASTING',
   ycol = 'NORTHING',
   zcol = 'ANIMAL_ID',
