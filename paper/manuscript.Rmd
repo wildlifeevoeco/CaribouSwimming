@@ -141,7 +141,7 @@ Western Indian Island swim are more likely to swim between islands because
 inter-island distances are shorter than between Western Indian and Fogo Islands
 (Figure 2). Furthermore, it is unclear whether swimming is more common among
 males or females. Our initial observation  was of an adult male, but our GPS
-data only includes females. 
+data only includes females. <!-- QW: not sure how to finish this off -->
 <!-- QW: I'm not sure we need to say this.. 
 It is theoretically possible that these other
 females moved rapidly back and forth between islands within the 2 hour fix rate
@@ -182,18 +182,17 @@ contribute to caribou swimming behaviour, but given the presumed low density of 
 QW: changed it a bit -->
 
 Our observations add to the evidence that caribou can, and occasionally do, swim
-in the ocean (Table 1). While past observations (e.g.
-@Jeffery_2007; @Ricca_2012] <!-- add Miller 1995, Miller 2002 --> have noted the
-exceptional nature of caribou swimming in the ocean, we suggest that this
-behaviour is likely more common than previously thought for caribou living on
-oceanic islands. We posit forage limitation and the associated density-dependent
-habitat selection is an ultimate explanation for why caribou swimming in the
-ocean, with predator avoidance as a potential proximate explanation. Although
-our inference is limited to observations, our observations suggest that islands
-represent discrete foraging patches for terrestrial animals that could influence
-fitness via increased foraging opportunities and safety from predators. We also
-suggest that individuals vary in their evaluation of costs and benefits of
-movement between these habitat patches.
+in the ocean (e.g. @Jeffery_2007; @Ricca_2012]. <!-- add Miller 1995, Miller
+2002 -->  Taken together, we suggest that swimming is likely more common than
+previously thought for caribou living on oceanic islands. We posit forage
+limitation and the associated density-dependent habitat selection is an ultimate
+explanation for why caribou swimming in the ocean, with predator avoidance as a
+potential proximate explanation. Although our inference is limited to
+observations, our observations suggest that islands represent discrete foraging
+patches for terrestrial animals that could influence fitness via increased
+foraging opportunities and safety from predators. We also suggest that
+individuals vary in their evaluation of costs and benefits of movement between
+these habitat patches.
 
 # Acknowledgements 
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
