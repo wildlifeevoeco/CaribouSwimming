@@ -70,19 +70,16 @@ population.
 ## Forage limitation
 
 Forage limitation and over-grazing is a major concern for caribou
-populations
-(<span class="citeproc-not-found" data-reference-id="Schaefer_2016">**???**</span>)
-and could explain movement between islands. Conspecific competition for
-resources driven by reduced foraging opportunities can decrease
-reproductive success of adult females
-(<span class="citeproc-not-found" data-reference-id="Schaefer_2016">**???**</span>).
-Forage scarcity has been proposed as a potential reason for caribou
-moving between arctic islands on the sea-ice in winter (Miller, Russell,
-and Gunn 1977). For very small islands, over-grazing by newly arrived
-caribou may rapidly deplete forage (Bergerud, Ferguson, and Butler
-1990). Without sea ice, movement from the mainland to an island, or
-between islands, requires caribou to assess the trade-off associated
-with swimming.
+populations (Schaefer et al. 2015) and could explain movement between
+islands. Conspecific competition for resources driven by reduced
+foraging opportunities can decrease reproductive success of adult
+females (Schaefer et al. 2015). Forage scarcity has been proposed as a
+potential reason for caribou moving between arctic islands on the
+sea-ice in winter (Miller, Russell, and Gunn 1977). For very small
+islands, over-grazing by newly arrived caribou may rapidly deplete
+forage (Bergerud, Ferguson, and Butler 1990). Without sea ice, movement
+from the mainland to an island, or between islands, requires caribou to
+assess the trade-off associated with swimming.
 
 This trade-off can be understood as density-dependent habitat selection
 governed by the Ideal Free Distribution (Morris 1987; Bradbury,
@@ -90,12 +87,13 @@ Vehrencamp, and Clifton 2015). Ideal Free Distribution theory predicts a
 fitness equilibrium: when the density in a given habitat patch has
 exceeded the optimum for fitness within that patch, animals should
 relocate and settle new habitat patches, so that fitness is equal across
-all patches (Bradbury et al. 2015). Islands act as discrete habitat
-patches in this case, but the costs associated with swimming create a
-trade-off when moving between patches. For caribou in the Fogo Island
-archipelago, the role of forage limitation in animal habitat selection
-patterns and movement remains unknown, but swimming between islands may
-in part be explained by forage limitation and conspecific competition.
+all patches (Bradbury, Vehrencamp, and Clifton 2015). Islands act as
+discrete habitat patches in this case, but the costs associated with
+swimming create a trade-off when moving between patches. For caribou in
+the Fogo Island archipelago, the role of forage limitation in animal
+habitat selection patterns and movement remains unknown, but swimming
+between islands may in part be explained by forage limitation and
+conspecific competition.
 
 ## Predator avoidance
 
@@ -271,6 +269,16 @@ Canadian Science Publishing: 1029–37. <https://doi.org/10.1139/z77-131>.
 Morris, Douglas W. 1987. “Tests of Density-Dependent Habitat Selection
 in a Patchy Environment.” *Ecological Monographs* 57 (4). Wiley: 269–81.
 <https://doi.org/10.2307/2937087>.
+
+</div>
+
+<div id="ref-Schaefer_2015">
+
+Schaefer, James A., Shane P. Mahoney, Jackie N. Weir, J. Glenn Luther,
+and Colleen E. Soulliere. 2015. “Decades of Habitat Use Reveal Food
+Limitation of Newfoundland Caribou.” *Journal of Mammalogy* 97 (2).
+Oxford University Press (OUP): 386–93.
+<https://doi.org/10.1093/jmammal/gyv184>.
 
 </div>
 
