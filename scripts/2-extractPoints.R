@@ -3,14 +3,22 @@
 
 
 ### Packages ----
-libs <- c('data.table', 'ggplot2', 'dplyr',
-          'raster', 'prettymapr', 'rosm', 
-          'stars', 'fasterize', 'rgdal')
+libs <- c(
+  'data.table',
+  'ggplot2',
+  # 'dplyr',
+  'raster'
+  # 'prettymapr',
+  # 'rosm',
+  # 'stars',
+  # 'fasterize',
+  # 'rgdal'
+)
 lapply(libs, require, character.only = TRUE)
 
 ## load data
 caribou <- fread('input/FogoCaribou.csv')
-r <- readRDS('output/islandsRaster.RDS')
+r <- readRDS('output/islandsRaster.Rds')
 
 ## Loc fields
 utm21N <- '+proj=utm +zone=21 ellps=WGS84'
