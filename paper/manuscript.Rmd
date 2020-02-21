@@ -58,13 +58,7 @@ of context before getting back into it... which seemed weird-->
 <!-- Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
 Change Island (n = 5 animals in 1964) from the main Island of Newfoundland as
 part of a series of translocations and introductions throughout the province
-(Bergerud & Mercer 1989). Since 2016 we have been studying the Fogo Island
-caribou herd (Bonar et al. 2017; Bonar et al. 2018; Peignier et al. 2019). To
-date, we have fitted 29 adult female caribou with GPS collars (1240g, GPS 4400M;
-Lotek Wireless Inc., Newmarket, Ontario, Canada), which were programmed to
-collect relocation fixes every 2 hours (see Bonar et al. 2018 for details). We
-used GPS locations from these individuals to investigate oceanic swimming
-events. -->
+(Bergerud & Mercer 1989).
 
 <!-- still not sure we need this paragraph, I wonder if the island size
 information could be included in the figure caption?--> Fogo Island is the
@@ -119,13 +113,17 @@ their predators and the use of islands appears to be an effective anti-predator
 strategy.
 
 Historic predators of caribou such as wolves (*Canis lupus*) and black bears
-(*Ursus americanus*) are not present in the Fogo Island archipelago; coyotes
-(*Canis latrans*) are the top predator in this region. Predation by coyotes on
-adult caribou is relatively rare (ref?), so the potential effect of predators on
-caribou swimming behaviour is likely to be a flight response to non-lethal
-encounters. Calves are susceptible to coyotes, particularly young calves, but
-the energetic costs to oceanic swimming for calves is likely to be far greater for small
-calves compared to adults.
+(*Ursus americanus*) are not present in the Fogo Island archipelago, thus
+leaving coyotes (*Canis latrans*) as the top predator. Predation by coyotes on
+adult caribou is relatively rare [@Bastille_Rousseau_2016], so the potential
+effect of predators on caribou swimming behaviour is limited to non-consumptive
+effects associated with encounters and subsequent flight response. Adult females
+with calves at heel may be an exception because calves are highly susceptible to
+coyotes [@Rayl_2014], but the energetic costs for calves to swim in the ocean is
+likely far greater than adults. As one might expect, none <!--confirm--> of the
+86 swimming events we observed occurred in the weeks after calves were born,
+suggesting swimming with in the ocean with a calf-at-heel is likely more risky
+than other predator avoidance behaviours.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
