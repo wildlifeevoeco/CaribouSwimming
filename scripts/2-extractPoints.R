@@ -49,6 +49,7 @@ caribou[, island := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
 caribou[, .N, island]
 
 # Cut points that aren't on an island
+# fogonum <- 32280
 swimmers <- caribou[!is.na(island)]
 
 # rename island
