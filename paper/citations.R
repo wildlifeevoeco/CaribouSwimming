@@ -30,6 +30,9 @@ citep('10.1139/z77-131')
 ## Miller and Gunn 1986 
 citep('10.14430/arctic2052')
 
+## Miller 1995 -- get actual doi
+#citep('40511612')
+
 ## Miller 2002 -- get actual doi
 #citep('10.2307/40512446')
 
