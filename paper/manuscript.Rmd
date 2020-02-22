@@ -6,13 +6,13 @@ date:
    ^2^Department of Biology, Memorial University of Newfoundland, Canada
    #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
-  #  github_document
+    github_document
   # bookdown::pdf_document2:
   #    number_sections: true
   #    toc: false
-   bookdown::word_document2:
+  # bookdown::word_document2:
     #reference_docx: template.docx
-bibliography: ../references/knitcite.bib
+bibliography: ../references/swim.bib
 #csl: csl.csl
 ---
 
@@ -20,15 +20,13 @@ bibliography: ../references/knitcite.bib
 
 # Introduction
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
-that caribou swim in streams, rivers, and lakes during migration [@Leblond_2016],
-to avoid predators [@Bergerud_1985], and access islands during calving
-[@Bergerud_1990]. Even for adept swimmers like caribou, the energetic
+that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
+to avoid predators [@Bergerud1985], and access islands during calving
+[@Bergerud1990]. Even for adept swimmers like caribou, the energetic
 expenditure of swimming for quadrupedal mammals is significantly higher than
-walking or running [@Fish_1994], while drowning is also possible [@Miller_1986].
+walking or running [@Fish1993], while drowning is also possible [@Miller1986].
 Despite a large number of coastal and island caribou herds, only a handful of
-examples have documented caribou swimming in the ocean [e.g. @Jeffery_2007;
-@Ricca_2012]. <!-- add Miller 1995/2002 or reference table 1 if we decide to
-keep this -->
+examples have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012].
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada, is home to
 approximately 300 woodland caribou. During routine fieldwork on May 30, 2017, we
