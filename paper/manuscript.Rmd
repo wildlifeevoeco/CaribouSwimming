@@ -2,16 +2,17 @@
 title: Interisland movements and oceanic swimming of woodland caribou in Newfoundland
 author: Quinn M.R. Webber^1\*^, Jack G. Hendrix^1^, Alec L. Robitaille^2^,  Eric Vander Wal^1,2^
 date: 
-   ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland
-   ^2^Department of Biology, Memorial University of Newfoundland, Canada
-   #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
+    ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial
+   University of Newfoundland
+    ^2^Department of Biology, Memorial University of Newfoundland, Canada
+    #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
-   # github_document
+    github_document
   # bookdown::pdf_document2:
   #    number_sections: true
   #    toc: false
-   bookdown::word_document2:
-    reference_docx: template.docx
+   #bookdown::word_document2:
+    #reference_docx: template.docx
 bibliography: ../references/swim.bib
 #csl: csl.csl
 ---
@@ -40,12 +41,13 @@ identified swimming events as two consecutive GPS (2-hour relocation rates)
 locations from an individual occurred on different islands. Northeastern
 Newfoundland typically experiences pack ice during winter and caribou are known
 locally to travel between islands by walking over the ice. We restricted our GPS
-data to the ice-free period of the year (April 1 - November 25) and we
-identified three adult female caribou that collectively had 86 swimming events
-(Figure 2). In addition to our own visual and remotely sensed observations,
-residents of Fogo Island have also reported observing caribou swimming between
-islands on numerous occaisions.
+data to the ice-free period of the year (April 1 - November 25) <!--confirm
+dates --> and we identified three adult female caribou that collectively had 86
+swimming events (Figure 2). In addition to our own visual and remotely sensed
+observations, residents of Fogo Island have also reported observing caribou
+swimming between islands on numerous occaisions.
 
+<!-- add numbers in here -->
 In total, these 86 swimming events occured in month (n = Y), month (n = Y), and
 month (n = Y), while the remaining events were in month, month, and month (n =
 Y). On average, caribou swam between islands approximately ever 24 days, but
@@ -57,18 +59,7 @@ of context before getting back into it... which seemed weird-->
 <!-- Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
 Change Island (n = 5 animals in 1964) from the main Island of Newfoundland as
 part of a series of translocations and introductions throughout the province
-(Bergerud & Mercer 1989).
-
-<!-- still not sure we need this paragraph, I wonder if the island size
-information could be included in the figure caption?--> Fogo Island is the
-largest island in the archipelago (237.71 km^2^), but there are at least three
-other large islands: Western Indian (77.6 km2), Eastern Indian (38.7 km2) and
-Change (XX km2) Islands, as well as numerous smaller islands, including
-Blundon’s (1.18 km2), North Long (1.01 km2), South Long (0.48 km2), Kate’s (1.64
-km2), and Brother’s (1.59 km2) Islands (see Figure 1). Habitats are similar
-across the archipelago, consisting largely of coniferous and mixed forests of
-balsam fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch
-(*Betula papyrifera*) as well as bogs, lakes, lichen and rocky barrens.
+(Bergerud & Mercer 1989). -->
 
 Caribou may swim between islands in the ocean for similar reasons that drive
 caribou swimming in freshwater [@Leblond2016]. We present two
@@ -131,7 +122,7 @@ than other predator avoidance behaviours.
 
 In total, 3 of 29 collared female caribou swam between islands in the Fogo
 archipelago. These swimming events were relatively frequent, on average occuring
-once every 24 <!--double check--> days during ice-free seasons. However, despite
+once every 24 <!--confirm--> days during ice-free seasons. However, despite
 relatively frequent swimming events for these three individuals, we were unable
 to identify any swimming events for the other 26 collared females. It remains
 unclear why ocean swimming is relatively common among ~10% of our marked
@@ -218,4 +209,19 @@ Beothuk.
 
 \newpage
 
-# Literature Cited
+\captionsetup[figure]{labelformat=empty}
+
+![**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the largest
+island in the archipelago (237.71 km^2^), but there are at least three other
+large islands: Western Indian (77.6 km^2^), Eastern Indian (38.7 km^2^) and
+Change (XX km^2^) Islands, as well as numerous smaller islands, including
+Blundon’s (1.18 km^2^), North Long (1.01 km^2^), South Long (0.48 km^2^), Kate’s
+(1.64 km^2^), and Brother’s (1.59 km^2^) Islands. Habitats are similar across
+the archipelago, consisting largely of coniferous and mixed forests of balsam
+fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch 
+(*Betula papyrifera*) as well as bogs, lakes, lichen and rocky
+barrens.]()<!--(../graphics/IMG_1562.JPG)-->
+
+\newpage
+
+**Literature Cited**

@@ -3,11 +3,8 @@ Newfoundland
 ================
 Quinn M.R. Webber<sup>1\*</sup>, Jack G. Hendrix<sup>1</sup>, Alec L.
 Robitaille<sup>2</sup>, Eric Vander Wal<sup>1,2</sup>
-<sup>1</sup>Cognitive and Behavioural Ecology Interdisciplinary Program,
-Memorial University of Newfoundland <sup>2</sup>Department of Biology,
-Memorial University of Newfoundland, Canada
 
-# Introduction
+**Introduction**
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence
 exists that caribou swim in streams, rivers, and lakes during migration
@@ -34,11 +31,14 @@ rates) locations from an individual occurred on different islands.
 Northeastern Newfoundland typically experiences pack ice during winter
 and caribou are known locally to travel between islands by walking over
 the ice. We restricted our GPS data to the ice-free period of the year
-(April 1 - November 25) and we identified three adult female caribou
-that collectively had 86 swimming events (Figure 2). In addition to our
-own visual and remotely sensed observations, residents of Fogo Island
-have also reported observing caribou swimming between islands on
-numerous occaisions.
+(April 1 - November 25) <!--confirm
+dates --> and we identified three adult female caribou that collectively
+had 86 swimming events (Figure 2). In addition to our own visual and
+remotely sensed observations, residents of Fogo Island have also
+reported observing caribou swimming between islands on numerous
+occaisions.
+
+<!-- add numbers in here -->
 
 In total, these 86 swimming events occured in month (n = Y), month (n =
 Y), and month (n = Y), while the remaining events were in month, month,
@@ -52,21 +52,7 @@ of context before getting back into it... which seemed weird-->
 <!-- Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
 Change Island (n = 5 animals in 1964) from the main Island of Newfoundland as
 part of a series of translocations and introductions throughout the province
-(Bergerud & Mercer 1989).
-
-<!-- still not sure we need this paragraph, I wonder if the island size
-information could be included in the figure caption?-->
-
-Fogo Island is the largest island in the archipelago (237.71
-km<sup>2</sup>), but there are at least three other large islands:
-Western Indian (77.6 km2), Eastern Indian (38.7 km2) and Change (XX km2)
-Islands, as well as numerous smaller islands, including Blundon’s (1.18
-km2), North Long (1.01 km2), South Long (0.48 km2), Kate’s (1.64 km2),
-and Brother’s (1.59 km2) Islands (see Figure 1). Habitats are similar
-across the archipelago, consisting largely of coniferous and mixed
-forests of balsam fir (*Abies balsamea*), black spruce (*Picea
-mariana*), and white birch (*Betula papyrifera*) as well as bogs, lakes,
-lichen and rocky barrens.
+(Bergerud & Mercer 1989). -->
 
 Caribou may swim between islands in the ocean for similar reasons that
 drive caribou swimming in freshwater (Leblond, St-Laurent, and Côté
@@ -75,7 +61,7 @@ limitation (Miller 2002) and predator avoidance (Jeffery, Otto, and
 Phillips 2007), and discuss why these swimming events appear to be
 relatively commonplace in the population.
 
-# Forage limitation
+**Forage limitation**
 
 Forage limitation and over-grazing is a major concern for caribou
 populations (Schaefer et al. 2016) and could explain movement between
@@ -103,7 +89,7 @@ habitat selection patterns remains unknown, but swimming between islands
 may in part be explained by forage limitation and conspecific
 competition.
 
-# Predator avoidance
+**Predator avoidance**
 
 Predator avoidance could also contribute to swimming behaviour of
 caribou (Miller 2002). During calving, female caribou are known to swim
@@ -135,11 +121,11 @@ behaviours.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
-# Individual variation
+**Individual variation**
 
 In total, 3 of 29 collared female caribou swam between islands in the
 Fogo archipelago. These swimming events were relatively frequent, on
-average occuring once every 24 <!--double check--> days during ice-free
+average occuring once every 24 <!--confirm--> days during ice-free
 seasons. However, despite relatively frequent swimming events for these
 three individuals, we were unable to identify any swimming events for
 the other 26 collared females. It remains unclear why ocean swimming is
@@ -172,7 +158,7 @@ vary in their assessments of swimming trade-offs remains unknown. Future
 work could assess the role of age, stress, or an individuals tendency to
 move potential predictors of swimming behaviour.
 
-# Summary and conclusion
+**Summary and conclusion**
 
 For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals (Bergerud and Mercer 1989,
@@ -209,28 +195,40 @@ via increased foraging opportunities and safety from predators. We also
 suggest that individuals vary in their evaluation of costs and benefits
 of movement between these habitat patches.
 
-# Acknowledgements
+**Acknowledgements**
 
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the
 field. Logistical support was provided by L. Bixby. We also thank
 members of the Newfoundland Wildlife Division including S. Moores, B.
-Adams, K. Lewis, C. Doucet, W. Barney, F. Norman, R. Otto, J. Neville,
-P. Saunders, T. Porter, P. Tremblett, S. Gullage, T. Hodder, D.
-Jennings, J. McGinn, M. Frampton, P. McClement, and S. Mahoney for data
-collection, management, and logistics. We thank T. Bergerud and S.
-Mahoney for their vision in initiating much of the work on caribou in
-Newfoundland. Funding for this study was provided by the National
-Sciences and Engineering Research Council (QMRW, JGH, EVW). We
-respectfully acknowledge the territory in which data were collected and
-analyzed as the ancestral homelands of the Beothuk, and the island of
-Newfoundland as the ancestral homelands of the Mi’kmaq and Beothuk.
+Adams, C. Doucet, W. Barney, and J. Neville for logistical support in
+the field as well as help with data data collection and management. We
+thank T. Bergerud and S. Mahoney for their vision in initiating much of
+the work on caribou in Newfoundland. Funding for this study was provided
+by the National Sciences and Engineering Research Council (QMRW, JGH,
+EVW). We respectfully acknowledge the territory in which data were
+collected and analyzed as the ancestral homelands of the Beothuk, and
+the island of Newfoundland as the ancestral homelands of the Mi’kmaq and
+Beothuk.
 <!-- Simplified the funding statement, do we need to name the specific scholarships/grants? Eric opinion??-->
 
 ![**Figure 1**: Image of swimming unmarled adult male caribou (*Rangifer
 tarandus*) from Western to Eastern Indian Island taken on 30 May
 2017.](../graphics/IMG_1562.JPG)
 
-# Literature Cited
+![**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the
+largest island in the archipelago (237.71 km<sup>2</sup>), but there are
+at least three other large islands: Western Indian (77.6
+km<sup>2</sup>), Eastern Indian (38.7 km<sup>2</sup>) and Change (XX
+km<sup>2</sup>) Islands, as well as numerous smaller islands, including
+Blundon’s (1.18 km<sup>2</sup>), North Long (1.01 km<sup>2</sup>), South
+Long (0.48 km<sup>2</sup>), Kate’s (1.64 km<sup>2</sup>), and Brother’s
+(1.59 km<sup>2</sup>) Islands. Habitats are similar across the
+archipelago, consisting largely of coniferous and mixed forests of
+balsam fir (*Abies balsamea*), black spruce (*Picea mariana*), and white
+birch (*Betula papyrifera*) as well as bogs, lakes, lichen and rocky
+barrens.]()<!--(../graphics/IMG_1562.JPG)-->
+
+**Literature Cited**
 
 <div id="refs" class="references">
 
