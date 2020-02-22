@@ -211,7 +211,7 @@ Beothuk.
 
 \captionsetup[figure]{labelformat=empty}
 
-![**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the largest
+<!--![**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the largest
 island in the archipelago (237.71 km^2^), but there are at least three other
 large islands: Western Indian (77.6 km^2^), Eastern Indian (38.7 km^2^) and
 Change (XX km^2^) Islands, as well as numerous smaller islands, including

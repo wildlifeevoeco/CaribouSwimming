@@ -3,6 +3,9 @@ Newfoundland
 ================
 Quinn M.R. Webber<sup>1\*</sup>, Jack G. Hendrix<sup>1</sup>, Alec L.
 Robitaille<sup>2</sup>, Eric Vander Wal<sup>1,2</sup>
+<sup>1</sup>Cognitive and Behavioural Ecology Interdisciplinary Program,
+Memorial University of Newfoundland <sup>2</sup>Department of Biology,
+Memorial University of Newfoundland, Canada
 
 **Introduction**
 
@@ -215,17 +218,15 @@ Beothuk.
 tarandus*) from Western to Eastern Indian Island taken on 30 May
 2017.](../graphics/IMG_1562.JPG)
 
-![**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the
-largest island in the archipelago (237.71 km<sup>2</sup>), but there are
-at least three other large islands: Western Indian (77.6
-km<sup>2</sup>), Eastern Indian (38.7 km<sup>2</sup>) and Change (XX
-km<sup>2</sup>) Islands, as well as numerous smaller islands, including
-Blundon’s (1.18 km<sup>2</sup>), North Long (1.01 km<sup>2</sup>), South
-Long (0.48 km<sup>2</sup>), Kate’s (1.64 km<sup>2</sup>), and Brother’s
-(1.59 km<sup>2</sup>) Islands. Habitats are similar across the
-archipelago, consisting largely of coniferous and mixed forests of
-balsam fir (*Abies balsamea*), black spruce (*Picea mariana*), and white
-birch (*Betula papyrifera*) as well as bogs, lakes, lichen and rocky
+<!--![**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the largest
+island in the archipelago (237.71 km^2^), but there are at least three other
+large islands: Western Indian (77.6 km^2^), Eastern Indian (38.7 km^2^) and
+Change (XX km^2^) Islands, as well as numerous smaller islands, including
+Blundon’s (1.18 km^2^), North Long (1.01 km^2^), South Long (0.48 km^2^), Kate’s
+(1.64 km^2^), and Brother’s (1.59 km^2^) Islands. Habitats are similar across
+the archipelago, consisting largely of coniferous and mixed forests of balsam
+fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch 
+(*Betula papyrifera*) as well as bogs, lakes, lichen and rocky
 barrens.]()<!--(../graphics/IMG_1562.JPG)-->
 
 **Literature Cited**
