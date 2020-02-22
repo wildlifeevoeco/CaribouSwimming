@@ -6,12 +6,12 @@ date:
    ^2^Department of Biology, Memorial University of Newfoundland, Canada
    #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
-    github_document
+   # github_document
   # bookdown::pdf_document2:
   #    number_sections: true
   #    toc: false
-  # bookdown::word_document2:
-    #reference_docx: template.docx
+   bookdown::word_document2:
+    reference_docx: template.docx
 bibliography: ../references/swim.bib
 #csl: csl.csl
 ---
@@ -159,8 +159,8 @@ tendency to move potential predictors of swimming behaviour.
 
 # Summary and conclusion
 For several decades after their introduction to Fogo Island, the caribou
-population did not exceed ~100 individuals [@Bergerud1989 ; Newfoundland and
-Labrador Wildlife Division, unpublished data). During the 1990s, population
+population did not exceed ~100 individuals [@Bergerud1989, Newfoundland and
+Labrador Wildlife Division, unpublished data]. During the 1990s, population
 density reached 300 animals and anecdotal evidence suggests that [only then???]
 caribou began to occupy other islands in the archipelago. We surmise that as
 competition among conspecifics increased along with population size,
@@ -172,9 +172,10 @@ explanation to a series of proximate observations, fine-scale density-dependent
 habitat selection is theoretically possible [@Webber2018]. Predator avoidance
 could also contribute to caribou swimming behaviour, but given the presumed low
 density of coyotes on Fogo Island and that predation primarily only affects
-young calves, we suspect predator is a possible, but less likely explanation.
+young calves, we suspect predator risk is a possible, but less likely
+explanation for swimming.
 <!-- this last bit is sort of me bullshitting, not sure it's actually defensible? 
-QW: changed it a bit -->
+QW: changed it a bit - how is this? -->
 
 Our observations add to the evidence that caribou can, and occasionally do, swim
 in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Taken
