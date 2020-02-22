@@ -121,16 +121,16 @@ Historic predators of caribou such as wolves (*Canis lupus*) and black
 bears (*Ursus americanus*) are not present in the Fogo Island
 archipelago, thus leaving coyotes (*Canis latrans*) as the top predator.
 Predation by coyotes on adult caribou is relatively rare
-(<span class="citeproc-not-found" data-reference-id="BastilleRousseau2016">**???**</span>),
-so the potential effect of predators on caribou swimming behaviour is
-limited to non-consumptive effects associated with encounters and
-subsequent flight response. Adult females with calves at heel may be an
-exception because calves are highly susceptible to coyotes (Rayl et al.
-2014), but the energetic costs for calves to swim in the ocean is likely
-far greater than adults. As one might expect, none <!--confirm--> of the
-86 swimming events we observed occurred in the weeks after calves were
-born, suggesting swimming with in the ocean with a calf-at-heel is
-likely more risky than other predator avoidance
+(Bastille-Rousseau et al. 2016), so the potential effect of predators on
+caribou swimming behaviour is limited to non-consumptive effects
+associated with encounters and subsequent flight response. Adult females
+with calves at heel may be an exception because calves are highly
+susceptible to coyotes (Rayl et al. 2014), but the energetic costs for
+calves to swim in the ocean is likely far greater than adults. As one
+might expect, none <!--confirm--> of the 86 swimming events we observed
+occurred in the weeks after calves were born, suggesting swimming with
+in the ocean with a calf-at-heel is likely more risky than other
+predator avoidance
 behaviours.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
@@ -175,8 +175,8 @@ move potential predictors of swimming behaviour.
 # Summary and conclusion
 
 For several decades after their introduction to Fogo Island, the caribou
-population did not exceed ~100 individuals \[Bergerud and Mercer (1989)
-; Newfoundland and Labrador Wildlife Division, unpublished data). During
+population did not exceed ~100 individuals (Bergerud and Mercer 1989,
+Newfoundland and Labrador Wildlife Division, unpublished data). During
 the 1990s, population density reached 300 animals and anecdotal evidence
 suggests that \[only then???\] caribou began to occupy other islands in
 the archipelago. We surmise that as competition among conspecifics
@@ -190,9 +190,10 @@ density-dependent habitat selection is theoretically possible (Webber
 and Vander Wal 2018). Predator avoidance could also contribute to
 caribou swimming behaviour, but given the presumed low density of
 coyotes on Fogo Island and that predation primarily only affects young
-calves, we suspect predator is a possible, but less likely explanation.
+calves, we suspect predator risk is a possible, but less likely
+explanation for swimming.
 <!-- this last bit is sort of me bullshitting, not sure it's actually defensible? 
-QW: changed it a bit -->
+QW: changed it a bit - how is this? -->
 
 Our observations add to the evidence that caribou can, and occasionally
 do, swim in the ocean (e.g. Miller 1995, 2002; Jeffery, Otto, and
@@ -225,9 +226,24 @@ analyzed as the ancestral homelands of the Beothuk, and the island of
 Newfoundland as the ancestral homelands of the Mi’kmaq and Beothuk.
 <!-- Simplified the funding statement, do we need to name the specific scholarships/grants? Eric opinion??-->
 
+![**Figure 1**: Image of swimming unmarled adult male caribou (*Rangifer
+tarandus*) from Western to Eastern Indian Island taken on 30 May
+2017.](../graphics/IMG_1562.JPG)
+
 # Literature Cited
 
 <div id="refs" class="references">
+
+<div id="ref-Bastille-Rousseau2016">
+
+Bastille-Rousseau, Guillaume, Nathaniel D Rayl, E Hance Ellington, James
+A Schaefer, Michael J L Peers, Matthew A Mumma, Shane P Mahoney, and
+Dennis L Murray. 2016. “Temporal variation in habitat use,
+co-occurrence, and risk among generalist predators and a shared prey.”
+*Canadian Journal of Zoology* 94 (3): 191–98.
+<https://doi.org/10.1139/cjz-2015-0127>.
+
+</div>
 
 <div id="ref-Bergerud1985">
 

@@ -18,7 +18,8 @@ bibliography: ../references/swim.bib
 
 \newpage
 
-# Introduction
+**Introduction**
+
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
 to avoid predators [@Bergerud1985], and access islands during calving
@@ -75,7 +76,8 @@ explanations for these swimming events, forage limitation [@Miller2002] and
 predator avoidance [@Jeffery2007], and discuss why these swimming events
 appear to be relatively commonplace in the population.
 
-# Forage limitation
+**Forage limitation**
+
 Forage limitation and over-grazing is a major concern for caribou populations
 [@Schaefer2016] and could explain movement between islands. Conspecific
 competition for resources driven by reduced foraging opportunities can decrease
@@ -98,7 +100,8 @@ limitation in animal habitat selection patterns remains unknown,
 but swimming between islands may in part be explained by forage limitation and
 conspecific competition.
 
-# Predator avoidance
+**Predator avoidance**
+
 Predator avoidance could also contribute to swimming behaviour of caribou
 [@Miller2002]. During calving, female caribou are known to swim to small islands
 in freshwater lakes and give birth, or with their calves after birth, to avoid
@@ -112,7 +115,7 @@ islands appears to be an effective anti-predator strategy.
 Historic predators of caribou such as wolves (*Canis lupus*) and black bears
 (*Ursus americanus*) are not present in the Fogo Island archipelago, thus
 leaving coyotes (*Canis latrans*) as the top predator. Predation by coyotes on
-adult caribou is relatively rare [@BastilleRousseau2016], so the potential
+adult caribou is relatively rare [@Bastille-Rousseau2016], so the potential
 effect of predators on caribou swimming behaviour is limited to non-consumptive
 effects associated with encounters and subsequent flight response. Adult females
 with calves at heel may be an exception because calves are highly susceptible to
@@ -124,7 +127,8 @@ than other predator avoidance behaviours.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
-# Individual variation 
+**Individual variation**
+
 In total, 3 of 29 collared female caribou swam between islands in the Fogo
 archipelago. These swimming events were relatively frequent, on average occuring
 once every 24 <!--double check--> days during ice-free seasons. However, despite
@@ -157,7 +161,8 @@ influence how animals vary in their assessments of swimming trade-offs remains
 unknown. Future work could assess the role of age, stress, or an individuals
 tendency to move potential predictors of swimming behaviour.
 
-# Summary and conclusion
+**Summary and conclusion**
+
 For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals [@Bergerud1989, Newfoundland and
 Labrador Wildlife Division, unpublished data]. During the 1990s, population
@@ -190,20 +195,27 @@ opportunities and safety from predators. We also suggest that individuals vary
 in their evaluation of costs and benefits of movement between these habitat
 patches.
 
-# Acknowledgements 
+**Acknowledgements**
+
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
 Logistical support was provided by L. Bixby. We also thank members of the
-Newfoundland Wildlife Division including S. Moores, B. Adams, K. Lewis, C.
-Doucet, W. Barney, F. Norman, R. Otto, J. Neville, P. Saunders, T. Porter, P.
-Tremblett, S. Gullage, T. Hodder, D. Jennings, J. McGinn, M. Frampton, P.
-McClement, and S. Mahoney for data collection, management, and logistics. We
-thank T. Bergerud and S. Mahoney for their vision in initiating much of the work
-on caribou in Newfoundland. Funding for this study was provided by the National
-Sciences and Engineering Research Council (QMRW, JGH, EVW). We respectfully
-acknowledge the territory in which data were collected and analyzed as the
-ancestral homelands of the Beothuk, and the island of Newfoundland as the
-ancestral homelands of the Mi’kmaq and Beothuk.
+Newfoundland Wildlife Division including S. Moores, B. Adams, C. Doucet, W.
+Barney, and J. Neville for logistical support in the field as well as help with
+data data collection and management. We thank T. Bergerud and S. Mahoney for
+their vision in initiating much of the work on caribou in Newfoundland. Funding
+for this study was provided by the National Sciences and Engineering Research
+Council (QMRW, JGH, EVW). We respectfully acknowledge the territory in which
+data were collected and analyzed as the ancestral homelands of the Beothuk, and
+the island of Newfoundland as the ancestral homelands of the Mi’kmaq and
+Beothuk.
 <!-- Simplified the funding statement, do we need to name the specific scholarships/grants? Eric opinion??-->
 
+\newpage
+
+\captionsetup[figure]{labelformat=empty}
+
+![**Figure 1**: Image of swimming unmarled adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.](../graphics/IMG_1562.JPG) 
+
+\newpage
 
 # Literature Cited
