@@ -29,9 +29,10 @@ utm <- CRS('+proj=utm +zone=21 ellps=WGS84')
 # Download osm in bbox as raster stack
 coordsOSM <- osm.raster(bb,
                         projection = utm,
-                        crop = TRUE)
+                        # crop = TRUE, 
+                        zoomin = 1)
 layer1 <- coordsOSM[[1]]
-islands <- layer1 != 170
+islands <- (round(layer1) != 170)
 islands[islands == 0] <- NA
 
 # Convert to an sf object
