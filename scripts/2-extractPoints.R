@@ -151,3 +151,11 @@ mapview(
 )
 
 
+mapview(
+  caribou[is.na(island)],
+  xcol = 'EASTING',
+  ycol = 'NORTHING',
+  zcol = 'ANIMAL_ID',
+  crs = utm21N
+)
+
