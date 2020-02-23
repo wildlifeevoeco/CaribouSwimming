@@ -23,13 +23,16 @@ caribou <- fread('input/FogoCaribou.csv')
 r <- readRDS('output/islandsRaster.Rds')
 
 ### Prep data ----
+# Datetime
+caribou[, c('idate', 'itime') := .(as.IDate(idate), as.ITime(itime))]
+
 # Project coordinates
 utm21N <- '+proj=utm +zone=21 ellps=WGS84'
 caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COORD), utm21N))]
 
 # Sub by bounding box
-caribou <- caribou[EASTING %between% c(690000, 800000) &
-                     NORTHING %between% c(5470000, 5520000)]
+# caribou <- caribou[EASTING %between% c(690000, 800000) &
+#                      NORTHING %between% c(5470000, 5520000)]
 
 # Sub by date 
 # caribou <- caribou[JDate > 90 & JDate < 365]
@@ -50,7 +53,8 @@ caribou[, .N, island]
 
 # Cut points that aren't on an island
 # fogonum <- 32280
-swimmers <- caribou[!is.na(island)]
+# TODO:
+swimmers <- caribou#[!is.na(island)]
 
 # rename island
 # TODO: update... these values dont match island numbers 
