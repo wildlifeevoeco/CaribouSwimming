@@ -16,8 +16,8 @@ lapply(libs, require, character.only = TRUE)
 # Set up bounding box
 coords <- c(ymin = 49.5194,
             ymax = 49.763834,
-            xmin = -53.954220,
-            xmax = -54.1878)
+            xmin = -54.3533,
+            xmax = -53.954220)
 bb <- bbox(matrix(c(coords[['xmin']], coords[['xmax']], 
                     coords[['ymin']], coords[['ymax']]), 
                   nrow = 2))
