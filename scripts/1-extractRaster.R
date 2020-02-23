@@ -15,8 +15,8 @@ lapply(libs, require, character.only = TRUE)
 ### Extract islands from OSM ----
 # Set up bounding box
 coords <- c(ymin = 49.5194,
-            ymax = 49.65,
-            xmin = -54.3533,
+            ymax = 49.763834,
+            xmin = -53.954220,
             xmax = -54.1878)
 bb <- bbox(matrix(c(coords[['xmin']], coords[['xmax']], 
                     coords[['ymin']], coords[['ymax']]), 
