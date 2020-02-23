@@ -69,21 +69,48 @@ swimmers <- caribou#[!is.na(island)]
 # swimmers$StartIsland[swimmers$island == 74] <- "Kate"
 
 
-# Determine between which island swimming occured
+
+# Determine between which islands swimming occured
 swimmers[, endisland := data.table::shift(island, type = "lead")]
 swimmers[island != endisland, 
          diff := paste(island, endisland, sep = '-'), 
          by = .(ANIMAL_ID, Year)]
 
+
+setorder(swimmers, idate, itime)
+# Relocation id by individual 
+swimmers[, i := seq.int(.N), ANIMAL_ID]
+
+# Island run by individiual
+swimmers[, islandrun := rleid(island), ANIMAL_ID]
+
+swimmers[, c('island', 'endisland') := tidyr::fill(data = .SD, island, endisland)[c('island', 'endisland')]]
+
+View(swimmers)
 # Count number of fixes on each island
 swimmers[, counter := .N, island]
-# TODO: get duration on islands rowid(rleid(StartIsland))]
+# TODO: get duration on islands by individual rowid(rleid(StartIsland))]
+
+
+
+View(swimmers)
+
+# TODO: use fill rows function to spread from one island to the next
+#       switch is the movement step, next island is the edge
+#       and number of locs between movement steps is the duration
+tidyr::fill
+
+
+
 
 # Routes
 # TODO: careful island != isnt because endisland is na
-swimmers[, i := .I]
-swimmers[island != endisland & !is.na(endisland), swim := 'start']
-swimmers[i %in% swimmers[!is.na(swim), i+1], swim := 'end']
+
+swimmers[island != endisland & !is.na(endisland), 
+         c('swimi', 'swim') := .(i, 'start')]
+swimmers[, .(swimi, data.table::shift(swimi))]
+# swimmers[i %in% swimmers[!is.na(swimi), i+1], 
+#          c('swimi', 'swim') := .(i, 'start')]]
 
 swimmers[swim == 'start', event := .I]
 swimmers[order(i)][swim == 'end', event := data.table::shift(event, 1, 'lag')]
