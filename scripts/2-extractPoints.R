@@ -8,10 +8,6 @@ libs <- c(
   'ggplot2',
   'igraph',
   'raster',
-  # 'prettymapr',
-  # 'rosm',
-  # 'stars',
-  # 'fasterize',
   'mapview',
   'rgdal'
 )
