@@ -32,12 +32,13 @@ Map.addLayer(col);
 Map.addLayer(qual);
 Map.addLayer(land);
 
+var conn = land.connectedComponents(ee.Kernel.square(1), 256).toDouble()
 
 Export.image.toDrive({
-  image: land,
+  image: conn,
   description: 'caribouswimming',
   scale: 20,
-  fileNamePrefix: 'fogo-land-caribou-swimming',
+  fileNamePrefix: 'fogo-components-caribou-swimming',
   region: geometry,
   crs: 'EPSG:32621'
 });
