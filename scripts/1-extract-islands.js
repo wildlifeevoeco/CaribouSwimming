@@ -38,5 +38,6 @@ Export.image.toDrive({
   description: 'caribouswimming',
   scale: 20,
   fileNamePrefix: 'fogo-land-caribou-swimming',
-  region: geometry
+  region: geometry,
+  crs: 'EPSG:32621'
 });
