@@ -26,7 +26,7 @@ that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
 to avoid predators [@Bergerud1985], and access islands during calving
 [@Bergerud1990]. Even for adept swimmers like caribou, the energetic
 expenditure of swimming for quadrupedal mammals is significantly higher than
-walking or running <!--[@Fish1993]-->, while drowning is also possible [@Miller1985].
+walking or running, <!--[@Fish1993]--> while drowning is also possible [@Miller1985].
 Despite a large number of coastal and island caribou herds, only a handful of
 examples have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012].
 
@@ -41,11 +41,11 @@ identified swimming events as two consecutive GPS (2-hour relocation rates)
 locations from an individual occurred on different islands. Northeastern
 Newfoundland typically experiences pack ice during winter and caribou are known
 locally to travel between islands by walking over the ice. We restricted our GPS
-data to the ice-free period of the year (April 1 - November 25) <!--confirm
-dates --> and we identified three adult female caribou that collectively had 86
-swimming events (Figure 2). In addition to our own visual and remotely sensed
-observations, residents of Fogo Island have also reported observing caribou
-swimming between islands on numerous occasions.
+data to the ice-free period of the year (April 1 - November 25)<!--confirm dates
+--> and we identified three adult female caribou that collectively had 86
+swimming events over three years (Figure 2). In addition to our own visual and
+remotely sensed observations, residents of Fogo Island have also reported
+observing caribou swimming between islands on numerous occasions.
 
 <!-- add numbers in here -->
 In total, these 86 swimming events occurred in month (n = Y), month (n = Y), and
