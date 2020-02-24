@@ -24,6 +24,13 @@ r <- raster('output/fogo-land-caribou-swimming.tif')
 # r <- readRDS('output/islandsRaster.Rds')
 
 ### Prep data ----
+# Generate connected components
+conn <- clump(r)
+
+# Reduce small island/pixel noise
+fuzz <- clump(buffer(r, 10))
+
+
 # Datetime
 caribou[, c('idate', 'itime') := .(as.IDate(idate), as.ITime(itime))]
 
