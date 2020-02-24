@@ -6,7 +6,7 @@
 libs <- c(
   'data.table',
   'ggplot2',
-  # 'dplyr',
+  'igraph',
   'raster',
   # 'prettymapr',
   # 'rosm',
