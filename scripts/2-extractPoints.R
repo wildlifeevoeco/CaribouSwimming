@@ -20,7 +20,8 @@ lapply(libs, require, character.only = TRUE)
 
 ### Load data ----
 caribou <- fread('input/FogoCaribou.csv')
-r <- readRDS('output/islandsRaster.Rds')
+r <- raster('output/fogo-land-caribou-swimming.tif')
+# r <- readRDS('output/islandsRaster.Rds')
 
 ### Prep data ----
 # Datetime
