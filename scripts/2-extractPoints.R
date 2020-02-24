@@ -28,9 +28,10 @@ r <- raster('output/fogo-land-caribou-swimming.tif')
 conn <- clump(r)
 
 # Reduce small island/pixel noise
-rna <- r
-rna[rna != 1] <- NA
-fuzz <- clump(buffer(r == 1, 10))
+# rna <- r
+# rna[rna != 1] <- NA
+# foc <- focal(rna, focalWeight(rna, 2, 'circle'), modal)
+# fuzz <- clump(foc)
 
 
 # Datetime
