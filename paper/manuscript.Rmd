@@ -45,10 +45,10 @@ data to the ice-free period of the year (April 1 - November 25) <!--confirm
 dates --> and we identified three adult female caribou that collectively had 86
 swimming events (Figure 2). In addition to our own visual and remotely sensed
 observations, residents of Fogo Island have also reported observing caribou
-swimming between islands on numerous occaisions.
+swimming between islands on numerous occasions.
 
 <!-- add numbers in here -->
-In total, these 86 swimming events occured in month (n = Y), month (n = Y), and
+In total, these 86 swimming events occurred in month (n = Y), month (n = Y), and
 month (n = Y), while the remaining events were in month, month, and month (n =
 Y). On average, caribou swam between islands approximately ever 24 days, but
 some individuals swam up to XX times per week/month/whatever. <!--Is it better
@@ -121,7 +121,7 @@ than other predator avoidance behaviours.
 **Individual variation**
 
 In total, 3 of 29 collared female caribou swam between islands in the Fogo
-archipelago. These swimming events were relatively frequent, on average occuring
+archipelago. These swimming events were relatively frequent, on average occurring
 once every 24 <!--confirm--> days during ice-free seasons. However, despite
 relatively frequent swimming events for these three individuals, we were unable
 to identify any swimming events for the other 26 collared females. It remains
@@ -205,7 +205,7 @@ Beothuk.
 
 \captionsetup[figure]{labelformat=empty}
 
-![**Figure 1**: Image of swimming unmarled adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.](../graphics/IMG_1562.JPG) 
+![**Figure 1**: Image of swimming unmarked adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.](../graphics/IMG_1562.JPG) 
 
 \newpage
 
