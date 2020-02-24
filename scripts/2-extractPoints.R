@@ -24,10 +24,10 @@ r <- raster('output/fogo-land-caribou-swimming.tif')
 conn <- clump(r)
 
 # Reduce small island/pixel noise
-# rna <- r
-# rna[rna != 1] <- NA
-# foc <- focal(rna, focalWeight(rna, 2, 'circle'), modal)
-# fuzz <- clump(foc)
+rna <- r
+rna[rna != 1] <- NA
+foc <- focal(rna, focalWeight(rna, 10, 'circle'), modal)
+fuzz <- clump(foc)
 
 
 # Datetime
@@ -53,7 +53,8 @@ caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COO
 
 ### Extract islands ----
 # Extract points on different islands
-caribou[, island := extract(r, matrix(c(EASTING, NORTHING), ncol = 2))]
+caribou[, island := extract(conn, matrix(c(EASTING, NORTHING), ncol = 2))]
+caribou[, islfuzz := extract(fuzz, matrix(c(EASTING, NORTHING), ncol = 2))]
 
 # Count locs by island
 caribou[, .N, island]
