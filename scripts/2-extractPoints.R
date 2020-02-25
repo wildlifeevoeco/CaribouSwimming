@@ -116,9 +116,29 @@ swimmers[, islandCountID := .N, .(ANIMAL_ID, island)]
 edges <- swimmers[island != endisland]
 edges[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') := 
         data.table::shift(.SD, 1),
-      .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING')]
+      .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING'),
+      by = ANIMAL_ID]
 
-
+(gnn <- (rasterVis::gplot(r) + geom_tile(aes(fill = value))) +
+  #   ggplot(
+  # edges,
+  # aes(
+  #   x = EASTING,
+  #   y = NORTHING)
+#) +
+    geom_edges(data = edges, aes(x = EASTING,
+                   y = NORTHING, 
+                   xend = endislandEAST,
+                   yend = endislandNORTH)
+    ) +
+    geom_nodes(data = edges, aes(x = EASTING,
+                                 y = NORTHING))#aes(color = vertex.names), size = 5) #+
+    
+    # scale_color_viridis_d() + 
+    # guides(color = FALSE, size = FALSE) +
+    # geom_text(aes(x, y, xend = NULL, yend = NULL, label = label), data = labels) + 
+    # p
+)
 
 View(swimmers[ANIMAL_ID == 'FO2016011'])
 
