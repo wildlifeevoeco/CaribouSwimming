@@ -145,27 +145,7 @@ edges <- edges[island != 99999 & NORTHING < 5497000]
 
 View(swimmers[ANIMAL_ID == 'FO2016011'])
 
-# Routes
-# TODO: careful island != isnt because endisland is na
-
-swimmers[island != endisland & !is.na(endisland), 
-         c('swimi', 'swim') := .(i, 'start')]
-swimmers[, .(swimi, data.table::shift(swimi))]
-# swimmers[i %in% swimmers[!is.na(swimi), i+1], 
-#          c('swimi', 'swim') := .(i, 'start')]]
-
-swimmers[swim == 'start', event := .I]
-swimmers[order(i)][swim == 'end', event := data.table::shift(event, 1, 'lag')]
-
-ggplot(swimmers[!is.na(swim)]) +
-  geom_line(aes(EASTING, NORTHING, color = ANIMAL_ID, )) + 
-  
-
-duration <- swimmers[island != endisland]
-
-
-### Output ----
-fwrite(duration, "output/duration.csv")
+s# TODO: careful island != isnt because endisland is na
 
 
 ### Maps ----
