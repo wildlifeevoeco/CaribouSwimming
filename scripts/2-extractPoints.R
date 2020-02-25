@@ -9,7 +9,8 @@ libs <- c(
   'igraph',
   'raster',
   'mapview',
-  'rgdal'
+  'rgdal',
+  'ggnetwork'
 )
 lapply(libs, require, character.only = TRUE)
 
