@@ -77,6 +77,11 @@ swimmers <- copy(caribou)#[!is.na(island)]
 # swimmers$StartIsland[swimmers$island == 74] <- "Kate"
 
 
+# Count NAs
+swimmers[, numbNA := sum(is.na(island)), ANIMAL_ID]
+
+# Fill NAs with values from above
+swimmers[, island := tidyr::fill(data = .SD, island)[c('island')]]
 
 # Determine between which islands swimming occured
 swimmers[, endisland := data.table::shift(island, type = "lead")]
@@ -91,15 +96,13 @@ swimmers[, i := seq.int(.N), ANIMAL_ID]
 swimmers[i == 1, endisland := island]
 swimmers[i == 1, island := 99999]
 
+# Directed edges
 swimmers[island != endisland, 
          diff := paste(island, endisland, sep = '-'), 
          by = .(ANIMAL_ID, Year)]
 
 
 # Island run by individiual
-# TODO: careful here, if we fill NAs, 
-#       it might mean we are filling where individuals arent on the island any longer
-swimmers[, c('island', 'endisland') := tidyr::fill(data = .SD, island, endisland)[c('island', 'endisland')]]
 swimmers[, islandrun := rleid(island), ANIMAL_ID]
 
 
