@@ -138,14 +138,17 @@ net <- graph_from_data_frame(
   #   x = EASTING,
   #   y = NORTHING)
 #) +
+    # ylim(min(edges$NORTHING) + 1000, max(edges$NORTHING) + 1000) +
+    # coord_equal() + 
     geom_edges(data = edges, aes(x = EASTING,
                    y = NORTHING, 
                    xend = endislandEAST,
-                   yend = endislandNORTH)
+                   yend = endislandNORTH,
+                   color = diff)
     ) +
     geom_nodes(data = edges, aes(x = EASTING,
                                  y = NORTHING))#aes(color = vertex.names), size = 5) #+
-    
+    + guides(color = FALSE, fill = FALSE)
     # scale_color_viridis_d() + 
     # guides(color = FALSE, size = FALSE) +
     # geom_text(aes(x, y, xend = NULL, yend = NULL, label = label), data = labels) + 
