@@ -128,8 +128,13 @@ edges <- edges[island != 99999 &
 
 
 net <- graph_from_data_frame(
-  edges[, .N, .(island, endisland)], directed = TRUE
+  edges[, .N, .(island, endisland)], directed = TRUE,
+  vertices = edges[, .(xisl = mean(EASTING), yisl = mean(NORTHING),
+                       xendisl = mean(endislandEAST), yendisl = mean(endislandNORTH)), island]
 )
+
+ggplot(net, aes(xisl, yisl, xend = xendisl, yend = yendisl)) +
+  geom_edges(aes(size = N)) + geom_nodes() + geom_nodetext(aes(label = name))
 
 (gnn <- (rasterVis::gplot(r) + geom_tile(aes(fill = value))) +
   #   ggplot(
