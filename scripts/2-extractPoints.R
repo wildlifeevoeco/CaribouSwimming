@@ -106,14 +106,12 @@ swimmers[island != endisland,
 swimmers[, islandrun := rleid(island), ANIMAL_ID]
 
 
-View(swimmers[ANIMAL_ID == 'FO2016011'])
 # Count number of fixes on each island
-swimmers[, counter := .N, island]
-# TODO: get duration on islands by individual rowid(rleid(StartIsland))]
+swimmers[, islandCountTotal := .N, island]
+swimmers[, islandCountID := .N, .(ANIMAL_ID, island)]
 
 
-
-View(swimmers)
+View(swimmers[ANIMAL_ID == 'FO2016011'])
 
 # TODO: use fill rows function to spread from one island to the next
 #       switch is the movement step, next island is the edge
