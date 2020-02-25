@@ -120,7 +120,7 @@ edges[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') 
       by = ANIMAL_ID]
 edges[, edgeID := .I]
 
-edges <- edges[island != 99999 & NORTHING < 5497000]
+edges <- edges[island != 99999 & NORTHING < 5497000 & endislandNORTH < 5497000]
 
 (gnn <- (rasterVis::gplot(r) + geom_tile(aes(fill = value))) +
   #   ggplot(
