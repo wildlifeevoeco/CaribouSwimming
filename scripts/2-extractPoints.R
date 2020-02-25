@@ -119,8 +119,17 @@ edges[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') 
       .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING'),
       by = ANIMAL_ID]
 edges[, edgeID := .I]
+# TODO : what are northern ones
 
-edges <- edges[island != 99999 & NORTHING < 5497000 & endislandNORTH < 5497000]
+edges <- edges[island != 99999 & 
+                 NORTHING < 5497000 & 
+                 endislandNORTH < 5497000 & 
+                 ANIMAL_ID != 'FO2016001']
+
+
+net <- graph_from_data_frame(
+  edges[, .N, .(island, endisland)], directed = TRUE
+)
 
 (gnn <- (rasterVis::gplot(r) + geom_tile(aes(fill = value))) +
   #   ggplot(
