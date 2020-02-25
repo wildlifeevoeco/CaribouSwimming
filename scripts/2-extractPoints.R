@@ -118,6 +118,9 @@ edges[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') 
         data.table::shift(.SD, 1),
       .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING'),
       by = ANIMAL_ID]
+edges[, edgeID := .I]
+
+edges <- edges[island != 99999 & NORTHING < 5497000]
 
 (gnn <- (rasterVis::gplot(r) + geom_tile(aes(fill = value))) +
   #   ggplot(
