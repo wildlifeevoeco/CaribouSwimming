@@ -111,15 +111,15 @@ swimmers[, islandCountTotal := .N, island]
 swimmers[, islandCountID := .N, .(ANIMAL_ID, island)]
 
 
+# Edges 
+edges <- swimmers[island != endisland]
+edges[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') := 
+        data.table::shift(.SD, 1),
+      .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING')]
+
+
+
 View(swimmers[ANIMAL_ID == 'FO2016011'])
-
-# TODO: use fill rows function to spread from one island to the next
-#       switch is the movement step, next island is the edge
-#       and number of locs between movement steps is the duration
-tidyr::fill
-
-
-
 
 # Routes
 # TODO: careful island != isnt because endisland is na
