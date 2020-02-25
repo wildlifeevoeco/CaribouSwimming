@@ -170,6 +170,14 @@ fwrite(duration, "output/duration.csv")
 
 ### Maps ----
 mapview(
+  edges,
+  xcol = 'EASTING',
+  ycol = 'NORTHING',
+  zcol = 'edgeID',
+  crs = utm21N
+)
+
+mapview(
   swimmers[!is.na(swim)],
   xcol = 'EASTING',
   ycol = 'NORTHING',
