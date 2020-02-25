@@ -96,14 +96,14 @@ swimmers[island != endisland,
          by = .(ANIMAL_ID, Year)]
 
 
-
-
 # Island run by individiual
+# TODO: careful here, if we fill NAs, 
+#       it might mean we are filling where individuals arent on the island any longer
+swimmers[, c('island', 'endisland') := tidyr::fill(data = .SD, island, endisland)[c('island', 'endisland')]]
 swimmers[, islandrun := rleid(island), ANIMAL_ID]
 
-swimmers[, c('island', 'endisland') := tidyr::fill(data = .SD, island, endisland)[c('island', 'endisland')]]
 
-View(swimmers)
+View(swimmers[ANIMAL_ID == 'FO2016011'])
 # Count number of fixes on each island
 swimmers[, counter := .N, island]
 # TODO: get duration on islands by individual rowid(rleid(StartIsland))]
