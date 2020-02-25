@@ -62,7 +62,7 @@ caribou[, .N, island]
 # Cut points that aren't on an island
 # fogonum <- 32280
 # TODO:
-swimmers <- caribou#[!is.na(island)]
+swimmers <- copy(caribou)#[!is.na(island)]
 
 # rename island
 # TODO: update... these values dont match island numbers 
