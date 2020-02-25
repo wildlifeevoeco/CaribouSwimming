@@ -43,7 +43,7 @@ caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COO
 #                      NORTHING %between% c(5470000, 5520000)]
 
 # Sub by date 
-# caribou <- caribou[JDate > 90 & JDate < 365]
+caribou <- caribou[JDate > 90 & JDate < 365]
 
 # Sub by animals that swam
 # TODO: why explicitly selecting?
@@ -133,8 +133,15 @@ net <- graph_from_data_frame(
                        xendisl = mean(endislandEAST), yendisl = mean(endislandNORTH)), island]
 )
 
-ggplot(net, aes(xisl, yisl, xend = xendisl, yend = yendisl)) +
-  geom_edges(aes(size = N)) + geom_nodes() + geom_nodetext(aes(label = name))
+(rasterVis::gplot(r) + geom_tile(aes(fill = factor(value))) + 
+    scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1'))) +
+  geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N), 
+             color = '#3ccac9') + 
+  ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
+  xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
+  coord_equal() #+
+  # geom_nodes(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl))# + 
+  # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
 (gnn <- (rasterVis::gplot(r) + geom_tile(aes(fill = value))) +
   #   ggplot(
@@ -145,11 +152,13 @@ ggplot(net, aes(xisl, yisl, xend = xendisl, yend = yendisl)) +
 #) +
     # ylim(min(edges$NORTHING) + 1000, max(edges$NORTHING) + 1000) +
     # coord_equal() + 
+    ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
+    xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
     geom_edges(data = edges, aes(x = EASTING,
                    y = NORTHING, 
                    xend = endislandEAST,
                    yend = endislandNORTH,
-                   color = diff)
+                   color = ANIMAL_ID)
     ) +
     geom_nodes(data = edges, aes(x = EASTING,
                                  y = NORTHING))#aes(color = vertex.names), size = 5) #+
@@ -166,6 +175,15 @@ View(swimmers[ANIMAL_ID == 'FO2016011'])
 
 
 ### Maps ----
+mapview(
+  caribou[ANIMAL_ID %in% edges$ANIMAL_ID],
+  xcol = 'EASTING',
+  ycol = 'NORTHING',
+  zcol = 'island',
+  crs = utm21N
+)
+
+
 mapview(
   edges,
   xcol = 'endislandEAST',
