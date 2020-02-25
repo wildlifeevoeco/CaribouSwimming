@@ -145,15 +145,23 @@ edges <- edges[island != 99999 & NORTHING < 5497000 & endislandNORTH < 5497000]
 
 View(swimmers[ANIMAL_ID == 'FO2016011'])
 
-s# TODO: careful island != isnt because endisland is na
+# TODO: careful island != isnt because endisland is na
 
 
 ### Maps ----
 mapview(
   edges,
+  xcol = 'endislandEAST',
+  ycol = 'endislandNORTH',
+  zcol = 'endisland',
+  crs = utm21N
+)
+
+mapview(
+  edges,
   xcol = 'EASTING',
   ycol = 'NORTHING',
-  zcol = 'edgeID',
+  zcol = 'island',
   crs = utm21N
 )
 
