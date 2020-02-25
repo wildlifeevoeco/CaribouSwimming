@@ -80,14 +80,23 @@ swimmers <- copy(caribou)#[!is.na(island)]
 
 # Determine between which islands swimming occured
 swimmers[, endisland := data.table::shift(island, type = "lead")]
+
+# Set order to idate, itime
+setorder(swimmers, idate, itime)
+
+# Relocation id by individual 
+swimmers[, i := seq.int(.N), ANIMAL_ID]
+
+# Set first row for each individual to "start" island and endisland island
+swimmers[i == 1, endisland := island]
+swimmers[i == 1, island := 99999]
+
 swimmers[island != endisland, 
          diff := paste(island, endisland, sep = '-'), 
          by = .(ANIMAL_ID, Year)]
 
 
-setorder(swimmers, idate, itime)
-# Relocation id by individual 
-swimmers[, i := seq.int(.N), ANIMAL_ID]
+
 
 # Island run by individiual
 swimmers[, islandrun := rleid(island), ANIMAL_ID]
