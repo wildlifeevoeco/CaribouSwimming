@@ -69,7 +69,7 @@ swimmers[, island := tidyr::fill(data = .SD, island)[c('island')],
          ANIMAL_ID]
 
 # Determine between which islands swimming occured
-swimmers[, endisland := data.table::shift(island, type = "lead"),
+swimmers[, endisland := data.table::shift(island),
          ANIMAL_ID]
 
 
@@ -96,11 +96,13 @@ swimmers[, islandCountID := .N, .(ANIMAL_ID, island)]
 
 
 # Edges 
-edges <- swimmers[island != endisland]
-edges[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') := 
+# TODO: check this with end mapview.. end seems broken
+swimmers[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') := 
         data.table::shift(.SD, 1),
       .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING'),
       by = ANIMAL_ID]
+
+edges <- swimmers[island != endisland]
 edges[, edgeID := .I]
 # TODO : what are northern ones
 
@@ -119,7 +121,7 @@ net <- graph_from_data_frame(
 )
 
 ggplot() + geom_sf(data = islands, aes(fill = id)) +  
-    scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1'))) +
+    scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
   geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N), 
              color = '#3ccac9') + 
   ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
@@ -129,8 +131,8 @@ ggplot() + geom_sf(data = islands, aes(fill = id)) +
   # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
 (gnn <- (ggplot() + geom_sf(data = islands, aes(fill = id))) +  
-    ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
-    xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
+    # ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
+    # xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
     geom_edges(data = edges, aes(x = EASTING,
                    y = NORTHING, 
                    xend = endislandEAST,
