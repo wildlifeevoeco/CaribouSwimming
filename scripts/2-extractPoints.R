@@ -18,24 +18,25 @@ lapply(libs, require, character.only = TRUE)
 ### Load data ----
 caribou <- fread('input/FogoCaribou.csv')
 r <- readRDS('output/islandsRaster.Rds')
+islands <- readRDS("output/islandsPoly.Rds")
 
 ### Prep data ----
 # Generate connected components
-conn <- clump(r)
+# conn <- clump(r)
 
 # Reduce small island/pixel noise
-rna <- r
-rna[rna != 1] <- NA
-foc <- focal(rna, focalWeight(rna, 10, 'circle'), modal)
-fuzz <- clump(foc)
+# rna <- r
+# rna[rna != 1] <- NA
+# foc <- focal(rna, focalWeight(rna, 10, 'circle'), modal)
+# fuzz <- clump(foc)
 
 
 # Datetime
 caribou[, c('idate', 'itime') := .(as.IDate(idate), as.ITime(itime))]
 
 # Project coordinates
-utm21N <- '+proj=utm +zone=21 ellps=WGS84'
-caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COORD), utm21N))]
+utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
+caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COORD), utm$proj4string))]
 
 # Sub by bounding box
 # caribou <- caribou[EASTING %between% c(690000, 800000) &
@@ -53,6 +54,15 @@ caribou <- caribou[JDate > 90 & JDate < 365]
 
 ### Extract islands ----
 # Extract points on different islands
+system.time(
+  caribou[, st_join(st_as_sf(.SD, coords = c('EASTING', 'NORTHING'), crs = utm), islands, join = st_intersects), .SDcols = c('EASTING', 'NORTHING')]
+  
+)
+caribou[, extract(sf::as_Spatial(islands), matrix(c(EASTING, NORTHING), ncol = 2))$id]
+
+caribou[, st_join(st_as_sf(.SD, coords = c('EASTING', 'NORTHING'), crs = utm), islands, join = st_intersects), .SDcols = c('EASTING', 'NORTHING')]
+
+
 caribou[, island := extract(conn, matrix(c(EASTING, NORTHING), ncol = 2))]
 caribou[, islfuzz := extract(fuzz, matrix(c(EASTING, NORTHING), ncol = 2))]
 
