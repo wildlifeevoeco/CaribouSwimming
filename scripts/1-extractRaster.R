@@ -7,20 +7,17 @@ libs <- c('data.table',
           'ggplot2',
           'raster',
           'sf',
-          'rosm',
+          'osmdata',
           'stars',
           'fasterize')
 lapply(libs, require, character.only = TRUE)
 
 ### Extract islands from OSM ----
 # Set up bounding box
-coords <- c(ymin = 49.5194,
-            ymax = 49.763834,
-            xmin = -54.3533,
-            xmax = -53.954220)
-bb <- bbox(matrix(c(coords[['xmin']], coords[['xmax']], 
-                    coords[['ymin']], coords[['ymax']]), 
-                  nrow = 2))
+bb <- c(xmin = -54.3533,
+        ymin = 49.5194,
+        xmax = -53.954220,
+        ymax = 49.763834)
 
 # Projections
 latlon <- st_crs(4326)
