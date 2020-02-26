@@ -35,14 +35,10 @@ lns <- zz$osm_lines
 castpolys <- st_cast(st_polygonize(st_union(lns)))
 
 islands <- st_as_sf(c(st_geometry(polys), castpolys))
+islands$id <- seq.int(length.out = nrow(islands))
 
 
 
-
-
-layer1 <- coordsOSM[[1]]
-islands <- (round(layer1) != 170)
-islands[islands == 0] <- NA
 
 # Convert to an sf object
 sfislands <- st_as_sf(
