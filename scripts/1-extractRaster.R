@@ -13,7 +13,7 @@ libs <- c('data.table',
 lapply(libs, require, character.only = TRUE)
 
 ### Extract islands from OSM ----
-# Set up bounding box
+# Set up bounding box - xmin, ymin, xmax, ymax
 bb <- c(xmin = -54.3533,
         ymin = 49.5194,
         xmax = -53.954220,
@@ -24,10 +24,21 @@ latlon <- st_crs(4326)
 utm <- CRS('+proj=utm +zone=21 ellps=WGS84')
 
 # Download osm in bbox as raster stack
-coordsOSM <- osm.raster(bb,
-                        projection = utm,
-                        # crop = TRUE, 
-                        zoomin = 1)
+# place, location, 
+
+# natural - coastline - osm_polygons
+zz <- opq(bb) %>% 
+  add_osm_feature(key = 'natural', value = 'coastline') %>% 
+  osmdata_sf()
+
+z <- opq(bb) %>% 
+  add_osm_feature(key = 'place', value = 'island') %>% 
+  osmdata_sf()
+z
+  
+                        # projection = utm,
+                        # # crop = TRUE, 
+                        # zoomin = 1)
 layer1 <- coordsOSM[[1]]
 islands <- (round(layer1) != 170)
 islands[islands == 0] <- NA
