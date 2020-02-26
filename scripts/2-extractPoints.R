@@ -5,10 +5,8 @@
 ### Packages ----
 libs <- c(
   'data.table',
-  'ggplot2',
-  'igraph',
+  'sf',
   'raster',
-  'mapview',
   'rgdal',
   'ggnetwork'
 )
