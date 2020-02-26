@@ -30,13 +30,9 @@ utm <- CRS('+proj=utm +zone=21 ellps=WGS84')
 # natural - coastline - osm_lines: larger islands
 
 lns <- zz$osm_lines
-# cas <- st_cast(
-#   st_cast(lns, 'MULTILINESTRING', group_or_split = TRUE, ids = 'natural', do_split = TRUE), 'MULTIPOLYGON')
-cas <- st_cast(lns, 'MULTILINESTRING')
-casint <- st_intersection(cas$geometry)
-un <- st_union(casint)
-pol <- st_polygonize(un)
-col <- st_collection_extract(pol)
+polys <- st_cast(st_polygonize(st_union(lns)))
+
+
 # place - island - z$osm_lines[z$osm_lines$osm_id != 134550943,]: "Perry Island"
 zz <- opq(bb) %>% 
   add_osm_feature(key = 'natural', value = 'coastline') %>% 
