@@ -26,7 +26,12 @@ utm <- CRS('+proj=utm +zone=21 ellps=WGS84')
 # Download osm in bbox as raster stack
 # place, location, 
 
-# natural - coastline - osm_polygons
+# natural - coastline - osm_polygons: most of small islands
+# natural - coastline - osm_lines: larger islands
+
+pols <- 
+
+# place - island - z$osm_lines[z$osm_lines$osm_id != 134550943,]: "Perry Island"
 zz <- opq(bb) %>% 
   add_osm_feature(key = 'natural', value = 'coastline') %>% 
   osmdata_sf()
