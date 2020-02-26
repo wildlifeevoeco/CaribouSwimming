@@ -25,27 +25,21 @@ utm <- CRS('+proj=utm +zone=21 ellps=WGS84')
 
 # Download osm in bbox as raster stack
 # place, location, 
-
-# natural - coastline - osm_polygons: most of small islands
-# natural - coastline - osm_lines: larger islands
-
-lns <- zz$osm_lines
-polys <- st_cast(st_polygonize(st_union(lns)))
-
-
-# place - island - z$osm_lines[z$osm_lines$osm_id != 134550943,]: "Perry Island"
 zz <- opq(bb) %>% 
   add_osm_feature(key = 'natural', value = 'coastline') %>% 
   osmdata_sf()
 
-z <- opq(bb) %>% 
-  add_osm_feature(key = 'place', value = 'island') %>% 
-  osmdata_sf()
-z
-  
-                        # projection = utm,
-                        # # crop = TRUE, 
-                        # zoomin = 1)
+polys <- zz$osm_polygons
+lns <- zz$osm_lines
+
+castpolys <- st_cast(st_polygonize(st_union(lns)))
+
+islands <- st_as_sf(c(st_geometry(polys), castpolys))
+
+
+
+
+
 layer1 <- coordsOSM[[1]]
 islands <- (round(layer1) != 170)
 islands[islands == 0] <- NA
