@@ -17,26 +17,17 @@ lapply(libs, require, character.only = TRUE)
 
 ### Load data ----
 caribou <- fread('input/FogoCaribou.csv')
-r <- readRDS('output/islandsRaster.Rds')
 islands <- readRDS("output/islandsPoly.Rds")
 
 ### Prep data ----
-# Generate connected components
-# conn <- clump(r)
-
-# Reduce small island/pixel noise
-# rna <- r
-# rna[rna != 1] <- NA
-# foc <- focal(rna, focalWeight(rna, 10, 'circle'), modal)
-# fuzz <- clump(foc)
-
-
 # Datetime
 caribou[, c('idate', 'itime') := .(as.IDate(idate), as.ITime(itime))]
 
 # Project coordinates
 utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
-caribou[, c('EASTING', 'NORTHING') := as.data.table(project(cbind(X_COORD, Y_COORD), utm$proj4string))]
+coords <- c('EASTING', 'NORTHING')
+
+caribou[, (coords) := as.data.table(project(cbind(X_COORD, Y_COORD), utm$proj4string))]
 
 # Sub by bounding box
 # caribou <- caribou[EASTING %between% c(690000, 800000) &
