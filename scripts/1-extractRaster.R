@@ -4,8 +4,6 @@
 
 ### Packages ----
 libs <- c('data.table',
-          'ggplot2',
-          'raster',
           'sf',
           'osmdata',
           'fasterize')
