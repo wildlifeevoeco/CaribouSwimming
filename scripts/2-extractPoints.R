@@ -45,17 +45,13 @@ caribou <- caribou[JDate > 90 & JDate < 365]
 
 ### Extract islands ----
 # Extract points on different islands
-system.time(
-  caribou[, st_join(st_as_sf(.SD, coords = c('EASTING', 'NORTHING'), crs = utm), islands, join = st_intersects), .SDcols = c('EASTING', 'NORTHING')]
-  
-)
-caribou[, extract(sf::as_Spatial(islands), matrix(c(EASTING, NORTHING), ncol = 2))$id]
+caribou[, island := 
+  st_join(
+    st_as_sf(.SD, coords = coords, crs = utm), 
+    islands, 
+    join = st_intersects)$id, 
+  .SDcols = coords]
 
-caribou[, st_join(st_as_sf(.SD, coords = c('EASTING', 'NORTHING'), crs = utm), islands, join = st_intersects), .SDcols = c('EASTING', 'NORTHING')]
-
-
-caribou[, island := extract(conn, matrix(c(EASTING, NORTHING), ncol = 2))]
-caribou[, islfuzz := extract(fuzz, matrix(c(EASTING, NORTHING), ncol = 2))]
 
 # Count locs by island
 caribou[, .N, island]
