@@ -54,21 +54,24 @@ caribou[, island :=
 # Count locs by island
 caribou[, .N, island]
 
-# Cut points that aren't on an island
+# TODO: Cut points that aren't on an island?
 swimmers <- copy(caribou)#[!is.na(island)]
 
+
+# Set order to idate, itime
+setorder(swimmers, idate, itime)
 
 # Count NAs
 swimmers[, numbNA := sum(is.na(island)), ANIMAL_ID]
 
 # Fill NAs with values from above
-swimmers[, island := tidyr::fill(data = .SD, island)[c('island')]]
+swimmers[, island := tidyr::fill(data = .SD, island)[c('island')],
+         ANIMAL_ID]
 
 # Determine between which islands swimming occured
-swimmers[, endisland := data.table::shift(island, type = "lead")]
+swimmers[, endisland := data.table::shift(island, type = "lead"),
+         ANIMAL_ID]
 
-# Set order to idate, itime
-setorder(swimmers, idate, itime)
 
 # Relocation id by individual 
 swimmers[, i := seq.int(.N), ANIMAL_ID]
@@ -101,19 +104,21 @@ edges[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') 
 edges[, edgeID := .I]
 # TODO : what are northern ones
 
-edges <- edges[island != 99999 & 
-                 NORTHING < 5497000 & 
-                 endislandNORTH < 5497000 & 
-                 ANIMAL_ID != 'FO2016001']
+edges <- edges[island != 99999]#&
+                 # NORTHING < 5497000 &
+                 # endislandNORTH < 5497000 &
+                 # ANIMAL_ID != 'FO2016001']
 
 
+# TODO: move to new script?
+library(igraph)
 net <- graph_from_data_frame(
   edges[, .N, .(island, endisland)], directed = TRUE,
   vertices = edges[, .(xisl = mean(EASTING), yisl = mean(NORTHING),
                        xendisl = mean(endislandEAST), yendisl = mean(endislandNORTH)), island]
 )
 
-(rasterVis::gplot(r) + geom_tile(aes(fill = factor(value))) + 
+ggplot() + geom_sf(data = islands, aes(fill = id)) +  
     scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1'))) +
   geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N), 
              color = '#3ccac9') + 
@@ -123,15 +128,7 @@ net <- graph_from_data_frame(
   # geom_nodes(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl))# + 
   # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
-(gnn <- (rasterVis::gplot(r) + geom_tile(aes(fill = value))) +
-  #   ggplot(
-  # edges,
-  # aes(
-  #   x = EASTING,
-  #   y = NORTHING)
-#) +
-    # ylim(min(edges$NORTHING) + 1000, max(edges$NORTHING) + 1000) +
-    # coord_equal() + 
+(gnn <- (ggplot() + geom_sf(data = islands, aes(fill = id))) +  
     ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
     xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
     geom_edges(data = edges, aes(x = EASTING,
