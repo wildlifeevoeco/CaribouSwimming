@@ -69,12 +69,9 @@ setorder(swimmers, idate, itime)
 # Count NAs
 swimmers[, numbNA := sum(is.na(nearest)), ANIMAL_ID]
 
-# Fill NAs with values from above
-# swimmers[, island := tidyr::fill(data = .SD, island)[c('island')],
-#          ANIMAL_ID]
 
 # Determine between which islands swimming occured
-swimmers[, endisland := data.table::shift(island),
+swimmers[, endisland := data.table::shift(nearest, type = 'lead'),
          ANIMAL_ID]
 
 
