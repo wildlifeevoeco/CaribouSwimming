@@ -50,19 +50,24 @@ caribou[, island :=
     join = st_intersects)$id, 
   .SDcols = coords]
 
+caribou[, nearest := 
+          st_nearest_feature(
+            st_as_sf(.SD, coords = coords, crs = utm),
+            islands),
+        .SDcols = coords]
 
+# 
 # Count locs by island
 caribou[, .N, island]
 
-# TODO: Cut points that aren't on an island?
-swimmers <- copy(caribou)#[!is.na(island)]
+swimmers <- copy(caribou)
 
 
 # Set order to idate, itime
 setorder(swimmers, idate, itime)
 
 # Count NAs
-swimmers[, numbNA := sum(is.na(island)), ANIMAL_ID]
+swimmers[, numbNA := sum(is.na(nearest)), ANIMAL_ID]
 
 # Fill NAs with values from above
 # swimmers[, island := tidyr::fill(data = .SD, island)[c('island')],
