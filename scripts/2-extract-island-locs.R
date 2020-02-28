@@ -120,13 +120,12 @@ net <- graph_from_data_frame(
                        xendisl = mean(endislandEAST), yendisl = mean(endislandNORTH)), island]
 )
 
-ggplot() + geom_sf(data = islands, aes(fill = id)) +  
-    scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
-  geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N), 
-             color = '#3ccac9') + 
+ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +  
+    # scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
+  geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N)) + 
   ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
   xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
-  coord_equal() #+
+  coord_sf() #+
   # geom_nodes(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl))# + 
   # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
