@@ -103,20 +103,22 @@ caribou[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH'
 
 edges <- caribou[island != endisland]
 edges[, edgeID := .I]
-# TODO : what are northern ones
 
-edges <- edges[island != 99999 &
+edges <- edges[!(between(i, 946, 947, incbounds = TRUE) & ANIMAL_ID == 'FO2017012') &
+                 !(between(i, 3771, 3772, incbounds = TRUE) & ANIMAL_ID == 'FO2017013')]
                  # NORTHING < 5497000 &
                  # endislandNORTH < 5497000 &
-                 ANIMAL_ID != 'FO2016001']
+                 #ANIMAL_ID != 'FO2016001']
 
+edges[, uniqueN(ANIMAL_ID)]
 
 # TODO: move to new script?
 library(igraph)
 net <- graph_from_data_frame(
   edges[, .N, .(island, endisland)], directed = TRUE,
   vertices = edges[, .(xisl = mean(EASTING), yisl = mean(NORTHING),
-                       xendisl = mean(endislandEAST), yendisl = mean(endislandNORTH)), island]
+                       xendisl = mean(endislandEAST), yendisl = mean(endislandNORTH)), 
+                   island]
 )
 
 ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +  
