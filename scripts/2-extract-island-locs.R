@@ -45,8 +45,8 @@ caribou <- caribou[JDate > 90 & JDate < 365]
 # Extract points on different islands
 caribou[, island := 
   st_join(
-    st_as_sf(.SD, coords = coords, crs = utm), 
-    islands, 
+    st_as_sf(.SD, coords = coords, crs = utm),
+    st_buffer(islands, 25), 
     join = st_intersects)$id, 
   .SDcols = coords]
 
@@ -65,8 +65,8 @@ setorder(swimmers, idate, itime)
 swimmers[, numbNA := sum(is.na(island)), ANIMAL_ID]
 
 # Fill NAs with values from above
-swimmers[, island := tidyr::fill(data = .SD, island)[c('island')],
-         ANIMAL_ID]
+# swimmers[, island := tidyr::fill(data = .SD, island)[c('island')],
+#          ANIMAL_ID]
 
 # Determine between which islands swimming occured
 swimmers[, endisland := data.table::shift(island),
@@ -106,10 +106,10 @@ edges <- swimmers[island != endisland]
 edges[, edgeID := .I]
 # TODO : what are northern ones
 
-edges <- edges[island != 99999]#&
+edges <- edges[island != 99999 &
                  # NORTHING < 5497000 &
                  # endislandNORTH < 5497000 &
-                 # ANIMAL_ID != 'FO2016001']
+                 ANIMAL_ID != 'FO2016001']
 
 
 # TODO: move to new script?
@@ -185,6 +185,7 @@ mapview(
   zcol = 'ANIMAL_ID',
   crs = utm
 )
+
 mapview(
   duration,
   xcol = 'EASTING',
