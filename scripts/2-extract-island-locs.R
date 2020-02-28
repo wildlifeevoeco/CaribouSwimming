@@ -36,7 +36,7 @@ caribou <- caribou[JDate > 90 & JDate < 365]
 
 # Sub by animals that swam
 # TODO: why explicitly selecting?
-# swimmers <- caribou[ANIMAL_ID == "FO2016011" |
+# caribou <- caribou[ANIMAL_ID == "FO2016011" |
 #                       ANIMAL_ID == "FO2017001" |
 #                       ANIMAL_ID == "FO2017013"]
 
@@ -60,48 +60,45 @@ caribou[, island :=
 # Count locs by island
 caribou[, .N, island]
 
-swimmers <- copy(caribou)
-
 
 # Set order to idate, itime
-setorder(swimmers, idate, itime)
+setorder(caribou, idate, itime)
 
 # Count NAs
-swimmers[, numbNA := sum(is.na(island)), ANIMAL_ID]
+caribou[, numbNA := sum(is.na(island)), ANIMAL_ID]
 
 
 # Determine between which islands swimming occured
-swimmers[, endisland := data.table::shift(island, type = 'lead'),
+caribou[, endisland := data.table::shift(island, n = 1L, type = 'lead'),
          ANIMAL_ID]
 
 
 # Relocation id by individual 
-swimmers[, i := seq.int(.N), ANIMAL_ID]
+caribou[, i := seq.int(.N), ANIMAL_ID]
 
 
 # Directed edges
-swimmers[island != endisland, 
+caribou[island != endisland, 
          diff := paste(island, endisland, sep = '-'), 
          by = .(ANIMAL_ID, Year)]
 
 
 # Island run by individiual
-swimmers[, islandrun := rleid(island), ANIMAL_ID]
-swimmers[, islandlen := .N * 2 / 24, .(islandrun, ANIMAL_ID)]
+caribou[, islandrun := rleid(island), ANIMAL_ID]
+caribou[, islandlen := .N * 2 / 24, .(islandrun, ANIMAL_ID)]
 
 # Count number of fixes on each island
-swimmers[, islandCountTotal := .N, island]
-swimmers[, islandCountID := .N, .(ANIMAL_ID, island)]
+caribou[, islandCountTotal := .N, island]
+caribou[, islandCountID := .N, .(ANIMAL_ID, island)]
 
 
 # Edges 
-# TODO: check this with end mapview.. end seems broken
-swimmers[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') := 
-        data.table::shift(.SD, 1),
+caribou[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') := 
+        data.table::shift(.SD, n = 1L, type = 'lead'),
       .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING'),
       by = ANIMAL_ID]
 
-edges <- swimmers[island != endisland]
+edges <- caribou[island != endisland]
 edges[, edgeID := .I]
 # TODO : what are northern ones
 
@@ -146,7 +143,7 @@ ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +
     # p
 )
 
-View(swimmers[ANIMAL_ID == 'FO2016011'])
+View(caribou[ANIMAL_ID == 'FO2016011'])
 
 # TODO: careful island != isnt because endisland is na
 
