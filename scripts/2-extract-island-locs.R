@@ -78,9 +78,6 @@ swimmers[, endisland := data.table::shift(nearest, type = 'lead'),
 # Relocation id by individual 
 swimmers[, i := seq.int(.N), ANIMAL_ID]
 
-# Set first row for each individual to "start" island and endisland island
-swimmers[i == 1, endisland := island]
-swimmers[i == 1, island := 99999]
 
 # Directed edges
 swimmers[island != endisland, 
