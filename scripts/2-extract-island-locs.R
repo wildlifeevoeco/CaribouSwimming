@@ -35,7 +35,7 @@ caribou[, (coords) := as.data.table(project(cbind(X_COORD, Y_COORD), utm$proj4st
 #                      NORTHING %between% c(5470000, 5520000)]
 
 # Sub by date 
-# caribou <- caribou[JDate > 90 & JDate < 365]
+caribou <- caribou[JDate > 90 & JDate < 365]
 
 # Sub by animals that swam
 # TODO: why explicitly selecting?
@@ -139,8 +139,7 @@ ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +
   # geom_nodes(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl))# + 
   # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
-id <- 'FO2016001'
-pdf('graphics/each-id-edges.pdf')
+pdf('graphics/each-id-edges-fullyear.pdf')
 lapply(edges[, unique(ANIMAL_ID)], function(id) {
 (gnn <- (ggplot(data = edges[ANIMAL_ID == id]) + 
            geom_sf(data = islands, aes(fill = id))) +  
@@ -155,11 +154,12 @@ lapply(edges[, unique(ANIMAL_ID)], function(id) {
                    color = ANIMAL_ID)
     ) +
     geom_nodes(aes(x = EASTING,
-                                 y = NORTHING))#aes(color = vertex.names), size = 5) #+
+                                 y = NORTHING, shape = icefree))#aes(color = vertex.names), size = 5) #+
     +  geom_nodes(aes(x = endislandEAST,
-                                    y = endislandNORTH))#aes(color = vertex.names), size = 5) #+
+                                    y = endislandNORTH, shape = icefree))#aes(color = vertex.names), size = 5) #+
   + guides(color = FALSE, fill = FALSE) + 
-    facet_wrap (~ANIMAL_ID)
+    facet_wrap (~ANIMAL_ID) +
+   scale_shape_manual(values = c('TRUE' = 2, 'FALSE' = 4))
     # scale_color_viridis_d() + 
     # guides(color = FALSE, size = FALSE) +
     # geom_text(aes(x, y, xend = NULL, yend = NULL, label = label), data = labels) + 
