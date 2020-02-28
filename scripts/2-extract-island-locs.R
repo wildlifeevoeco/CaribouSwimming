@@ -112,6 +112,15 @@ edges <- edges[!(between(i, 946, 947, incbounds = TRUE) & ANIMAL_ID == 'FO201701
 
 edges[, uniqueN(ANIMAL_ID)]
 
+difXY <- c('difX', 'difY')
+edges[, (difXY) := .((.SD[[1]] - .SD[[3]]) ^ 2, (.SD[[2]] - .SD[[4]]) ^ 2),
+   .SDcols = c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')]
+edges[, stepLength := sqrt(rowSums(.SD, na.rm = TRUE)),
+   .SDcols = difXY]
+
+
+edge[, edgedist := (.SD[[1]] - .SD[[3]]) ^ 2, (.SD[[2]] - .SD[[4]]) ^ 2]
+
 # TODO: move to new script?
 library(igraph)
 net <- graph_from_data_frame(
