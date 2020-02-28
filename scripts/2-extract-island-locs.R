@@ -43,14 +43,14 @@ caribou <- caribou[JDate > 90 & JDate < 365]
 
 ### Extract islands ----
 # Extract points on different islands
-caribou[, island := 
-  st_join(
-    st_as_sf(.SD, coords = coords, crs = utm),
-    st_buffer(islands, 25), 
-    join = st_intersects)$id, 
-  .SDcols = coords]
+# caribou[, island := 
+#   st_join(
+#     st_as_sf(.SD, coords = coords, crs = utm),
+#     st_buffer(islands, 25), 
+#     join = st_intersects)$id, 
+#   .SDcols = coords]
 
-caribou[, nearest := 
+caribou[, island := 
           st_nearest_feature(
             st_as_sf(.SD, coords = coords, crs = utm),
             islands),
@@ -67,11 +67,11 @@ swimmers <- copy(caribou)
 setorder(swimmers, idate, itime)
 
 # Count NAs
-swimmers[, numbNA := sum(is.na(nearest)), ANIMAL_ID]
+swimmers[, numbNA := sum(is.na(island)), ANIMAL_ID]
 
 
 # Determine between which islands swimming occured
-swimmers[, endisland := data.table::shift(nearest, type = 'lead'),
+swimmers[, endisland := data.table::shift(island, type = 'lead'),
          ANIMAL_ID]
 
 
