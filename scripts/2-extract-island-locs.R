@@ -21,6 +21,9 @@ islands <- readRDS("output/islandsPoly.Rds")
 # Datetime
 caribou[, c('idate', 'itime') := .(as.IDate(idate), as.ITime(itime))]
 
+# Hour
+caribou[, hour := hour(itime)]
+
 # Project coordinates
 utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 coords <- c('EASTING', 'NORTHING')
