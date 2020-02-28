@@ -35,7 +35,7 @@ caribou[, (coords) := as.data.table(project(cbind(X_COORD, Y_COORD), utm$proj4st
 #                      NORTHING %between% c(5470000, 5520000)]
 
 # Sub by date 
-caribou <- caribou[JDate > 90 & JDate < 365]
+# caribou <- caribou[JDate > 90 & JDate < 365]
 
 # Sub by animals that swam
 # TODO: why explicitly selecting?
@@ -130,24 +130,34 @@ ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +
   # geom_nodes(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl))# + 
   # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
-(gnn <- (ggplot() + geom_sf(data = islands, aes(fill = id))) +  
+id <- 'FO2016001'
+pdf('graphics/each-id-edges.pdf')
+lapply(edges[, unique(ANIMAL_ID)], function(id) {
+(gnn <- (ggplot(data = edges[ANIMAL_ID == id]) + 
+           geom_sf(data = islands, aes(fill = id))) +  
+    ylim(edges[ANIMAL_ID == id, min(NORTHING) - 1000], edges[ANIMAL_ID == id, max(NORTHING) + 1000]) +
+    xlim(edges[ANIMAL_ID == id, min(EASTING) - 1000], edges[ANIMAL_ID == id, max(EASTING) + 1000]) +
     # ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
     # xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
-    geom_edges(data = edges, aes(x = EASTING,
+    geom_edges(aes(x = EASTING,
                    y = NORTHING, 
                    xend = endislandEAST,
                    yend = endislandNORTH,
                    color = ANIMAL_ID)
     ) +
-    geom_nodes(data = edges, aes(x = EASTING,
+    geom_nodes(aes(x = EASTING,
                                  y = NORTHING))#aes(color = vertex.names), size = 5) #+
-    + guides(color = FALSE, fill = FALSE)
+    +  geom_nodes(aes(x = endislandEAST,
+                                    y = endislandNORTH))#aes(color = vertex.names), size = 5) #+
+  + guides(color = FALSE, fill = FALSE) + 
+    facet_wrap (~ANIMAL_ID)
     # scale_color_viridis_d() + 
     # guides(color = FALSE, size = FALSE) +
     # geom_text(aes(x, y, xend = NULL, yend = NULL, label = label), data = labels) + 
     # p
 )
-
+})
+dev.off()
 View(caribou[ANIMAL_ID == 'FO2016011'])
 
 # TODO: careful island != isnt because endisland is na
