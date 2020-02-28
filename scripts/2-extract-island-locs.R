@@ -87,7 +87,7 @@ swimmers[island != endisland,
 
 # Island run by individiual
 swimmers[, islandrun := rleid(island), ANIMAL_ID]
-
+swimmers[, islandlen := .N * 2 / 24, .(islandrun, ANIMAL_ID)]
 
 # Count number of fixes on each island
 swimmers[, islandCountTotal := .N, island]
