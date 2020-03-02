@@ -26,14 +26,14 @@ that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
 to avoid predators [@Bergerud1985], and access islands during calving
 [@Bergerud1990]. Even for adept swimmers like caribou, the energetic
 expenditure of swimming for quadrupedal mammals is significantly higher than
-walking or running, <!--[@Fish1993]--> while drowning is also possible [@Miller1985].
+walking or running, <!--[@Fish1993]--> and drowning is also possible [@Miller1985].
 Despite a large number of coastal and island caribou herds, only a handful of
 examples have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012].
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada, is home to
 approximately 300 woodland caribou. During routine fieldwork on May 30, 2017, we
 observed an unmarked adult male caribou swim between Western and Eastern Indian
-Islands (Figure 1), a swim of at least 470 m which took ~9 minutes (~52 m per
+Islands (Figure 1), a distance of at least 470 m which took ~9 minutes (~52 m per
 minute). This observation prompted us to investigate whether swimming behaviour
 was common among GPS radio-collared caribou in the population (n = 29 adult
 females; 1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario, Canada). We
