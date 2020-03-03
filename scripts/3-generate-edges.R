@@ -46,3 +46,5 @@ net <- graph_from_data_frame(
 )
 
 ### Output ----
+saveRDS(edges, 'output/island-edges.Rds')
+saveRDS(net, 'output/island-network.Rds')
