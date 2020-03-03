@@ -37,6 +37,10 @@ edges[, stepLength := sqrt(rowSums(.SD, na.rm = TRUE)),
       .SDcols = difXY]
 
 
+### Counts ----
+edges[, .N, ANIMAL_ID]
+edges[, .N, .(island, endisland)]
+
 ### Generate igraph network ----
 net <- graph_from_data_frame(
   edges[, .N, .(island, endisland)], directed = TRUE,
