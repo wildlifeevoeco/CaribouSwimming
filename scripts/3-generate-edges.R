@@ -1,15 +1,11 @@
-### Generate edges ====
+### Generate edges and island network ====
 # Quinn M.R. Webber, Jack G. Hendrix, Alec L. Robitaille,  Eric Vander Wal
 
 
 ### Packages ----
 libs <- c(
   'data.table',
-  'sf',
-  'raster',
-  'rgdal',
-  'igraph',
-  'ggnetwork'
+  'igraph'
 )
 
 lapply(libs, require, character.only = TRUE)
