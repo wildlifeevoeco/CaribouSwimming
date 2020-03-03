@@ -14,7 +14,7 @@ lapply(libs, require, character.only = TRUE)
 
 ### Load data ----
 caribou <- fread('input/FogoCaribou.csv')
-islands <- readRDS("output/islandsPoly.Rds")
+islands <- readRDS('output/islandsPoly.Rds')
 
 ### Prep data ----
 # Datetime
