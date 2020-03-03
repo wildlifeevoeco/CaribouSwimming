@@ -1,4 +1,4 @@
-### Extract Island Caribou ====
+### Extract island locs ====
 # Quinn M.R. Webber, Jack G. Hendrix, Alec L. Robitaille,  Eric Vander Wal
 
 
