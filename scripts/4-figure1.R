@@ -1,5 +1,24 @@
+### Figure 1 ====
+# Quinn M.R. Webber, Jack G. Hendrix, Alec L. Robitaille,  Eric Vander Wal
 
 
+### Packages ----
+libs <- c(
+  'data.table',
+  'sf',
+  'igraph',
+  'ggnetwork',
+  'mapview'
+)
+lapply(libs, require, character.only = TRUE)
+
+### Data ----
+islands <- readRDS("output/islandsPoly.Rds")
+edges <- readRDS('output/island-edges.Rds')
+net <- readRDS('output/island-network.Rds')
+
+
+### Figure 1 ----
 ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +  
   # scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
   geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N)) + 
