@@ -7,8 +7,7 @@ libs <- c(
   'data.table',
   'sf',
   'raster',
-  'rgdal',
-  'ggnetwork'
+  'rgdal'
 )
 lapply(libs, require, character.only = TRUE)
 
