@@ -62,10 +62,27 @@ part of a series of translocations and introductions throughout the province
 (Bergerud & Mercer 1989). -->
 
 Caribou may swim between islands in the ocean for similar reasons that drive
-caribou swimming in freshwater [@Leblond2016]. We present two
-explanations for these swimming events, forage limitation [@Miller2002] and
-predator avoidance [@Jeffery2007], and discuss why these swimming events
-appear to be relatively commonplace in the population.
+caribou swimming in freshwater [@Leblond2016]. We propose that one such
+explanation, the forage limitation hypothesis, is likely driving these oceanic
+swimming events [@Miller2002].
+
+Predation pressure is also known to affect caribou swimming behaviour, both in
+immediate situations to escape predators [@Bergerud1990] and also pre-emptively
+to give birth or raise calves in safer areas like isolated islands
+[@Bergerud1985]. The Fogo Island archipelago does not contain historic caribou
+predators such as wolves (*Canis lupus*) or black bears (*Ursus americanus*),
+leaving coyotes (*Canis latrans*) as the top predator. Coyotes may predate
+calves [@Rayl2014] but do not pose a substantial risk to adult caribou
+[@Bastille-Rousseau2016]; predation in general does not exert as strong a force
+on Fogo Island caribou as in mainland populations. Calves that are most
+vulnerable to predation likely face a much higher energetic cost of oceanic
+swimming than do adults, and indeed none of the females observed swimming had a
+calf with them at the time.<!-- female-centric rather than time-of-year
+["swimming events occurred in the weeks after calves were born"] seems better,
+if we can confirm this--> Given the frequency of these swimming events, and that
+swimming in the ocean with a calf-at-heel is riskier than other predator
+avoidance strategies, we suspect that predation risk is not a main driver of
+oceanic swimming in Fogo Island caribou.
 
 **Forage limitation**
 
@@ -91,50 +108,26 @@ limitation in animal habitat selection patterns remains unknown,
 but swimming between islands may in part be explained by forage limitation and
 conspecific competition.
 
-**Predator avoidance**
-
-Predator avoidance could also contribute to swimming behaviour of caribou
-[@Miller2002]. During calving, female caribou are known to swim to small islands
-in freshwater lakes and give birth, or with their calves after birth, to avoid
-predation [@Bergerud1985]. The use of shoreline habitat in summer is considered
-an effective anti-predator calving strategy by allowing for swimming to islands
-or peninsulas as a predation avoidance flight response [@Bergerud1990]. The use
-of water, and by association occasionally swimming, is therefore part of the
-fine-scale interactions between caribou and their predators and the use of
-islands appears to be an effective anti-predator strategy.
-
-Historic predators of caribou such as wolves (*Canis lupus*) and black bears
-(*Ursus americanus*) are not present in the Fogo Island archipelago, thus
-leaving coyotes (*Canis latrans*) as the top predator. Predation by coyotes on
-adult caribou is relatively rare [@Bastille-Rousseau2016], so the potential
-effect of predators on caribou swimming behaviour is limited to non-consumptive
-effects associated with encounters and subsequent flight response. Adult females
-with calves at heel may be an exception because calves are highly susceptible to
-coyotes [@Rayl2014], but the energetic costs for calves to swim in the ocean is
-likely far greater than adults. As one might expect, none <!--confirm--> of the
-86 swimming events we observed occurred in the weeks after calves were born,
-suggesting swimming with in the ocean with a calf-at-heel is likely more risky
-than other predator avoidance behaviours.
-
-<!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
-
 **Individual variation**
 
-In total, 3 of 29 collared female caribou swam between islands in the Fogo
-archipelago. These swimming events were relatively frequent, on average occurring
-once every 24 <!--confirm--> days during ice-free seasons. However, despite
-relatively frequent swimming events for these three individuals, we were unable
-to identify any swimming events for the other 26 collared females. It remains
-unclear why ocean swimming is relatively common among ~10% of our marked
-population, while the other 90% never swam. Of the three collared individuals,
-two were collared on Western Indian Island and the third was collared on Fogo
-Island. It is possible that individuals born on, or that live on, Eastern and
-Western Indian Island swim are more likely to swim between islands because
-inter-island distances are shorter than between Western Indian and Fogo Islands
-(Figure 2). Furthermore, it is unclear whether swimming is more common among
-males or females. Our initial observation  was of an adult male, but our GPS
-data only includes females. <!-- QW: not sure how to finish this off -->
-<!-- QW: I'm not sure we need to say this.. 
+In total, 12 of 29 collared female caribou swam between islands in the Fogo
+archipelago. Only 3 of these 12 had more than XX swimming events during the
+study period, so approximately one third of our marked population swam
+irregularly and infrequently, whereas for ~10% of individuals these swimming
+events were relatively common, on average occurring once every 24 <!--confirm-->
+days during ice-free seasons. We did not detect any swimming events for the
+remaining 17 individuals; it remains unclear whether a subset of the population
+does not engage in this behaviour at all, or whether these swimming events are
+extremely rare for most caribou and we happened to detect some for those nine
+individuals with very few observed swimming events. We are also unable to draw
+conclusions about the prevalence of swimming in the ocean by male caribou: our
+initial visual observation was of an adult male, but our GPS data only included
+females.
+
+<!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
+
+<!-- QW: I'm not sure we need to say the below.. 
+JGH - yeah, it's pretty extra I guess. I'm not really a fan of the above para either, it's not very convincing and doesn't add much
 It is theoretically possible that these other
 females moved rapidly back and forth between islands within the 2 hour fix rate
 of our GPS collars, which we would be unable to detect. We consider this highly
@@ -142,15 +135,18 @@ unlikely given the range of residency times for caribou on any given island (min
 - max: XX - XX). <!--double check-->
 <!-- What is the typical residency time? Is this a true statement or am I just making this up? QW: this is something we will look into, I think. -->
 
-The forage limitation and predator avoidance hypotheses are generally thought to
-apply uniformly across populations, but individual caribou could evaluate the
-costs and benefits of swimming to another island differently. It is possible
-that some individuals, in our case ~10%, considered swimming less costly or that
-they perceived competition or predation more acutely than their conspecifics.
-Intrinsic life-history, physiological, or behavioural traits that might
-influence how animals vary in their assessments of swimming trade-offs remains
-unknown. Future work could assess the role of age, stress, or an individuals
-tendency to move potential predictors of swimming behaviour.
+Regardless, oceanic swimming is relatively common among a small minority of our
+marked population. Of the three collared individuals, two were collared on
+Western Indian Island and the third was collared on Fogo Island. Inter-island
+distances between Western and Eastern Indian Islands, and the smaller islands
+around them, are shorter than those between Fogo Island and others (Figure 2).
+Individuals that were born on or spend more time on these smaller islands may
+swim between them more frequently than animals that spend most of their time on
+Fogo Island. The forage limitation hypothesis is generally thought to apply
+uniformly across populations, but individual caribou could evaluate the costs
+and benefits of swimming to another island differently. It is possible that some
+individuals, in our case ~10%, considered swimming to be less costly or
+perceived competition or predation more acutely than their conspecifics.
 
 **Summary and conclusion**
 
@@ -165,26 +161,23 @@ nearby islands. Following Ideal Free Distribution theory, caribou should swim to
 new islands when the average fitness of individuals on the starting island
 exceeds the density-fitness equilibrium [@Morris1987]. While this is an ultimate
 explanation to a series of proximate observations, fine-scale density-dependent
-habitat selection is theoretically possible [@Webber2018]. Predator avoidance
-could also contribute to caribou swimming behaviour, but given the presumed low
-density of coyotes on Fogo Island and that predation primarily only affects
-young calves, we suspect predator risk is a possible, but less likely
-explanation for swimming.
-<!-- this last bit is sort of me bullshitting, not sure it's actually defensible? 
-QW: changed it a bit - how is this? -->
+habitat selection is theoretically possible [@Webber2018]. Given the presumed
+low density of coyotes on Fogo Island and the minimal risk they pose to all but
+young calves, who are least likely to engage in oceanic swimming, predation risk
+does not appear to be a major driver of the behaviour in this system.
+<!-- QW: changed it a bit - how is this? 
+JGH: simplified these two para's a bit, took out most of the predator stuff. I'm a bit confused by the sentence above citing your 2018 paper, I'm not really sure what it's saying & how it relates to the rest of the section. there were comments to that effect as well, maybe expand the end a bit to make it clearer how that relates? -->
 
 Our observations add to the evidence that caribou can, and occasionally do, swim
 in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Taken
 together, we suggest that swimming is likely more common than previously thought
-for caribou living on oceanic islands. We posit forage limitation and the
+for caribou living on oceanic islands, and that forage limitation and the
 associated density-dependent habitat selection is an ultimate explanation for
-why caribou swimming in the ocean, with predator avoidance as a potential
-proximate explanation. Although our inference is limited to observations, our
-observations suggest that islands represent discrete foraging patches for
-terrestrial animals that could influence fitness via increased foraging
-opportunities and safety from predators. We also suggest that individuals vary
-in their evaluation of costs and benefits of movement between these habitat
-patches.
+this phenomenon. Although our inference is limited to observations, islands
+appear to represent discrete foraging patches for terrestrial animals that can
+influence fitness via increased foraging opportunities. We also posit that
+individuals can vary in their evaluation of costs and benefits of movement
+between these habitat patches.
 
 **Acknowledgements**
 

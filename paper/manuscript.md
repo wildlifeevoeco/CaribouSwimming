@@ -18,14 +18,14 @@ of swimming for quadrupedal mammals is significantly higher than walking
 or running <!--[@Fish1993]-->, while drowning is also possible (Miller
 and Gunn 1985). Despite a large number of coastal and island caribou
 herds, only a handful of examples have documented caribou swimming in
-the ocean (e.g. Miller 1995, 2002; Jeffery, Otto, and Phillips 2007;
+the ocean (e.g. Miller 1995, 2002; Jeffery, Otto, and Phillips 2007;
 Ricca et al. 2012).
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada, is
 home to approximately 300 woodland caribou. During routine fieldwork on
 May 30, 2017, we observed an unmarked adult male caribou swim between
 Western and Eastern Indian Islands (Figure 1), a swim of at least 470 m
-which took ~9 minutes (~52 m per minute). This observation prompted us
+which took \~9 minutes (\~52 m per minute). This observation prompted us
 to investigate whether swimming behaviour was common among GPS
 radio-collared caribou in the population (n = 29 adult females; 1240g,
 GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario, Canada). We
@@ -119,8 +119,7 @@ calves to swim in the ocean is likely far greater than adults. As one
 might expect, none <!--confirm--> of the 86 swimming events we observed
 occurred in the weeks after calves were born, suggesting swimming with
 in the ocean with a calf-at-heel is likely more risky than other
-predator avoidance
-behaviours.
+predator avoidance behaviours.
 
 <!-- did the swimming events occur during the calving season? were these three breeders/non-breeders? did any of these females make these journeys with their calves?  -->
 
@@ -132,7 +131,7 @@ average occuring once every 24 <!--confirm--> days during ice-free
 seasons. However, despite relatively frequent swimming events for these
 three individuals, we were unable to identify any swimming events for
 the other 26 collared females. It remains unclear why ocean swimming is
-relatively common among ~10% of our marked population, while the other
+relatively common among \~10% of our marked population, while the other
 90% never swam. Of the three collared individuals, two were collared on
 Western Indian Island and the third was collared on Fogo Island. It is
 possible that individuals born on, or that live on, Eastern and Western
@@ -153,7 +152,7 @@ unlikely given the range of residency times for caribou on any given island (min
 The forage limitation and predator avoidance hypotheses are generally
 thought to apply uniformly across populations, but individual caribou
 could evaluate the costs and benefits of swimming to another island
-differently. It is possible that some individuals, in our case ~10%,
+differently. It is possible that some individuals, in our case \~10%,
 considered swimming less costly or that they perceived competition or
 predation more acutely than their conspecifics. Intrinsic life-history,
 physiological, or behavioural traits that might influence how animals
@@ -164,7 +163,7 @@ move potential predictors of swimming behaviour.
 **Summary and conclusion**
 
 For several decades after their introduction to Fogo Island, the caribou
-population did not exceed ~100 individuals (Bergerud and Mercer 1989,
+population did not exceed \~100 individuals (Bergerud and Mercer 1989,
 Newfoundland and Labrador Wildlife Division, unpublished data). During
 the 1990s, population density reached 300 animals and anecdotal evidence
 suggests that \[only then???\] caribou began to occupy other islands in
@@ -185,7 +184,7 @@ explanation for swimming.
 QW: changed it a bit - how is this? -->
 
 Our observations add to the evidence that caribou can, and occasionally
-do, swim in the ocean (e.g. Miller 1995, 2002; Jeffery, Otto, and
+do, swim in the ocean (e.g. Miller 1995, 2002; Jeffery, Otto, and
 Phillips 2007; Ricca et al. 2012). Taken together, we suggest that
 swimming is likely more common than previously thought for caribou
 living on oceanic islands. We posit forage limitation and the associated
@@ -254,7 +253,7 @@ along shorelines.” *Canadian Journal of Zoology* 63 (6): 1324–9.
 
 <div id="ref-Bergerud1990">
 
-Bergerud, A.T., R. Ferguson, and H.E. Butler. 1990. “Spring migration
+Bergerud, A. T., R. Ferguson, and H. E. Butler. 1990. “Spring migration
 and dispersion of woodland caribou at calving.” *Animal Behaviour* 39:
 360–68.
 
@@ -262,15 +261,15 @@ and dispersion of woodland caribou at calving.” *Animal Behaviour* 39:
 
 <div id="ref-Bergerud1989">
 
-Bergerud, A.T., and W.E. Mercer. 1989. “Caribou Introductions in Eastern
-North America.” *Wildlife Society Bulletin* 17 (2): 111–20.
+Bergerud, A. T., and W. E. Mercer. 1989. “Caribou Introductions in
+Eastern North America.” *Wildlife Society Bulletin* 17 (2): 111–20.
 
 </div>
 
 <div id="ref-Bradbury2015">
 
-Bradbury, J.W., S.L. Vehrencamp, and K.E. Clifton. 2015. “The ideal free
-antelope: foraging dispersions.” *Behavioral Ecology* arv078: 1–11.
+Bradbury, J. W., S. L. Vehrencamp, and K. E. Clifton. 2015. “The ideal
+free antelope: foraging dispersions.” *Behavioral Ecology* arv078: 1–11.
 <https://doi.org/10.1093/beheco/arv078>.
 
 </div>
@@ -287,14 +286,14 @@ caribou subpopulation?” *Rangifer*, no. 17: 51–56.
 
 Leblond, Mathieu, Martin-Hugues St-Laurent, and Steeve D. Côté. 2016.
 “Caribou, water, and ice – fine-scale movements of a migratory arctic
-ungulate in the context of climate change.” *Movement Ecology*. Movement
-Ecology, 4:14. <https://doi.org/10.1186/s40462-016-0079-4>.
+ungulate in the context of climate change.” *Movement Ecology*, 4:14.
+<https://doi.org/10.1186/s40462-016-0079-4>.
 
 </div>
 
 <div id="ref-Miller1995">
 
-Miller, F.L. 1995. “Inter-island water crossings by peary caribou,
+Miller, F. L. 1995. “Inter-island water crossings by peary caribou,
 south-central Queen Elizabeth Islands.” *Arctic* 48 (1): 8–12.
 <https://doi.org/10.14430/arctic1219>.
 
@@ -310,7 +309,7 @@ Canadian High Arctic Islands, Nunavut, 1993-94.” *Arctic* 55 (2):
 
 <div id="ref-Miller1985">
 
-Miller, F.L., and A. Gunn. 1985. “Observations of Barren-Ground Caribou
+Miller, F. L., and A. Gunn. 1985. “Observations of Barren-Ground Caribou
 Travelling on Thin Ice during Autumn Migration.” *Arctic* 39 (1): 85–88.
 <https://doi.org/10.14430/arctic2052>.
 
@@ -318,8 +317,8 @@ Travelling on Thin Ice during Autumn Migration.” *Arctic* 39 (1): 85–88.
 
 <div id="ref-Miller1977">
 
-Miller, F.L., R.H. Russell, and A. Gunn. 1977. “Interisland movements of
-Peary caribou (\<i\>Rangifer tarandus pearyi\</i\>) on western Queen
+Miller, F. L., R. H. Russell, and A. Gunn. 1977. “Interisland movements
+of Peary caribou (\<i\>Rangifer tarandus pearyi\</i\>) on western Queen
 Elizabeth Islands, Arctic Canada.” *Canadian Journal of Zoology* 55 (6):
 1029–37. <https://doi.org/10.1139/z77-131>.
 
@@ -327,15 +326,15 @@ Elizabeth Islands, Arctic Canada.” *Canadian Journal of Zoology* 55 (6):
 
 <div id="ref-Morris1987">
 
-Morris, D.W. 1987. “Tests of density-dependent habitat selection in a
+Morris, D. W. 1987. “Tests of density-dependent habitat selection in a
 patchy environment.” *Ecological Monographs* 57 (4): 269–81.
 
 </div>
 
 <div id="ref-Rayl2014">
 
-Rayl, N.D., T.K. Fuller, J.F. Organ, J.E. McDonald, S.P. Mahoney, C.
-Soulliere, S.E. Gullage, et al. 2014. “Mapping the distribution of a
+Rayl, N. D., T. K. Fuller, J. F. Organ, J. E. McDonald, S. P. Mahoney,
+C. Soulliere, S. E. Gullage, et al. 2014. “Mapping the distribution of a
 prey resource: neonate caribou in Newfoundland.” *Journal of Mammalogy*
 95 (2): 328–39. <https://doi.org/10.1644/13-MAMM-A-133.1>.
 
@@ -352,7 +351,7 @@ archipelago of Alaska.” *Biological Invasions* 14 (9): 1779–84.
 
 <div id="ref-Schaefer2016">
 
-Schaefer, J.A., S.P. Mahoney, J.N. Weir, J.G. Luther, and C.E.
+Schaefer, J. A., S. P. Mahoney, J. N. Weir, J. G. Luther, and C. E.
 Soulliere. 2016. “Decades of habitat use reveal food limitation of
 Newfoundland caribou.” *Journal of Mammalogy* 97 (2): 386–93.
 <https://doi.org/10.1093/jmammal/gyv184>.
@@ -361,7 +360,7 @@ Newfoundland caribou.” *Journal of Mammalogy* 97 (2): 386–93.
 
 <div id="ref-Webber2018">
 
-Webber, Q.M.R., and E. Vander Wal. 2018. “An evolutionary framework
+Webber, Q. M.R., and E. Vander Wal. 2018. “An evolutionary framework
 outlining the integration of individual social and spatial ecology.”
 *Journal of Animal Ecology* 87: 113–27.
 <https://doi.org/10.1111/1365-2656.12773>.
