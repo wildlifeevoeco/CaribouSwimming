@@ -20,21 +20,23 @@ net <- readRDS('output/island-network.Rds')
 
 
 ### Figure 1 ----
-ggplot() + geom_sf(data = islands, fill = '#d2c7c3', alpha = 0.45) +  
+# All ids
+ggplot() + geom_sf(data = islands, fill = '#c7c0bd') +  
   # scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
-  geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N)) + 
+  geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, 
+                             alpha = N)) + 
   ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
   xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
-  coord_sf() #+
+  coord_sf() +
+  theme(panel.background = element_rect(fill = '#d0dee5'))
 # geom_nodes(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl))# + 
 # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
+# By id
 (gnn <- (ggplot(data = edges) + 
            geom_sf(data = islands, fill = '#c7c0bd'))) +  
    ylim(edges[, min(NORTHING) - 1000], edges[, max(NORTHING) + 1000]) +
    xlim(edges[, min(EASTING) - 1000], edges[, max(EASTING) + 1000]) +
-   # ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
-   # xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
    geom_edges(aes(x = EASTING,
                   y = NORTHING, 
                   xend = endislandEAST,
