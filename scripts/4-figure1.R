@@ -36,7 +36,23 @@ edges[, (outmean) := lapply(.SD, mean),
     color = ANIMAL_ID
   ))
 
+# naedges <- ADD 0s for each jdate * animal id
 
+ndates <- merge(edges[, CJ(JDate = seq(1, 365), ANIMAL_ID)],
+                edges[, .N, by = .(JDate, ANIMAL_ID)],
+                by = c('JDate', 'ANIMAL_ID'), 
+                all = TRUE)
+ndates[is.na(N), N := 0]
+
+ggplot(data = ndates) + 
+  geom_col(aes(JDate, N, color = ANIMAL_ID)) + 
+  guides(color = FALSE) + 
+  scale_color_viridis_d()
+
+ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) + 
+  geom_col(aes(JDate, N, color = ANIMAL_ID)) + 
+  guides(color = FALSE) + 
+  scale_color_viridis_d()
 
 
 ### Other figs ----
