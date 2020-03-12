@@ -34,7 +34,7 @@ caribou[, (coords) := as.data.table(project(cbind(X_COORD, Y_COORD), utm$proj4st
 #                      NORTHING %between% c(5470000, 5520000)]
 
 # Sub by date 
-caribou <- caribou[JDate > 90 & JDate < 365]
+caribou[, season := ifelse(JDate > 90 & JDate < 365, 'icefree', 'ice')]
 
 # Sub by animals that swam
 # TODO: why explicitly selecting?
