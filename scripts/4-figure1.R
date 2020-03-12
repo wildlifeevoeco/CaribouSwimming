@@ -20,11 +20,30 @@ net <- readRDS('output/island-network.Rds')
 
 
 ### Figure 1 ----
+tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
+outmean <- list(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
+edges[, (outmean) := lapply(.SD, mean), 
+      by = .(island, ANIMAL_ID), .SDcols = tomean]
+
+
+(ggplot(data = edges[season == 'icefree']) + 
+  geom_sf(data = islands, fill = '#c7c0bd')) +
+  geom_edges(aes(
+    x = meanX,
+    y = meanY,
+    xend = endmeanX,
+    yend = endmeanY,
+    color = ANIMAL_ID
+  ))
+
+
+
+
+### Other figs ----
 # All ids
 ggplot() + geom_sf(data = islands, fill = '#c7c0bd') +  
   # scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
-  geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, 
-                             alpha = N)) + 
+  geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl)) + 
   ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
   xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
   coord_sf() +
