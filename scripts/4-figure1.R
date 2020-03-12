@@ -6,9 +6,8 @@
 libs <- c(
   'data.table',
   'sf',
-  'igraph',
   'ggnetwork',
-  'mapview'
+  'patchwork'
 )
 lapply(libs, require, character.only = TRUE)
 
