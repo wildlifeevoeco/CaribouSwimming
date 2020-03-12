@@ -71,10 +71,8 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
     facet_wrap(~region))
 
 (ghist <- ggplot(data = edges[, .N, .(ANIMAL_ID, region)]) +
-    geom_bar(aes(N, ANIMAL_ID)) +
+    geom_col(aes(N, ANIMAL_ID)) +
     guides(fill = FALSE) +
-    geom_vline(aes(xintercept = 90)) +
-    geom_vline(aes(xintercept = 365))+ 
     labs(x = 'Julian Day', y = NULL) + 
     facet_wrap(~region))
 
