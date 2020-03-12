@@ -10,8 +10,10 @@ libs <- c(
 
 lapply(libs, require, character.only = TRUE)
 
+
 ### Data ----
 caribou <- readRDS('output/islands-locs.Rds')
+
 
 ### Subset ----
 # Only between two different islands

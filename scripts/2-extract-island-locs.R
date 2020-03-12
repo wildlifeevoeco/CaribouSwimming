@@ -95,10 +95,13 @@ caribou[, islandCountID := .N, .(ANIMAL_ID, island)]
 
 
 # Edges 
-caribou[, c('endislanddate', 'endislanditime', 'endislandEAST', 'endislandNORTH') := 
-        data.table::shift(.SD, n = 1L, type = 'lead'),
-      .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING'),
-      by = ANIMAL_ID]
+caribou[, c('endislanddate',
+            'endislanditime',
+            'endislandEAST',
+            'endislandNORTH') :=
+          data.table::shift(.SD, n = 1L, type = 'lead'),
+        .SDcols = c('idate', 'itime', 'EASTING', 'NORTHING'),
+        by = ANIMAL_ID]
 
 ### Output ----
 saveRDS(caribou, 'output/islands-locs.Rds')
