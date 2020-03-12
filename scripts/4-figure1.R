@@ -20,7 +20,7 @@ net <- readRDS('output/island-network.Rds')
 
 
 ### Figure 1 ----
-ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +  
+ggplot() + geom_sf(data = islands, fill = '#d2c7c3', alpha = 0.45) +  
   # scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
   geom_edges(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl, size = N)) + 
   ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
@@ -44,7 +44,7 @@ ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +
  guides(color = FALSE, fill = FALSE) + 
    scale_shape_manual(values = c('TRUE' = 2, 'FALSE' = 4))+
  scale_color_viridis_d() +
-  theme(panel.background = element_rect(fill = '#d0dee5'))
+  theme(panel.background = element_rect(fill = '#d0dee5')) 
  # guides(color = FALSE, size = FALSE) +
  # geom_text(aes(x, y, xend = NULL, yend = NULL, label = label), data = labels) + 
  # p
