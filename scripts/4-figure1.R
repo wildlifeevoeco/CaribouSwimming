@@ -20,30 +20,39 @@ net <- readRDS('output/island-network.Rds')
 
 ### Figure 1 ----
 tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
-outmean <- list(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
+outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
 edges[, (outmean) := lapply(.SD, mean), 
       by = .(island, ANIMAL_ID), .SDcols = tomean]
 
 
-(ggplot(data = edges[season == 'icefree']) + 
-  geom_sf(data = islands, fill = '#c7c0bd')) +
-  geom_edges(aes(
-    x = meanX,
-    y = meanY,
-    xend = endmeanX,
-    yend = endmeanY,
-    color = ANIMAL_ID
-  ))
+(gnet <- ggplot(data = edges[season == 'icefree']) +
+    geom_sf(data = islands, fill = '#c7c0bd') +
+    geom_edges(
+      aes(
+        x = meanX,
+        y = meanY,
+        xend = endmeanX,
+        yend = endmeanY,
+        color = ANIMAL_ID
+      ),
+      size = 2
+    ) +
+    guides(color = FALSE) +
+    scale_color_viridis_d()
+)
 
-ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) + 
+gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) + 
   geom_col(aes(JDate, N, color = ANIMAL_ID)) + 
   guides(color = FALSE) + 
   scale_color_viridis_d()
 
-ggplot(data = edges) + 
+(ghist <- ggplot(data = edges) + 
   geom_histogram(aes(JDate, fill = ANIMAL_ID)) + 
   guides(fill = FALSE) + 
-  scale_fill_viridis_d()
+  scale_fill_viridis_d())
+
+gnet / ghist + 
+  plot_layout(heights = c(3, 1))
 
 ### Other figs ----
 # All ids
