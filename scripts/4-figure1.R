@@ -29,36 +29,25 @@ ggplot() + geom_sf(data = islands, fill = 'beige', alpha = 0.45) +
 # geom_nodes(data = net, aes(xisl, yisl, xend = xendisl, yend = yendisl))# + 
 # geom_nodetext(data = net, aes(xisl, yisl, label = name))
 
-pdf('graphics/each-id-edges-fullyear.pdf')
-lapply(edges[, unique(ANIMAL_ID)], function(id) {
-  (gnn <- (ggplot(data = edges[ANIMAL_ID == id]) + 
-             geom_sf(data = islands, aes(fill = id))) +  
-     ylim(edges[ANIMAL_ID == id, min(NORTHING) - 1000], edges[ANIMAL_ID == id, max(NORTHING) + 1000]) +
-     xlim(edges[ANIMAL_ID == id, min(EASTING) - 1000], edges[ANIMAL_ID == id, max(EASTING) + 1000]) +
-     # ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
-     # xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
-     geom_edges(aes(x = EASTING,
-                    y = NORTHING, 
-                    xend = endislandEAST,
-                    yend = endislandNORTH,
-                    color = ANIMAL_ID)
-     ) +
-     geom_nodes(aes(x = EASTING,
-                    y = NORTHING, shape = icefree))#aes(color = vertex.names), size = 5) #+
-   +  geom_nodes(aes(x = endislandEAST,
-                     y = endislandNORTH, shape = icefree))#aes(color = vertex.names), size = 5) #+
-   + guides(color = FALSE, fill = FALSE) + 
-     facet_wrap (~ANIMAL_ID) +
-     scale_shape_manual(values = c('TRUE' = 2, 'FALSE' = 4))
-   # scale_color_viridis_d() + 
-   # guides(color = FALSE, size = FALSE) +
-   # geom_text(aes(x, y, xend = NULL, yend = NULL, label = label), data = labels) + 
-   # p
-  )
-})
-dev.off()
-View(caribou[ANIMAL_ID == 'FO2016011'])
+(gnn <- (ggplot(data = edges) + 
+           geom_sf(data = islands, fill = '#c7c0bd'))) +  
+   ylim(edges[, min(NORTHING) - 1000], edges[, max(NORTHING) + 1000]) +
+   xlim(edges[, min(EASTING) - 1000], edges[, max(EASTING) + 1000]) +
+   # ylim(min(edges$NORTHING) - 1000, max(edges$NORTHING) + 1000) +
+   # xlim(min(edges$EASTING) - 1000, max(edges$EASTING) + 1000) +
+   geom_edges(aes(x = EASTING,
+                  y = NORTHING, 
+                  xend = endislandEAST,
+                  yend = endislandNORTH,
+                  color = ANIMAL_ID)
+   ) +
+ guides(color = FALSE, fill = FALSE) + 
+   scale_shape_manual(values = c('TRUE' = 2, 'FALSE' = 4))+
+ scale_color_viridis_d() +
+  theme(panel.background = element_rect(fill = '#d0dee5'))
+ # guides(color = FALSE, size = FALSE) +
+ # geom_text(aes(x, y, xend = NULL, yend = NULL, label = label), data = labels) + 
+ # p
+)
 
-# TODO: careful island != isnt because endisland is na
-
-
+  
