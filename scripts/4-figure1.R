@@ -38,18 +38,21 @@ edges[, (outmean) := lapply(.SD, mean),
       size = 2
     ) +
     guides(color = FALSE) +
-    scale_color_viridis_d()
-)
+    scale_color_viridis_d() + 
+    labs(x = NULL, y = NULL))
 
 gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) + 
   geom_col(aes(JDate, N, color = ANIMAL_ID)) + 
   guides(color = FALSE) + 
   scale_color_viridis_d()
 
-(ghist <- ggplot(data = edges) + 
-  geom_histogram(aes(JDate, fill = ANIMAL_ID)) + 
-  guides(fill = FALSE) + 
-  scale_fill_viridis_d())
+(ghist <- ggplot(data = edges) +
+    geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
+    guides(fill = FALSE) +
+    scale_fill_viridis_d() +
+    geom_vline(aes(xintercept = 90)) +
+    geom_vline(aes(xintercept = 365))+ 
+    labs(x = 'Julian Day', y = NULL))
 
 gnet / ghist + 
   plot_layout(heights = c(3, 1))
