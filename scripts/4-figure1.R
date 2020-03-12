@@ -36,6 +36,7 @@ edges[, (outmean) := lapply(.SD, mean),
       ),
       size = 2
     ) +
+    # geom_point(aes(median(meanX), median(meanY) + 6500), size = 4) + 
     guides(color = FALSE) +
     scale_color_viridis_d() + 
     labs(x = NULL, y = NULL))
@@ -58,7 +59,7 @@ gnet / ghist +
 
 ### Other figs ----
 # south/west
-edges[, region := ifelse(meanX < median(meanX), 'South', 'North')]
+edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
 
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
