@@ -41,6 +41,10 @@ ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) +
   guides(color = FALSE) + 
   scale_color_viridis_d()
 
+ggplot(data = edges) + 
+  geom_histogram(aes(JDate, fill = ANIMAL_ID)) + 
+  guides(fill = FALSE) + 
+  scale_fill_viridis_d()
 
 ### Other figs ----
 # All ids
