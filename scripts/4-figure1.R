@@ -24,7 +24,6 @@ outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
 edges[, (outmean) := lapply(.SD, mean), 
       by = .(island, ANIMAL_ID), .SDcols = tomean]
 
-
 (gnet <- ggplot(data = edges[season == 'icefree']) +
     geom_sf(data = islands, fill = '#c7c0bd') +
     geom_edges(
@@ -58,6 +57,27 @@ gnet / ghist +
   plot_layout(heights = c(3, 1))
 
 ### Other figs ----
+# south/west
+edges[, region := ifelse(meanX < median(meanX), 'South', 'North')]
+
+(ghist <- ggplot(data = edges) +
+    geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
+    guides(fill = FALSE) +
+    scale_fill_viridis_d() +
+    geom_vline(aes(xintercept = 90)) +
+    geom_vline(aes(xintercept = 365))+ 
+    labs(x = 'Julian Day', y = NULL) + 
+    facet_wrap(~region))
+
+(ghist <- ggplot(data = edges[, .N, .(ANIMAL_ID, region)]) +
+    geom_bar(aes(N, ANIMAL_ID)) +
+    guides(fill = FALSE) +
+    geom_vline(aes(xintercept = 90)) +
+    geom_vline(aes(xintercept = 365))+ 
+    labs(x = 'Julian Day', y = NULL) + 
+    facet_wrap(~region))
+
+
 # All ids
 ggplot() + geom_sf(data = islands, fill = '#c7c0bd') +  
   # scale_fill_manual(values = c('#d7efee', '#afa89a'), limits = c('0', '1')) +
