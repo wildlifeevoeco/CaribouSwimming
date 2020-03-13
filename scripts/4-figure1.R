@@ -55,7 +55,7 @@ gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
     guides(fill = FALSE) +
     scale_fill_viridis_d() +
-    geom_vline(aes(xintercept = 90)) +
+    geom_vline(aes(xintercept = lowjdate)) +
     geom_vline(aes(xintercept = 365))+ 
     labs(x = 'Julian Day', y = NULL))
 
@@ -70,16 +70,16 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
     guides(fill = FALSE) +
     scale_fill_viridis_d() +
-    geom_vline(aes(xintercept = 90)) +
+    geom_vline(aes(xintercept = lowjdate)) +
     geom_vline(aes(xintercept = 365))+ 
     labs(x = 'Julian Day', y = NULL) + 
     facet_wrap(~region))
 
-(ghist <- ggplot(data = edges[, .N, .(ANIMAL_ID, region)]) +
+(ghist <- ggplot(data = edges[, .N, .(ANIMAL_ID, region, season)]) +
     geom_col(aes(N, ANIMAL_ID)) +
     guides(fill = FALSE) +
-    labs(x = 'Julian Day', y = NULL) + 
-    facet_wrap(~region))
+    labs(x = 'Count', y = NULL) + 
+    facet_wrap(season~region))
 
 
 # All ids
