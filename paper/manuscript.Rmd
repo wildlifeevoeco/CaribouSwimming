@@ -48,9 +48,7 @@ remotely sensed observations, residents of Fogo Island have also reported
 observing caribou swimming between islands on numerous occasions.
 
 <!-- add numbers in here -->
-In total, these 86 swimming events occurred in month (n = Y), month (n = Y), and
-month (n = Y), while the remaining events were in month, month, and month (n =
-Y). On average, caribou swam between islands approximately ever 24 days, but
+In total, these XX swimming events occurred throughout the ice-free season, with a peak in November. On average, caribou swam between islands approximately ever XX days, but
 some individuals swam up to XX times per week/month/whatever. <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
@@ -63,7 +61,7 @@ part of a series of translocations and introductions throughout the province
 
 Caribou may swim between islands in the ocean for similar reasons that drive
 caribou swimming in freshwater [@Leblond2016]. We propose that one such
-explanation, the forage limitation hypothesis, is likely driving these oceanic
+explanation, the forage limitation hypothesis, is likely driving oceanic
 swimming events [@Miller2002].
 
 Predation pressure is also known to affect caribou swimming behaviour, both in
@@ -83,8 +81,6 @@ if we can confirm this--> Given the frequency of these swimming events, and that
 swimming in the ocean with a calf-at-heel is riskier than other predator
 avoidance strategies, we suspect that predation risk is not a main driver of
 oceanic swimming in Fogo Island caribou.
-
-**Forage limitation**
 
 Forage limitation and over-grazing is a major concern for caribou populations
 [@Schaefer2016] and could explain movement between islands. Conspecific
