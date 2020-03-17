@@ -25,12 +25,10 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 
-
-
-
-
-
-
+```{r pkgs}
+library(spatsoc)
+library(data.table)
+```
 
 
 
