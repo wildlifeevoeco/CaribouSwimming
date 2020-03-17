@@ -54,11 +54,6 @@ to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird-->
 
-<!-- Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
-Change Island (n = 5 animals in 1964) from the main Island of Newfoundland as
-part of a series of translocations and introductions throughout the province
-(Bergerud & Mercer 1989). -->
-
 Caribou may swim between islands in the ocean for similar reasons that drive
 caribou swimming in freshwater [@Leblond2016]. We propose that one such
 explanation, the forage limitation hypothesis, is likely driving oceanic
@@ -82,13 +77,23 @@ swimming in the ocean with a calf-at-heel is riskier than other predator
 avoidance strategies, we suspect that predation risk is not a main driver of
 oceanic swimming in Fogo Island caribou.
 
+
 Forage limitation and over-grazing is a major concern for caribou populations
 [@Schaefer2016] and could explain movement between islands. Conspecific
 competition for resources driven by reduced foraging opportunities can decrease
-reproductive success of adult females [@Schaefer2016]. Forage scarcity has been
+reproductive success of adult females [@Schaefer2016].Forage scarcity has been
 proposed as a potential reason for caribou moving between arctic islands on the
-sea-ice in winter [@Miller1977]. For very small islands, over-grazing by newly
-arrived caribou may rapidly deplete forage [@Bergerud1990]. Without sea ice,
+sea-ice in winter [@Miller1977]. Caribou were introduced to Fogo Island (n = 26
+animals between 1964–67) and Change Island (n = 5 animals in 1964) from
+Newfoundland as part of a series of translocations and introductions throughout
+the province (Bergerud & Mercer 1989). It is unknown when caribou began
+colonizing nearby islands, but given that some are small, it is likely forage is
+depleted relatively quickly. While forage depletion is possible for Fogo Island,
+For very small islands, over-grazing by newly arrived caribou may rapidly
+deplete forage [@Bergerud1990].
+
+
+Without sea ice,
 movement from the mainland to an island, or between islands, requires caribou to
 assess the trade-off associated with swimming.
 
