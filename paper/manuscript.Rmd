@@ -32,6 +32,10 @@ library(data.table)
 
 
 
+```{r input}
+edges <- readRDS('output/island-edges.Rds')
+icefree <- edges[season == 'icefree']
+```
 
 \newpage
 
