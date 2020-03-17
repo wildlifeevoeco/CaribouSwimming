@@ -170,8 +170,11 @@ habitat selection is theoretically possible [@Webber2018]. Given the presumed
 low density of coyotes on Fogo Island and the minimal risk they pose to all but
 young calves, who are least likely to engage in oceanic swimming, predation risk
 does not appear to be a major driver of the behaviour in this system.
-<!-- QW: changed it a bit - how is this? 
-JGH: simplified these two para's a bit, took out most of the predator stuff. I'm a bit confused by the sentence above citing your 2018 paper, I'm not really sure what it's saying & how it relates to the rest of the section. there were comments to that effect as well, maybe expand the end a bit to make it clearer how that relates? -->
+<!-- QW: changed it a bit - how is this? JGH: simplified these two para's a bit,
+took out most of the predator stuff. I'm a bit confused by the sentence above
+citing your 2018 paper, I'm not really sure what it's saying & how it relates to
+the rest of the section. there were comments to that effect as well, maybe
+expand the end a bit to make it clearer how that relates? -->
 
 Our observations add to the evidence that caribou can, and occasionally do, swim
 in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Taken
@@ -197,7 +200,8 @@ Council (QMRW, JGH, EVW). We respectfully acknowledge the territory in which
 data were collected and analyzed as the ancestral homelands of the Beothuk, and
 the island of Newfoundland as the ancestral homelands of the Mi’kmaq and
 Beothuk.
-<!-- Simplified the funding statement, do we need to name the specific scholarships/grants? Eric opinion??-->
+<!-- Simplified the funding statement, do we need to name the specific
+scholarships/grants? Eric opinion??-->
 
 \newpage
 
