@@ -137,8 +137,8 @@ perceived competition or predation more acutely than their conspecifics.
 For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals [@Bergerud1989, Newfoundland and
 Labrador Wildlife Division, unpublished data]. During the 1990s, population
-density reached 300 animals and anecdotal evidence suggests that
-caribou began to occupy other islands in the archipelago. We surmise that as
+density reached 300 animals and it is unknown when caribou began to occupy other
+islands, anecdotal evidence suggests it was during the 1990s. We surmise that as
 competition among conspecifics increased along with population size,
 density-dependent habitat selection resulted in expansion of the population to
 nearby islands. Following Ideal Free Distribution theory, caribou should swim to
@@ -146,9 +146,9 @@ new islands when the average fitness of individuals on the starting island
 exceeds the density-fitness equilibrium [@Morris1987]. While this is an ultimate
 explanation to a series of proximate observations, fine-scale density-dependent
 habitat selection is theoretically possible [@Webber2018]. Given the presumed
-low density of coyotes on Fogo Island and the minimal risk they pose to all but
-young calves, who are least likely to engage in oceanic swimming, predation risk
-does not appear to be a major driver of the behaviour in this system.
+low density of coyotes on Fogo Island and the minimal risk they pose, predation risk
+does not appear to be a major driver of swimming.
+
 <!-- QW: changed it a bit - how is this? JGH: simplified these two para's a bit,
 took out most of the predator stuff. I'm a bit confused by the sentence above
 citing your 2018 paper, I'm not really sure what it's saying & how it relates to
