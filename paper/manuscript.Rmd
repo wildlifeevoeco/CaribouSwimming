@@ -55,7 +55,8 @@ XX days, but some individuals swam up to XX times per week/month/whatever.
 <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
-of context before getting back into it... which seemed weird-->
+of context before getting back into it... which seemed weird
+QW: I agree. I've added some Fogo context-->
 
 Caribou may swim between islands in the ocean for similar reasons that drive
 caribou swimming in freshwater [@Leblond2016]. We propose that one such
