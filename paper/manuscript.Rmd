@@ -17,6 +17,24 @@ bibliography: ../references/swim.bib
 #csl: csl.csl
 ---
 
+
+```{r knitropts, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      fig.align = 'center')
+```
+
+
+
+
+
+
+
+
+
+
+
+
 \newpage
 
 **Introduction**
