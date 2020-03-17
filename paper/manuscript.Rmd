@@ -24,11 +24,12 @@ bibliography: ../references/swim.bib
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
 to avoid predators [@Bergerud1985], and access islands during calving
-[@Bergerud1990]. Even for adept swimmers like caribou, the energetic
-expenditure of swimming for quadrupedal mammals is significantly higher than
-walking or running, <!--[@Fish1993]--> and drowning is also possible [@Miller1985].
-Despite a large number of coastal and island caribou herds, only a handful of
-examples have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012].
+[@Bergerud1990]. Even for adept swimmers like caribou, the energetic expenditure
+of swimming for quadrupedal mammals is significantly higher than walking or
+running, <!--[@Fish1993]--> and drowning is also possible [@Miller1985]. Despite
+a large number of coastal and island caribou herds, only a handful of examples
+have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002;
+@Jeffery2007; @Ricca2012].
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada, is home to
 approximately 300 woodland caribou. During routine fieldwork on May 30, 2017, we
@@ -41,15 +42,17 @@ identified swimming events as two consecutive GPS (2-hour relocation rates)
 locations from an individual occurred on different islands. Northeastern
 Newfoundland typically experiences pack ice during winter and caribou are known
 locally to travel between islands by walking over the ice. We restricted our GPS
-data to the ice-free period of the year (April 1 - November 25)<!--confirm dates
+data to the ice-free period of the year (April 1 - December 31) <!--confirm dates
 --> and we identified three adult female caribou that collectively had 86
 swimming events over three years (Figure 2). In addition to our own visual and
 remotely sensed observations, residents of Fogo Island have also reported
 observing caribou swimming between islands on numerous occasions.
 
 <!-- add numbers in here -->
-In total, these XX swimming events occurred throughout the ice-free season, with a peak in November. On average, caribou swam between islands approximately ever XX days, but
-some individuals swam up to XX times per week/month/whatever. <!--Is it better
+In total, these XX swimming events occurred throughout the ice-free season, with
+a peak in November. On average, caribou swam between islands approximately ever
+XX days, but some individuals swam up to XX times per week/month/whatever.
+<!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird-->
@@ -59,6 +62,7 @@ caribou swimming in freshwater [@Leblond2016]. We propose that one such
 explanation, the forage limitation hypothesis, is likely driving oceanic
 swimming events [@Miller2002].
 
+<!-- DO WE WANT TO CUT THIS? -->
 Predation pressure is also known to affect caribou swimming behaviour, both in
 immediate situations to escape predators [@Bergerud1990] and also pre-emptively
 to give birth or raise calves in safer areas like isolated islands
@@ -87,10 +91,8 @@ sea-ice in winter [@Miller1977]. Caribou were introduced to Fogo Island (n = 26
 animals between 1964–67) and Change Island (n = 5 animals in 1964) from
 Newfoundland as part of a series of translocations and introductions throughout
 the province (Bergerud & Mercer 1989). It is unknown when caribou began
-colonizing nearby islands, but given that some are small, it is likely forage is
-depleted relatively quickly. While forage depletion is possible for Fogo Island,
-For very small islands, over-grazing by newly arrived caribou may rapidly
-deplete forage [@Bergerud1990].
+colonizing nearby islands, but given that some are small, over-grazing by newly
+arrived caribou may rapidly deplete forage [@Bergerud1990]. We posit that some caribou swim to nearby islands and forage 
 
 
 Without sea ice,
