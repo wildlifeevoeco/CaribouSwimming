@@ -63,26 +63,6 @@ caribou swimming in freshwater [@Leblond2016]. We propose that one such
 explanation, the forage limitation hypothesis, is likely driving oceanic
 swimming events [@Miller2002].
 
-<!-- DO WE WANT TO CUT THIS? -->
-Predation pressure is also known to affect caribou swimming behaviour, both in
-immediate situations to escape predators [@Bergerud1990] and also pre-emptively
-to give birth or raise calves in safer areas like isolated islands
-[@Bergerud1985]. The Fogo Island archipelago does not contain historic caribou
-predators such as wolves (*Canis lupus*) or black bears (*Ursus americanus*),
-leaving coyotes (*Canis latrans*) as the top predator. Coyotes may predate
-calves [@Rayl2014] but do not pose a substantial risk to adult caribou
-[@Bastille-Rousseau2016]; predation in general does not exert as strong a force
-on Fogo Island caribou as in mainland populations. Calves that are most
-vulnerable to predation likely face a much higher energetic cost of oceanic
-swimming than do adults, and indeed none of the females observed swimming had a
-calf with them at the time.<!-- female-centric rather than time-of-year
-["swimming events occurred in the weeks after calves were born"] seems better,
-if we can confirm this--> Given the frequency of these swimming events, and that
-swimming in the ocean with a calf-at-heel is riskier than other predator
-avoidance strategies, we suspect that predation risk is not a main driver of
-oceanic swimming in Fogo Island caribou.
-
-
 Forage limitation and over-grazing is a major concern for caribou populations
 [@Schaefer2016] and could explain movement between islands. Conspecific
 competition for resources driven by reduced foraging opportunities can decrease
