@@ -62,8 +62,6 @@ events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird
 QW: I agree. I've added some Fogo context-->
 
-
-
 Forage limitation and over-grazing is a major concern for caribou populations
 [@Schaefer2016] and could explain movement between islands. Conspecific
 competition for resources driven by reduced foraging opportunities can decrease
@@ -139,7 +137,7 @@ perceived competition or predation more acutely than their conspecifics.
 For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals [@Bergerud1989, Newfoundland and
 Labrador Wildlife Division, unpublished data]. During the 1990s, population
-density reached 300 animals and anecdotal evidence suggests that [only then???]
+density reached 300 animals and anecdotal evidence suggests that
 caribou began to occupy other islands in the archipelago. We surmise that as
 competition among conspecifics increased along with population size,
 density-dependent habitat selection resulted in expansion of the population to
