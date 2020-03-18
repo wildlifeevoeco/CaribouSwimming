@@ -78,7 +78,6 @@ depletion since the introduction of caribou in the 1960s. More likely, however,
 is fine-scale competition for foraging resources that drives caribou to swim to
 new islands.
 
-
 Movement between islands requires caribou to assess the trade-off associated
 with swimming. This trade-off can be understood as density-dependent habitat
 selection governed by the Ideal Free Distribution [@Morris1987; @Bradbury2015].
@@ -89,10 +88,7 @@ across all patches [@Bradbury2015]. Islands act as discrete habitat patches in
 this case, but the costs associated with swimming create a trade-off when moving
 between patches. For caribou in the Fogo Island archipelago, the role of forage
 limitation in animal habitat selection patterns remains unknown, but swimming
-between islands may in part be explained by forage limitation and conspecific
-competition.
-
-**Individual variation**
+between islands may be at least partially governed by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 archipelago. Only 3 of these 12 had more than XX swimming events during the
