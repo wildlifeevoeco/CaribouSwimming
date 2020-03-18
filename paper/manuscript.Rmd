@@ -17,6 +17,44 @@ bibliography: ../references/swim.bib
 #csl: csl.csl
 ---
 
+
+```{r knitropts, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      fig.align = 'center')
+```
+
+
+```{r pkgs}
+library(spatsoc)
+library(data.table)
+```
+
+
+
+```{r input}
+edges <- readRDS('output/island-edges.Rds')
+icefree <- edges[season == 'icefree']
+```
+
+
+```{r summary-stats}
+## Only icefree
+# Number of events
+nevents <- icefree[, .N]
+
+# Number of individuals
+nids <- icefree[, uniqueN(ANIMAL_ID)]
+
+# Number of events by individual
+neventid <- icefree[, .N, ANIMAL_ID]
+
+## Full
+# Number of events by individual + icefree season
+nfull <- edges[, .N, .(ANIMAL_ID, season)]
+```
+
+
 \newpage
 
 **Introduction**
