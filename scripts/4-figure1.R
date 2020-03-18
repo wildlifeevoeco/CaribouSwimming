@@ -25,10 +25,6 @@ edges[, (outmean) := lapply(.SD, mean),
       by = .(island, ANIMAL_ID), .SDcols = tomean]
 
 
-lowjdate <- 149#90
-caribou[, season := NULL]
-caribou[, season := ifelse(JDate > lowjdate & JDate < 365, 'icefree', 'ice')]
-
 (gnet <- ggplot(data = edges[season == 'icefree']) +
     geom_sf(data = islands, fill = '#c7c0bd') +
     geom_edges(
