@@ -46,16 +46,15 @@ occasions.
 In total, these XX swimming events occurred throughout the ice-free
 season, with a peak in November. On average, caribou swam between
 islands approximately ever XX days, but some individuals swam up to XX
-times per week/month/whatever. <!--Is it better
+times per week/month/whatever. Caribou may swim between islands in the
+ocean for similar reasons that drive caribou swimming in freshwater
+(Leblond, St-Laurent, and Côté 2016). We propose that one such
+explanation, the forage limitation hypothesis, is likely driving oceanic
+swimming events (Miller 2002). <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird
 QW: I agree. I've added some Fogo context-->
-
-Caribou may swim between islands in the ocean for similar reasons that
-drive caribou swimming in freshwater (Leblond, St-Laurent, and Côté
-2016). We propose that one such explanation, the forage limitation
-hypothesis, is likely driving oceanic swimming events (Miller 2002).
 
 Forage limitation and over-grazing is a major concern for caribou
 populations (Schaefer et al. 2016) and could explain movement between
@@ -140,20 +139,23 @@ conspecifics.
 For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals (Bergerud and Mercer 1989,
 Newfoundland and Labrador Wildlife Division, unpublished data). During
-the 1990s, population density reached 300 animals and anecdotal evidence
-suggests that \[only then???\] caribou began to occupy other islands in
-the archipelago. We surmise that as competition among conspecifics
+the 1990s, population density reached 300 animals and it is unknown when
+caribou began to occupy other islands, anecdotal evidence suggests it
+was during the 1990s. We surmise that as competition among conspecifics
 increased along with population size, density-dependent habitat
 selection resulted in expansion of the population to nearby islands.
 Following Ideal Free Distribution theory, caribou should swim to new
 islands when the average fitness of individuals on the starting island
 exceeds the density-fitness equilibrium (Morris 1987). While this is an
-ultimate explanation to a series of proximate observations, fine-scale
-density-dependent habitat selection is theoretically possible (Webber
-and Vander Wal 2018). Given the presumed low density of coyotes on Fogo
-Island and the minimal risk they pose to all but young calves, who are
-least likely to engage in oceanic swimming, predation risk does not
-appear to be a major driver of the behaviour in this system.
+ultimate explanation, our data suggest caribou only remain on smaller
+islands for a few days at a time, so the fitness equilibrium remains a
+theoretical construct. More likely, however, is that fine-scale
+competition, density-dependent habitat selection, and forage depletion
+drives individuals to peridiodically swim between islands. Given the
+presumed low density of coyotes on Fogo Island and the minimal risk they
+pose, predation risk does not appear to be a major driver of
+swimming.
+
 <!-- QW: changed it a bit - how is this? JGH: simplified these two para's a bit,
 took out most of the predator stuff. I'm a bit confused by the sentence above
 citing your 2018 paper, I'm not really sure what it's saying & how it relates to
@@ -311,15 +313,6 @@ Schaefer, J.A., S.P. Mahoney, J.N. Weir, J.G. Luther, and C.E.
 Soulliere. 2016. “Decades of habitat use reveal food limitation of
 Newfoundland caribou.” *Journal of Mammalogy* 97 (2): 386–93.
 <https://doi.org/10.1093/jmammal/gyv184>.
-
-</div>
-
-<div id="ref-Webber2018">
-
-Webber, Q.M.R., and E. Vander Wal. 2018. “An evolutionary framework
-outlining the integration of individual social and spatial ecology.”
-*Journal of Animal Ecology* 87: 113–27.
-<https://doi.org/10.1111/1365-2656.12773>.
 
 </div>
 
