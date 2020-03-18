@@ -65,14 +65,14 @@ QW: I agree. I've added some Fogo context-->
 Forage limitation and over-grazing is a major concern for caribou populations
 [@Schaefer2016] and could explain movement between islands. Conspecific
 competition for resources driven by reduced foraging opportunities can decrease
-reproductive success of adult females [@Schaefer2016].Forage scarcity has been
+reproductive success of adult females [@Schaefer2016]. Forage scarcity has been
 proposed as a potential reason for caribou moving between arctic islands on the
 sea-ice in winter [@Miller1977]. Caribou were introduced to Fogo Island (n = 26
 animals between 1964–67) and Change Island (n = 5 animals in 1964) from
 Newfoundland as part of a series of translocations and introductions throughout
 the province (Bergerud & Mercer 1989). It is unknown when caribou began
 colonizing nearby islands, but given that some are small, over-grazing by newly
-arrived caribou may rapidly deplete forage [@Bergerud1990]. Although
+arrived caribou may rapidly deplete forage on an annual cycle [@Bergerud1990]. Although
 unconfirmed, it is also possible that Fogo Island has experienced forage
 depletion since the introduction of caribou in the 1960s. More likely, however,
 is fine-scale competition for foraging resources that drives caribou to swim to
