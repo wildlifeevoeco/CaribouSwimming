@@ -43,14 +43,7 @@ occasions.
 
 <!-- add numbers in here -->
 
-In total, these XX swimming events occurred throughout the ice-free
-season, with a peak in November. On average, caribou swam between
-islands approximately ever XX days, but some individuals swam up to XX
-times per year (range XX-XX). Caribou may swim between islands in the
-ocean for similar reasons they swim in freshwater (Leblond, St-Laurent,
-and Côté 2016). We propose that one such explanation, the forage
-limitation hypothesis, is likely driving oceanic swimming events (Miller
-2002). <!--Is it better
+? <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird
