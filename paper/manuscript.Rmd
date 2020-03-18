@@ -66,8 +66,13 @@ dur <- round(icefree[, mean(islandlen)], digits = 0)
 durMin <- round(icefree[, min(islandlen)], digits = 0)
 durMax <- round(icefree[, max(islandlen)], digits = 0)
 
+# Regular swimmers
 ind <- edges[ANIMAL_ID == "FO2016011" | ANIMAL_ID == "FO2017001" | ANIMAL_ID == "FO2017013"]
 indMean <- round(ind[, mean(islandlen)], digits = 0)
+
+# Irregular swimmers
+ind2 <- edges[ANIMAL_ID != "FO2016011" | ANIMAL_ID != "FO2017001" | ANIMAL_ID != "FO2017013"]
+ind2Mean <- round(ind2[, mean(islandlen)], digits = 0)
 
 ## Full
 # Number of events by individual + icefree season
@@ -150,15 +155,17 @@ limitation in animal habitat selection patterns remains unknown, but swimming
 between islands may be at least partially governed by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
-archipelago. Only `r n10` of these 12 had more than 10 swimming events during the
-study period; ~30% of the marked population swam at least once, whereas for
-~10% of individuals these swimming events were relatively common, on average
-occurring approximately every `r indMean` days during ice-free seasons. We did not
-detect any swimming events for the remaining 17 individuals. It remains unclear
-whether these individuals do not swim, or whether swimming is rare for most caribou. 
-We are also unable to draw conclusions about the prevalence of
-swimming in the ocean by male caribou: our initial visual observation was of an
-adult male, but our GPS data only included females.
+archipelago. Only `r n10` of these 12 individuals had more than 10 swimming
+events, suggesting that for ~10% of narjed individuals swimming is relatively
+common, on average occurring approximately every `r indMean` days during
+ice-free seasons. We did not detect any swimming events for the remaining 17
+individuals. It remains unclear whether these individuals do not swim, or
+whether swimming is rare for most caribou. Overall, there appears to be three
+groups of individuals: those that swim often (~`r indMean` days), those that
+swim occasionally (~`r ind2Mean` days), and those that never swam. We are also
+unable to draw conclusions about the prevalence of swimming in the ocean by male
+caribou: our initial visual observation was of an adult male, but our GPS data
+only included females.
 
 <!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
 
