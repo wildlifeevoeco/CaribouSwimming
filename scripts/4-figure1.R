@@ -24,6 +24,7 @@ outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
 edges[, (outmean) := lapply(.SD, mean), 
       by = .(island, ANIMAL_ID), .SDcols = tomean]
 
+# TODO: drop mid island
 
 (gnet <- ggplot(data = edges[season == 'icefree']) +
     geom_sf(data = islands, fill = '#c7c0bd') +
@@ -51,7 +52,7 @@ gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
     guides(fill = FALSE) +
     scale_fill_viridis_d() +
-    geom_vline(aes(xintercept = lowjdate)) +
+    geom_vline(aes(xintercept = 90)) +
     geom_vline(aes(xintercept = 365))+ 
     labs(x = 'Julian Day', y = NULL))
 
@@ -66,7 +67,7 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
     guides(fill = FALSE) +
     scale_fill_viridis_d() +
-    geom_vline(aes(xintercept = lowjdate)) +
+    geom_vline(aes(xintercept = 90)) +
     geom_vline(aes(xintercept = 365))+ 
     labs(x = 'Julian Day', y = NULL) + 
     facet_wrap(~region))
