@@ -92,17 +92,14 @@ between islands may be at least partially governed by density-dependent habitat 
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 archipelago. Only 3 of these 12 had more than XX swimming events during the
-study period, so approximately one third of our marked population swam
-irregularly and infrequently, whereas for ~10% of individuals these swimming
-events were relatively common, on average occurring once every 24 <!--confirm-->
-days during ice-free seasons. We did not detect any swimming events for the
-remaining 17 individuals; it remains unclear whether a subset of the population
-does not engage in this behaviour at all, or whether these swimming events are
-extremely rare for most caribou and we happened to detect some for those nine
-individuals with very few observed swimming events. We are also unable to draw
-conclusions about the prevalence of swimming in the ocean by male caribou: our
-initial visual observation was of an adult male, but our GPS data only included
-females.
+study period; ~30% of the marked population swam at least XX times, whereas for
+~10% of individuals these swimming events were relatively common, on average
+occurring once every XX  days during ice-free seasons. We did not
+detect any swimming events for the remaining 17 individuals. It remains unclear
+whether these individuals do not swim, or whether swimming is rare for most caribou. 
+We are also unable to draw conclusions about the prevalence of
+swimming in the ocean by male caribou: our initial visual observation was of an
+adult male, but our GPS data only included females.
 
 <!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
 
