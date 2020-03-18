@@ -56,8 +56,10 @@ gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) +
     geom_vline(aes(xintercept = 365))+ 
     labs(x = 'Julian Day', y = NULL))
 
+png("graphics/Fig2.png", width = 6000, height = 6000, units = "px", res = 600)
 gnet / ghist + 
   plot_layout(heights = c(3, 1))
+dev.off()
 
 ### Other figs ----
 # south/west
