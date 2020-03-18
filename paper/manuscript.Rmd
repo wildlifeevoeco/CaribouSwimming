@@ -115,11 +115,11 @@ swimming between islands on numerous occasions.
 In total, `r nevents` swimming events occurred throughout the ice-free season,
 with a peak in November. On average, caribou swam approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) per year and remained on those islands
-for approximately `r dur` (range = `r durMin`-`r durMax`) days before swimming again. Caribou may swim between
-islands in the ocean for similar reasons they swim in freshwater [@Leblond2016].
-We propose that one such explanation, the forage limitation hypothesis, is a
-likely explanation for oceanic swimming for caribou that live on islands in the
-Fogo Island archipelago.
+for approximately `r dur` (range = `r durMin`-`r durMax`) days before swimming
+again. Caribou may swim between islands in the ocean for similar reasons they
+swim in freshwater [@Leblond2016]. We propose that one such explanation, the
+forage limitation hypothesis, is a likely explanation for oceanic swimming for
+caribou that live on islands in the Fogo Island archipelago.
 <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
@@ -155,7 +155,7 @@ limitation in animal habitat selection patterns remains unknown, but swimming
 between islands may be at least partially governed by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
-archipelago. Only `r n10` of these 12 individuals had more than 10 swimming
+Island archipelago. Only `r n10` of these 12 individuals had more than 10 swimming
 events, suggesting that for ~10% of narjed individuals swimming is relatively
 common, on average occurring approximately every `r indMean` days during
 ice-free seasons. We did not detect any swimming events for the remaining 17
