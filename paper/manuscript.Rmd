@@ -58,10 +58,16 @@ neventidMean <- round(mean(neventid$N))
 # Min per individual
 neventidMin <- min(neventid$N)
 
+# IDs > 10 swimming
+n10 <- length(icefree[, .N, ANIMAL_ID][N > 10]$N)
+
 # Duration of time per island
 dur <- round(icefree[, mean(islandlen)], digits = 0)
 durMin <- round(icefree[, min(islandlen)], digits = 0)
 durMax <- round(icefree[, max(islandlen)], digits = 0)
+
+ind <- edges[ANIMAL_ID == "FO2016011" | ANIMAL_ID == "FO2017001" | ANIMAL_ID == "FO2017013"]
+indMean <- round(ind[, mean(islandlen)], digits = 0)
 
 ## Full
 # Number of events by individual + icefree season
@@ -144,10 +150,10 @@ limitation in animal habitat selection patterns remains unknown, but swimming
 between islands may be at least partially governed by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
-archipelago. Only 3 of these 12 had more than XX swimming events during the
+archipelago. Only `r n10` of these 12 had more than 10 swimming events during the
 study period; ~30% of the marked population swam at least once, whereas for
 ~10% of individuals these swimming events were relatively common, on average
-occurring once every XX  days during ice-free seasons. We did not
+occurring approximately every `r indMean` days during ice-free seasons. We did not
 detect any swimming events for the remaining 17 individuals. It remains unclear
 whether these individuals do not swim, or whether swimming is rare for most caribou. 
 We are also unable to draw conclusions about the prevalence of
