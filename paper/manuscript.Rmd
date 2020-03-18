@@ -54,7 +54,7 @@ a peak in November. On average, caribou swam between islands approximately ever
 XX days, but some individuals swam up to XX times per year (range XX-XX).
 Caribou may swim between islands in the ocean for similar reasons they swim in
 freshwater [@Leblond2016]. We propose that one such explanation, the forage
-limitation hypothesis, is likely driving oceanic swimming events [@Miller2002].
+limitation hypothesis, is a likely explanation for oceanic swimming for caribou that live on islands in the Fogo Island archipelago.
 <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs

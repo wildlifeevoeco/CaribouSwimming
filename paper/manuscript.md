@@ -35,8 +35,8 @@ Northeastern Newfoundland typically experiences pack ice during winter
 and caribou are known locally to travel between islands by walking over
 the ice. We restricted our GPS data to the ice-free period of the year
 (April 1 - December 31) <!--confirm dates
---> and we identified three adult female caribou that collectively had
-86 swimming events over three years (Figure 2). In addition to our own
+--> and we identified 12 adult female caribou that collectively had XX
+swimming events over three years (Figure 2). In addition to our own
 visual and remotely sensed observations, residents of Fogo Island have
 also reported observing caribou swimming between islands on numerous
 occasions.
@@ -46,11 +46,11 @@ occasions.
 In total, these XX swimming events occurred throughout the ice-free
 season, with a peak in November. On average, caribou swam between
 islands approximately ever XX days, but some individuals swam up to XX
-times per week/month/whatever. Caribou may swim between islands in the
-ocean for similar reasons that drive caribou swimming in freshwater
-(Leblond, St-Laurent, and Côté 2016). We propose that one such
-explanation, the forage limitation hypothesis, is likely driving oceanic
-swimming events (Miller 2002). <!--Is it better
+times per year (range XX-XX). Caribou may swim between islands in the
+ocean for similar reasons they swim in freshwater (Leblond, St-Laurent,
+and Côté 2016). We propose that one such explanation, the forage
+limitation hypothesis, is likely driving oceanic swimming events (Miller
+2002). <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird
