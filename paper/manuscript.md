@@ -97,11 +97,11 @@ during ice-free seasons. We did not detect any swimming events for the
 remaining 17 individuals. It remains unclear whether these individuals
 do not swim, or whether swimming is rare for most caribou. Overall,
 there appears to be three groups of individuals: those that swim often
-(~15 days), those that swim occasionally (~42 days), and those that
-never swam.  
-We are also unable to draw conclusions about the prevalence of swimming
-in the ocean by male caribou: our initial visual observation was of an
-adult male, but our GPS data only included
+(n = 3, every ~15 days), those that swim occasionally (n = 9, every ~42
+days), and those that never swam (n = 17). We are also unable to draw
+conclusions about the prevalence of swimming in the ocean by male
+caribou: our initial visual observation was of an adult male, but our
+GPS data only included
 females.
 
 <!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->

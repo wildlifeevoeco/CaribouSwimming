@@ -11,8 +11,8 @@ output:
   # bookdown::pdf_document2:
   #    number_sections: true
   #    toc: false
-   #bookdown::word_document2:
-    #reference_docx: template.docx
+  # bookdown::word_document2:
+  #  reference_docx: template.docx
 bibliography: ../references/swim.bib
 #csl: csl.csl
 ---
