@@ -112,8 +112,8 @@ unlikely given the range of residency times for caribou on any given island (min
 - max: XX - XX). <!--double check-->
 <!-- What is the typical residency time? Is this a true statement or am I just making this up? QW: this is something we will look into, I think. -->
 
-Regardless, oceanic swimming is relatively common among a small minority of our
-marked population. Of the three collared individuals, two were collared on
+Regardless, oceanic swimming is relatively common among a minority of
+marked caribou. Of the three collared individuals that swam the most, two were collared on
 Western Indian Island and the third was collared on Fogo Island. Inter-island
 distances between Western and Eastern Indian Islands, and the smaller islands
 around them, are shorter than those between Fogo Island and others (Figure 2).
@@ -143,15 +143,16 @@ between islands. Given the presumed low density of coyotes on Fogo Island and
 the minimal risk they pose, predation risk does not appear to be a major driver
 of swimming.
 
-<!-- QW: changed it a bit - how is this? JGH: simplified these two para's a bit,
+<!-- QW: changed it a bit - how is this? 
+JGH: simplified these two para's a bit,
 took out most of the predator stuff. I'm a bit confused by the sentence above
 citing your 2018 paper, I'm not really sure what it's saying & how it relates to
 the rest of the section. there were comments to that effect as well, maybe
 expand the end a bit to make it clearer how that relates? -->
 
 Our observations add to the evidence that caribou can, and occasionally do, swim
-in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Taken
-together, we suggest that swimming is likely more common than previously thought
+in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. 
+We suggest that swimming is likely more common than previously thought
 for caribou living on oceanic islands, and that forage limitation and the
 associated density-dependent habitat selection is an ultimate explanation for
 this phenomenon. Although our inference is limited to observations, islands
