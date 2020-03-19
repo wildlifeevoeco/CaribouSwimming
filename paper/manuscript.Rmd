@@ -90,7 +90,7 @@ to avoid predators [@Bergerud1985], and access islands during calving
 [@Bergerud1990]. Even for adept swimmers like caribou, the energetic expenditure
 of swimming for quadrupedal mammals is significantly higher than walking or
 running, <!--[@Fish1993]--> and drowning is also possible [@Miller1985]. Despite
-a large number of coastal and island caribou herds, only a handful of examples
+the abundance of coastal and island caribou herds, only a handful of examples
 have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002;
 @Jeffery2007; @Ricca2012].
 
@@ -101,46 +101,45 @@ Islands (Figure 1), a distance of at least 470 m which took ~9 minutes (~52 m
 per minute). This observation prompted us to investigate whether swimming
 behaviour was common among GPS radio-collared caribou in the population (n = 29
 adult females; 1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario,
-Canada). We identified swimming events as two consecutive GPS (2-hour relocation
-rates) locations from an individual occurred on different islands. Northeastern
-Newfoundland typically experiences pack ice during winter and caribou are known
-locally to travel between islands by walking over the ice. We restricted our GPS
-data to the ice-free period of the year (April 1 - December 31) and we
-identified `r nids` adult female caribou that collectively had `r nevents` swimming events
-over three years (Figure 2). In addition to our own visual and remotely sensed
-observations, residents of Fogo Island have also reported observing caribou
-swimming between islands on numerous occasions.
+Canada). We identified swimming events as two consecutive GPS locations (2-hour
+relocation rates)  from an individual occurred on different islands.
+Northeastern Newfoundland typically experiences pack ice during winter and
+caribou are known locally to travel between islands by walking over the ice. We
+restricted our GPS data to the ice-free period of the year (April 1 - December
+31) and we identified `r nids` adult female caribou that collectively had `r
+nevents` swimming events over three years (Figure 2). In addition to our own
+visual and remotely sensed observations, residents of Fogo Island have also
+reported observing caribou swimming between islands on numerous occasions.
 
 <!-- add numbers in here -->
 In total, `r nevents` swimming events occurred throughout the ice-free season,
 with a peak in November. On average, caribou swam approximately `r neventidMean`
-(range = `r neventidMin`-`r neventidMax`) per year and remained on those islands
-for approximately `r dur` (range = `r durMin`-`r durMax`) days before swimming
-again. Caribou may swim between islands in the ocean for similar reasons they
-swim in freshwater [@Leblond2016]. We propose that one such explanation, the
-forage limitation hypothesis, is a likely explanation for oceanic swimming for
-caribou that live on islands in the Fogo Island archipelago.
+(range = `r neventidMin`-`r neventidMax`) times per year and remained on each
+island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
+swimming again. Caribou may swim between islands in the ocean for similar
+reasons they swim in freshwater [@Leblond2016]. We propose that one such
+explanation, the forage limitation hypothesis, is a likely explanation for
+oceanic swimming for caribou that live on islands in the Fogo Island
+archipelago.
 <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird
 QW: I agree. I've added some Fogo context-->
 
-Forage limitation and over-grazing is a major concern for caribou populations
-[@Schaefer2016] and could explain movement between islands. Conspecific
-competition for resources driven by reduced foraging opportunities can decrease
-reproductive success of adult females [@Schaefer2016]. Forage scarcity has been
-proposed as a potential reason for caribou moving between arctic islands on the
-sea-ice in winter [@Miller1977]. Caribou were introduced to Fogo Island (n = 26
-animals between 1964–67) and Change Island (n = 5 animals in 1964) from
-Newfoundland as part of a series of translocations and introductions throughout
-the province (Bergerud & Mercer 1989). It is unknown when caribou began
-colonizing nearby islands, but given that some are small, over-grazing by newly
-arrived caribou may rapidly deplete forage on an annual cycle [@Bergerud1990]. Although
-unconfirmed, it is also possible that Fogo Island has experienced forage
-depletion since the introduction of caribou in the 1960s. More likely, however,
-is fine-scale competition for foraging resources that drives caribou to swim to
-new islands.
+Forage limitation and over-grazing is a major concern for caribou populations:
+it can reduce female reproductive success [@Schaefer2016] and thus could lead to
+movement between islands. Forage scarcity has been proposed as a potential
+reason for caribou moving between arctic islands on the sea-ice in winter
+[@Miller1977]. Caribou were introduced to Fogo Island (n = 26 animals between
+1964–67) and Change Island (n = 5 animals in 1964) from Newfoundland as part of
+a series of translocations and introductions throughout the province (Bergerud &
+Mercer 1989). It is unknown when caribou began colonizing nearby islands, but
+given that some are small, over-grazing by newly arrived caribou may rapidly
+deplete forage on an annual cycle [@Bergerud1990]. Although unconfirmed, it is
+also possible that Fogo Island has experienced forage depletion since the
+introduction of caribou in the 1960s. More likely, however, it is fine-scale
+competition for foraging resources that drives caribou to swim to new islands.
 
 Movement between islands requires caribou to assess the trade-off associated
 with swimming. This trade-off can be understood as density-dependent habitat
@@ -156,7 +155,7 @@ between islands may be at least partially governed by density-dependent habitat 
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. Only `r n10` of these 12 individuals had more than 10 swimming
-events, suggesting that for ~10% of narjed individuals swimming is relatively
+events, suggesting that for ~10% of collared individuals swimming is relatively
 common, on average occurring approximately every `r indMean` days during
 ice-free seasons. We did not detect any swimming events for the remaining 17
 individuals. It remains unclear whether these individuals do not swim, or
