@@ -285,9 +285,8 @@ Travelling on Thin Ice during Autumn Migration. Arctic 39:85–88.
 <div id="ref-Miller1977">
 
 Miller, F., R. Russell, and A. Gunn. 1977. Interisland movements of
-Peary caribou (\<i\>Rangifer tarandus pearyi\</i\>) on western Queen
-Elizabeth Islands, Arctic Canada. Canadian Journal of Zoology
-55:1029–1037.
+Peary caribou (*Rangifer tarandus pearyi*) on western Queen Elizabeth
+Islands, Arctic Canada. Canadian Journal of Zoology 55:1029–1037.
 
 </div>
 
