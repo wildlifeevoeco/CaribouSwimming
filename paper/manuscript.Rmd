@@ -252,7 +252,9 @@ scholarships/grants? Eric opinion??-->
 
 \captionsetup[figure]{labelformat=empty}
 
-![**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the largest
+![**Figure 2**: A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the distribution of swimming events throughout the year. Note, colours correspond to individual caribou.](../graphics/Fig2.png)
+
+<!-- edit caption Fogo Island is the largest
 island in the archipelago (237.71 km^2^), but there are at least three other
 large islands: Western Indian (77.6 km^2^), Eastern Indian (38.7 km^2^) and
 Change (XX km^2^) Islands, as well as numerous smaller islands, including
@@ -261,8 +263,7 @@ Blundon’s (1.18 km^2^), North Long (1.01 km^2^), South Long (0.48 km^2^), Kate
 the archipelago, consisting largely of coniferous and mixed forests of balsam
 fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch 
 (*Betula papyrifera*) as well as bogs, lakes, lichen and rocky
-barrens.](../graphics/Fig2.png)
-<!-- edit caption -->
+barrens.-->
 
 
 \newpage
