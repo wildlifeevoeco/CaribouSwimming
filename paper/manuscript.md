@@ -16,7 +16,7 @@ exists that caribou swim in streams, rivers, and lakes during migration
 1990). Even for adept swimmers like caribou, the energetic expenditure
 of swimming for quadrupedal mammals is significantly higher than walking
 or running, <!--[@Fish1993]--> and drowning is also possible (Miller and
-Gunn 1985). Despite a large number of coastal and island caribou herds,
+Gunn 1985). Despite the abundance of coastal and island caribou herds,
 only a handful of examples have documented caribou swimming in the ocean
 (e.g. Miller 1995, 2002; Jeffery, Otto, and Phillips 2007; Ricca et al.
 2012).
@@ -29,50 +29,49 @@ Western and Eastern Indian Islands (Figure 1), a distance of at least
 prompted us to investigate whether swimming behaviour was common among
 GPS radio-collared caribou in the population (n = 29 adult females;
 1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario, Canada). We
-identified swimming events as two consecutive GPS (2-hour relocation
-rates) locations from an individual occurred on different islands.
+identified swimming events as two consecutive GPS locations (2-hour
+relocation rates) from an individual occurred on different islands.
 Northeastern Newfoundland typically experiences pack ice during winter
 and caribou are known locally to travel between islands by walking over
 the ice. We restricted our GPS data to the ice-free period of the year
 (April 1 - December 31) and we identified 12 adult female caribou that
-collectively had 127 swimming events over three years (Figure 2). In
-addition to our own visual and remotely sensed observations, residents
-of Fogo Island have also reported observing caribou swimming between
-islands on numerous occasions.
+collectively had `r nevents` swimming events over three years (Figure
+2). In addition to our own visual and remotely sensed observations,
+residents of Fogo Island have also reported observing caribou swimming
+between islands on numerous occasions.
 
 <!-- add numbers in here -->
 
 In total, 127 swimming events occurred throughout the ice-free season,
 with a peak in November. On average, caribou swam approximately 11
-(range = 2-34) per year and remained on those islands for approximately
-30 (range = 0-724) days before swimming again. Caribou may swim between
-islands in the ocean for similar reasons they swim in freshwater
-(Leblond, St-Laurent, and Côté 2016). We propose that one such
-explanation, the forage limitation hypothesis, is a likely explanation
-for oceanic swimming for caribou that live on islands in the Fogo Island
-archipelago. <!--Is it better
+(range = 2-34) times per year and remained on each island for
+approximately 30 (range = 0-724) days before swimming again. Caribou may
+swim between islands in the ocean for similar reasons they swim in
+freshwater (Leblond, St-Laurent, and Côté 2016). We propose that one
+such explanation, the forage limitation hypothesis, is a likely
+explanation for oceanic swimming for caribou that live on islands in the
+Fogo Island archipelago. <!--Is it better
 to just state our results here, or give this sort of teaser? Initially I had "86
 events by 3 individuals" here, but then we ignore that for a couple paragraphs
 of context before getting back into it... which seemed weird
 QW: I agree. I've added some Fogo context-->
 
 Forage limitation and over-grazing is a major concern for caribou
-populations (Schaefer et al. 2016) and could explain movement between
-islands. Conspecific competition for resources driven by reduced
-foraging opportunities can decrease reproductive success of adult
-females (Schaefer et al. 2016). Forage scarcity has been proposed as a
-potential reason for caribou moving between arctic islands on the
-sea-ice in winter (Miller, Russell, and Gunn 1977). Caribou were
-introduced to Fogo Island (n = 26 animals between 1964–67) and Change
-Island (n = 5 animals in 1964) from Newfoundland as part of a series of
-translocations and introductions throughout the province (Bergerud &
-Mercer 1989). It is unknown when caribou began colonizing nearby
-islands, but given that some are small, over-grazing by newly arrived
-caribou may rapidly deplete forage on an annual cycle (Bergerud,
-Ferguson, and Butler 1990). Although unconfirmed, it is also possible
-that Fogo Island has experienced forage depletion since the introduction
-of caribou in the 1960s. More likely, however, is fine-scale competition
-for foraging resources that drives caribou to swim to new islands.
+populations: it can reduce female reproductive success (Schaefer et al.
+2016) and thus could lead to movement between islands. Forage scarcity
+has been proposed as a potential reason for caribou moving between
+arctic islands on the sea-ice in winter (Miller, Russell, and Gunn
+1977). Caribou were introduced to Fogo Island (n = 26 animals between
+1964–67) and Change Island (n = 5 animals in 1964) from Newfoundland as
+part of a series of translocations and introductions throughout the
+province (Bergerud & Mercer 1989). It is unknown when caribou began
+colonizing nearby islands, but given that some are small, over-grazing
+by newly arrived caribou may rapidly deplete forage on an annual cycle
+(Bergerud, Ferguson, and Butler 1990). Although unconfirmed, it is also
+possible that Fogo Island has experienced forage depletion since the
+introduction of caribou in the 1960s. More likely, however, it is
+fine-scale competition for foraging resources that drives caribou to
+swim to new islands.
 
 Movement between islands requires caribou to assess the trade-off
 associated with swimming. This trade-off can be understood as
@@ -91,17 +90,17 @@ governed by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the
 Fogo Island archipelago. Only 3 of these 12 individuals had more than 10
-swimming events, suggesting that for ~10% of narjed individuals swimming
-is relatively common, on average occurring approximately every 15 days
-during ice-free seasons. We did not detect any swimming events for the
-remaining 17 individuals. It remains unclear whether these individuals
-do not swim, or whether swimming is rare for most caribou. Overall,
-there appears to be three groups of individuals: those that swim often
-(n = 3, every ~15 days), those that swim occasionally (n = 9, every ~42
-days), and those that never swam (n = 17). We are also unable to draw
-conclusions about the prevalence of swimming in the ocean by male
-caribou: our initial visual observation was of an adult male, but our
-GPS data only included
+swimming events, suggesting that for ~10% of collared individuals
+swimming is relatively common, on average occurring approximately every
+15 days during ice-free seasons. We did not detect any swimming events
+for the remaining 17 individuals. It remains unclear whether these
+individuals do not swim, or whether swimming is rare for most caribou.
+Overall, there appears to be three groups of individuals: those that
+swim often (n = 3, every ~15 days), those that swim occasionally (n = 9,
+every ~42 days), and those that never swam (n = 17). We are also unable
+to draw conclusions about the prevalence of swimming in the ocean by
+male caribou: our initial visual observation was of an adult male, but
+our GPS data only included
 females.
 
 <!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
@@ -186,24 +185,25 @@ Beothuk.
 <!-- Simplified the funding statement, do we need to name the specific
 scholarships/grants? Eric opinion??-->
 
-![](../graphics/IMG_1562.JPG) **Figure 1**: Image of swimming unmarked
-adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian
-Island taken on 30 May 2017.
+![**Figure 1**: Image of swimming unmarked adult male caribou (*Rangifer
+tarandus*) from Western to Eastern Indian Island taken on 30 May
+2017.](../graphics/IMG_1562.JPG)
 
-![](../graphics/Fig2.png)
+![**Figure 2**: A) Map of the Fogo Island archipelago with swimming
+events between islands. B) Histogram displaying the distribution of
+swimming events throughout the year. Note, colours correspond to
+individual caribou.](../graphics/Fig2.png)
 
-**Figure 2**: Map of the Fogo Island archipelago. Fogo Island is the
-largest island in the archipelago (237.71 km<sup>2</sup>), but there are
-at least three other large islands: Western Indian (77.6
-km<sup>2</sup>), Eastern Indian (38.7 km<sup>2</sup>) and Change (XX
-km<sup>2</sup>) Islands, as well as numerous smaller islands, including
-Blundon’s (1.18 km<sup>2</sup>), North Long (1.01 km<sup>2</sup>), South
-Long (0.48 km<sup>2</sup>), Kate’s (1.64 km<sup>2</sup>), and Brother’s
-(1.59 km<sup>2</sup>) Islands. Habitats are similar across the
-archipelago, consisting largely of coniferous and mixed forests of
-balsam fir (*Abies balsamea*), black spruce (*Picea mariana*), and white
-birch (*Betula papyrifera*) as well as bogs, lakes, lichen and rocky
-barrens.
+<!-- edit caption Fogo Island is the largest
+island in the archipelago (237.71 km^2^), but there are at least three other
+large islands: Western Indian (77.6 km^2^), Eastern Indian (38.7 km^2^) and
+Change (XX km^2^) Islands, as well as numerous smaller islands, including
+Blundon’s (1.18 km^2^), North Long (1.01 km^2^), South Long (0.48 km^2^), Kate’s
+(1.64 km^2^), and Brother’s (1.59 km^2^) Islands. Habitats are similar across
+the archipelago, consisting largely of coniferous and mixed forests of balsam
+fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch 
+(*Betula papyrifera*) as well as bogs, lakes, lichen and rocky
+barrens.-->
 
 **Literature Cited**
 
