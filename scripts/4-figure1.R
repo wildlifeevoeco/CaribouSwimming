@@ -26,6 +26,18 @@ edges[, (outmean) := lapply(.SD, mean),
 
 # TODO: drop mid island
 
+themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
+                  panel.background = element_rect(fill = "white"), #"#e3ebf9"),
+                  panel.grid = element_line(color = "black", size = 0.2),
+                  axis.text = element_text(size = 12))
+
+themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
+                  panel.background = element_rect(fill = "white"), #"#e3ebf9"),
+                  panel.grid = element_line(color = "black", size = 0.2),
+                  axis.text = element_text(size = 12))
+
+
+
 (gnet <- ggplot(data = edges[season == 'icefree']) +
     geom_sf(data = islands, fill = '#c7c0bd') +
     geom_edges(
@@ -41,7 +53,8 @@ edges[, (outmean) := lapply(.SD, mean),
     # geom_point(aes(median(meanX), median(meanY) + 6500), size = 4) + 
     guides(color = FALSE) +
     scale_color_viridis_d() + 
-    labs(x = NULL, y = NULL))
+    labs(x = NULL, y = NULL) + 
+    themeMap)
 
 gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) + 
   geom_col(aes(JDate, N, color = ANIMAL_ID)) + 
@@ -54,7 +67,8 @@ gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) +
     scale_fill_viridis_d() +
     geom_vline(aes(xintercept = 90)) +
     geom_vline(aes(xintercept = 365))+ 
-    labs(x = 'Julian Day', y = NULL))
+    labs(x = 'Julian Day', y = 'Frequency') + 
+    themeHist)
 
 png("graphics/Fig2.png", width = 6000, height = 6000, units = "px", res = 600)
 gnet / ghist + 
