@@ -135,20 +135,21 @@ For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals (Bergerud and Mercer 1989,
 Newfoundland and Labrador Wildlife Division, unpublished data). During
 the 1990s, population density reached 300 animals and it is unknown when
-caribou began to occupy other islands, anecdotal evidence suggests it
-was during the 1990s. We surmise that as competition among conspecifics
-increased along with population size, density-dependent habitat
-selection resulted in expansion of the population to nearby islands.
-Following Ideal Free Distribution theory, caribou should swim to new
-islands when the average fitness of individuals on the starting island
-exceeds the density-fitness equilibrium (Morris 1987). While this is an
-ultimate explanation, our data suggest caribou only remain on smaller
-islands for a few days at a time, so the fitness equilibrium remains a
-theoretical construct. More likely, however, is that fine-scale
-competition, density-dependent habitat selection, and forage depletion
-drives individuals to peridiodically swim between islands. Given the
-presumed low density of coyotes on Fogo Island and the minimal risk they
-pose, predation risk does not appear to be a major driver of swimming.
+caribou began to occupy other islands, although anecdotal evidence
+suggests it was during the 1990s. We surmise that as competition among
+conspecifics increased along with population size, density-dependent
+habitat selection resulted in expansion of the population to nearby
+islands. Following Ideal Free Distribution theory, caribou should swim
+to new islands when the average fitness of individuals on the starting
+island exceeds the density-fitness equilibrium (Morris 1987). While this
+is an ultimate explanation, our data suggest caribou only remain on
+smaller islands for a few days at a time, so the fitness equilibrium
+remains a theoretical construct. More likely, however, is that
+fine-scale competition, density-dependent habitat selection, and forage
+depletion drives individuals to peridiodically swim between islands.
+Given the presumed low density of coyotes on Fogo Island and the minimal
+risk they pose, predation risk does not appear to be a major driver of
+swimming.
 
 <!-- QW: changed it a bit - how is this? 
 JGH: simplified these two para's a bit,
