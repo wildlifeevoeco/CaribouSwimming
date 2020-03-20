@@ -154,17 +154,18 @@ limitation in habitat selection patterns remains unknown, but swimming
 between islands may be at least partially governed by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
-Island archipelago. Only `r n10` of these 12 individuals had more than 10 swimming
-events, suggesting that for ~10% of collared individuals swim relatively
-frequently, on average occurring approximately every `r indMean` days during
-ice-free seasons. We did not detect any swimming events for the remaining 17
-individuals. It remains unclear whether these individuals do not swim, or
-whether swimming is rare, and thus undetected, for the majority of individuals Overall, there appears to be three
-groups of individuals: those that swim often (n = 3, every ~`r indMean` days), those that
-swim occasionally (n = 9, every ~`r ind2Mean` days), and those that never swam (n = 17). We are also
-unable to draw conclusions about the prevalence of swimming in the ocean by male
-caribou: our initial visual observation was of an adult male, but our GPS data
-only included females.
+Island archipelago. Only `r n10` of these 12 individuals had more than 10
+swimming events, suggesting that for ~10% of collared individuals swim
+relatively frequently, on average occurring approximately every `r indMean` days
+during ice-free seasons. We did not detect any swimming events for the remaining
+17 individuals. It remains unclear whether these individuals do not swim, or
+whether swimming is rare, and thus undetected, for the majority of individuals
+Overall, there appears to be three groups of individuals: those that swim often
+(n = 3, every ~`r indMean` days), those that swim occasionally (n = 9, every ~`r
+ind2Mean` days), and those that never swam (n = 17). We are also unable to draw
+conclusions about the prevalence of swimming in the ocean by male caribou: our
+initial visual observation was of an adult male, but our GPS data only included
+females.
 
 <!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
 
@@ -177,13 +178,12 @@ unlikely given the range of residency times for caribou on any given island (min
 - max: XX - XX). <!--double check-->
 <!-- What is the typical residency time? Is this a true statement or am I just making this up? QW: this is something we will look into, I think. -->
 
-Regardless, oceanic swimming is relatively common among a minority of
+Oceanic swimming is relatively common among a minority of
 marked caribou. Of the three collared individuals that swam the most, two were collared on
 Western Indian Island and the third was collared on Fogo Island. Inter-island
 distances between Western and Eastern Indian Islands, and the smaller islands
-around them, are shorter than those between Fogo Island and others (Figure 2).
-Individuals that were born on or spend more time on these smaller islands may
-swim between them more frequently than animals that spend most of their time on
+around them, are shorter than those between Fogo Island and others (Figure 2). It is possible that caribou display natal philopatry [@Larue2019] to some of the smaller islands and thus are more likely to  
+swim between them more frequently than animals that were born, ospend most of their time, on
 Fogo Island. The forage limitation hypothesis is generally thought to apply
 uniformly across populations, but individual caribou could evaluate the costs
 and benefits of swimming to another island differently. It is possible that some
