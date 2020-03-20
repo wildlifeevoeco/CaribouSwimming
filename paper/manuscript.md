@@ -35,10 +35,10 @@ Northeastern Newfoundland typically experiences pack ice during winter
 and caribou are known locally to travel between islands by walking over
 the ice. We restricted our GPS data to the ice-free period of the year
 (April 1 - December 31) and we identified 12 adult female caribou that
-collectively had `r nevents` swimming events over three years (Figure
-2). In addition to our own visual and remotely sensed observations,
-residents of Fogo Island have also reported observing caribou swimming
-between islands on numerous occasions.
+collectively had 127 swimming events over three years (Figure 2). In
+addition to our own visual and remotely sensed observations, residents
+of Fogo Island have also reported observing caribou swimming between
+islands on numerous occasions.
 
 <!-- add numbers in here -->
 
