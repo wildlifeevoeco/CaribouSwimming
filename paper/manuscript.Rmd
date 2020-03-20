@@ -138,8 +138,8 @@ Mercer 1989). It is unknown when caribou began colonizing nearby islands, but
 given that some are small, over-grazing by newly arrived caribou may rapidly
 deplete forage on an annual cycle [@Bergerud1990]. Although unconfirmed, it is
 also possible that Fogo Island has experienced forage depletion since the
-introduction of caribou in the 1960s. More likely, however, it is fine-scale
-competition for foraging resources that drives caribou to swim to new islands.
+introduction of caribou in the 1960s. More likely, however, is that fine-scale
+competition for foraging resources drives caribou to swim to new islands.
 
 Movement between islands requires caribou to assess the trade-off associated
 with swimming. This trade-off can be understood as density-dependent habitat
@@ -150,16 +150,16 @@ animals should relocate and settle new habitat patches, so that fitness is equal
 across all patches [@Bradbury2015]. Islands act as discrete habitat patches in
 this case, but the costs associated with swimming create a trade-off when moving
 between patches. For caribou in the Fogo Island archipelago, the role of forage
-limitation in animal habitat selection patterns remains unknown, but swimming
+limitation in habitat selection patterns remains unknown, but swimming
 between islands may be at least partially governed by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. Only `r n10` of these 12 individuals had more than 10 swimming
-events, suggesting that for ~10% of collared individuals swimming is relatively
-common, on average occurring approximately every `r indMean` days during
+events, suggesting that for ~10% of collared individuals swim relatively
+frequently, on average occurring approximately every `r indMean` days during
 ice-free seasons. We did not detect any swimming events for the remaining 17
 individuals. It remains unclear whether these individuals do not swim, or
-whether swimming is rare for most caribou. Overall, there appears to be three
+whether swimming is rare, and thus undetected, for the majority of individuals Overall, there appears to be three
 groups of individuals: those that swim often (n = 3, every ~`r indMean` days), those that
 swim occasionally (n = 9, every ~`r ind2Mean` days), and those that never swam (n = 17). We are also
 unable to draw conclusions about the prevalence of swimming in the ocean by male
