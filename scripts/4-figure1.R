@@ -29,12 +29,12 @@ edges[, (outmean) := lapply(.SD, mean),
 themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   panel.background = element_rect(fill = "white"), #"#e3ebf9"),
                   panel.grid = element_line(color = "black", size = 0.2),
-                  axis.text = element_text(size = 12))
+                  axis.text = element_text(size = 14, color = "black"))
 
 themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                   panel.background = element_rect(fill = "white"), #"#e3ebf9"),
-                  panel.grid = element_line(color = "black", size = 0.2),
-                  axis.text = element_text(size = 12))
+                  axis.text = element_text(size = 12, color = "black"),
+                  axis.title = element_text(size = 14, color = "black"))
 
 
 
@@ -50,6 +50,7 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
       ),
       size = 2
     ) +
+    ggtitle('A)') +
     # geom_point(aes(median(meanX), median(meanY) + 6500), size = 4) + 
     guides(color = FALSE) +
     scale_color_viridis_d() + 
@@ -64,10 +65,11 @@ gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) +
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
     guides(fill = FALSE) +
+    ggtitle('B)') +
     scale_fill_viridis_d() +
     geom_vline(aes(xintercept = 90)) +
     geom_vline(aes(xintercept = 365))+ 
-    labs(x = 'Julian Day', y = 'Frequency') + 
+    labs(x = 'Julian Day', y = NULL) + 
     themeHist)
 
 png("graphics/Fig2.png", width = 6000, height = 6000, units = "px", res = 600)
