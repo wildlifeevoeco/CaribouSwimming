@@ -14,7 +14,7 @@ output:
   # bookdown::word_document2:
   #  reference_docx: template.docx
 bibliography: ../references/swim.bib
-#csl: csl.csl
+csl: ecology.csl
 ---
 
 
