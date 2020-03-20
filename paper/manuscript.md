@@ -69,9 +69,9 @@ colonizing nearby islands, but given that some are small, over-grazing
 by newly arrived caribou may rapidly deplete forage on an annual cycle
 (Bergerud, Ferguson, and Butler 1990). Although unconfirmed, it is also
 possible that Fogo Island has experienced forage depletion since the
-introduction of caribou in the 1960s. More likely, however, it is
-fine-scale competition for foraging resources that drives caribou to
-swim to new islands.
+introduction of caribou in the 1960s. More likely, however, is that
+fine-scale competition for foraging resources drives caribou to swim to
+new islands.
 
 Movement between islands requires caribou to assess the trade-off
 associated with swimming. This trade-off can be understood as
@@ -84,23 +84,23 @@ patches, so that fitness is equal across all patches (Bradbury,
 Vehrencamp, and Clifton 2015). Islands act as discrete habitat patches
 in this case, but the costs associated with swimming create a trade-off
 when moving between patches. For caribou in the Fogo Island archipelago,
-the role of forage limitation in animal habitat selection patterns
-remains unknown, but swimming between islands may be at least partially
-governed by density-dependent habitat selection.
+the role of forage limitation in habitat selection patterns remains
+unknown, but swimming between islands may be at least partially governed
+by density-dependent habitat selection.
 
 In total, 12 of 29 collared female caribou swam between islands in the
 Fogo Island archipelago. Only 3 of these 12 individuals had more than 10
-swimming events, suggesting that for ~10% of collared individuals
-swimming is relatively common, on average occurring approximately every
-15 days during ice-free seasons. We did not detect any swimming events
-for the remaining 17 individuals. It remains unclear whether these
-individuals do not swim, or whether swimming is rare for most caribou.
-Overall, there appears to be three groups of individuals: those that
-swim often (n = 3, every ~15 days), those that swim occasionally (n = 9,
-every ~42 days), and those that never swam (n = 17). We are also unable
-to draw conclusions about the prevalence of swimming in the ocean by
-male caribou: our initial visual observation was of an adult male, but
-our GPS data only included
+swimming events, suggesting that for ~10% of collared individuals swim
+relatively frequently, on average occurring approximately every 15 days
+during ice-free seasons. We did not detect any swimming events for the
+remaining 17 individuals. It remains unclear whether these individuals
+do not swim, or whether swimming is rare, and thus undetected, for the
+majority of individuals Overall, there appears to be three groups of
+individuals: those that swim often (n = 3, every ~15 days), those that
+swim occasionally (n = 9, every ~ 42 days), and those that never swam (n
+= 17). We are also unable to draw conclusions about the prevalence of
+swimming in the ocean by male caribou: our initial visual observation
+was of an adult male, but our GPS data only included
 females.
 
 <!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
@@ -115,14 +115,15 @@ unlikely given the range of residency times for caribou on any given island (min
 
 <!-- What is the typical residency time? Is this a true statement or am I just making this up? QW: this is something we will look into, I think. -->
 
-Regardless, oceanic swimming is relatively common among a minority of
-marked caribou. Of the three collared individuals that swam the most,
-two were collared on Western Indian Island and the third was collared on
-Fogo Island. Inter-island distances between Western and Eastern Indian
+Oceanic swimming is relatively common among a minority of marked
+caribou. Of the three collared individuals that swam the most, two were
+collared on Western Indian Island and the third was collared on Fogo
+Island. Inter-island distances between Western and Eastern Indian
 Islands, and the smaller islands around them, are shorter than those
-between Fogo Island and others (Figure 2). Individuals that were born on
-or spend more time on these smaller islands may swim between them more
-frequently than animals that spend most of their time on Fogo Island.
+between Fogo Island and others (Figure 2). It is possible that caribou
+display natal philopatry (e.g. Larue et al. 2018) to some of the smaller
+islands and thus are more likely to swim between them more frequently
+than animals that were born, ospend most of their time, on Fogo Island.
 The forage limitation hypothesis is generally thought to apply uniformly
 across populations, but individual caribou could evaluate the costs and
 benefits of swimming to another island differently. It is possible that
@@ -248,6 +249,15 @@ caribou subpopulation?” *Rangifer*, no. 17: 51–56.
 
 </div>
 
+<div id="ref-Larue2018">
+
+Larue, Benjamin, Steeve D Côté, Martin Hugues, St Laurent, Christian
+Dussault, and Mathieu Leblond. 2018. “Natal habitat preference induction
+in large mammals — Like mother, like child?” *Ecology and Evolution*,
+no. June: 1–12. <https://doi.org/10.1002/ece3.4685>.
+
+</div>
+
 <div id="ref-Leblond2016">
 
 Leblond, Mathieu, Martin-Hugues St-Laurent, and Steeve D. Côté. 2016.
@@ -284,7 +294,7 @@ Travelling on Thin Ice during Autumn Migration.” *Arctic* 39 (1): 85–88.
 <div id="ref-Miller1977">
 
 Miller, F.L., R.H. Russell, and A. Gunn. 1977. “Interisland movements of
-Peary caribou (\<i\>Rangifer tarandus pearyi\</i\>) on western Queen
+Peary caribou (\<i\>Rangifer tarandus pearyi)\</i\> on western Queen
 Elizabeth Islands, Arctic Canada.” *Canadian Journal of Zoology* 55 (6):
 1029–37. <https://doi.org/10.1139/z77-131>.
 

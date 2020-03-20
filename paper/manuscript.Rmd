@@ -161,8 +161,8 @@ during ice-free seasons. We did not detect any swimming events for the remaining
 17 individuals. It remains unclear whether these individuals do not swim, or
 whether swimming is rare, and thus undetected, for the majority of individuals
 Overall, there appears to be three groups of individuals: those that swim often
-(n = 3, every ~`r indMean` days), those that swim occasionally (n = 9, every ~`r
-ind2Mean` days), and those that never swam (n = 17). We are also unable to draw
+(n = 3, every ~`r indMean` days), those that swim occasionally (n = 9, every ~
+`r ind2Mean` days), and those that never swam (n = 17). We are also unable to draw
 conclusions about the prevalence of swimming in the ocean by male caribou: our
 initial visual observation was of an adult male, but our GPS data only included
 females.
@@ -178,23 +178,25 @@ unlikely given the range of residency times for caribou on any given island (min
 - max: XX - XX). <!--double check-->
 <!-- What is the typical residency time? Is this a true statement or am I just making this up? QW: this is something we will look into, I think. -->
 
-Oceanic swimming is relatively common among a minority of
-marked caribou. Of the three collared individuals that swam the most, two were collared on
-Western Indian Island and the third was collared on Fogo Island. Inter-island
-distances between Western and Eastern Indian Islands, and the smaller islands
-around them, are shorter than those between Fogo Island and others (Figure 2). It is possible that caribou display natal philopatry [@Larue2019] to some of the smaller islands and thus are more likely to  
-swim between them more frequently than animals that were born, ospend most of their time, on
-Fogo Island. The forage limitation hypothesis is generally thought to apply
-uniformly across populations, but individual caribou could evaluate the costs
-and benefits of swimming to another island differently. It is possible that some
-individuals, in our case ~10%, considered swimming to be less costly or
-perceived competition or predation more acutely than their conspecifics.
+Oceanic swimming is relatively common among a minority of marked caribou. Of the
+three collared individuals that swam the most, two were collared on Western
+Indian Island and the third was collared on Fogo Island. Inter-island distances
+between Western and Eastern Indian Islands, and the smaller islands around them,
+are shorter than those between Fogo Island and others (Figure 2). It is possible
+that caribou display natal philopatry [e.g. @Larue2018] to some of the smaller
+islands and thus are more likely to swim between them more frequently than
+animals that were born, ospend most of their time, on Fogo Island. The forage
+limitation hypothesis is generally thought to apply uniformly across
+populations, but individual caribou could evaluate the costs and benefits of
+swimming to another island differently. It is possible that some individuals, in
+our case ~10%, considered swimming to be less costly or perceived competition or
+predation more acutely than their conspecifics.
 
 For several decades after their introduction to Fogo Island, the caribou
 population did not exceed ~100 individuals [@Bergerud1989, Newfoundland and
 Labrador Wildlife Division, unpublished data]. During the 1990s, population
 density reached 300 animals and it is unknown when caribou began to occupy other
-islands, anecdotal evidence suggests it was during the 1990s. We surmise that as
+islands, although anecdotal evidence suggests it was during the 1990s. We surmise that as
 competition among conspecifics increased along with population size,
 density-dependent habitat selection resulted in expansion of the population to
 nearby islands. Following Ideal Free Distribution theory, caribou should swim to
