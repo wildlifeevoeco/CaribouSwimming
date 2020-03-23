@@ -26,12 +26,7 @@ utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 edges <- edges[!i %in% c(59)]
 
 ### Figure 1 ----
-tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
-outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
-edges[, (outmean) := lapply(.SD, mean), 
-      by = .(island, ANIMAL_ID), .SDcols = tomean]
-
-
+# Themes 
 themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   panel.background = element_rect(fill = "#d6ebf2"), #"#e3ebf9"),
                   panel.grid = element_line(color = "black", size = 0.2),
@@ -41,12 +36,23 @@ themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
 # axis.text = element_text(size = 12, color = "black")
 
 themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
-                  panel.background = element_rect(fill = "white"), #"#e3ebf9"),
-                  axis.text = element_text(size = 12, color = "black"),
-                  axis.title = element_text(size = 14, color = "black"))
+                   panel.background = element_rect(fill = "white"), 
+                   axis.text = element_text(size = 12, color = "black"),
+                   axis.title = element_text(size = 14, color = "black"))
 
-# north/south
+# Mean 
+tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
+outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
+edges[, (outmean) := lapply(.SD, mean), 
+      by = .(island, ANIMAL_ID), .SDcols = tomean]
+
+
+# North/South regions
 edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
+N <- edges[season == 'icefree' & region == 'North']
+S <- edges[season == 'icefree' & region == 'South']
+
+
 
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
