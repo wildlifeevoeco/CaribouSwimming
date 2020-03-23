@@ -57,10 +57,10 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
     labs(x = NULL, y = NULL) + 
     themeMap)
 
-gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) + 
+(gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) + 
   geom_col(aes(JDate, N, color = ANIMAL_ID)) + 
   guides(color = FALSE) + 
-  scale_color_viridis_d()
+  scale_color_viridis_d())
 
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
@@ -68,14 +68,20 @@ gcol <- ggplot(data = edges[, .N, by = .(JDate, ANIMAL_ID)]) +
     ggtitle('B)') +
     scale_fill_viridis_d() +
     geom_vline(aes(xintercept = 90)) +
-    geom_vline(aes(xintercept = 365))+ 
+    geom_vline(aes(xintercept = 365)) + 
     labs(x = 'Julian Day', y = NULL) + 
     themeHist)
 
+
+(g <- gnet / ghist + 
+  plot_layout(heights = c(3, 1)))
+
+
+### Output fig ----
 png("graphics/Fig2.png", width = 6000, height = 6000, units = "px", res = 600)
-gnet / ghist + 
-  plot_layout(heights = c(3, 1))
+g
 dev.off()
+
 
 ### Other figs ----
 # south/west
