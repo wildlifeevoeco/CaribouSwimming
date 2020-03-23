@@ -103,7 +103,12 @@ layout <- c(
 )
 plot(layout)
 
-gfogo + gnetN + gnetS + 
+layout <- "#CC#
+           AABB
+           AABB
+           DDDD"
+
+gnetN + gnetS + gfogo + ghist +
   plot_layout(design = layout)
 
 
