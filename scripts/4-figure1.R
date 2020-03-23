@@ -38,6 +38,26 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
 
 
 
+gfogo <- ggplot(islands) + 
+  geom_sf(fill = '#d0c2a9')
+(gnet <- gfogo +
+    geom_edges(data = edges[season == 'icefree'],
+      aes(
+        x = meanX,
+        y = meanY,
+        xend = endmeanX,
+        yend = endmeanY,
+        color = ANIMAL_ID
+      ),
+      size = 2
+    ) +
+    ggtitle('A)') +
+    guides(color = FALSE) +
+    scale_color_viridis_d() + 
+    labs(x = NULL, y = NULL) + 
+    themeMap)
+
+
 (gnet <- ggplot(data = edges[season == 'icefree']) +
     geom_sf(data = islands, fill = '#c7c0bd') +
     geom_edges(
