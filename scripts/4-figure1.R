@@ -44,7 +44,8 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
 
 
 gfogo <- ggplot(islands) + 
-  geom_sf(fill = '#d0c2a9')
+  geom_sf(fill = '#d0c2a9') + 
+  themeMap
 
 N <- edges[season == 'icefree' & region == 'North']
 (gnetN <- gfogo +
@@ -59,11 +60,11 @@ N <- edges[season == 'icefree' & region == 'North']
       size = 2
     ) +
     ylim(min(N$NORTHING) - 1000, max(N$NORTHING) + 1000) +
-    xlim(min(N$EASTING) - 1000, max(N$EASTING) + 1000)) +
+    xlim(min(N$EASTING) - 1000, max(N$EASTING) + 1000) +
   guides(color = FALSE) +
   scale_color_viridis_d() + 
   labs(x = NULL, y = NULL) + 
-  themeMap
+  themeMap)
 
 S <- edges[season == 'icefree' & region == 'South']
 (gnetS <- gfogo +
@@ -78,20 +79,19 @@ S <- edges[season == 'icefree' & region == 'South']
                size = 2
     ) +
     ylim(min(S$NORTHING) - 1000, max(S$NORTHING) + 1000) +
-    xlim(min(S$EASTING) - 1000, max(S$EASTING) + 1000)) +
+    xlim(min(S$EASTING) - 1000, max(S$EASTING) + 1000) +
   guides(color = FALSE) +
   scale_color_viridis_d() + 
   labs(x = NULL, y = NULL) + 
-  themeMap
+  themeMap)
 
 layout <- c(
-  area(t = 1, b = 1),
-  area(t = 1, l = 3, b = 3, r = 5),
-  area()
+  area(t = 2, 2, 2, 2),
+  area(t = 1, 1, 3, 3)
 )
 plot(layout)
 
-gfogo + gnetN + gnetS + 
+gfogo + gnetN + #gnetS + 
   plot_layout(design = layout)
 
 
