@@ -121,11 +121,9 @@ withboxes <- gfogo +
   geom_sf(data = st_as_sfc(st_bbox(Nbox, crs = utm)), fill = NA, color = 'black', size = 1.2)
 
 
-layout <- "AA##BB
-           AACCBB
-           AACCBB
-           AA##BB
-           DDDDDD"
+layout <- "CCCAAAABBBB
+           CCCAAAABBBB
+           DDDAAAABBBB"
 
 gnetN + gnetS + withboxes + ghist +
   plot_layout(design = layout)
