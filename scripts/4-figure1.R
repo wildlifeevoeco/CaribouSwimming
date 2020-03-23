@@ -18,13 +18,16 @@ edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
 
 
+### Drop erroneous edges ----
+# TODO: move elsewhere?
+edges <- edges[!i %in% c(59)]
+
 ### Figure 1 ----
 tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
 edges[, (outmean) := lapply(.SD, mean), 
       by = .(island, ANIMAL_ID), .SDcols = tomean]
 
-# TODO: drop mid island
 
 themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   panel.background = element_rect(fill = "#d6ebf2"), #"#e3ebf9"),
