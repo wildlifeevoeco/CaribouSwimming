@@ -42,6 +42,15 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
 # north/south
 edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
 
+(ghist <- ggplot(data = edges) +
+    geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
+    guides(fill = FALSE) +
+    # ggtitle('B)') +
+    scale_fill_viridis_d() +
+    geom_vline(aes(xintercept = 90)) +
+    geom_vline(aes(xintercept = 365)) + 
+    labs(x = 'Julian Day', y = NULL) + 
+    themeHist)
 
 gfogo <- ggplot(islands) + 
   geom_sf(fill = '#d0c2a9') + 
@@ -118,16 +127,6 @@ gfogo + gnetN + gnetS +
   geom_col(aes(JDate, N, color = ANIMAL_ID)) + 
   guides(color = FALSE) + 
   scale_color_viridis_d())
-
-(ghist <- ggplot(data = edges) +
-    geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
-    guides(fill = FALSE) +
-    ggtitle('B)') +
-    scale_fill_viridis_d() +
-    geom_vline(aes(xintercept = 90)) +
-    geom_vline(aes(xintercept = 365)) + 
-    labs(x = 'Julian Day', y = NULL) + 
-    themeHist)
 
 
 (g <- gnet / ghist + 
