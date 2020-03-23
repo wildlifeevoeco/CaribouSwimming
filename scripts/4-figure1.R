@@ -138,9 +138,6 @@ dev.off()
 
 
 ### Other figs ----
-# south/west
-edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
-
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
     guides(fill = FALSE) +
