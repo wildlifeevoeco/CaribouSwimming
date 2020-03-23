@@ -17,6 +17,9 @@ islands <- readRDS("output/islandsPoly.Rds")
 edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
 
+# CRS
+utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
+
 
 ### Drop erroneous edges ----
 # TODO: move elsewhere?
