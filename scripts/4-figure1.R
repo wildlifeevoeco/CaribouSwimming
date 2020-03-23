@@ -45,8 +45,10 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
 
 gfogo <- ggplot(islands) + 
   geom_sf(fill = '#d0c2a9')
-(gnet <- gfogo +
-    geom_edges(data = edges[season == 'icefree'],
+
+N <- edges[season == 'icefree' & region == 'North']
+(gnetN <- gfogo +
+    geom_edges(data = N,
       aes(
         x = meanX,
         y = meanY,
@@ -56,11 +58,38 @@ gfogo <- ggplot(islands) +
       ),
       size = 2
     ) +
-    ggtitle('A)') +
-    guides(color = FALSE) +
-    scale_color_viridis_d() + 
-    labs(x = NULL, y = NULL) + 
-    themeMap)
+    ylim(min(N$NORTHING) - 1000, max(N$NORTHING) + 1000) +
+    xlim(min(N$EASTING) - 1000, max(N$EASTING) + 1000)) +
+  guides(color = FALSE) +
+  scale_color_viridis_d() + 
+  labs(x = NULL, y = NULL) + 
+  themeMap
+
+S <- edges[season == 'icefree' & region == 'South']
+(gnetS <- gfogo +
+    geom_edges(data = S,
+               aes(
+                 x = meanX,
+                 y = meanY,
+                 xend = endmeanX,
+                 yend = endmeanY,
+                 color = ANIMAL_ID
+               ),
+               size = 2
+    ) +
+    ylim(min(S$NORTHING) - 1000, max(S$NORTHING) + 1000) +
+    xlim(min(S$EASTING) - 1000, max(S$EASTING) + 1000)) +
+  guides(color = FALSE) +
+  scale_color_viridis_d() + 
+  labs(x = NULL, y = NULL) + 
+  themeMap
+
+layout <- c(
+  area(t = 2, l = 1, b = 5, r = 4),
+  area(t = 1, l = 3, b = 3, r = 5)
+)
+gfogo + gnetN + 
+  plot_layout(design = layout)
 
 
 (gnet <- ggplot(data = edges[season == 'icefree']) +
