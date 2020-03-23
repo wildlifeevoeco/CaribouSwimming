@@ -36,6 +36,8 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                   axis.text = element_text(size = 12, color = "black"),
                   axis.title = element_text(size = 14, color = "black"))
 
+# north/south
+edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
 
 
 gfogo <- ggplot(islands) + 
