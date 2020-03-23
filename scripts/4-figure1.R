@@ -58,10 +58,6 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
     labs(x = 'Julian Day', y = NULL) + 
     themeHist)
 
-gfogo <- ggplot(islands) + 
-  geom_sf(fill = '#d0c2a9') + 
-  themeMap
-
 N <- edges[season == 'icefree' & region == 'North']
 (gnetN <- gfogo +
     geom_edges(data = N,
@@ -97,12 +93,19 @@ Sbox <- c(ymin = min(S$NORTHING) - 1000,
                ),
                size = 2
     ) +
-    ylim(min(S$NORTHING) - 1000, max(S$NORTHING) + 1000) +
-    xlim(min(S$EASTING) - 1000, max(S$EASTING) + 1000) +
+    ylim(Sbox[['ymin']], Sbox[['ymax']]) +
+    xlim(Sbox[['xmin']], Sbox[['xmax']]) +
   guides(color = FALSE) +
   scale_color_viridis_d() + 
   labs(x = NULL, y = NULL) + 
   themeMap)
+
+
+
+(gfogo <- ggplot(islands) + 
+  geom_sf(fill = '#d0c2a9') + 
+  themeMap + 
+  geom_sf(data = st_as_sfc(st_bbox(Sbox, crs = utm)), fill = NA, color = 'black', size = 1.2))
 
 layout <- c(
   area(2, 3, 3, 3),
