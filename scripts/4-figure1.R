@@ -105,7 +105,6 @@ gfogo + gnetN +
       size = 2
     ) +
     ggtitle('A)') +
-    # geom_point(aes(median(meanX), median(meanY) + 6500), size = 4) + 
     guides(color = FALSE) +
     scale_color_viridis_d() + 
     labs(x = NULL, y = NULL) + 
