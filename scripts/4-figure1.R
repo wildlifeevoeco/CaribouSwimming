@@ -27,7 +27,7 @@ edges[, (outmean) := lapply(.SD, mean),
 # TODO: drop mid island
 
 themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
-                  panel.background = element_rect(fill = "white"), #"#e3ebf9"),
+                  panel.background = element_rect(fill = "#d6ebf2"), #"#e3ebf9"),
                   panel.grid = element_line(color = "black", size = 0.2),
                   axis.text = element_text(size = 12, color = "black"))
 
