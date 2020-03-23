@@ -52,10 +52,24 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
 N <- edges[season == 'icefree' & region == 'North']
 S <- edges[season == 'icefree' & region == 'South']
 
+Sbox <- c(ymin = min(S$NORTHING) - 1000, 
+          ymax = max(S$NORTHING) + 1000,
+          xmin = min(S$EASTING) - 1000, 
+          xmax = max(S$EASTING))
+
+Nbox <- c(ymin = min(N$NORTHING) - 1000, 
+          ymax = max(N$NORTHING) + 1000,
+          xmin = min(N$EASTING) - 1000, 
+          xmax = max(N$EASTING))
+
+(gfogo <- ggplot(islands) + 
+    geom_sf(fill = '#d0c2a9') + 
+    themeMap)
 
 
 (ghist <- ggplot(data = edges) +
-    geom_histogram(aes(JDate, fill = ANIMAL_ID)) +
+    geom_histogram(aes(JDate, fill = ANIMAL_ID),
+                   binwidth = 10) +
     guides(fill = FALSE) +
     # ggtitle('B)') +
     scale_fill_viridis_d() +
@@ -64,7 +78,7 @@ S <- edges[season == 'icefree' & region == 'South']
     labs(x = 'Julian Day', y = NULL) + 
     themeHist)
 
-N <- edges[season == 'icefree' & region == 'North']
+
 (gnetN <- gfogo +
     geom_edges(data = N,
       aes(
@@ -83,11 +97,7 @@ N <- edges[season == 'icefree' & region == 'North']
   labs(x = NULL, y = NULL) + 
   themeMap)
 
-S <- edges[season == 'icefree' & region == 'South']
-Sbox <- c(ymin = min(S$NORTHING) - 1000, 
-          ymax = max(S$NORTHING) + 1000,
-          xmin = min(S$EASTING) - 1000, 
-          xmax = max(S$EASTING))
+
 (gnetS <- gfogo +
     geom_edges(data = S,
                aes(
@@ -106,26 +116,18 @@ Sbox <- c(ymin = min(S$NORTHING) - 1000,
   labs(x = NULL, y = NULL) + 
   themeMap)
 
+withboxes <- gfogo +
+  geom_sf(data = st_as_sfc(st_bbox(Sbox, crs = utm)), fill = NA, color = 'black', size = 1.2) + 
+  geom_sf(data = st_as_sfc(st_bbox(Nbox, crs = utm)), fill = NA, color = 'black', size = 1.2)
 
 
-(gfogo <- ggplot(islands) + 
-  geom_sf(fill = '#d0c2a9') + 
-  themeMap + 
-  geom_sf(data = st_as_sfc(st_bbox(Sbox, crs = utm)), fill = NA, color = 'black', size = 1.2))
+layout <- "AA##BB
+           AACCBB
+           AACCBB
+           AA##BB
+           DDDDDD"
 
-layout <- c(
-  area(2, 3, 3, 3),
-  area(1, 1, 2, 2),
-  area(3, 1, 4, 2)
-)
-plot(layout)
-
-layout <- "#CC#
-           AABB
-           AABB
-           DDDD"
-
-gnetN + gnetS + gfogo + ghist +
+gnetN + gnetS + withboxes + ghist +
   plot_layout(design = layout)
 
 
