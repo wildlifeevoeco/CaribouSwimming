@@ -85,10 +85,13 @@ S <- edges[season == 'icefree' & region == 'South']
   themeMap
 
 layout <- c(
-  area(t = 2, l = 1, b = 5, r = 4),
-  area(t = 1, l = 3, b = 3, r = 5)
+  area(t = 1, b = 1),
+  area(t = 1, l = 3, b = 3, r = 5),
+  area()
 )
-gfogo + gnetN + 
+plot(layout)
+
+gfogo + gnetN + gnetS + 
   plot_layout(design = layout)
 
 
