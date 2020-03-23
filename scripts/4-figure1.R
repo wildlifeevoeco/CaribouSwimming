@@ -79,6 +79,10 @@ N <- edges[season == 'icefree' & region == 'North']
   themeMap)
 
 S <- edges[season == 'icefree' & region == 'South']
+Sbox <- c(xmin = min(S$NORTHING) - 1000, 
+          xmax = max(S$NORTHING) + 1000,
+          ymin = min(S$EASTING) - 1000, 
+          ymax = max(S$EASTING))
 (gnetS <- gfogo +
     geom_edges(data = S,
                aes(
