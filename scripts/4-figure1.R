@@ -29,7 +29,7 @@ edges[, (outmean) := lapply(.SD, mean),
 themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   panel.background = element_rect(fill = "white"), #"#e3ebf9"),
                   panel.grid = element_line(color = "black", size = 0.2),
-                  axis.text = element_text(size = 14, color = "black"))
+                  axis.text = element_text(size = 12, color = "black"))
 
 themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                   panel.background = element_rect(fill = "white"), #"#e3ebf9"),
