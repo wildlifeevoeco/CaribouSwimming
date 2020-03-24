@@ -120,7 +120,8 @@ withboxes <- gfogo +
   geom_sf(data = st_as_sfc(st_bbox(Sbox, crs = utm)), fill = NA, color = 'black', size = 1.2) + 
   geom_sf(data = st_as_sfc(st_bbox(Nbox, crs = utm)), fill = NA, color = 'black', size = 1.2)
 
-
+# TODO: add panel letters in Fogo
+# TODO: zoom out Fogo for NL context?
 layout <- "CCCAAAABBBB
            CCCAAAABBBB
            DDDAAAABBBB"
