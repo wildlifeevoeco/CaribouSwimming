@@ -23,7 +23,7 @@ utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 
 ### Drop erroneous edges ----
 # TODO: move elsewhere?
-edges <- edges[!i %in% c(59)]
+edges <- edges[!i %in% c(59, 11156, 4254, 4859)]
 
 ### Figure 1 ----
 # Themes 
