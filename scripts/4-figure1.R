@@ -53,15 +53,20 @@ N <- edges[season == 'icefree' & region == 'North']
 S <- edges[season == 'icefree' & region == 'South']
 
 # Bboxes
-Sbox <- c(ymin = min(S$NORTHING) - 1000, 
-          ymax = max(S$NORTHING) + 1000,
-          xmin = min(S$EASTING) - 1000, 
-          xmax = max(S$EASTING))
-
 Nbox <- c(ymin = min(N$NORTHING) - 1000, 
           ymax = max(N$NORTHING) + 1000,
           xmin = min(N$EASTING) - 1000, 
           xmax = max(N$EASTING))
+Nsfbox <- st_as_sf(st_as_sfc(st_bbox(Nbox, crs = utm)))
+Nsfbox$label <- 'C'
+
+Sbox <- c(ymin = min(S$NORTHING) - 1000, 
+          ymax = max(S$NORTHING) + 1000,
+          xmin = min(S$EASTING) - 1000, 
+          xmax = max(S$EASTING))
+Ssfbox <- st_as_sf(st_as_sfc(st_bbox(Sbox, crs = utm)))
+Ssfbox$label <- 'D'
+
 
 # Base islands
 (gfogo <- ggplot(islands) + 
@@ -117,9 +122,24 @@ Nbox <- c(ymin = min(N$NORTHING) - 1000,
   labs(x = NULL, y = NULL) + 
   themeMap)
 
-withboxes <- gfogo +
-  geom_sf(data = st_as_sfc(st_bbox(Sbox, crs = utm)), fill = NA, color = 'black', size = 1.2) + 
-  geom_sf(data = st_as_sfc(st_bbox(Nbox, crs = utm)), fill = NA, color = 'black', size = 1.2)
+(withboxes <- gfogo +
+    geom_sf(
+      data = Nsfbox,
+      fill = NA,
+      color = 'black',
+      size = 1.2
+    ) + 
+    geom_sf_label(data = Nsfbox, aes(label = label)) +
+    geom_sf(
+      data = Ssfbox,
+      fill = NA,
+      color = 'black',
+      size = 1.2
+    ) +
+    geom_sf_label(data = Ssfbox, aes(label = label))
+)
+    
+ 
 
 # TODO: add panel letters in Fogo
 # TODO: zoom out Fogo for NL context?
