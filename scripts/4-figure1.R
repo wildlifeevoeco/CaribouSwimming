@@ -154,6 +154,17 @@ layout <- "AAACCCCDDDD
   plot_annotation(tag_levels = 'A')
 )
 
+
+### Output fig ----
+ggsave(
+  'graphics/Fig2.png',
+  width = 28,
+  height = 12.5,
+  units = 'cm',
+  dpi = 320
+)
+
+### Archive ----
 # (gnet <- ggplot(data = edges[season == 'icefree']) +
 #     geom_sf(data = islands, fill = '#c7c0bd') +
 #     geom_edges(
@@ -182,17 +193,6 @@ layout <- "AAACCCCDDDD
 #   plot_layout(heights = c(3, 1)))
 
 
-### Output fig ----
-ggsave(
-  'graphics/Fig2.png',
-  width = 8,
-  height = 4,
-  units = 'in',
-  dpi = 320
-)
-# png("graphics/Fig2.png", width = 5000, height = 4000, units = "px", res = 600)
-# g
-# dev.off()
 
 
 ### Other figs ----
