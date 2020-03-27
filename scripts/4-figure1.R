@@ -147,10 +147,10 @@ layout <- "AAACCCCDDDD
            AAACCCCDDDD
            BBBCCCCDDDD"
 
-withboxes + ghist + gnetN + gnetS + 
+(g <- withboxes + ghist + gnetN + gnetS + 
   plot_layout(design = layout) + 
   plot_annotation(tag_levels = 'A')
-
+)
 
 # (gnet <- ggplot(data = edges[season == 'icefree']) +
 #     geom_sf(data = islands, fill = '#c7c0bd') +
@@ -181,9 +181,16 @@ withboxes + ghist + gnetN + gnetS +
 
 
 ### Output fig ----
-png("graphics/Fig2.png", width = 6000, height = 6000, units = "px", res = 600)
-g
-dev.off()
+ggsave(
+  'graphics/Fig2.png',
+  width = 8,
+  height = 4,
+  units = 'in',
+  dpi = 320
+)
+# png("graphics/Fig2.png", width = 5000, height = 4000, units = "px", res = 600)
+# g
+# dev.off()
 
 
 ### Other figs ----
