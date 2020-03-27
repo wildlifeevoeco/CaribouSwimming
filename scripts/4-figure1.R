@@ -85,7 +85,7 @@ Ssfbox$label <- 'D'
     labs(x = 'Julian Day', y = NULL) + 
     themeHist)
 
-# 
+# Edges
 (gnetN <- gfogo +
     geom_edges(data = N,
       aes(
