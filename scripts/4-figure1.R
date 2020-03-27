@@ -97,8 +97,8 @@ Ssfbox$label <- 'D'
       ),
       size = 2
     ) +
-    ylim(min(N$NORTHING) - 1000, max(N$NORTHING) + 1000) +
-    xlim(min(N$EASTING) - 1000, max(N$EASTING) + 1000) +
+    ylim(Nbox[['ymin']], Nbox[['ymax']]) +
+    xlim(Nbox[['xmin']], Nbox[['xmax']]) +
   guides(color = FALSE) +
   scale_color_viridis_d() + 
   labs(x = NULL, y = NULL) + 
