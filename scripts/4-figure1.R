@@ -44,7 +44,9 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
 # Mean 
 tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
-edges[, (outmean) := lapply(.SD, mean, na.rm = TRUE), 
+# edges[, (outmean) := lapply(.SD, mean, na.rm = TRUE),
+#       by = .(island, ANIMAL_ID), .SDcols = tomean]
+edges[, (outmean) := .SD[sample(.N, size = 1)],
       by = .(island, ANIMAL_ID), .SDcols = tomean]
 
 
