@@ -137,19 +137,19 @@ Ssfbox$label <- 'D'
       color = 'black',
       size = 1.2
     ) +
-    geom_sf_label(data = Ssfbox, aes(label = label))
+    geom_sf_label(data = Ssfbox, aes(label = label)) +
+    theme(axis.title = element_blank())
 )
     
  
-
-# TODO: add panel letters in Fogo
 # TODO: zoom out Fogo for NL context?
-layout <- "CCCAAAABBBB
-           CCCAAAABBBB
-           DDDAAAABBBB"
+layout <- "AAACCCCDDDD
+           AAACCCCDDDD
+           BBBCCCCDDDD"
 
-gnetN + gnetS + withboxes + ghist +
-  plot_layout(design = layout)
+withboxes + ghist + gnetN + gnetS + 
+  plot_layout(design = layout) + 
+  plot_annotation(tag_levels = 'A')
 
 
 (gnet <- ggplot(data = edges[season == 'icefree']) +
