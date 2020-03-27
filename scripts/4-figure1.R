@@ -31,7 +31,8 @@ themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   panel.background = element_rect(fill = "#d6ebf2"), #"#e3ebf9"),
                   panel.grid = element_line(color = "black", size = 0.2),
                   axis.text = element_blank(),
-                  axis.ticks = element_blank())
+                  axis.ticks = element_blank(),
+                  axis.title = element_blank())
 
 # axis.text = element_text(size = 12, color = "black")
 
