@@ -52,6 +52,7 @@ edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
 N <- edges[season == 'icefree' & region == 'North']
 S <- edges[season == 'icefree' & region == 'South']
 
+# Bboxes
 Sbox <- c(ymin = min(S$NORTHING) - 1000, 
           ymax = max(S$NORTHING) + 1000,
           xmin = min(S$EASTING) - 1000, 
@@ -62,23 +63,23 @@ Nbox <- c(ymin = min(N$NORTHING) - 1000,
           xmin = min(N$EASTING) - 1000, 
           xmax = max(N$EASTING))
 
+# Base islands
 (gfogo <- ggplot(islands) + 
     geom_sf(fill = '#d0c2a9') + 
     themeMap)
 
-
+# Histogram
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID),
                    binwidth = 10) +
     guides(fill = FALSE) +
-    # ggtitle('B)') +
     scale_fill_viridis_d() +
     geom_vline(aes(xintercept = 90)) +
     geom_vline(aes(xintercept = 365)) + 
     labs(x = 'Julian Day', y = NULL) + 
     themeHist)
 
-
+# 
 (gnetN <- gfogo +
     geom_edges(data = N,
       aes(
@@ -97,7 +98,7 @@ Nbox <- c(ymin = min(N$NORTHING) - 1000,
   labs(x = NULL, y = NULL) + 
   themeMap)
 
-
+# TODO: split scales N/S
 (gnetS <- gfogo +
     geom_edges(data = S,
                aes(
