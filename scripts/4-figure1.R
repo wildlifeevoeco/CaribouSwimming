@@ -28,18 +28,18 @@ edges <- edges[!i %in% c(59, 11156, 4254, 4859, 11157)]
 ### Figure 1 ----
 # Themes 
 themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
-                  panel.background = element_rect(fill = "#d6ebf2"), #"#e3ebf9"),
+                  panel.background = element_rect(fill = "#d6ebf2"), 
                   panel.grid = element_line(color = "black", size = 0.2),
                   axis.text = element_blank(),
-                  axis.ticks = element_blank(),
-                  axis.title = element_blank())
+                  axis.title = element_blank()
+                  )
 
 # axis.text = element_text(size = 12, color = "black")
 
 themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                    panel.background = element_rect(fill = "white"), 
-                   axis.text = element_text(size = 12, color = "black"),
-                   axis.title = element_text(size = 14, color = "black"))
+                   axis.text = element_text(size = 11, color = "black"),
+                   axis.title = element_text(size = 12, color = "black"))
 
 # Mean 
 tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
