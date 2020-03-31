@@ -63,8 +63,8 @@ Nbox <- c(ymin = min(N$NORTHING),
 Nsfbox <- st_as_sf(st_as_sfc(st_bbox(Nbox, crs = utm)))
 Nsfbox$label <- 'C'
 
-Sbox <- c(ymin = min(S$NORTHING) - 1000, 
-          ymax = max(S$NORTHING) + 1000,
+Sbox <- c(ymin = min(S$NORTHING) - 1010, 
+          ymax = max(S$NORTHING) + 1010,
           xmin = min(S$EASTING) - 1000, 
           xmax = max(S$EASTING))
 Ssfbox <- st_as_sf(st_as_sfc(st_bbox(Sbox, crs = utm)))
