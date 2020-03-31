@@ -80,14 +80,13 @@ Ssfbox$label <- 'D'
     themeMap +
     theme(axis.text = element_text(size = 11, color = "black")))
 
-# TODO: fix matching colors to individuals
 
 # Histogram
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID),
                    binwidth = 10) +
     guides(fill = FALSE) +
-    scale_fill_viridis_d() +
+    scale_fill_manual(values = cols) +
     geom_vline(aes(xintercept = 90)) +
     geom_vline(aes(xintercept = 365)) + 
     labs(x = 'Julian Day', y = NULL) + 
@@ -108,7 +107,7 @@ Ssfbox$label <- 'D'
     ylim(Nbox[['ymin']], Nbox[['ymax']]) +
     xlim(Nbox[['xmin']], Nbox[['xmax']]) +
   guides(color = FALSE) +
-  scale_color_viridis_d() + 
+  scale_color_manual(values = cols) +
   labs(x = NULL, y = NULL) + 
   themeMap + 
   theme(axis.ticks = element_blank())
@@ -129,7 +128,7 @@ Ssfbox$label <- 'D'
     ylim(Sbox[['ymin']], Sbox[['ymax']]) +
     xlim(Sbox[['xmin']], Sbox[['xmax']]) +
   guides(color = FALSE) +
-  scale_color_viridis_d() + 
+  scale_color_manual(values = cols) +
   labs(x = NULL, y = NULL) + 
   themeMap + 
   theme(axis.ticks = element_blank())
