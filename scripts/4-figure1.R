@@ -42,8 +42,8 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                    axis.title = element_text(size = 12, color = "black"))
 
 # Palette
-cols <- unique(edges, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
-
+pal <- unique(edges, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
+cols <- pal[, setNames(col, ID)]
 
 # First 
 tofirst <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
