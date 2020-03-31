@@ -41,6 +41,10 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                    axis.text = element_text(size = 11, color = "black"),
                    axis.title = element_text(size = 12, color = "black"))
 
+# Palette
+cols <- unique(edges, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
+
+
 # Mean 
 tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
