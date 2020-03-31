@@ -104,7 +104,9 @@ Ssfbox$label <- 'D'
   guides(color = FALSE) +
   scale_color_viridis_d() + 
   labs(x = NULL, y = NULL) + 
-  themeMap)
+  themeMap + 
+  theme(axis.ticks = element_blank())
+  )
 
 # TODO: split scales N/S
 (gnetS <- gfogo +
@@ -123,7 +125,9 @@ Ssfbox$label <- 'D'
   guides(color = FALSE) +
   scale_color_viridis_d() + 
   labs(x = NULL, y = NULL) + 
-  themeMap)
+  themeMap + 
+  theme(axis.ticks = element_blank())
+)
 
 (withboxes <- gfogo +
     geom_sf(
