@@ -41,10 +41,6 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                    axis.text = element_text(size = 11, color = "black"),
                    axis.title = element_text(size = 12, color = "black"))
 
-# Palette
-pal <- unique(edges, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
-cols <- pal[, setNames(col, ID)]
-
 # First 
 tofirst <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outfirst <- c(x = 'firstX', y = 'firstY', xend = 'endfirstX', yend = 'endfirstY')
@@ -73,6 +69,10 @@ Sbox <- c(ymin = min(S$NORTHING) - 1010,
 Ssfbox <- st_as_sf(st_as_sfc(st_bbox(Sbox, crs = utm)))
 Ssfbox$label <- 'D'
 
+
+# Palette
+pal <- unique(edges, by = 'ANIMAL_ID')[order(region), .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
+cols <- pal[, setNames(col, ID)]
 
 # Base islands
 (gfogo <- ggplot(islands) + 
