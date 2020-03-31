@@ -45,17 +45,16 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
 cols <- unique(edges, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
 
 
-# Mean 
-tomean <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
-outmean <- c(x = 'meanX', y = 'meanY', xend = 'endmeanX', yend = 'endmeanY')
-# edges[, (outmean) := lapply(.SD, mean, na.rm = TRUE),
-#       by = .(island, ANIMAL_ID), .SDcols = tomean]
-edges[, (outmean) := .SD[sample(.N, size = 1)],
-      by = .(island, ANIMAL_ID), .SDcols = tomean]
+# First 
+tofirst <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
+outfirst <- c(x = 'firstX', y = 'firstY', xend = 'endfirstX', yend = 'endfirstY')
+
+edges[, (outfirst) := .SD[sample(.N, size = 1)],
+      by = .(island, ANIMAL_ID), .SDcols = tofirst]
 
 
 # North/South regions
-edges[, region := ifelse(meanY < median(meanY) + 6500, 'South', 'North')]
+edges[, region := ifelse(firstY < median(firstY) + 6500, 'South', 'North')]
 N <- edges[season == 'icefree' & region == 'North']
 S <- edges[season == 'icefree' & region == 'South']
 
@@ -98,10 +97,10 @@ Ssfbox$label <- 'D'
 (gnetN <- gfogo +
     geom_edges(data = N,
       aes(
-        x = meanX,
-        y = meanY,
-        xend = endmeanX,
-        yend = endmeanY,
+        x = firstX,
+        y = firstY,
+        xend = endfirstX,
+        yend = endfirstY,
         color = ANIMAL_ID
       ),
       size = 2
@@ -119,10 +118,10 @@ Ssfbox$label <- 'D'
 (gnetS <- gfogo +
     geom_edges(data = S,
                aes(
-                 x = meanX,
-                 y = meanY,
-                 xend = endmeanX,
-                 yend = endmeanY,
+                 x = firstX,
+                 y = firstY,
+                 xend = endfirstX,
+                 yend = endfirstY,
                  color = ANIMAL_ID
                ),
                size = 2
