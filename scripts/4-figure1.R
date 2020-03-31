@@ -74,7 +74,10 @@ Ssfbox$label <- 'D'
 # Base islands
 (gfogo <- ggplot(islands) + 
     geom_sf(fill = '#d0c2a9') + 
-    themeMap)
+    themeMap +
+    theme(axis.text = element_text(size = 11, color = "black")))
+
+# TODO: fix matching colors to individuals
 
 # Histogram
 (ghist <- ggplot(data = edges) +
