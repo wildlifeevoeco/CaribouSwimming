@@ -95,15 +95,19 @@ cols <- pal[, setNames(col, ID)]
 # Edges
 (gnetN <- gfogo +
     geom_edges(data = N,
-      aes(
-        x = firstX,
-        y = firstY,
-        xend = endfirstX,
-        yend = endfirstY,
-        color = ANIMAL_ID
-      ),
-      size = 2
+               aes(
+                 x = firstX,
+                 y = firstY,
+                 xend = endfirstX,
+                 yend = endfirstY,
+                 color = ANIMAL_ID
+               ),
+               size = 2
     ) +
+    geom_point(data = N, aes(x = firstX, y = firstY, color = ANIMAL_ID),
+               size = 2) +
+    geom_point(data = N, aes(x = endfirstX, y = endfirstY, color = ANIMAL_ID),
+               size = 2) +
     ylim(Nbox[['ymin']], Nbox[['ymax']]) +
     xlim(Nbox[['xmin']], Nbox[['xmax']]) +
   guides(color = FALSE) +
@@ -123,7 +127,8 @@ cols <- pal[, setNames(col, ID)]
                  yend = endfirstY,
                  color = ANIMAL_ID
                ),
-               size = 2
+               arrow = arrow(length = unit(0.3, "lines"), type = "open"),
+               size = 1.2
     ) +
     ylim(Sbox[['ymin']], Sbox[['ymax']]) +
     xlim(Sbox[['xmin']], Sbox[['xmax']]) +
