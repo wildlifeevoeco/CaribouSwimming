@@ -105,9 +105,9 @@ cols <- pal[, setNames(col, ID)]
                size = 2
     ) +
     geom_point(data = N, aes(x = firstX, y = firstY, color = ANIMAL_ID),
-               size = 2) +
+               size = 1) +
     geom_point(data = N, aes(x = endfirstX, y = endfirstY, color = ANIMAL_ID),
-               size = 2) +
+               size = 1) +
     ylim(Nbox[['ymin']], Nbox[['ymax']]) +
     xlim(Nbox[['xmin']], Nbox[['xmax']]) +
   guides(color = FALSE) +
@@ -127,9 +127,12 @@ cols <- pal[, setNames(col, ID)]
                  yend = endfirstY,
                  color = ANIMAL_ID
                ),
-               arrow = arrow(length = unit(0.3, "lines"), type = "open"),
-               size = 1.2
+               size = 2
     ) +
+    geom_point(data = S, aes(x = firstX, y = firstY, color = ANIMAL_ID),
+               size = 1) +
+    geom_point(data = S, aes(x = endfirstX, y = endfirstY, color = ANIMAL_ID),
+               size = 1) +
     ylim(Sbox[['ymin']], Sbox[['ymax']]) +
     xlim(Sbox[['xmin']], Sbox[['xmax']]) +
   guides(color = FALSE) +
