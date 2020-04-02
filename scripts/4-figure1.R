@@ -93,6 +93,7 @@ cols <- pal[, setNames(col, ID)]
     themeHist)
 
 # Edges
+edgesize <- 1.75
 (gnetN <- gfogo +
     geom_edges(data = N,
                aes(
@@ -102,7 +103,7 @@ cols <- pal[, setNames(col, ID)]
                  yend = endfirstY,
                  color = ANIMAL_ID
                ),
-               size = 2
+               size = edgesize
     ) +
     ylim(Nbox[['ymin']], Nbox[['ymax']]) +
     xlim(Nbox[['xmin']], Nbox[['xmax']]) +
@@ -123,7 +124,7 @@ cols <- pal[, setNames(col, ID)]
                  yend = endfirstY,
                  color = ANIMAL_ID
                ),
-               size = 2
+               size = edgesize
     ) +
     ylim(Sbox[['ymin']], Sbox[['ymax']]) +
     xlim(Sbox[['xmin']], Sbox[['xmax']]) +
