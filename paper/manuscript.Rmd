@@ -247,8 +247,8 @@ scholarships/grants? Eric opinion??-->
 
 (ref:fig1) Image of swimming unmarked adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.
 
-```{r, fig.cap = '(ref:fig1)'}
-knitr::include_graphics('../graphics/IMG_1562.JPG')
+```{r, fig.cap = '(ref:fig1)', fig.width=4.5}
+knitr::include_graphics('../graphics/IMG_1562_crop.JPG')
 ```
 
 \newpage
