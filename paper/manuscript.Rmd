@@ -247,7 +247,7 @@ scholarships/grants? Eric opinion??-->
 
 (ref:fig1) Image of swimming unmarked adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.
 
-```{r, fig.cap = '(ref:fig1)', fig.width=4.5}
+```{r, fig.cap = '(ref:fig1)', fig.width=4}
 knitr::include_graphics('../graphics/IMG_1562_crop.JPG')
 ```
 
@@ -256,7 +256,7 @@ knitr::include_graphics('../graphics/IMG_1562_crop.JPG')
 (ref:fig2) A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the distribution of swimming events throughout the year. Note, colours correspond to individual caribou. C) Inset of swimming events between small islands on the northern coast of Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island.
 
 
-```{r, fig.cap = '(ref:fig2)'}
+```{r, fig.cap = '(ref:fig2)', fig.width=4}
 knitr::include_graphics('../graphics/Fig2.png')
 ```
 
