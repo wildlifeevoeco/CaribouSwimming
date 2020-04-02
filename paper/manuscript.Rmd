@@ -162,7 +162,7 @@ Overall, there appears to be three groups of individuals: those that swim often
 (n = 3, every ~`r indMean` days), those that swim occasionally (n = 9, every ~
 `r ind2Mean` days), and those that never swam (n = 17). We are also unable to draw
 conclusions about the prevalence of swimming in the ocean by male caribou: our
-initial visual observation was of an adult male, but our GPS data only included
+initial visual observation was of an adult male, but our GPS data only included adult
 females.
 
 <!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
@@ -203,7 +203,7 @@ exceeds the density-fitness equilibrium [@Morris1987]. While this is an ultimate
 explanation, our data suggest caribou only remain on smaller islands for a few
 days at a time, so the fitness equilibrium remains a theoretical construct. More
 likely, however, is that fine-scale competition, density-dependent habitat
-selection, and forage depletion drives individuals to peridiodically swim
+selection, and forage depletion drives individuals to periodically swim
 between islands. Given the presumed low density of coyotes on Fogo Island and
 the minimal risk they pose, predation risk does not appear to be a major driver
 of swimming.
