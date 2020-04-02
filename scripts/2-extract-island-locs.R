@@ -29,36 +29,18 @@ coords <- c('EASTING', 'NORTHING')
 
 caribou[, (coords) := as.data.table(project(cbind(X_COORD, Y_COORD), utm$proj4string))]
 
-# Sub by bounding box
-# caribou <- caribou[EASTING %between% c(690000, 800000) &
-#                      NORTHING %between% c(5470000, 5520000)]
 
 # Sub by date 
 caribou[, season := ifelse(JDate > 90 & JDate < 365, 'icefree', 'ice')]
 
-# Sub by animals that swam
-# TODO: why explicitly selecting?
-# caribou <- caribou[ANIMAL_ID == "FO2016011" |
-#                       ANIMAL_ID == "FO2017001" |
-#                       ANIMAL_ID == "FO2017013"]
-
 
 ### Extract islands ----
-# Extract points on different islands
-# caribou[, island := 
-#   st_join(
-#     st_as_sf(.SD, coords = coords, crs = utm),
-#     st_buffer(islands, 25), 
-#     join = st_intersects)$id, 
-#   .SDcols = coords]
-
 caribou[, island := 
           st_nearest_feature(
             st_as_sf(.SD, coords = coords, crs = utm),
             islands),
         .SDcols = coords]
 
-# 
 # Count locs by island
 caribou[, .N, island]
 

@@ -25,9 +25,6 @@ edges[, edgeID := .I]
 
 edges <- edges[!(between(i, 946, 947, incbounds = TRUE) & ANIMAL_ID == 'FO2017012') &
                  !(between(i, 3771, 3772, incbounds = TRUE) & ANIMAL_ID == 'FO2017013')]
-# NORTHING < 5497000 &
-# endislandNORTH < 5497000 &
-#ANIMAL_ID != 'FO2016001']
 
 
 ### Variables ----

@@ -22,7 +22,6 @@ utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 
 
 ### Drop erroneous edges ----
-# TODO: move elsewhere?
 edges <- edges[!i %in% c(59, 11156, 4254, 4859, 11157)]
 
 ### Figure 1 ----
@@ -114,7 +113,6 @@ edgesize <- 1.75
   theme(axis.ticks = element_blank())
   )
 
-# TODO: split scales N/S
 (gnetS <- gfogo +
     geom_edges(data = S,
                aes(
@@ -154,7 +152,6 @@ edgesize <- 1.75
 )
     
  
-# TODO: zoom out Fogo for NL context?
 layout <- "AAACCCCDDDD
            AAACCCCDDDD
            BBBCCCCDDDD"
