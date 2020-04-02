@@ -82,7 +82,6 @@ nfull <- edges[, .N, .(ANIMAL_ID, season)]
 
 \newpage
 
-**Introduction**
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
