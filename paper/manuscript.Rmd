@@ -227,18 +227,19 @@ individuals can vary in their evaluation of costs and benefits of movement
 between these habitat patches.
 
 **Acknowledgements**
-
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
-Logistical support was provided by L. Bixby. We also thank members of the
-Newfoundland Wildlife Division including S. Moores, B. Adams, C. Doucet, W.
-Barney, and J. Neville for logistical support in the field as well as help with
-data data collection and management. We thank T. Bergerud and S. Mahoney for
-their vision in initiating much of the work on caribou in Newfoundland. Funding
-for this study was provided by the National Sciences and Engineering Research
-Council (QMRW, JGH, EVW). We respectfully acknowledge the territory in which
-data were collected and analyzed as the ancestral homelands of the Beothuk, and
-the island of Newfoundland as the ancestral homelands of the Mi’kmaq and
-Beothuk.
+Logistical support was provided by L. Bixby. We thank all members of the
+Wildlife Evolutionary Ecology Lab, including C. Hart, C. Prokopenko, J. Kennah,
+J.W. Turner, and S. Boyle for their comments on previous versions of this
+manuscript. Newfoundland Wildlife Division including S. Moores, B. Adams, C.
+Doucet, W. Barney, and J. Neville for logistical support in the field as well as
+help with data data collection and management. We thank T. Bergerud and S.
+Mahoney for their vision in initiating much of the work on caribou in
+Newfoundland. Funding for this study was provided by the National Sciences and
+Engineering Research Council (QMRW, JGH, EVW). We respectfully acknowledge the
+territory in which data were collected and analyzed as the ancestral homelands
+of the Beothuk, and the island of Newfoundland as the ancestral homelands of the
+Mi’kmaq and Beothuk.
 <!-- Simplified the funding statement, do we need to name the specific
 scholarships/grants? Eric opinion??-->
 
