@@ -7,10 +7,7 @@ date:
     ^2^Department of Biology, Memorial University of Newfoundland, Canada
     #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output: 
-  #  github_document
-  # bookdown::pdf_document2:
-  #    number_sections: true
-  #    toc: false
+   # github_document
    bookdown::word_document2:
     reference_docx: template.docx
 bibliography: ../references/swim.bib
