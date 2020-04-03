@@ -227,7 +227,7 @@ knitr::include_graphics('../graphics/IMG_1562_crop_edit.jpg')
 
 \newpage
 
-(ref:fig2) A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the distribution of swimming events throughout the year. Note, colours correspond to individual caribou. C) Inset of swimming events between small islands on the northern coast of Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island.
+(ref:fig2) A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the distribution of swimming events throughout the year. Note, colours correspond to individual caribou. C) Inset of swimming events between small islands on the northern coast of Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island. Note, the grey diamond represents the location we observed an adult male caribou swimming (see Figure 1).
 
 
 ```{r, fig.cap = '(ref:fig2)', fig.width=4}
