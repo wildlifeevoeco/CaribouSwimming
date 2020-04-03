@@ -154,10 +154,10 @@ swimming events, suggesting that for ~10% of collared individuals swim
 relatively frequently, on average occurring approximately every `r indMean` days
 during ice-free seasons. We did not detect any swimming events for the remaining
 17 individuals. It remains unclear whether these individuals do not swim, or
-whether swimming is rare, and thus undetected, for the majority of individuals
-Overall, there appears to be three groups of individuals: those that swim often
-(n = 3, every ~`r indMean` days), those that swim occasionally (n = 9, every ~
-`r ind2Mean` days), and those that never swam (n = 17). We are also unable to draw
+whether swimming is rare, and thus undetected, for the majority of individuals.
+Overall, there appears to be three groups of individuals: those that swam often
+(n = 3, every ~`r indMean` days), those that swam occasionally (n = 9, every ~
+`r ind2Mean` days), and those that never swam (n = 17). It is therefore possible that individuals vary in their tendency to swim. We are also unable to draw
 conclusions about the prevalence of swimming in the ocean by male caribou: our
 initial visual observation was of an adult male, but our GPS data only included adult
 females.
