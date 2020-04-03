@@ -108,7 +108,7 @@ visual and remotely sensed observations, residents of Fogo Island have also
 reported observing caribou swimming between islands on numerous occasions.
 
 In total, `r nevents` swimming events occurred throughout the ice-free season,
-with a peak in November. On average, caribou swam approximately `r neventidMean`
+with peaks in May and November. On average, caribou swam approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) times per year and remained on each
 island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
 swimming again. Caribou may swim between islands in the ocean for similar
