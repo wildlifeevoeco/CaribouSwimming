@@ -124,6 +124,9 @@ edgesize <- 1.75
                ),
                size = edgesize
     ) +
+    geom_point(aes(east, north), size = 4, fill = '#8a8fd4', shape = 23,
+               data = data.table(east = 699057.51, 
+                                 north = 5491849.29)) + 
     ylim(Sbox[['ymin']], Sbox[['ymax']]) +
     xlim(Sbox[['xmin']], Sbox[['xmax']]) +
   guides(color = FALSE) +
