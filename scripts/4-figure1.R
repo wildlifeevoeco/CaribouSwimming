@@ -21,7 +21,7 @@ net <- readRDS('output/island-network.Rds')
 utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 
 
-### Drop erroneous edges ----
+### Drop some edges ----
 edges <- edges[!i %in% c(59, 11156, 4254, 4859, 11157)]
 
 ### Figure 1 ----
@@ -126,7 +126,7 @@ edgesize <- 1.75
     ) +
     geom_point(aes(east, north), size = 4, fill = '#8a8fd4', shape = 23,
                data = data.table(east = 699057.51, 
-                                 north = 5491849.29)) + 
+                                 north = 5491600.29)) + 
     ylim(Sbox[['ymin']], Sbox[['ymax']]) +
     xlim(Sbox[['xmin']], Sbox[['xmax']]) +
   guides(color = FALSE) +
