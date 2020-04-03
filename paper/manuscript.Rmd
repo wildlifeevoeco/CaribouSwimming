@@ -116,11 +116,6 @@ reasons they swim in freshwater [@Leblond2016]. We propose that one such
 explanation, the forage limitation hypothesis, is a likely explanation for
 oceanic swimming for caribou that live on islands in the Fogo Island
 archipelago.
-<!--Is it better
-to just state our results here, or give this sort of teaser? Initially I had "86
-events by 3 individuals" here, but then we ignore that for a couple paragraphs
-of context before getting back into it... which seemed weird
-QW: I agree. I've added some Fogo context-->
 
 Forage limitation and over-grazing is a major concern for caribou populations:
 it can reduce female reproductive success [@Schaefer2016] and thus could lead to
@@ -220,8 +215,6 @@ Engineering Research Council (QMRW, JGH, EVW). We respectfully acknowledge the
 territory in which data were collected and analyzed as the ancestral homelands
 of the Beothuk, and the island of Newfoundland as the ancestral homelands of the
 Mi’kmaq and Beothuk.
-<!-- Simplified the funding statement, do we need to name the specific
-scholarships/grants? Eric opinion??-->
 
 \newpage
 
