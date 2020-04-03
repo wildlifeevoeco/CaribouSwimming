@@ -157,21 +157,11 @@ during ice-free seasons. We did not detect any swimming events for the remaining
 whether swimming is rare, and thus undetected, for the majority of individuals.
 Overall, there appears to be three groups of individuals: those that swam often
 (n = 3, every ~`r indMean` days), those that swam occasionally (n = 9, every ~
-`r ind2Mean` days), and those that never swam (n = 17). It is therefore possible that individuals vary in their tendency to swim. We are also unable to draw
+`r ind2Mean` days), and those that never swam (n = 17). It is therefore possible
+that individuals vary in their tendency to swim. We are also unable to draw
 conclusions about the prevalence of swimming in the ocean by male caribou: our
-initial visual observation was of an adult male, but our GPS data only included adult
-females.
-
-<!-- "During the winter, when individuals could theoretically move between islands more easily by walking across ice, XX individuals were observed moving between islands. YY [(a) majority, (b) minority] of these were not detected swimming during the ice-free season and only moved between islands overwinter. This suggests that [(a) moving between islands is a relatively consistent behaviour within individuals, where some caribou refrain from both swimming and walking over ice] / [(b) caribou who avoided swimming between islands would still take advantage of the benefits provided by these patches, but only when travelling to them was less risky and costly] -->
-
-<!-- QW: I'm not sure we need to say the below.. 
-JGH - yeah, it's pretty extra I guess. I'm not really a fan of the above para either, it's not very convincing and doesn't add much
-It is theoretically possible that these other
-females moved rapidly back and forth between islands within the 2 hour fix rate
-of our GPS collars, which we would be unable to detect. We consider this highly
-unlikely given the range of residency times for caribou on any given island (min
-- max: XX - XX). <!--double check-->
-<!-- What is the typical residency time? Is this a true statement or am I just making this up? QW: this is something we will look into, I think. -->
+initial visual observation was of an adult male, but our GPS data only included
+adult females.
 
 Oceanic swimming is relatively common among a minority of marked caribou. Of the
 three collared individuals that swam the most, two were collared on Western
