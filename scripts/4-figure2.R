@@ -59,13 +59,13 @@ S <- edges[season == 'icefree' & region == 'South']
 # Bboxes
 Nbox <- c(ymin = min(N$NORTHING), 
           ymax = max(N$NORTHING),
-          xmin = min(N$EASTING) - 250, 
-          xmax = max(N$EASTING) + 250)
+          xmin = min(N$EASTING), 
+          xmax = max(N$EASTING))
 Nsfbox <- st_as_sf(st_as_sfc(st_bbox(Nbox, crs = utm)))
 Nsfbox$label <- 'C'
 
-Sbox <- c(ymin = min(S$NORTHING) - 1010, 
-          ymax = max(S$NORTHING) + 1010,
+Sbox <- c(ymin = min(S$NORTHING) - 1510, 
+          ymax = max(S$NORTHING) + 1510,
           xmin = min(S$EASTING) - 1000, 
           xmax = max(S$EASTING))
 Ssfbox <- st_as_sf(st_as_sfc(st_bbox(Sbox, crs = utm)))
