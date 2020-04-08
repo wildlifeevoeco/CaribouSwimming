@@ -47,7 +47,7 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
 tofirst <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outfirst <- c(x = 'firstX', y = 'firstY', xend = 'endfirstX', yend = 'endfirstY')
 
-edges[, (outfirst) := .SD[sample(.N, size = 1)],
+edges[, (outfirst) := .SD,#[sample(.N, size = 1)],
       by = .(island, ANIMAL_ID), .SDcols = tofirst]
 
 
@@ -95,7 +95,7 @@ cols <- pal[, setNames(col, ID)]
     themeHist)
 
 # Edges
-edgesize <- 1.75
+edgesize <- 1
 (gnetN <- gfogo +
     geom_edges(data = N,
                aes(
@@ -105,7 +105,7 @@ edgesize <- 1.75
                  yend = endfirstY,
                  color = ANIMAL_ID
                ),
-               size = edgesize
+               size = edgesize, alpha = 0.8
     ) +
     ylim(Nbox[['ymin']], Nbox[['ymax']]) +
     xlim(Nbox[['xmin']], Nbox[['xmax']]) +
@@ -125,7 +125,7 @@ edgesize <- 1.75
                  yend = endfirstY,
                  color = ANIMAL_ID
                ),
-               size = edgesize
+               size = edgesize, alpha = 0.8
     ) +
     geom_point(aes(east, north), size = 3, fill = '#8a8fd4', shape = 23,
                data = data.table(east = 699057.51, 
