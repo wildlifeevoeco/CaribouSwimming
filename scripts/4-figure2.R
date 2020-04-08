@@ -13,7 +13,7 @@ lapply(libs, require, character.only = TRUE)
 
 
 ### Data ----
-islands <- readRDS("output/islandsPoly.Rds")
+islands <- readRDS('output/fogo-island-polygons.Rds')
 edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
 
@@ -78,7 +78,7 @@ cols <- pal[, setNames(col, ID)]
 
 # Base islands
 (gfogo <- ggplot(islands) + 
-    geom_sf(fill = '#d0c2a9') + 
+    geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
     themeMap +
     theme(axis.text = element_text(size = 11, color = "black")))
 
@@ -127,7 +127,7 @@ edgesize <- 1.75
                ),
                size = edgesize
     ) +
-    geom_point(aes(east, north), size = 4, fill = '#8a8fd4', shape = 23,
+    geom_point(aes(east, north), size = 3, fill = '#8a8fd4', shape = 23,
                data = data.table(east = 699057.51, 
                                  north = 5491600.29)) + 
     ylim(Sbox[['ymin']], Sbox[['ymax']]) +
