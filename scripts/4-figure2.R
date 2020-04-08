@@ -25,15 +25,18 @@ utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 edges <- edges[!i %in% c(59, 11156, 4254, 4859, 11157)]
 
 ### Figure 1 ----
+# Colors
+watercol <- '#c3e2ec'
+islandcol <- '#d0c2a9'
+coastcol <- '#82796a'
+gridcol <- '#323232'
+
 # Themes 
 themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
-                  panel.background = element_rect(fill = "#d6ebf2"), 
-                  panel.grid = element_line(color = "black", size = 0.2),
+                  panel.background = element_rect(fill = watercol), 
+                  panel.grid = element_line(color = gridcol, size = 0.2),
                   axis.text = element_blank(),
-                  axis.title = element_blank()
-                  )
-
-# axis.text = element_text(size = 12, color = "black")
+                  axis.title = element_blank())
 
 themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                    panel.background = element_rect(fill = "white"), 
