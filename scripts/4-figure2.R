@@ -78,6 +78,11 @@ cols <- pal[, setNames(col, ID)]
 
 # Base islands
 (gfogo <- ggplot(islands) + 
+    geom_sf(fill = islandcol, size = 0.13, color = coastcol) + 
+    themeMap +
+    theme(axis.text = element_text(size = 11, color = "black")))
+
+(gfogothick <- ggplot(islands) + 
     geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
     themeMap +
     theme(axis.text = element_text(size = 11, color = "black")))
@@ -96,7 +101,7 @@ cols <- pal[, setNames(col, ID)]
 
 # Edges
 edgesize <- 1
-(gnetN <- gfogo +
+(gnetN <- gfogothick +
     geom_edges(data = N,
                aes(
                  x = firstX,
@@ -116,7 +121,7 @@ edgesize <- 1
   theme(axis.ticks = element_blank())
   )
 
-(gnetS <- gfogo +
+(gnetS <- gfogothick +
     geom_edges(data = S,
                aes(
                  x = firstX,
