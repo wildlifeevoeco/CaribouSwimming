@@ -171,6 +171,15 @@ the winter, relative to the 12 swimmers?
 between islands? Does the time of day, weather, seasonal trends, or availability
 of food influence swimming?
 
+3) Does reproductive status (presence of a calf-at-heel) or demographics (age,
+sex) influence propensity for oceanic swimming? Our initial observation was of
+an adult male, but the only collared individuals are adult females. Are younger
+animals more likely to swim if they are outcompeted? More likely? Are males more
+likely when in the summer their only concern is foraging, given the relatively
+minimal predation risk they face without calves?
+
+
+
  Only `r n10` of these 12 individuals had more than 10
 swimming events, suggesting that for ~10% of collared individuals swim
 relatively frequently, on average occurring approximately every `r indMean` days
