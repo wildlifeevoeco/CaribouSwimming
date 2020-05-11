@@ -176,11 +176,12 @@ arrival and departure.
 between islands? Does the time of day, weather, season, or availability
 of food influence swimming?
 
-3) Does reproductive status (presence of a calf-at-heel) or demographic class (age,
-sex) influence propensity for oceanic swimming? Our initial observation was of
-an adult male, but all collared individuals were adult females. Are younger
-caribou more likely to swim due to heightened competition? Are males more
-likely to swim in the summer given the are not restricted based on presence of a calf-at-heel, as females are.
+3) Does reproductive status (presence of a calf-at-heel) or demographic class
+(age, sex) influence propensity for oceanic swimming? Our initial observation
+was of an adult male, but all collared individuals were adult females. Are
+younger caribou more likely to swim due to heightened competition? Are males
+more likely to swim in the summer given the are not restricted based on presence
+of a calf-at-heel, as females are.
 
 4) If swimming is a function of density-dependent habitat selection, what are
 the costs of movement between patches? IFD assumes zero-cost movement, but could
