@@ -95,18 +95,6 @@ swimming events over three years (Figure 2). In addition to our own visual and
 remotely sensed observations, residents of Fogo Island have also reported
 observing caribou swimming between islands on numerous occasions.
 
-Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
-that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
-to avoid predators [@Bergerud1985], and access islands during calving
-[@Bergerud1990]. Even for adept swimmers like caribou, the energetic expenditure
-of swimming for quadrupedal mammals is significantly higher than walking or
-running, and drowning is also possible [@Miller1985]. Despite
-the abundance of coastal and island caribou herds, only a handful of examples
-have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002;
-@Jeffery2007; @Ricca2012].
-
-
-
 In total, `r nevents` swimming events occurred throughout the ice-free season,
 with peaks in May and November. On average, caribou swam approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) times per year and remained on each
@@ -117,6 +105,15 @@ explanation, the forage limitation hypothesis, is a likely explanation for
 oceanic swimming for caribou that live on islands in the Fogo Island
 archipelago.
 
+Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
+that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
+to avoid predators [@Bergerud1985], and access islands during calving
+[@Bergerud1990]. Even for adept swimmers like caribou, the energetic expenditure
+of swimming for quadrupedal mammals is significantly higher than walking or
+running, and drowning is also possible [@Miller1985]. Despite
+the abundance of coastal and island caribou herds, only a handful of examples
+have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002;
+@Jeffery2007; @Ricca2012].
 Forage limitation and over-grazing is a major concern for caribou populations:
 it can reduce female reproductive success [@Schaefer2016] and thus could lead to
 movement between islands. Forage scarcity has been proposed as a potential
