@@ -118,7 +118,7 @@ in the ocean, and most of these lack observation, but rather deduce swimming
 based on presence of caribou on a previously uninhabitated island  [e.g.
 @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Caribou may swim between
 islands in the ocean for similar reasons they swim in freshwater [@Leblond2016],
-mainly concerning predator avoidance or movement between habitats. We propose
+mainly concerning predator avoidance or to access new habitats. We propose
 that one such explanation, the forage limitation hypothesis, is the most likely
 explanation for oceanic swimming for caribou that live on islands in the Fogo
 Island archipelago.
@@ -134,7 +134,7 @@ we propose that forage limitation is more likely to drive movement between
 islands than predator avoidance. For several decades after their introduction to
 Fogo Island, the caribou population did not exceed ~100 individuals
 [@Bergerud1989, Newfoundland and Labrador Wildlife Division, unpublished data].
-During the 1990s, population density reached ~300 animals; anecdotal evidence
+During the 1990s, population density reached ~300 animals and anecdotal evidence
 suggests caribou were first seen on nearby islands during this same period.
 Increased competition for resources on Fogo due to this increase in density
 could have precipitated movement to other islands.
@@ -165,7 +165,7 @@ by density-dependent habitat selection.
 
 Forage limitation may be the ultimate explanation for caribou swimming between
 oceanic islands, but a number of proximate mechanisms remain untested. Our
-observations of caribou swimming in the ocean to five questions for future
+observations of caribou swimming in the ocean lead to five questions for future
 research:
 
 1) How does the energetic cost or risk of swimming differ from walking on sea
@@ -251,7 +251,7 @@ knitr::include_graphics('../graphics/IMG_1562_crop_edit.jpg')
 
 \newpage
 
-(ref:fig2) A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the distribution of swimming events throughout the year. Note, colours correspond to individual caribou. C) Inset of swimming events between small islands on the northern coast of Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island. Note, the grey diamond represents the location we observed an adult male caribou swimming (see Figure 1).
+(ref:fig2) A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the frequency of swimming events throughout the year. Note, colours correspond to individual caribou and vertical black bars delineate the ice-free season (April 1 to December 31). C) Inset of swimming events between small islands on the northern coast of Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island. Note, the grey diamond represents the location we observed an adult male caribou swimming (see Figure 1).
 
 
 ```{r, fig.cap = '(ref:fig2)', fig.width=4}
