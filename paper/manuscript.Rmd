@@ -160,12 +160,14 @@ remains unknown, but swimming between islands may be at least partially governed
 by density-dependent habitat selection.
 
 Forage limitation may be the ultimate explanation for caribou swimming between
-oceanic islands, but cannot fully explain the variation we observed. Several
-questions remain:
+oceanic islands, but a number of proximate mechanisms remain untested. Our
+observations of caribou swimming in the ocean to five questions for future
+research:
 
-1) How does the energetic cost or risk of swimming differ from walking across
-sea ice? How many individuals were observed travelling between islands during
-the winter, relative to the 12 swimmers?
+1) How does the energetic cost or risk of swimming differ from walking on sea
+ice? The cost of swimming may be lower than the risk of falling through sea ice
+and drowning, so what proportion of inter-island movements are swimming events
+compared to walking on ice? Although we are unable to 
 
 2) At which varying temporal and ecological scale do caribou choose to swim
 between islands? Does the time of day, weather, seasonal trends, or availability
