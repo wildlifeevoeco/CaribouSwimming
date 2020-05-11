@@ -178,7 +178,13 @@ animals more likely to swim if they are outcompeted? More likely? Are males more
 likely when in the summer their only concern is foraging, given the relatively
 minimal predation risk they face without calves?
 
+4) If swimming is a function of density-dependent habitat selection, what are
+the costs of movement between patches? IFD assumes zero-cost movement, but could
+the risk and energetic costs associated with oceanic swimming be estimated using
+the potential fitness deficit that caribou are willing to tolerate before swimming to a
+new island?
 
+5) In relation to all the previous questions: how do individuals vary in their assessment of the costs and benefits of swimming between islands? Why did some caribou regularly engage in swimming events, while more than half of our marked population were never observed swimming in the ocean? The forage limitation hypothesis is generally thought to apply uniformly across populations, but individual caribou could evaluate the costs and benefits of swimming to another island differently. It is possible that some individuals, in our case ~10%, considered swimming to be less costly or perceived competition or predation more acutely than their conspecifics.
 
  Only `r n10` of these 12 individuals had more than 10
 swimming events, suggesting that for ~10% of collared individuals swim
