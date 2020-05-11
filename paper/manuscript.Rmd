@@ -101,8 +101,8 @@ Island archipelago. On average, caribou swam approximately `r neventidMean`
 island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
 swimming again. Based on swimming data, we separated the population into three
 apparent groups of individuals: those that swam regularly between islands (n =
-3, every ~`r indMean days`); those that rarely engaged in swimming events (n =
-9, every ~ `r ind2Mean days`); and those that never swam (n = 17).
+3, every ~`r indMean` days); those that rarely engaged in swimming events (n =
+9, every ~ `r ind2Mean` days); and those that never swam (n = 17).
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
