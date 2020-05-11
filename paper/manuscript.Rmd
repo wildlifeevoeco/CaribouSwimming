@@ -167,18 +167,20 @@ research:
 1) How does the energetic cost or risk of swimming differ from walking on sea
 ice? The cost of swimming may be lower than the risk of falling through sea ice
 and drowning, so what proportion of inter-island movements are swimming events
-compared to walking on ice? Although we are unable to 
+compared to walking on ice? The presence and extent of sea ice varies annually
+in our study area, and although we are unable to determine the exact timing or
+duation of sea ice, we delineate on Figure 2b the timing of typical sea ice
+arrival and departure.
 
-2) At which varying temporal and ecological scale do caribou choose to swim
-between islands? Does the time of day, weather, seasonal trends, or availability
+2) At which temporal and spatial scales do caribou choose to swim
+between islands? Does the time of day, weather, season, or availability
 of food influence swimming?
 
-3) Does reproductive status (presence of a calf-at-heel) or demographics (age,
+3) Does reproductive status (presence of a calf-at-heel) or demographic class (age,
 sex) influence propensity for oceanic swimming? Our initial observation was of
-an adult male, but the only collared individuals are adult females. Are younger
-animals more likely to swim if they are outcompeted? More likely? Are males more
-likely when in the summer their only concern is foraging, given the relatively
-minimal predation risk they face without calves?
+an adult male, but all collared individuals were adult females. Are younger
+caribou more likely to swim due to heightened competition? Are males more
+likely to swim in the summer given the are not restricted based on presence of a calf-at-heel, as females are.
 
 4) If swimming is a function of density-dependent habitat selection, what are
 the costs of movement between patches? IFD assumes zero-cost movement, but could
