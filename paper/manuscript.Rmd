@@ -136,11 +136,17 @@ suggests caribou were first seen on nearby islands during this same period.
 Increased competition for resources on Fogo due to this increase in density
 could have precipitated movement to other islands.
 
-Forage limitation and over-grazing is a major concern for caribou populations:
-it can reduce female reproductive success [@Schaefer2016] and thus could lead to
-movement between islands. Forage scarcity has been proposed as a potential
-reason for caribou moving between arctic islands on the sea-ice in winter
-[@Miller1977].
+Forage limitation and over-grazing is a major concern for caribou populations
+and can lead to reduced female reproductive success [@Schaefer2016]. Forage
+scarcity has been proposed as a potential reason for caribou moving between
+arctic islands on the sea-ice in winter [@Miller1977]. For the Fogo Island
+population, as the population grew and predation pressure was insufficient to
+maintain population density, forage depletion could lead caribou to make
+similar, but riskier and more costly, movements between islands during the
+ice-free season. Given the small size of other islands near Fogo, over-grazing
+by newly arrived caribou could rapidly deplete forage on an annual cycle
+[@Bergerud1990], leading to more frequent movements back and forth between
+islands rather than permanent relocation.
 
 
 It is unknown when caribou began colonizing nearby islands, but
