@@ -108,9 +108,9 @@ apparent groups of individuals: those that swam regularly between islands (n =
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
-to avoid predators [@Bergerud1985], and access islands during calving
+to avoid predators [@Bergerud1985], and to access islands during calving
 [@Bergerud1990]. Even for adept swimmers like caribou, that have hollow hair
-shafts to presumably aid in flotation, the energetic expenditure of swimming for
+shafts that aid in flotation, the energetic expenditure of swimming for
 quadrupedal mammals is significantly higher than walking or running, and
 drowning is also possible [@Miller1985]. Despite the abundance of coastal and
 island caribou herds, only a handful of examples have documented caribou
