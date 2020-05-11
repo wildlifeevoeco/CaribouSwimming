@@ -129,8 +129,8 @@ Typical caribou predators such as black bears (*Ursus americanus*) and wolves
 pose, if any, to adult caribou. Given the minimal risk of predation to adults,
 we propose that forage limitation is more likely to drive movement between
 islands than predator avoidance. For several decades after their introduction to
-Fogo Island, the caribou population did not exceed ~100 individuals (Bergerud
-and Mercer 1989, Newfoundland and Labrador Wildlife Division, unpublished data).
+Fogo Island, the caribou population did not exceed ~100 individuals
+[@Bergerud1989, Newfoundland and Labrador Wildlife Division, unpublished data].
 During the 1990s, population density reached ~300 animals; anecdotal evidence
 suggests caribou were first seen on nearby islands during this same period.
 Increased competition for resources on Fogo due to this increase in density
