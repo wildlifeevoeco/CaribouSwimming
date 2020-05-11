@@ -85,7 +85,7 @@ observed an unmarked adult male caribou swim between two small islands (Figure
 1, see Figure 2 for location), a distance of at least 470 m which took ~9
 minutes (~52 m per minute). This observation prompted us to investigate whether
 swimming behaviour was common among GPS radio-collared caribou in the population
-(n = 29, for collaring details see [@Peignier2019]). We identified swimming
+[n = 29, for collaring details see, @Peignier2019]. We identified swimming
 events as two consecutive GPS locations (2-hour relocation rates)  from an
 individual occurred on different islands. Northeastern Newfoundland typically
 experiences pack ice during winter and caribou are known locally to travel
@@ -100,7 +100,9 @@ Island archipelago. On average, caribou swam approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) times per year and remained on each
 island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
 swimming again. We can separate the population into three apparent groups of
-individuals: those that swam regularly between islands (n = 3, every ~`r indMean days`); those that rarely engaged in swimming events (n = 9, every ~ `r ind2Mean days`); and those that never swam (n = 17).
+individuals: those that swam regularly between islands (n = 3, every ~`r indMean
+days`); those that rarely engaged in swimming events (n = 9, every ~ `r ind2Mean
+days`); and those that never swam (n = 17).
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
