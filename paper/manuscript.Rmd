@@ -231,34 +231,30 @@ adult females.
 
 
 
-For several decades after their introduction to Fogo Island, the caribou
-population did not exceed ~100 individuals [@Bergerud1989, Newfoundland and
-Labrador Wildlife Division, unpublished data]. During the 1990s, population
-density reached ~300 animals and it is unknown when caribou began to occupy other
-islands, although anecdotal evidence suggests it was during the 1990s. We surmise that as
-competition among conspecifics increased along with population size,
-density-dependent habitat selection resulted in expansion of the population to
-nearby islands. Following Ideal Free Distribution theory, caribou should swim to
-new islands when the average fitness of individuals on the starting island
-exceeds the density-fitness equilibrium [@Morris1987]. While this is an ultimate
-explanation, our data suggest caribou only remain on smaller islands for a few
-days at a time, so the fitness equilibrium remains a theoretical construct. More
-likely, however, is that fine-scale competition, density-dependent habitat
-selection, and forage depletion drives individuals to periodically swim
-between islands. Given the presumed low density of coyotes on Fogo Island and
-the minimal risk they pose, predation risk does not appear to be a major driver
-of swimming.
-
-Our observations add to the evidence that caribou can, and occasionally do, swim
-in the ocean [e.g. @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. 
-We suggest that swimming is likely more common than previously thought
-for caribou living on oceanic islands, and that forage limitation and the
-associated density-dependent habitat selection is an ultimate explanation for
-this phenomenon. Although our inference is limited to observations, islands
-appear to represent discrete foraging patches for terrestrial animals that can
-influence fitness via increased foraging opportunities. We also posit that
-individuals can vary in their evaluation of costs and benefits of movement
-between these habitat patches.
+We surmise that as competition among conspecifics increased along with
+population size, density-dependent habitat selection resulted in expansion of
+the population to nearby islands. Following Ideal Free Distribution theory,
+caribou should swim to new islands when the average fitness of individuals on
+the starting island exceeds the density-fitness equilibrium [@Morris1987]. While
+this is an ultimate explanation, our data suggest caribou only remain on smaller
+islands for a few days at a time, so the fitness equilibrium remains a
+theoretical construct. More likely, however, is that fine-scale competition,
+density-dependent habitat selection, and forage depletion drives individuals to
+periodically swim between islands. Given the presumed low density of coyotes on
+Fogo Island and the minimal risk they pose, predation risk does not appear to be
+a major driver of swimming. Our observations add to the evidence that caribou
+can, and occasionally do, swim in the ocean [e.g. @Miller1995; @Miller2002;
+@Jeffery2007; @Ricca2012]. We suggest that swimming is likely more common than
+previously thought for caribou living on oceanic islands, and that forage
+limitation and the associated density-dependent habitat selection is an ultimate
+explanation for this phenomenon. Although our inference is limited to
+observations, islands appear to represent discrete foraging patches for
+terrestrial animals that can influence fitness via increased foraging
+opportunities. We also present several hypotheses related to the nuances and
+further variation within the idea that density-dependent habitat selection
+governs swimming behaviour, and posit that above and beyond these additional
+factors, individuals can vary in their evaluation of costs and benefits of
+movement between these habitat patches.
 
 **Acknowledgements**
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
