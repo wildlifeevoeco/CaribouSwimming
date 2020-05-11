@@ -99,9 +99,10 @@ In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. On average, caribou swam approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) times per year and remained on each
 island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
-swimming again. We can separate the population into three apparent groups of individuals: those that swam regularly between islands
-(n = 3, every ~`r indMean` days); those that rarely engaged in swimming events (n = 9, every ~
-`r ind2Mean` days); and those that never swam (n = 17). 
+swimming again. We can separate the population into three apparent groups of
+individuals: those that swam regularly between islands (n = 3, every ~`r
+indMean` days); those that rarely engaged in swimming events (n = 9, every ~ `r
+ind2Mean` days); and those that never swam (n = 17).
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
@@ -112,6 +113,13 @@ running, and drowning is also possible [@Miller1985]. Despite
 the abundance of coastal and island caribou herds, only a handful of examples
 have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002;
 @Jeffery2007; @Ricca2012].
+
+Caribou may swim between islands in the ocean for similar
+reasons they swim in freshwater [@Leblond2016], mainly concerning predator avoidance or movement between habitats. We propose that one such
+explanation, the forage limitation hypothesis, is the most likely explanation for
+oceanic swimming for caribou that live on islands in the Fogo Island
+archipelago.
+
 Forage limitation and over-grazing is a major concern for caribou populations:
 it can reduce female reproductive success [@Schaefer2016] and thus could lead to
 movement between islands. Forage scarcity has been proposed as a potential
@@ -153,11 +161,7 @@ conclusions about the prevalence of swimming in the ocean by male caribou: our
 initial visual observation was of an adult male, but our GPS data only included
 adult females.
 
-Caribou may swim between islands in the ocean for similar
-reasons they swim in freshwater [@Leblond2016]. We propose that one such
-explanation, the forage limitation hypothesis, is a likely explanation for
-oceanic swimming for caribou that live on islands in the Fogo Island
-archipelago.
+
 
 Oceanic swimming is relatively common among a minority of marked caribou. Of the
 three collared individuals that swam the most, two were collared on Western
