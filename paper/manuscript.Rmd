@@ -218,19 +218,6 @@ also possible that Fogo Island has experienced forage depletion since the
 introduction of caribou in the 1960s. More likely, however, is that fine-scale
 competition for foraging resources drives caribou to swim to new islands.
 
-
-
-
-It is therefore possible
-that individuals vary in their tendency to swim. We are also unable to draw
-conclusions about the prevalence of swimming in the ocean by male caribou: our
-initial visual observation was of an adult male, but our GPS data only included
-adult females.
-
-
-
-
-
 We surmise that as competition among conspecifics increased along with
 population size, density-dependent habitat selection resulted in expansion of
 the population to nearby islands. Following Ideal Free Distribution theory,
