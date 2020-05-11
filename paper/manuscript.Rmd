@@ -161,7 +161,11 @@ by density-dependent habitat selection.
 
 Forage limitation may be the ultimate explanation for caribou swimming between oceanic islands, but cannot fully explain the variation we observed. Several questions remain:
 
-1) How does the energetic cost or risk of swimming differ from walking across sea ice? How many individuals were observed travelling between islands during the winter, relative to the 12 swimmers?
+1) How does the energetic cost or risk of swimming differ from walking across
+sea ice? How many individuals were observed travelling between islands during
+the winter, relative to the 12 swimmers?
+
+2) 
 
  Only `r n10` of these 12 individuals had more than 10
 swimming events, suggesting that for ~10% of collared individuals swim
