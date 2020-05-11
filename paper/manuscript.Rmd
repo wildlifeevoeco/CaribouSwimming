@@ -126,7 +126,7 @@ translocations and introductions throughout the province [@Bergerud1989].
 Typical caribou predators such as black bears (*Ursus americanus*) and wolves
 (*Canis lupus*) are absent from Fogo Island; the dominant predator is coyote
 (*Canis latrans*), which predate calves but it remains unclear what threat they
-pose, if any, to adult caribou. Given the minimal risk of predation to adults,
+pose, if any, to adult caribou [@Rayl2014]. Given the minimal risk of predation to adults,
 we propose that forage limitation is more likely to drive movement between
 islands than predator avoidance. For several decades after their introduction to
 Fogo Island, the caribou population did not exceed ~100 individuals
