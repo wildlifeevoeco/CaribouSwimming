@@ -205,7 +205,7 @@ Indian Island and the third was collared on Fogo Island. Inter-island distances
 between Western and Eastern Indian Islands, and the smaller islands around them,
 are shorter than those between Fogo Island and others (Figure 2).
 
-We surmise that as competition among conspecifics increased along with
+We surmise that for Fogo Island, as competition among conspecifics increased along with
 population size, density-dependent habitat selection resulted in expansion of
 the population to nearby islands. Following Ideal Free Distribution theory,
 caribou should swim to new islands when the average fitness of individuals on
@@ -214,9 +214,7 @@ this is an ultimate explanation, our data suggest caribou only remain on smaller
 islands for a few days at a time, so the fitness equilibrium remains a
 theoretical construct. More likely, however, is that fine-scale competition,
 density-dependent habitat selection, and forage depletion drives individuals to
-periodically swim between islands. Given the presumed low density of coyotes on
-Fogo Island and the minimal risk they pose, predation risk does not appear to be
-a major driver of swimming. Our observations add to the evidence that caribou
+periodically swim between islands. Our focal observations add to the evidence that caribou
 can, and occasionally do, swim in the ocean [e.g. @Miller1995; @Miller2002;
 @Jeffery2007; @Ricca2012]. We suggest that swimming is likely more common than
 previously thought for caribou living on oceanic islands, and that forage
