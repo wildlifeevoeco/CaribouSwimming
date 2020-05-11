@@ -147,6 +147,25 @@ by newly arrived caribou could rapidly deplete forage on an annual cycle
 [@Bergerud1990], leading to more frequent movements back and forth between
 islands rather than permanent relocation.
 
+The trade-off associated with swimming between islands can be understood as
+density-dependent habitat selection governed by the Ideal Free Distribution
+[@Morris1987; @Bradbury2015]. Ideal Free Distribution theory predicts a fitness
+equilibrium: when the density in a given habitat patch has exceeded the optimum
+for fitness within that patch, animals should relocate and settle new habitat
+patches, so that fitness is equal across all patches [@Bradbury2015]. Islands
+act as discrete habitat patches in this case, but the costs associated with
+swimming create a trade-off when moving between patches. For caribou in the Fogo
+Island archipelago, the role of forage limitation in habitat selection patterns
+remains unknown, but swimming between islands may be at least partially governed
+by density-dependent habitat selection.
+
+ Only `r n10` of these 12 individuals had more than 10
+swimming events, suggesting that for ~10% of collared individuals swim
+relatively frequently, on average occurring approximately every `r indMean` days
+during ice-free seasons. We did not detect any swimming events for the remaining
+17 individuals. It remains unclear whether these individuals do not swim, or
+whether swimming is rare, and thus undetected, for the majority of individuals.
+
 
 It is unknown when caribou began colonizing nearby islands, but
 given that some are small, over-grazing by newly arrived caribou may rapidly
@@ -155,25 +174,6 @@ also possible that Fogo Island has experienced forage depletion since the
 introduction of caribou in the 1960s. More likely, however, is that fine-scale
 competition for foraging resources drives caribou to swim to new islands.
 
-
-Movement between islands requires caribou to assess the trade-off associated
-with swimming. This trade-off can be understood as density-dependent habitat
-selection governed by the Ideal Free Distribution [@Morris1987; @Bradbury2015].
-Ideal Free Distribution theory predicts a fitness equilibrium: when the density
-in a given habitat patch has exceeded the optimum for fitness within that patch,
-animals should relocate and settle new habitat patches, so that fitness is equal
-across all patches [@Bradbury2015]. Islands act as discrete habitat patches in
-this case, but the costs associated with swimming create a trade-off when moving
-between patches. For caribou in the Fogo Island archipelago, the role of forage
-limitation in habitat selection patterns remains unknown, but swimming
-between islands may be at least partially governed by density-dependent habitat selection.
-
- Only `r n10` of these 12 individuals had more than 10
-swimming events, suggesting that for ~10% of collared individuals swim
-relatively frequently, on average occurring approximately every `r indMean` days
-during ice-free seasons. We did not detect any swimming events for the remaining
-17 individuals. It remains unclear whether these individuals do not swim, or
-whether swimming is rare, and thus undetected, for the majority of individuals.
 
 
 
