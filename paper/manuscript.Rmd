@@ -210,14 +210,6 @@ during ice-free seasons. We did not detect any swimming events for the remaining
 17 individuals. It remains unclear whether these individuals do not swim, or
 whether swimming is rare, and thus undetected, for the majority of individuals.
 
-
-It is unknown when caribou began colonizing nearby islands, but
-given that some are small, over-grazing by newly arrived caribou may rapidly
-deplete forage on an annual cycle [@Bergerud1990]. Although unconfirmed, it is
-also possible that Fogo Island has experienced forage depletion since the
-introduction of caribou in the 1960s. More likely, however, is that fine-scale
-competition for foraging resources drives caribou to swim to new islands.
-
 We surmise that as competition among conspecifics increased along with
 population size, density-dependent habitat selection resulted in expansion of
 the population to nearby islands. Following Ideal Free Distribution theory,
