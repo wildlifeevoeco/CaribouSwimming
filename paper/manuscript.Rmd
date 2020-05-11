@@ -99,11 +99,9 @@ In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. On average, caribou swam approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) times per year and remained on each
 island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
-swimming again. Caribou may swim between islands in the ocean for similar
-reasons they swim in freshwater [@Leblond2016]. We propose that one such
-explanation, the forage limitation hypothesis, is a likely explanation for
-oceanic swimming for caribou that live on islands in the Fogo Island
-archipelago.
+swimming again. We can separate the population into three apparent groups of individuals: those that swam regularly between islands
+(n = 3, every ~`r indMean` days); those that rarely engaged in swimming events (n = 9, every ~
+`r ind2Mean` days); and those that never swam (n = 17). 
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
 that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
@@ -145,7 +143,21 @@ swimming events, suggesting that for ~10% of collared individuals swim
 relatively frequently, on average occurring approximately every `r indMean` days
 during ice-free seasons. We did not detect any swimming events for the remaining
 17 individuals. It remains unclear whether these individuals do not swim, or
+whether swimming is rare, and thus undetected, for the majority of individuals.
 
+
+
+It is therefore possible
+that individuals vary in their tendency to swim. We are also unable to draw
+conclusions about the prevalence of swimming in the ocean by male caribou: our
+initial visual observation was of an adult male, but our GPS data only included
+adult females.
+
+Caribou may swim between islands in the ocean for similar
+reasons they swim in freshwater [@Leblond2016]. We propose that one such
+explanation, the forage limitation hypothesis, is a likely explanation for
+oceanic swimming for caribou that live on islands in the Fogo Island
+archipelago.
 
 Oceanic swimming is relatively common among a minority of marked caribou. Of the
 three collared individuals that swam the most, two were collared on Western
