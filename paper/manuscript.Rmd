@@ -83,9 +83,7 @@ The Fogo Island archipelago, off the coast of Newfoundland, Canada, is home to
 approximately 300 woodland caribou. During routine fieldwork on May 30, 2017, we
 observed an unmarked adult male caribou swim between two small islands (Figure 1, see Figure 2 for location), a distance of at least 470 m which took ~9 minutes (~52 m
 per minute). This observation prompted us to investigate whether swimming
-behaviour was common among GPS radio-collared caribou in the population (n = 29
-adult females; 1240g, GPS 4400M; Lotek Wireless Inc., Newmarket, Ontario,
-Canada). Using `r substr(version$version.string, 1, 15)` [@R], we identified
+behaviour was common among GPS radio-collared caribou in the population (n = 29, for collaring details see [@Peignier_2019]). Using `r substr(version$version.string, 1, 15)` [@R], we identified
 swimming events as two consecutive GPS locations (2-hour relocation rates)  from
 an individual occurred on different islands. Northeastern Newfoundland typically
 experiences pack ice during winter and caribou are known locally to travel
