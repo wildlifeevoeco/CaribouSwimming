@@ -95,8 +95,8 @@ swimming events over three years (Figure 2). In addition to our own visual and
 remotely sensed observations, residents of Fogo Island have also reported
 observing caribou swimming between islands on numerous occasions.
 
-In total, `r nevents` swimming events occurred throughout the ice-free season,
-with peaks in May and November. On average, caribou swam approximately `r neventidMean`
+In total, 12 of 29 collared female caribou swam between islands in the Fogo
+Island archipelago. On average, caribou swam approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) times per year and remained on each
 island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
 swimming again. Caribou may swim between islands in the ocean for similar
@@ -140,20 +140,12 @@ between patches. For caribou in the Fogo Island archipelago, the role of forage
 limitation in habitat selection patterns remains unknown, but swimming
 between islands may be at least partially governed by density-dependent habitat selection.
 
-In total, 12 of 29 collared female caribou swam between islands in the Fogo
-Island archipelago. Only `r n10` of these 12 individuals had more than 10
+ Only `r n10` of these 12 individuals had more than 10
 swimming events, suggesting that for ~10% of collared individuals swim
 relatively frequently, on average occurring approximately every `r indMean` days
 during ice-free seasons. We did not detect any swimming events for the remaining
 17 individuals. It remains unclear whether these individuals do not swim, or
-whether swimming is rare, and thus undetected, for the majority of individuals.
-Overall, there appears to be three groups of individuals: those that swam often
-(n = 3, every ~`r indMean` days), those that swam occasionally (n = 9, every ~
-`r ind2Mean` days), and those that never swam (n = 17). It is therefore possible
-that individuals vary in their tendency to swim. We are also unable to draw
-conclusions about the prevalence of swimming in the ocean by male caribou: our
-initial visual observation was of an adult male, but our GPS data only included
-adult females.
+
 
 Oceanic swimming is relatively common among a minority of marked caribou. Of the
 three collared individuals that swam the most, two were collared on Western
