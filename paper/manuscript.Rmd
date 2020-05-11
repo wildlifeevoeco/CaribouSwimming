@@ -203,13 +203,6 @@ that caribou display natal philopatry [e.g. @Larue2018] to some of the smaller
 islands and thus are more likely to swim between them more frequently than
 animals that were born, or spend most of their time, on Fogo Island.
 
- Only `r n10` of these 12 individuals had more than 10
-swimming events, suggesting that for ~10% of collared individuals swim
-relatively frequently, on average occurring approximately every `r indMean` days
-during ice-free seasons. We did not detect any swimming events for the remaining
-17 individuals. It remains unclear whether these individuals do not swim, or
-whether swimming is rare, and thus undetected, for the majority of individuals.
-
 We surmise that as competition among conspecifics increased along with
 population size, density-dependent habitat selection resulted in expansion of
 the population to nearby islands. Following Ideal Free Distribution theory,
