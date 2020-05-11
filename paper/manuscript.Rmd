@@ -79,17 +79,6 @@ nfull <- edges[, .N, .(ANIMAL_ID, season)]
 
 \newpage
 
-
-Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
-that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
-to avoid predators [@Bergerud1985], and access islands during calving
-[@Bergerud1990]. Even for adept swimmers like caribou, the energetic expenditure
-of swimming for quadrupedal mammals is significantly higher than walking or
-running, and drowning is also possible [@Miller1985]. Despite
-the abundance of coastal and island caribou herds, only a handful of examples
-have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002;
-@Jeffery2007; @Ricca2012].
-
 The Fogo Island archipelago, off the coast of Newfoundland, Canada, is home to
 approximately 300 woodland caribou. During routine fieldwork on May 30, 2017, we
 observed an unmarked adult male caribou swim between Western and Eastern Indian
@@ -107,6 +96,18 @@ adult female caribou that collectively had `r nevents` swimming events over
 three years (Figure 2). In addition to our own visual and remotely sensed
 observations, residents of Fogo Island have also reported observing caribou
 swimming between islands on numerous occasions.
+
+Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
+that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
+to avoid predators [@Bergerud1985], and access islands during calving
+[@Bergerud1990]. Even for adept swimmers like caribou, the energetic expenditure
+of swimming for quadrupedal mammals is significantly higher than walking or
+running, and drowning is also possible [@Miller1985]. Despite
+the abundance of coastal and island caribou herds, only a handful of examples
+have documented caribou swimming in the ocean [e.g. @Miller1995; @Miller2002;
+@Jeffery2007; @Ricca2012].
+
+
 
 In total, `r nevents` swimming events occurred throughout the ice-free season,
 with peaks in May and November. On average, caribou swam approximately `r neventidMean`
