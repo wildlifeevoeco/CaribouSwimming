@@ -199,12 +199,6 @@ island differently. It is possible that some individuals, in our case ~10%,
 considered swimming to be less costly or perceived competition or predation more
 acutely than their conspecifics.
 
-Oceanic swimming is relatively common among a minority of marked caribou. Of the
-three collared individuals that swam the most, two were collared on Western
-Indian Island and the third was collared on Fogo Island. Inter-island distances
-between Western and Eastern Indian Islands, and the smaller islands around them,
-are shorter than those between Fogo Island and others (Figure 2).
-
 We surmise that for Fogo Island, as competition among conspecifics increased along with
 population size, density-dependent habitat selection resulted in expansion of
 the population to nearby islands. Following Ideal Free Distribution theory,
