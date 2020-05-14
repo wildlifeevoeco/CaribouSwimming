@@ -14,25 +14,26 @@ two small islands (Figure 1, see Figure 2 for location), a distance of
 at least 470 m which took ~9 minutes (~52 m per minute). This
 observation prompted us to investigate whether swimming behaviour was
 common among GPS radio-collared caribou in the population (n = 29, for
-collaring details see, Peignier et al. 2019). We identified swimming
-events as two consecutive GPS locations (2-hour relocation rates) from
-an individual that occurred on different islands. Northeastern
-Newfoundland typically experiences pack ice during winter and caribou
-are known locally to travel between islands by walking over the ice. We
-restricted our GPS data to the ice-free period of the year (April 1 to
-December 31) and identified 127 swimming events over three years (Figure
-2). In addition to our own visual and remotely sensed observations,
-residents of Fogo Island have also reported regularly observing caribou
-swimming between islands.
+collaring details see, Peignier et al. 2019). We identified an
+individual’s swimming events as two consecutive GPS locations (2-hour
+relocation rates) on different islands. Northeastern Newfoundland
+typically experiences pack ice during winter and caribou are known
+locally to travel between islands by walking over the ice. We restricted
+our GPS data to the ice-free period of the year (April 1 to December 31)
+and identified 127 swimming events over three years (Figure 2). In
+addition to our own visual and remotely sensed observations, residents
+of Fogo Island have also reported regularly observing caribou swimming
+between islands.
 
 In total, 12 of 29 collared female caribou swam between islands in the
-Fogo Island archipelago. On average, caribou swam approximately 11
-(range = 2-34) times per year and remained on each island for
-approximately 30 (range = 0-724) days before swimming again. Based on
-swimming data, we separated the population into three apparent groups of
-individuals: those that swam regularly between islands (n = 3, every ~15
-days); those that rarely engaged in swimming events (n = 9, every ~ 42
-days); and those that never swam (n = 17).
+Fogo Island archipelago. Of the caribou that swam, caribou swam on
+average approximately 11 (range = 2-34) times per year and remained on
+each island for approximately 30 (range = 0-724) days before swimming
+again. Based on GPS data to infer swimming, we separated the population
+into three apparent groups of individuals: those that swam regularly
+between islands (n = 3, every ~15 days); those that rarely engaged in
+swimming events (n = 9, every ~ 42 days); and those that never swam (n =
+17).
 
 Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence
 exists that caribou swim in streams, rivers, and lakes during migration
