@@ -11,19 +11,18 @@ The Fogo Island archipelago, off the coast of Newfoundland, Canada, is
 home to approximately 300 woodland caribou. During routine fieldwork on
 May 30, 2017, we observed an unmarked adult male caribou swim between
 two small islands (Figure 1, see Figure 2 for location), a distance of
-at least 470 m which took ~9 minutes (~52 m per minute). This
-observation prompted us to investigate whether swimming behaviour was
-common among GPS radio-collared caribou in the population (n = 29, for
-collaring details see, Peignier et al. 2019). We identified an
-individual’s swimming events as two consecutive GPS locations (2-hour
-relocation rates) on different islands. Northeastern Newfoundland
-typically experiences pack ice during winter and caribou are known
-locally to travel between islands by walking over the ice. We restricted
-our GPS data to the ice-free period of the year (April 1 to December 31)
-and identified 127 swimming events over three years (Figure 2). In
-addition to our own visual and remotely sensed observations, residents
-of Fogo Island have also reported regularly observing caribou swimming
-between islands.
+at least 470 m which took ~9 minutes (~52 m per minute). Residents of
+Fogo Island confirmed this phenomenon and have also reported regularly
+observing caribou swimming between islands. This observation prompted us
+to investigate whether swimming behaviour was common among GPS
+radio-collared caribou in the population (n = 29, for collaring details
+see, Peignier et al. 2019). We identified an individual’s swimming
+events as two consecutive GPS locations (2-hour relocation rates) on
+different islands. Northeastern Newfoundland typically experiences pack
+ice during winter and caribou are known locally to travel between
+islands by walking over the ice. We restricted our GPS data to the
+ice-free period of the year (April 1 to December 31) and identified 127
+swimming events over three years (Figure 2).
 
 In total, 12 of 29 collared female caribou swam between islands in the
 Fogo Island archipelago. Of the caribou that swam, caribou swam on
@@ -39,7 +38,7 @@ Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence
 exists that caribou swim in streams, rivers, and lakes during migration
 (Leblond et al. 2016), to avoid predators (Bergerud 1985), and to access
 islands during calving (Bergerud et al. 1990). Even for adept swimmers
-like caribou, that have hollow hair shafts that aid in flotation, the
+like caribou, which have hollow hair shafts that aid in flotation, the
 energetic expenditure of swimming for quadrupedal mammals is
 significantly higher than walking or running, and drowning is also
 possible (Miller and Gunn 1985). Despite the abundance of coastal and
@@ -104,18 +103,22 @@ between oceanic islands, but a number of proximate mechanisms remain
 untested. Our observations of caribou swimming in the ocean lead to five
 questions for future research:
 
-1)  How does the energetic cost or risk of swimming differ from walking
-    on sea ice? The cost of swimming may be lower than the risk of
-    falling through sea ice and drowning, so what proportion of
-    inter-island movements are swimming events compared to walking on
-    ice? The presence and extent of sea ice varies annually in our study
-    area and we are unable to determine the exact timing or duration of
-    sea ice from past years. However, we qualitatively delineate the
-    timing of typical sea ice arrival and departure (Figure 2B) and
-    deduce that although the majority of inter-island movements occur
-    between April 1 and December 31, some inter-island movements appear
-    to be caribou walking on sea ice between islands. Future research
-    should focus on the trade-off between these types of movement.
+1)  How do the energetic cost and risk of swimming differ from walking
+    on sea ice? Walking over solid ice is likely less energetically
+    expensive than swimming, but may pose a greater risk of falling
+    through depending on the thickness and stability of ice. What
+    proportion of inter-island movements are swimming events compared to
+    walking on ice? The presence and extent of sea ice varies annually
+    in our study area and we are unable to determine the exact timing or
+    duration of sea ice from past years. However, we qualitatively
+    delineate the timing of typical sea ice arrival and departure
+    (Figure 2B) and deduce that although the majority of inter-island
+    movements occur between April 1 and December 31, some inter-island
+    movements appear to be caribou walking on sea ice between islands.
+    Future research on the trade-offs of these types of movement should
+    consider both how the costs associated with each differ, but also
+    how the potential benefits - foraging opportunities - may vary
+    seasonally.
 
 2)  At which temporal and spatial scales do caribou choose to swim
     between islands? Does the time of day, weather, season, or
@@ -125,9 +128,10 @@ questions for future research:
     class (age or sex) influence propensity for oceanic swimming? Our
     initial observation was of an adult male, but all collared
     individuals were adult females. Are younger caribou more likely to
-    swim due to heightened competition? Are males or females without a
-    calf-at-heel more likely to swim in the summer given the are not
-    restricted based on presence of a calf-at-heel, as females are.
+    swim if they are unable to compete with older individuals for
+    resources? Are males or females without a calf-at-heel more likely
+    to swim in the summer given they are not restricted based on
+    presence of a calf-at-heel, as females are?
 
 4)  If swimming is a function of density-dependent habitat selection,
     what are the costs of movement between patches? IFD assumes
