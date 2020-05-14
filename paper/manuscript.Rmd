@@ -98,10 +98,10 @@ observations, residents of Fogo Island have also reported regularly observing
 caribou swimming between islands.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
-Island archipelago. On average, caribou swam approximately `r neventidMean`
+Island archipelago. Of the caribou that swam, caribou swam on average approximately `r neventidMean`
 (range = `r neventidMin`-`r neventidMax`) times per year and remained on each
 island for approximately `r dur` (range = `r durMin`-`r durMax`) days before
-swimming again. Based on swimming data, we separated the population into three
+swimming again. Based on GPS data to infer swimming, we separated the population into three
 apparent groups of individuals: those that swam regularly between islands (n =
 3, every ~`r indMean` days); those that rarely engaged in swimming events (n =
 9, every ~ `r ind2Mean` days); and those that never swam (n = 17).
