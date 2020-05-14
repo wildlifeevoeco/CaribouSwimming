@@ -87,15 +87,15 @@ observed an unmarked adult male caribou swim between two small islands (Figure
 1, see Figure 2 for location), a distance of at least 470 m which took ~9
 minutes (~52 m per minute). This observation prompted us to investigate whether
 swimming behaviour was common among GPS radio-collared caribou in the population
-[n = 29, for collaring details see, @Peignier2019]. We identified swimming
-events as two consecutive GPS locations (2-hour relocation rates)  from an
-individual that occurred on different islands. Northeastern Newfoundland typically
-experiences pack ice during winter and caribou are known locally to travel
-between islands by walking over the ice. We restricted our GPS data to the
-ice-free period of the year (April 1 to December 31) and identified `r nevents`
-swimming events over three years (Figure 2). In addition to our own visual and
-remotely sensed observations, residents of Fogo Island have also reported regularly
-observing caribou swimming between islands.
+[n = 29, for collaring details see, @Peignier2019]. We identified an
+individual's swimming events as two consecutive GPS locations (2-hour relocation
+rates)  on different islands. Northeastern Newfoundland typically experiences
+pack ice during winter and caribou are known locally to travel between islands
+by walking over the ice. We restricted our GPS data to the ice-free period of
+the year (April 1 to December 31) and identified `r nevents` swimming events
+over three years (Figure 2). In addition to our own visual and remotely sensed
+observations, residents of Fogo Island have also reported regularly observing
+caribou swimming between islands.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. On average, caribou swam approximately `r neventidMean`
