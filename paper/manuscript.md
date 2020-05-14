@@ -109,21 +109,25 @@ questions for future research:
     falling through sea ice and drowning, so what proportion of
     inter-island movements are swimming events compared to walking on
     ice? The presence and extent of sea ice varies annually in our study
-    area, and although we are unable to determine the exact timing or
-    duation of sea ice, we delineate on Figure 2b the timing of typical
-    sea ice arrival and departure.
+    area and we are unable to determine the exact timing or duration of
+    sea ice from past years. However, we qualitatively delineate the
+    timing of typical sea ice arrival and departure (Figure 2B) and
+    deduce that although the majority of inter-island movements occur
+    between April 1 and December 31, some inter-island movements appear
+    to be caribou walking on sea ice between islands. Future research
+    should focus on the trade-off between these types of movement.
 
 2)  At which temporal and spatial scales do caribou choose to swim
     between islands? Does the time of day, weather, season, or
     availability of food influence swimming?
 
 3)  Does reproductive status (presence of a calf-at-heel) or demographic
-    class (age, sex) influence propensity for oceanic swimming? Our
+    class (age or sex) influence propensity for oceanic swimming? Our
     initial observation was of an adult male, but all collared
     individuals were adult females. Are younger caribou more likely to
-    swim due to heightened competition? Are males more likely to swim in
-    the summer given the are not restricted based on presence of a
-    calf-at-heel, as females are.
+    swim due to heightened competition? Are males or females without a
+    calf-at-heel more likely to swim in the summer given the are not
+    restricted based on presence of a calf-at-heel, as females are.
 
 4)  If swimming is a function of density-dependent habitat selection,
     what are the costs of movement between patches? IFD assumes
@@ -138,10 +142,10 @@ questions for future research:
     while more than half of our marked population were never observed
     swimming in the ocean? The forage limitation hypothesis is thought
     to apply uniformly across populations, but individual caribou could
-    evaluate the costs and benefits of swimming to another island
-    differently. It is possible that some individuals, in our case ~10%,
-    considered swimming to be less costly or perceived competition or
-    predation more acutely than their conspecifics.
+    evaluate the costs and benefits of swimming differently. It is
+    possible that some individuals, in our case ~10%, considered
+    swimming to be less costly or perceived competition or predation
+    more acutely than their conspecifics.
 
 We surmise that for Fogo Island, as competition among conspecifics
 increased along with population size, density-dependent habitat
