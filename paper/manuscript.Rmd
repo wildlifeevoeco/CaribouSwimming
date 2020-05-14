@@ -113,7 +113,7 @@ to avoid predators [@Bergerud1985], and to access islands during calving
 shafts that aid in flotation, the energetic expenditure of swimming for
 quadrupedal mammals is significantly higher than walking or running, and
 drowning is also possible [@Miller1985]. Despite the abundance of coastal and
-island caribou herds, only a handful of studies have documented caribou swimming
+island caribou herds, only a few studies have documented caribou swimming
 in the ocean, and most of these lack observation, but rather deduce swimming
 based on presence of caribou on a previously uninhabitated island  [e.g.
 @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Caribou may swim between
@@ -172,13 +172,11 @@ research:
 ice? Walking over solid ice is likely less energetically expensive than
 swimming, but may pose a greater risk of falling through depending on the
 thickness and stability of ice. What proportion of inter-island movements are
-swimming events compared to walking on ice? The presence and extent of sea ice
-varies annually in our study area and we are unable to determine the exact
-timing or duration of sea ice from past years. However, we qualitatively
-delineate the timing of typical sea ice arrival and departure (Figure 2B) and
+swimming events compared to walking on ice? Although the presence and extent of sea ice
+varies annually,  we
 deduce that although the majority of inter-island movements occur between April
 1 and December 31, some inter-island movements appear to be caribou walking on
-sea ice between islands. Future research on the trade-offs of these types of
+sea ice between islands (Figure 2B). Future research on the trade-offs of these types of
 movement should consider both how the costs associated with each differ, but
 also how the potential benefits - foraging opportunities - may vary seasonally.
 
