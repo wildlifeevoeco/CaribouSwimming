@@ -49,10 +49,10 @@ deduce swimming based on presence of caribou on a previously
 uninhabitated island (e.g. Miller 1995, 2002, Jeffery et al. 2007, Ricca
 et al. 2012). Caribou may swim between islands in the ocean for similar
 reasons they swim in freshwater (Leblond et al. 2016), mainly concerning
-predator avoidance or to access new habitats. We propose that one such
-explanation, the forage limitation hypothesis, is the most likely
-explanation for oceanic swimming for caribou that live on islands in the
-Fogo Island archipelago.
+predator avoidance or to access new habitats and foraging opportunities.
+We propose that one such explanation, the forage limitation hypothesis,
+is the most likely explanation for oceanic swimming for caribou that
+live on islands in the Fogo Island archipelago.
 
 Caribou were introduced to Fogo Island (n = 26 animals between 1964–67)
 and Change Island (n = 5 animals in 1964) from Newfoundland as part of a
@@ -69,8 +69,8 @@ exceed ~100 individuals (Bergerud and Mercer 1989, Newfoundland and
 Labrador Wildlife Division, unpublished data). During the 1990s,
 population density reached ~300 animals and anecdotal evidence suggests
 caribou were first seen on nearby islands during this same period.
-Increased competition for resources on Fogo due to this increase in
-density could have precipitated movement to other islands.
+Increased competition for resources on Fogo Island due to this increase
+in density could have precipitated movement to other islands.
 
 Forage limitation and over-grazing is a major concern for caribou
 populations and can lead to reduced female reproductive success
@@ -80,10 +80,11 @@ winter (Miller et al. 1977). For the Fogo Island population, as the
 population grew and predation pressure was insufficient to maintain
 population density, forage depletion could lead caribou to make similar,
 but riskier and more costly, movements between islands during the
-ice-free season. Given the small size of other islands near Fogo,
-over-grazing by newly arrived caribou could rapidly deplete forage on an
-annual cycle (Bergerud et al. 1990), leading to more frequent movements
-back and forth between islands rather than permanent relocation.
+ice-free season. Given the small size of other islands near Fogo (Figure
+2), over-grazing by newly arrived caribou could rapidly deplete forage
+on an annual cycle (Bergerud et al. 1990), leading to more frequent
+movements back and forth between islands rather than permanent
+relocation.
 
 The trade-off associated with swimming between islands can be understood
 as density-dependent habitat selection governed by the Ideal Free
