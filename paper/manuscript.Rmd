@@ -173,9 +173,12 @@ research:
 ice? The cost of swimming may be lower than the risk of falling through sea ice
 and drowning, so what proportion of inter-island movements are swimming events
 compared to walking on ice? The presence and extent of sea ice varies annually
-in our study area, and although we are unable to determine the exact timing or
-duation of sea ice, we delineate on Figure 2b the timing of typical sea ice
-arrival and departure.
+in our study area and we are unable to determine the exact timing or duration of
+sea ice from past years. However, we qualitatively delineate the timing of
+typical sea ice arrival and departure (Figure 2B) and deduce that although the
+majority of inter-island movements occur between April 1 and December 31, some
+inter-island movements appear to be caribou walking on sea ice between islands.
+Future research should focus on the trade-off between these types of movement.
 
 2) At which temporal and spatial scales do caribou choose to swim
 between islands? Does the time of day, weather, season, or availability
