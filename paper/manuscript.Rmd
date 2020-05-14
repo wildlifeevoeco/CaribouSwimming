@@ -100,8 +100,8 @@ caribou swimming between islands.
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. Of the caribou that swam, caribou swam on average
 approximately `r neventidMean` (range = `r neventidMin`-`r neventidMax`) times
-per year and remained on each island for approximately `r dur` (range = `r
-durMin`-`r durMax`) days before swimming again. Based on GPS data to infer
+per year and remained on each island for approximately `r dur` (range = 
+`r durMin`-`r durMax`) days before swimming again. Based on GPS data to infer
 swimming, we separated the population into three apparent groups of individuals:
 those that swam regularly between islands (n = 3, every ~`r indMean` days);
 those that rarely engaged in swimming events (n = 9, every ~ `r ind2Mean` days);
@@ -119,7 +119,7 @@ in the ocean, and most of these lack observation, but rather deduce swimming
 based on presence of caribou on a previously uninhabitated island  [e.g.
 @Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Caribou may swim between
 islands in the ocean for similar reasons they swim in freshwater [@Leblond2016],
-mainly concerning predator avoidance or to access new habitats. We propose
+mainly concerning predator avoidance or to access new habitat. We propose
 that one such explanation, the forage limitation hypothesis, is the most likely
 explanation for oceanic swimming for caribou that live on islands in the Fogo
 Island archipelago.
