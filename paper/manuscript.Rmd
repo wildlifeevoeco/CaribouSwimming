@@ -3,7 +3,7 @@ title: Interisland movements and oceanic swimming of woodland caribou in Newfoun
 author: Quinn M.R. Webber^1\*^, Jack G. Hendrix^1^, Alec L. Robitaille^2^,  Eric Vander Wal^1,2^
 date: 
     ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial
-   University of Newfoundland
+   University of Newfoundland, Canada
     ^2^Department of Biology, Memorial University of Newfoundland, Canada
     #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output:
@@ -125,21 +125,21 @@ opportunities. We propose that one such explanation, the forage limitation
 hypothesis, is the most likely explanation for oceanic swimming for caribou that
 live on islands in the Fogo Island archipelago.
 
-Caribou were introduced to Fogo Island (n = 26 animals between 1964–67) and
-Change Island (n = 5 animals in 1964) from Newfoundland as part of a series of
-translocations and introductions throughout the province [@Bergerud1989].
-Typical caribou predators such as black bears (*Ursus americanus*) and wolves
-(*Canis lupus*) are absent from Fogo Island; the dominant predator is coyote
-(*Canis latrans*), which predate calves but it remains unclear what threat they
-pose, if any, to adult caribou [@Rayl2014]. Given the minimal risk of predation
-to adults, we propose that forage limitation is more likely to drive movement
-between islands than predator avoidance. For several decades after their
-introduction to Fogo Island, the caribou population did not exceed ~100
-individuals [@Bergerud1989, Newfoundland and Labrador Wildlife Division,
-unpublished data]. During the 1990s, population density reached ~300 animals and
-anecdotal evidence suggests caribou were first seen on nearby islands during
-this same period. Increased competition for resources on Fogo Island due to this
-increase in density could have precipitated movement to other islands.
+Caribou were introduced to Fogo Island between 1964–67 as part of a series of
+translocations throughout the province [@Bergerud1989]. Typical caribou
+predators such as black bears (*Ursus americanus*) and wolves (*Canis lupus*)
+are absent from Fogo Island; the dominant predator is coyote (*Canis latrans*),
+which predate calves but it remains unclear what threat they pose, if any, to
+adult caribou [@Rayl2014]. Given the minimal risk of predation to adults and low
+density of coyote on Fogo Island, we propose that forage limitation is more
+likely to drive movement between islands than predator avoidance. For several
+decades after their introduction to Fogo Island, the caribou population did not
+exceed ~100 individuals [@Bergerud1989, Newfoundland and Labrador Wildlife
+Division, unpublished data]. During the 1990s, population density reached ~300
+animals and anecdotal evidence suggests caribou were first seen on nearby
+islands during this same period. Increased competition for resources on Fogo
+Island due to this increase in density could have precipitated movement to other
+islands.
 
 Forage limitation and over-grazing is a major concern for caribou populations
 and can lead to reduced female reproductive success [@Schaefer2016]. Forage
@@ -187,25 +187,25 @@ Our aim for future research on the trade-offs of these types of movement
 considers how the costs, e.g. energy expenditure or mortality, and benefits,
 e.g. novel foraging opportunities, may vary seasonally.
 
-2) At which temporal and spatial scales do caribou choose to swim
+<!--2) At which temporal and spatial scales do caribou choose to swim
 between islands? Does the time of day, weather, season, or availability
-of food influence swimming?
+of food influence swimming?-->
 
-3) Does reproductive status (presence of a calf-at-heel) or demographic class
+<!--3) Does reproductive status (presence of a calf-at-heel) or demographic class
 (age or sex) influence propensity for oceanic swimming? Our initial observation
 was of an adult male, but all collared individuals were adult females. Are
 younger caribou more likely to swim if they are unable to compete with older
 individuals for resources? Are males or females without a calf-at-heel more
 likely to swim in the summer given they are not restricted based on presence of
-a calf-at-heel, as females are?
+a calf-at-heel, as females are? -->
 
-4) If swimming is a function of density-dependent habitat selection, what are
+2) If swimming is a function of density-dependent habitat selection, what are
 the costs of movement between patches? IFD assumes zero-cost movement, but could
 the risk and energetic costs associated with oceanic swimming be estimated using
 the potential fitness deficit that caribou are willing to tolerate before
 swimming to a new island?
 
-5) In relation to all the previous questions: how do individuals vary in their
+3) In relation to questions 1 and 2: how do individuals vary in their
 propensity to swim and their assessment of the costs and benefits of swimming
 between islands? We observed some individuals that regularly engaged in swimming
 events, while others were never observed swimming in the ocean? Our existing
