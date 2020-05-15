@@ -96,6 +96,9 @@ caribou are known locally to travel between islands by walking over the ice. We
 restricted our GPS data to the ice-free period of the year (April 1 to December
 31) and identified `r nevents` swimming events over three years (Figure 2).
 
+<!-- That first paragraph would benefit from a bit of signpost at its end to
+let us know what kind of ideas you're going go talk about near the end. -->
+
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. Of the caribou that swam, caribou swam on average
 approximately `r neventidMean` (range = `r neventidMin`-`r neventidMax`) times
@@ -167,6 +170,13 @@ Forage limitation may be the ultimate explanation for caribou swimming between
 oceanic islands, but a number of proximate mechanisms remain untested. Our
 observations of caribou swimming in the ocean lead to five questions for future
 research:
+<!-- a) For the questions that arise, maybe try to generalize the language a bit
+so that they are a bit broader: caribou as model, but emphasize the
+ecological/evolutionary process it will comment on. 
+b.) Consider tweaking the
+intro the the questions less as 'someone could do this' as something along the
+lines of : this has ignited in us the idea that we can tailor our data
+collection in our closely studies system to access some of these questions. -->
 
 1) How do the energetic cost and risk of swimming differ from walking on sea
 ice? Walking over solid ice is likely less energetically expensive than
