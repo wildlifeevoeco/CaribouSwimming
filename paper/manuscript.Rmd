@@ -83,21 +83,20 @@ nfull <- edges[, .N, .(ANIMAL_ID, season)]
 
 The Fogo Island archipelago, off the coast of Newfoundland, Canada, is home to
 approximately 300 woodland caribou. During routine fieldwork on May 30, 2017, we
-observed an unmarked adult male caribou swim between two small islands (Figure
-1, see Figure 2 for location), a distance of at least 470 m which took ~9
-minutes (~52 m per minute). Residents of Fogo Island confirmed this phenomenon
-and have also reported regularly observing caribou swimming between islands.
-This observation prompted us to investigate whether swimming behaviour was
-common among GPS radio-collared caribou in the population [n = 29, for collaring
-details see, @Peignier2019]. We identified an individual's swimming events as
-two consecutive GPS locations (2-hour relocation rates)  on different islands.
-Northeastern Newfoundland typically experiences pack ice during winter and
-caribou are known locally to travel between islands by walking over the ice. We
-restricted our GPS data to the ice-free period of the year (April 1 to December
-31) and identified `r nevents` swimming events over three years (Figure 2).
-
-<!-- That first paragraph would benefit from a bit of signpost at its end to
-let us know what kind of ideas you're going go talk about near the end. -->
+observed an unmarked adult male caribou swim between two small islands (Figure 1
+& 2), a distance of at least 470 m which took ~9 minutes (~52 m per minute).
+Residents of Fogo Island confirmed this phenomenon and have also reported
+regularly observing caribou swimming between islands. This observation prompted
+us to investigate whether swimming behaviour was common among GPS radio-collared
+caribou in the population [n = 29, for collaring details see, @Peignier2019]. We
+identified an individual's swimming events as two consecutive GPS locations
+(2-hour relocation rates) on different islands. Newfoundland typically
+experiences pack ice in late winter and caribou ,may travel between islands by
+walking over the ice. To identify swimming events, we restricted our dataset
+between April 1 and December 31 and identified `r nevents` swimming events over
+three years (Figure 2). Given the prevalence of swimming in this population, we
+discuss the causes and consequences of this behaviour and propose future areas
+of research.
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. Of the caribou that swam, caribou swam on average
