@@ -209,12 +209,12 @@ swimming to a new island?
 5) In relation to all the previous questions: how do individuals vary in their
 propensity to swim and their assessment of the costs and benefits of swimming
 between islands? We observed some individuals that regularly engaged in swimming
-events, while others were never observed swimming in the ocean? Our existing research on individual behavioural variation in caribou movement ecology The forage
-limitation hypothesis is thought to apply uniformly across populations, but
-individual caribou could evaluate the costs and benefits of swimming
-differently. It is possible that some individuals, in our case ~10%, considered
-swimming to be less costly or perceived competition or predation more acutely
-than their conspecifics.
+events, while others were never observed swimming in the ocean? Our existing
+research on individual behavioural variation in caribou movement ecology
+]@Webber2020] provides a basis to investigate the role of inherent individual
+differences in swimming behaviour. Specifically, the forage limitation
+hypothesis applies uniformly across populations, but individuals could evaluate
+the costs and benefits of swimming differently.
 
 We surmise that for Fogo Island, as competition among conspecifics increased
 along with population size, density-dependent habitat selection resulted in
