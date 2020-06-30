@@ -13,9 +13,12 @@ lapply(libs, require, character.only = TRUE)
 
 
 ### Data ----
-islands <- readRDS('output/fogo-island-polygons.Rds')
+islands <- readRDS('output/islandsPoly.Rds')
 edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
+
+## summary stats for % swims per island
+edges[, .N, by = "island"] ## Fogo Island: 126; W. Indian: 122; E. Indian: 123
 
 # CRS
 utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
