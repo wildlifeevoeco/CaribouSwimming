@@ -99,7 +99,7 @@ cols <- pal[, setNames(col, ID)]
     scale_fill_manual(values = cols) +
     geom_vline(aes(xintercept = 90)) +
     geom_vline(aes(xintercept = 365)) + 
-    labs(x = 'Julian Day', y = NULL) + 
+    labs(x = 'Calendar Day', y = NULL) + 
     themeHist)
 
 # Edges
