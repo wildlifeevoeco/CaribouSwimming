@@ -45,9 +45,9 @@ utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 utmislands <- st_transform(islands, utm)
 
 ### Rasterize ----
-out <- fasterize(utmislands, raster(utmislands, res = 3), field = "id")
+out <- fasterize(utmislands, raster(utmislands, res = 3), field = 'id')
 
 ### Output ----
-saveRDS(utmislands, "output/islandsPoly.Rds")
-saveRDS(out, "output/islandsRaster.Rds")
+saveRDS(utmislands, 'output/islandsPoly.Rds')
+saveRDS(out, 'output/islandsRaster.Rds')
 
