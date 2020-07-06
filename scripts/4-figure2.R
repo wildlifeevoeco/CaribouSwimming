@@ -18,7 +18,7 @@ edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
 
 ## summary stats for % swims per island
-# Fogo Island: 126; W. Indian: 122; E. Indian: 123
+# Fogo Island: 126; W. Perry: 122; E. Perry: 123
 edges[, .N, by = island] 
 
 # CRS
