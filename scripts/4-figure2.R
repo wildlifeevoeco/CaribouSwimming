@@ -18,7 +18,8 @@ edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
 
 ## summary stats for % swims per island
-edges[, .N, by = "island"] ## Fogo Island: 126; W. Indian: 122; E. Indian: 123
+# Fogo Island: 126; W. Indian: 122; E. Indian: 123
+edges[, .N, by = island] 
 
 # CRS
 utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
@@ -42,15 +43,15 @@ themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   axis.title = element_blank())
 
 themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
-                   panel.background = element_rect(fill = "white"), 
-                   axis.text = element_text(size = 11, color = "black"),
-                   axis.title = element_text(size = 12, color = "black"))
+                   panel.background = element_rect(fill = 'white'), 
+                   axis.text = element_text(size = 11, color = 'black'),
+                   axis.title = element_text(size = 12, color = 'black'))
 
 # First 
 tofirst <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outfirst <- c(x = 'firstX', y = 'firstY', xend = 'endfirstX', yend = 'endfirstY')
 
-edges[, (outfirst) := .SD,#[sample(.N, size = 1)],
+edges[, (outfirst) := .SD,
       by = .(island, ANIMAL_ID), .SDcols = tofirst]
 
 
@@ -83,14 +84,14 @@ cols <- pal[, setNames(col, ID)]
 (gfogo <- ggplot(islands) + 
     geom_sf(fill = islandcol, size = 0.13, color = coastcol) + 
     themeMap +
-    theme(axis.text = element_text(size = 11, color = "black")) +
-    scale_y_continuous(label = function(x) sprintf("%.2f°N", x)) +
-    scale_x_continuous(label = function(x) sprintf("%.1f°W", -1*x)))
+    theme(axis.text = element_text(size = 11, color = 'black')) +
+    scale_y_continuous(label = function(x) sprintf('%.2f°N', x)) +
+    scale_x_continuous(label = function(x) sprintf('%.1f°W', -1*x)))
 
 (gfogothick <- ggplot(islands) + 
     geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
     themeMap +
-    theme(axis.text = element_text(size = 11, color = "black")))
+    theme(axis.text = element_text(size = 11, color = 'black')))
 
 
 # Histogram
@@ -168,9 +169,9 @@ edgesize <- 1
 )
     
  
-layout <- "AAACCCCDDDD
+layout <- 'AAACCCCDDDD
            AAACCCCDDDD
-           BBBCCCCDDDD"
+           BBBCCCCDDDD'
 
 (g <- withboxes + ghist + gnetN + gnetS + 
   plot_layout(design = layout) + 
