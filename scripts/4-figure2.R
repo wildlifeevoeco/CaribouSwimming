@@ -5,7 +5,9 @@
 ### Packages ----
 libs <- c(
   'data.table',
+  'dplyr',
   'sf',
+  'ggsflabel',
   'ggnetwork',
   'patchwork'
 )
