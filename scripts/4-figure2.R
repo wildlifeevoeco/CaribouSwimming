@@ -20,7 +20,6 @@ edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
 
 ## summary stats for % swims per island
-# Fogo Island: 126; W. Perry: 122; E. Perry: 123
 edges[, .N, by = island] 
 
 # CRS
@@ -83,12 +82,16 @@ pal <- unique(edges, by = 'ANIMAL_ID')[order(region), .(ID = unique(ANIMAL_ID), 
 cols <- pal[, setNames(col, ID)]
 
 # Base islands
+labels <- data.table(id = c(120, 124, 128),
+                     label = c('Fogo Island', 'W. Perry Island', 'E. Perry Island'))
+islands <- left_join(islands, labels, 'id')
+
 (gfogo <- ggplot(islands) + 
     geom_sf(fill = islandcol, size = 0.13, color = coastcol) + 
     themeMap +
     theme(axis.text = element_text(size = 11, color = 'black')) +
     scale_y_continuous(label = function(x) sprintf('%.2f°N', x)) +
-    scale_x_continuous(label = function(x) sprintf('%.1f°W', -1*x)))
+    scale_x_continuous(label = function(x) sprintf('%.1f°W', -1 * x)))
 
 (gfogothick <- ggplot(islands) + 
     geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
@@ -157,16 +160,21 @@ edgesize <- 1
       data = Nsfbox,
       fill = NA,
       color = 'black',
-      size = 1.2
-    ) + 
+      size = 0.5
+    ) +
     geom_sf_label(data = Nsfbox, aes(label = label)) +
     geom_sf(
       data = Ssfbox,
       fill = NA,
       color = 'black',
-      size = 1.2
+      size = 0.5
     ) +
     geom_sf_label(data = Ssfbox, aes(label = label)) +
+    geom_sf_label_repel(aes(label = label), 
+                        data = islands[islands$label != 'Fogo Island', ], 
+                        nudge_x = 1.3e4, size = 2) +
+    geom_sf_label(aes(label = label), 
+                        data = islands[islands$label == 'Fogo Island', ], size = 2) +
     theme(axis.title = element_blank())
 )
     
