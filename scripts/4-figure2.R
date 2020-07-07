@@ -83,7 +83,7 @@ cols <- pal[, setNames(col, ID)]
 
 # Base islands
 labels <- data.table(id = c(120, 124, 128),
-                     label = c('Fogo Island', 'W. Perry Island', 'E. Perry Island'))
+                     label = c('Fogo Island', 'E. Perry Island', 'W. Perry Island'))
 islands <- left_join(islands, labels, 'id')
 
 (gfogo <- ggplot(islands) + 
