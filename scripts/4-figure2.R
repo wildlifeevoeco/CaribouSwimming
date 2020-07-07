@@ -105,8 +105,8 @@ islands <- left_join(islands, labels, 'id')
                    binwidth = 10) +
     guides(fill = FALSE) +
     scale_fill_manual(values = cols) +
-    geom_vline(aes(xintercept = 90)) +
-    geom_vline(aes(xintercept = 365)) + 
+    geom_vline(aes(xintercept = 90), size = 0.35) +
+    geom_vline(aes(xintercept = 365), size = 0.35) + 
     labs(x = 'Calendar Day', y = NULL) + 
     themeHist)
 
