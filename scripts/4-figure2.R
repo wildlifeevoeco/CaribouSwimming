@@ -160,14 +160,14 @@ edgesize <- 1
       data = Nsfbox,
       fill = NA,
       color = 'black',
-      size = 0.5
+      size = 0.3
     ) +
     geom_sf_label(data = Nsfbox, aes(label = label)) +
     geom_sf(
       data = Ssfbox,
       fill = NA,
       color = 'black',
-      size = 0.5
+      size = 0.3
     ) +
     geom_sf_label(data = Ssfbox, aes(label = label)) +
     geom_sf_label_repel(aes(label = label), 
