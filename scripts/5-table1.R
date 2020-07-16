@@ -12,15 +12,15 @@ lc <- raster('../nl-landcover/output/fogo_lc.tif')
 islands <- readRDS('output/islandsPoly.Rds')
 
 ### Table 1 ----
-selislands <- islands[islands$id %in% c(120, 124, 128),]
+selislands <- islands[islands$id %in% c(120, 128, 124),]
 
-lc == 8
+selislands$proplichen <- extract(lc == 8, selislands, fun = mean, na.rm = TRUE)
 
 tab1 <- data.table(
   island = c('Fogo Island', 'Western Perry Island', 'Eastern Perry Island'),
   movto = ,
   movfrom = ,
-  proplic = ,
+  proplic = round(selislands$proplichen[c(1, 3, 2)], 2),
   density = c(250, 50, 20),
   grpsize = c('3.05 (2.7, 3.4)',
               '2.95 (1.89, 4.02)',
