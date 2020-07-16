@@ -4,16 +4,24 @@
 
 ### Packages ----
 library(data.table)
+library(raster)
+library(sf)
 
-
+### Data ----
+lc <- raster('../nl-landcover/output/fogo_lc.tif')
+islands <- readRDS('output/islandsPoly.Rds')
 
 ### Table 1 ----
+selislands <- islands[islands$id %in% c(120, 124, 128),]
+
+lc == 8
+
 tab1 <- data.table(
   island = c('Fogo Island', 'Western Perry Island', 'Eastern Perry Island'),
   movto = ,
   movfrom = ,
   proplic = ,
-  density = cI,
+  density = c(250, 50, 20),
   grpsize = c('3.05 (2.7, 3.4)',
               '2.95 (1.89, 4.02)',
               '3.71 (1.97, 5.46)'),
