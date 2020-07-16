@@ -285,4 +285,9 @@ barrens.-->
 
 \newpage
 
+
+```{r tab1}
+knitr::kable(readRDS('../output/table1.Rds'))
+```
+
 **Literature Cited**
