@@ -287,7 +287,11 @@ barrens.-->
 
 
 ```{r tab1}
-knitr::kable(readRDS('../output/table1.Rds'))
+knitr::kable(readRDS('../output/table1.Rds'),
+             caption = '')
 ```
+
+
+\newpage
 
 **Literature Cited**
