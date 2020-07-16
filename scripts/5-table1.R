@@ -10,16 +10,26 @@ library(sf)
 ### Data ----
 lc <- raster('../nl-landcover/output/fogo_lc.tif')
 islands <- readRDS('output/islandsPoly.Rds')
+edges <- readRDS('output/island-edges.Rds')
 
 ### Table 1 ----
-selislands <- islands[islands$id %in% c(120, 128, 124),]
+only <- c(120, 128, 124)
+selislands <- islands[islands$id %in% only,]
 
 selislands$proplichen <- extract(lc == 8, selislands, fun = mean, na.rm = TRUE)
 
+counts <- rbindlist(lapply(only, function(o) {
+  data.table(island = o,
+             from = edges[island == o, .N],
+             to = edges[endisland == o, .N])
+}))
+
+
+
 tab1 <- data.table(
   island = c('Fogo Island', 'Western Perry Island', 'Eastern Perry Island'),
-  movto = ,
-  movfrom = ,
+  movto = counts$to,
+  movfrom = counts$from,
   proplic = round(selislands$proplichen[c(1, 3, 2)], 2),
   density = c(250, 50, 20),
   grpsize = c('3.05 (2.7, 3.4)',
