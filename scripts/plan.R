@@ -14,7 +14,7 @@ render_md <- code_to_function('scripts/6-render-md.R')
 plan <- drake_plan(
   islands = get_islands(),
   locs = extract_island_locs(islands),
-  edges = generate_edges(island_locs),
+  edges = generate_edges(locs),
   fig2 = fig_2(edges),
   tab1 = table_1(edges),
   md = render_md(fig2, tab1)
