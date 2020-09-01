@@ -1,14 +1,25 @@
 ---
 title: Interisland movements and oceanic swimming of woodland caribou in Newfoundland
-author: Quinn M.R. Webber^1\*^, Jack G. Hendrix^1^, Alec L. Robitaille^2^,  Eric Vander Wal^1,2^
-date: 
-    ^1^Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial
-   University of Newfoundland, Canada
-    ^2^Department of Biology, Memorial University of Newfoundland, Canada
-    #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
+author:
+  - name: Quinn M.R. Webber
+    institute: cabe
+    correspondence: true
+  - name: Jack G. Hendrix
+    institute: cabe
+  - name: Alec L. Robitaille
+    email: robit.alec@gmail.com
+    institute: bio
+  - name: Eric Vander Wal
+    institute: [bio, cabe]
+institute: 
+  - bio: Department of Biology, Memorial University of Newfoundland, Canada
+  - cabe: Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland 
 output:
    bookdown::word_document2:
      reference_docx: template.docx
+     pandoc_args:
+      - '--lua-filter=scholarly-metadata.lua'
+      - '--lua-filter=author-info-blocks.lua'
 bibliography: ../references/swim.bib
 csl: ecology.csl
 ---
