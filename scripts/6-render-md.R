@@ -1,1 +1,1 @@
-function() rmarkdown::render('paper/manuscript.Rmd')
+rmarkdown::render('paper/manuscript.Rmd')
