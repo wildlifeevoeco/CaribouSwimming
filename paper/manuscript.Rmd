@@ -7,12 +7,8 @@ date:
     ^2^Department of Biology, Memorial University of Newfoundland, Canada
     #\*Corresponding author: Quinn M.R. Webber (webber.quinn@gmail.com)
 output:
-   github_document: default
    bookdown::word_document2:
      reference_docx: template.docx
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding,
-  output_format = "all") })
 bibliography: ../references/swim.bib
 csl: ecology.csl
 ---
