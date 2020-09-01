@@ -6,6 +6,7 @@
 libs <- c('data.table',
           'sf',
           'osmdata',
+          'lwgeom',
           'fasterize')
 lapply(libs, require, character.only = TRUE)
 
@@ -36,6 +37,8 @@ islands <- st_as_sf(c(st_geometry(polys), castpolys))
 # Basic island id
 islands$id <- seq.int(length.out = nrow(islands))
 
+# Area
+islands$area <- st_area(islands)
 
 ### Reproject islands ----
 # Projections
