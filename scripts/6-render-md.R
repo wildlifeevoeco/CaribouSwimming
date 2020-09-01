@@ -1,0 +1,1 @@
+function() rmarkdown::render('paper/manuscript.Rmd')
