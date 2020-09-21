@@ -11,6 +11,8 @@ library(sf)
 lc <- raster('../nl-landcover/output/fogo_lc.tif')
 islands <- readRDS('output/islandsPoly.Rds')
 edges <- readRDS('output/island-edges.Rds')
+caribou <- readRDS('output/islands-locs.Rds')
+
 
 ### Table 1 ----
 only <- c(120, 128, 124)
@@ -52,6 +54,17 @@ setnames(tab1,
            'Estimated density (caribou per km2)',
            'Average group size (95% CI)',
            'Calf:cow ratio between June and August'))
+
+
+### Table 2 ----
+# Grab unique island runs for each ID
+runs <- unique(caribou[, .(ANIMAL_ID, islandrun, islandlen, island)])
+
+# Merge with island area
+runarea <- runs[data.table(islands)[, .(island = id, area)], on = 'island']
+
+# Drop units format 
+runarea[, area := as.numeric(area)]
 
 
 ### Output ----
