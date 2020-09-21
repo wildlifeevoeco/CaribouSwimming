@@ -66,6 +66,7 @@ runarea <- runs[data.table(islands)[, .(island = id, area)], on = 'island']
 # Drop units format 
 runarea[, area := as.numeric(area)]
 
+runarea[, .(area, islandlen)]
 
 ### Output ----
 saveRDS(tab1, 'output/table1.Rds')
