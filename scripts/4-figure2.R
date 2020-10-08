@@ -9,7 +9,8 @@ libs <- c(
   'sf',
   'ggsflabel',
   'ggnetwork',
-  'patchwork'
+  'patchwork',
+  'effects'
 )
 lapply(libs, require, character.only = TRUE)
 
@@ -177,13 +178,71 @@ edgesize <- 1
                         data = islands[islands$label == 'Fogo Island', ], size = 2) +
     theme(axis.title = element_blank())
 )
-    
- 
-layout <- 'AAACCCCDDDD
-           AAACCCCDDDD
-           BBBCCCCDDDD'
 
-(g <- withboxes + ghist + gnetN + gnetS + 
+
+
+runarea <- readRDS('output/runarea.RDS')
+
+# Palette
+pal <- unique(runarea, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
+cols <- pal[, setNames(col, ID)]
+
+themeFig <- theme(legend.position = 'none',
+                  panel.border = element_rect(size = 1, fill = NA),
+                  panel.background = element_rect(fill = 'white'), 
+                  axis.text = element_text(size = 11, color = 'black'),
+                  axis.title = element_text(size = 12, color = 'black'))
+
+
+## Modify DT
+runarea <- na.omit(runarea)
+runarea$area2 <- runarea$area/1000000
+runarea$logIsland <- log10(runarea$islandlen)
+runarea$logArea <- log10(runarea$area/1000000)
+
+
+## run linear model
+a1 <- lm(islandlen~area2, data = runarea)
+summary(a1)
+
+## extract CIs
+estMod<-Effect(c( "area2"), partial.residuals = T, a1)
+predMod <- data.table(residency = estMod$fit, 
+                      area = estMod$x, 
+                      lwr = estMod$lower,
+                      upr = estMod$upper)
+colnames(predMod) <- c("residency","area" ,"lwr", "upr")
+
+labels <- data.frame(
+  x = c(0.001, 0.1, 5, 200),
+  y = c(1, 5, 800, 2500),
+  text = c("N. Coastal Islands", "S. Coastal Islands", "Perry Islands", "Fogo Island")
+)
+
+(resTime <- ggplot() +
+  geom_jitter(data = runarea, aes(area2, islandlen, color = factor(ANIMAL_ID)), 
+              width = 0.1, 
+              height = 0.1, 
+              size = 2, 
+              alpha = 0.75) +
+  geom_smooth(data = runarea, aes(area2, islandlen), method = "lm", color = "black") +
+  scale_y_log10(limits = c(0.01, 10000),
+                breaks = c(0.01, 0.1, 1, 10, 100, 1000, 10000),
+                labels = c('0.01', '0.1', '1', '10', '100', '1000', '10000')) +
+  scale_x_log10(limits = c(0.0001, 1000), 
+                breaks = c(0.0001,0.001, 0.01, 0.1, 1, 10, 100, 1000),
+                labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000')) +
+  labs(y = 'Residency time (days)',
+       x = expression ("Area of island"~km^2)) +
+  scale_color_manual(values = cols) +
+  geom_text(data = labels, aes(x,y, label = text)) +
+  themeFig)    
+ 
+layout <- 'AAACCCCDDDDEEEEEE
+           AAACCCCDDDDEEEEEE
+           BBBCCCCDDDDEEEEEE' 
+
+(g <- withboxes + ghist + gnetN + gnetS + resTime + 
   plot_layout(design = layout) + 
   plot_annotation(tag_levels = 'A')
 )
@@ -192,8 +251,8 @@ layout <- 'AAACCCCDDDD
 ### Output fig ----
 ggsave(
   'graphics/Fig2.png',
-  width = 28,
-  height = 12.5,
+  width = 36,
+  height = 15,
   units = 'cm',
   dpi = 320
 )
