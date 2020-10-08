@@ -19,18 +19,19 @@ lapply(libs, require, character.only = TRUE)
 islands <- readRDS('output/islandsPoly.Rds')
 edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
-
-## summary stats for % swims per island
-edges[, .N, by = island] 
+runarea <- readRDS('output/runarea.Rds')
 
 # CRS
 utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 
-
-### Drop some edges ----
+# Drop some edges
 edges <- edges[!i %in% c(59, 11156, 4254, 4859, 11157)]
 
-### Figure 1 ----
+
+# summary stats for % swims per island
+edges[, .N, by = island] 
+
+# Theme -------------------------------------------------------------------
 # Colors
 watercol <- '#c3e2ec'
 islandcol <- '#d0c2a9'
@@ -49,6 +50,9 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                    axis.text = element_text(size = 11, color = 'black'),
                    axis.title = element_text(size = 12, color = 'black'))
 
+
+
+# Wrangle edges -----------------------------------------------------------
 # First 
 tofirst <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outfirst <- c(x = 'firstX', y = 'firstY', xend = 'endfirstX', yend = 'endfirstY')
@@ -82,7 +86,8 @@ Ssfbox$label <- 'D'
 pal <- unique(edges, by = 'ANIMAL_ID')[order(region), .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
 cols <- pal[, setNames(col, ID)]
 
-# Base islands
+
+# Base islands ------------------------------------------------------------
 labels <- data.table(id = c(120, 124, 128),
                      label = c('Fogo Island', 'E. Perry Island', 'W. Perry Island'))
 islands <- left_join(islands, labels, 'id')
@@ -100,7 +105,8 @@ islands <- left_join(islands, labels, 'id')
     theme(axis.text = element_text(size = 11, color = 'black')))
 
 
-# Histogram
+
+# Histogram ---------------------------------------------------------------
 (ghist <- ggplot(data = edges) +
     geom_histogram(aes(JDate, fill = ANIMAL_ID),
                    binwidth = 10) +
@@ -111,7 +117,8 @@ islands <- left_join(islands, labels, 'id')
     labs(x = 'Calendar Day', y = NULL) + 
     themeHist)
 
-# Edges
+
+# Edges -------------------------------------------------------------------
 edgesize <- 1
 (gnetN <- gfogothick +
     geom_edges(data = N,
@@ -181,11 +188,10 @@ edgesize <- 1
 
 
 
-runarea <- readRDS('output/runarea.RDS')
-
+# Residency time ----------------------------------------------------------
 # Palette
-pal <- unique(runarea, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
-cols <- pal[, setNames(col, ID)]
+# pal <- unique(runarea, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
+# cols <- pal[, setNames(col, ID)]
 
 themeFig <- theme(legend.position = 'none',
                   panel.border = element_rect(size = 1, fill = NA),
@@ -248,7 +254,8 @@ layout <- 'AAACCCCDDDDEEEEEE
 )
 
 
-### Output fig ----
+
+# Output fig --------------------------------------------------------------
 ggsave(
   'graphics/Fig2.png',
   width = 36,
