@@ -195,22 +195,18 @@ edgesize <- 1
 
 
 # Residency time ----------------------------------------------------------
-# Palette
-# pal <- unique(runarea, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
-# cols <- pal[, setNames(col, ID)]
-
-## Modify DT
-runarea <- na.omit(runarea)
+# Modify DT
+runarea <- na.omit(runarea)[ANIMAL_ID %in% edges$ANIMAL_ID]
 runarea$area2 <- runarea$area/1000000
 runarea$logIsland <- log10(runarea$islandlen)
 runarea$logArea <- log10(runarea$area/1000000)
 
 
-## run linear model
+# run linear model
 a1 <- lm(islandlen~area2, data = runarea)
 summary(a1)
 
-## extract CIs
+# extract CIs
 estMod<-Effect(c( "area2"), partial.residuals = T, a1)
 predMod <- data.table(residency = estMod$fit, 
                       area = estMod$x, 
@@ -225,7 +221,7 @@ labels <- data.frame(
 )
 
 (resTime <- ggplot() +
-  geom_jitter(data = runarea, aes(area2, islandlen, color = factor(ANIMAL_ID)), 
+  geom_jitter(data = runarea, aes(area2, islandlen, color = ANIMAL_ID), 
               width = 0.1, 
               height = 0.1, 
               size = 2, 
@@ -243,6 +239,9 @@ labels <- data.frame(
   geom_text(data = labels, aes(x,y, label = text)) +
   themeRes)    
  
+
+
+# Patchwork ---------------------------------------------------------------
 layout <- 'AAACCCCDDDDEEEEEE
            AAACCCCDDDDEEEEEE
            BBBCCCCDDDDEEEEEE' 
