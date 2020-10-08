@@ -50,6 +50,12 @@ themeHist <- theme(panel.border = element_rect(size = 1, fill = NA),
                    axis.text = element_text(size = 11, color = 'black'),
                    axis.title = element_text(size = 12, color = 'black'))
 
+themeRes <- theme(legend.position = 'none',
+                  panel.border = element_rect(size = 1, fill = NA),
+                  panel.background = element_rect(fill = 'white'), 
+                  axis.text = element_text(size = 11, color = 'black'),
+                  axis.title = element_text(size = 12, color = 'black'))
+
 
 
 # Wrangle edges -----------------------------------------------------------
@@ -193,13 +199,6 @@ edgesize <- 1
 # pal <- unique(runarea, by = 'ANIMAL_ID')[, .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
 # cols <- pal[, setNames(col, ID)]
 
-themeFig <- theme(legend.position = 'none',
-                  panel.border = element_rect(size = 1, fill = NA),
-                  panel.background = element_rect(fill = 'white'), 
-                  axis.text = element_text(size = 11, color = 'black'),
-                  axis.title = element_text(size = 12, color = 'black'))
-
-
 ## Modify DT
 runarea <- na.omit(runarea)
 runarea$area2 <- runarea$area/1000000
@@ -239,10 +238,10 @@ labels <- data.frame(
                 breaks = c(0.0001,0.001, 0.01, 0.1, 1, 10, 100, 1000),
                 labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000')) +
   labs(y = 'Residency time (days)',
-       x = expression ("Area of island"~km^2)) +
+       x = expression("Area of island"~km^2)) +
   scale_color_manual(values = cols) +
   geom_text(data = labels, aes(x,y, label = text)) +
-  themeFig)    
+  themeRes)    
  
 layout <- 'AAACCCCDDDDEEEEEE
            AAACCCCDDDDEEEEEE
