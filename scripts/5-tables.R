@@ -69,7 +69,7 @@ runarea[, area := as.numeric(area)]
 runarea[, .(area, islandlen)]
 
 ### Output ----
-saveRDS(runarea, 'output/runarea.RDS')
+saveRDS(runarea, 'output/runarea.Rds')
 saveRDS(tab1, 'output/table1.Rds')
 
 
