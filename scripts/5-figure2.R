@@ -202,12 +202,36 @@ runarea$logIsland <- log10(runarea$islandlen)
 runarea$logArea <- log10(runarea$area/1000000)
 
 
-# run linear model
-a1 <- lm(islandlen~area2, data = runarea)
-summary(a1)
+## Type II curve
+m4 <- drc::drm(area2 ~ islandlen, data = runarea[area2 < 200 & islandlen < 100], fct = MM.2())
+summary(m4)
+plot(m4)
+
+demo.fits <- expand.grid(conc=seq(min(runarea[area2 < 200 & islandlen < 100]$islandlen), max(runarea[area2 < 200 & islandlen < 100]$islandlen), length=100))
+# new data with predictions
+pm <- predict(m4, newdata=demo.fits, interval="confidence") 
+demo.fits$p <- pm[,1]
+demo.fits$pmin <- pm[,2]
+demo.fits$pmax <- pm[,3]
+
+## no log
+aa <- ggplot() +
+  geom_jitter(data = runarea[area2 < 200 & islandlen < 100], 
+              aes(x = islandlen, y = area2),
+              height = 0.2,
+              alpha = 0.5) +
+  geom_ribbon(data=demo.fits, aes(x = conc, y = p, ymin=pmin, ymax=pmax), alpha=0.2) +
+  geom_line(data=demo.fits, aes(x = conc, y = p)) +
+  #xlim(1, 1000) +
+  #ylim(1, 500) +
+  labs(x = 'Residency time (days)',
+       y = expression("Area of island"~km^2)) +
+  ggtitle('A) Not log-transformed') +
+  #coord_trans(x="log", y = "log") +
+  themeHist
 
 # extract CIs
-estMod<-Effect(c( "area2"), partial.residuals = T, a1)
+estMod<-predict(m4) 
 predMod <- data.table(residency = estMod$fit, 
                       area = estMod$x, 
                       lwr = estMod$lower,
@@ -215,31 +239,32 @@ predMod <- data.table(residency = estMod$fit,
 colnames(predMod) <- c("residency","area" ,"lwr", "upr")
 
 labels <- data.frame(
-  x = c(0.001, 0.1, 5, 200),
-  y = c(1, 5, 800, 2500),
+  y = c(0.001, 0.1, 3, 100),
+  x = c(4, 100, 1200, 2000),
   text = c("N. Coastal Islands", "S. Coastal Islands", "Perry Islands", "Fogo Island")
 )
 
 (resTime <- ggplot() +
-  geom_jitter(data = runarea, aes(area2, islandlen, color = ANIMAL_ID), 
+  geom_jitter(data = runarea, aes(islandlen, area2, color = ANIMAL_ID), 
               width = 0.1, 
               height = 0.1, 
               size = 2, 
               alpha = 0.75) +
-  geom_smooth(data = runarea, aes(area2, islandlen), method = "lm", color = "black") +
-  scale_y_log10(limits = c(0.01, 10000),
+  #geom_smooth(data = runarea, aes(islandlen, area2), method = "lm", color = "black") +
+  scale_x_log10(limits = c(0.01, 10000),
                 breaks = c(0.01, 0.1, 1, 10, 100, 1000, 10000),
                 labels = c('0.01', '0.1', '1', '10', '100', '1000', '10000')) +
-  scale_x_log10(limits = c(0.0001, 1000), 
+  scale_y_log10(limits = c(0.0001, 1000), 
                 breaks = c(0.0001,0.001, 0.01, 0.1, 1, 10, 100, 1000),
                 labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000')) +
-  labs(y = 'Residency time (days)',
-       x = expression("Area of island"~km^2)) +
+  labs(x = 'Residency time (days)',
+       y = expression("Area of island"~km^2)) +
   scale_color_manual(values = cols) +
+    ggtitle('B) Log-transformed') +
   geom_text(data = labels, aes(x,y, label = text)) +
   themeRes)    
  
-
+grid.arrange(aa, resTime, nrow = 1)
 
 # Patchwork ---------------------------------------------------------------
 layout <- 'AAACCCCDDDDEEEEEE
