@@ -59,7 +59,7 @@ neventid <- icefree[, .N, ANIMAL_ID]
 neventidMax <- max(neventid$N)
 
 # Mean per individual
-neventidMean <- round(mean(neventid$N))
+neventidMedian <- round(median(neventid$N))
 
 # Min per individual
 neventidMin <- min(neventid$N)
