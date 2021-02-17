@@ -29,7 +29,10 @@ df$island <- as.character(df$island)
 
 df.complete <- df[complete.cases(df),]      
       
-ggplot(df) +
-  geom_point(aes(log(islandlen/area), swimdist)) +
+ggplot(df, aes(log(area)/log(islandlen + 1), swimdist)) +
+  geom_point() +
+  geom_smooth() +
   ylab("distance between islands") +
-  xlab("log(residency/area)")
+  xlab("log(area)/log(residency time)") 
+  
+
