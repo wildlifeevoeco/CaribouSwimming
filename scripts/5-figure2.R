@@ -119,9 +119,10 @@ islands <- left_join(islands, labels, 'id')
                    binwidth = 10) +
     guides(fill = FALSE) +
     scale_fill_manual(values = cols) +
+    scale_y_continuous(position = 'right') + 
     geom_vline(aes(xintercept = 90), size = 0.35) +
     geom_vline(aes(xintercept = 365), size = 0.35) + 
-    labs(x = 'Calendar Day', y = NULL) + 
+    labs(x = 'Calendar day', y = NULL) + 
     themeHist)
 
 
@@ -244,16 +245,14 @@ labels <- data.frame(
   themeRes)
  
 # Patchwork ---------------------------------------------------------------
-layout <- 'AAACCCCDDDDEEEEEE
-           AAACCCCDDDDEEEEEE
-           AAABBBBBBBBEEEEEE' 
-
-layout <- 'BBCCDDD
-           BBCCDDD
-           AAAADDD' 
+layout <- 'AAAAEEEE
+           AAAAEEEE
+           AAAAEEEE
+           CCDDEEEE
+           CCDDBBBB' 
 
 
-(g <- #withboxes + 
+(g <- withboxes + 
    ghist + gnetN + gnetS + resTime + 
   plot_layout(design = layout) + 
   plot_annotation(tag_levels = 'A')
@@ -264,7 +263,7 @@ layout <- 'BBCCDDD
 # Output fig --------------------------------------------------------------
 ggsave(
   'graphics/Fig2.png',
-  width = 24, #36,
+  width = 24,
   height = 15,
   units = 'cm',
   dpi = 320
