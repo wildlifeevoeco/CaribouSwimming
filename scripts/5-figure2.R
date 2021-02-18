@@ -233,21 +233,28 @@ labels <- data.frame(
                 labels = c('0.01', '0.1', '1', '10', '100', '1000', '10000')) +
   scale_y_log10(limits = c(0.0001, 1000), 
                 breaks = c(0.0001,0.001, 0.01, 0.1, 1, 10, 100, 1000),
-                labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000')) +
+                labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000'),
+                position = 'right') +
   labs(x = 'Residency time (days)',
        y = expression("Area of island"~(km^2))) +
   geom_ribbon(data=demo.fits, aes(x = conc, y = p, ymin=pmin, ymax=pmax), alpha=0.2) + 
   geom_line(data=demo.fits, aes(x = conc, y = p)) +
   scale_color_manual(values = cols) +
   geom_text(data = labels, aes(x,y, label = text)) +
-  themeRes)    
+  themeRes)
  
 # Patchwork ---------------------------------------------------------------
 layout <- 'AAACCCCDDDDEEEEEE
            AAACCCCDDDDEEEEEE
-           BBBCCCCDDDDEEEEEE' 
+           AAABBBBBBBBEEEEEE' 
 
-(g <- withboxes + ghist + gnetN + gnetS + resTime + 
+layout <- 'BBCCDDD
+           BBCCDDD
+           AAAADDD' 
+
+
+(g <- #withboxes + 
+   ghist + gnetN + gnetS + resTime + 
   plot_layout(design = layout) + 
   plot_annotation(tag_levels = 'A')
 )
@@ -257,7 +264,7 @@ layout <- 'AAACCCCDDDDEEEEEE
 # Output fig --------------------------------------------------------------
 ggsave(
   'graphics/Fig2.png',
-  width = 36,
+  width = 24, #36,
   height = 15,
   units = 'cm',
   dpi = 320
