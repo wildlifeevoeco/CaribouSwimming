@@ -202,42 +202,45 @@ runarea$area2 <- runarea$area/1000000
 runarea$logIsland <- log10(runarea$islandlen)
 runarea$logArea <- log10(runarea$area/1000000)
 
+## linear relationship 
+summary(lm(log(area2)~log(islandlen), data = runarea))
+
 
 ## Type II curve
-m4 <- drc::drm(area2 ~ islandlen, data = runarea, fct = MM.2())
-summary(m4)
-plot(m4)
+#m4 <- drc::drm(area2 ~ islandlen, data = runarea, fct = MM.2())
+#summary(m4)
+#plot(m4)
 
-demo.fits <- expand.grid(conc=seq(min(runarea$islandlen), max(runarea$islandlen), length=100))
+#demo.fits <- expand.grid(conc=seq(min(runarea$islandlen), max(runarea$islandlen), length=100))
 # new data with predictions
-pm <- predict(m4, newdata=demo.fits, interval="confidence") 
-demo.fits$p <- pm[,1]
-demo.fits$pmin <- pm[,2]
-demo.fits$pmax <- pm[,3]
+#pm <- predict(m4, newdata=demo.fits, interval="confidence") 
+#demo.fits$p <- pm[,1]
+#demo.fits$pmin <- pm[,2]
+#demo.fits$pmax <- pm[,3]
 
 labels <- data.frame(
-  y = c(0.0025, 0.05, 5, 200),
-  x = c(8, 100, 8000, 8000),
+  x = c(0.0025, 0.05, 5, 200),
+  y = c(8, 100, 2000, 8000),
   text = c("N. Coastal Islands", "S. Coastal Islands", "Perry Islands", "Fogo Island")
 )
 
 (resTime <- ggplot() +
-  geom_jitter(data = runarea, aes(islandlen, area2, color = ANIMAL_ID), 
+  geom_jitter(data = runarea, aes(area2, islandlen, color = ANIMAL_ID), 
               width = 0.1, 
               height = 0.1, 
               size = 2, 
               alpha = 0.75) +
-  #geom_smooth(data = runarea, aes(islandlen, area2), method = "lm", color = "black") +
-  scale_x_log10(limits = c(0.01, 50000),
+  geom_smooth(data = runarea, aes(islandlen, area2), method = "lm", color = "black") +
+  scale_y_log10(limits = c(0.01, 50000),
                 breaks = c(0.01, 0.1, 1, 10, 100, 1000, 10000),
                 labels = c('0.01', '0.1', '1', '10', '100', '1000', '10000')) +
-  scale_y_log10(limits = c(0.0001, 1000), 
+  scale_x_log10(limits = c(0.0001, 1000), 
                 breaks = c(0.0001,0.001, 0.01, 0.1, 1, 10, 100, 1000),
                 labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000')) +
-  labs(x = 'Residency time (days)',
-       y = expression("Area of island"~(km^2))) +
-  geom_ribbon(data=demo.fits, aes(x = conc, y = p, ymin=pmin, ymax=pmax), alpha=0.2) + 
-  geom_line(data=demo.fits, aes(x = conc, y = p)) +
+  labs(y = 'Residency time (days)',
+       x = expression("Area of island"~(km^2))) +
+  #geom_ribbon(data=demo.fits, aes(x = conc, y = p, ymin=pmin, ymax=pmax), alpha=0.2) + 
+  #geom_line(data=demo.fits, aes(x = conc, y = p)) +
   scale_color_manual(values = cols) +
   geom_text(data = labels, aes(x,y, label = text)) +
   themeRes)    
