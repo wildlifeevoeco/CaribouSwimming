@@ -1,18 +1,14 @@
-paper/~$bber et al caribou swimming.docx
+input/
+output/islands-locs.Rds
+output/island-edges.Rds
+.drake/
 paper/~$nuscript.docx
 
-# Directories with large files #
-################################
-input/
-output/
-rosm.cache/
 
 # R related files #
 ###################
-#*.Rproj
 *.Rhistory
 *.Rdata
-#.Rproj
 Rhistory
 .Rdata
 .Rproj.user
@@ -62,4 +58,3 @@ README.html
 .Trashes
 ehthumbs.db
 Thumbs.db
-.drake/
