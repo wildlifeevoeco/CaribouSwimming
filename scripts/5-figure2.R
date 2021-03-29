@@ -11,7 +11,7 @@ libs <- c(
   'ggnetwork',
   'patchwork',
   'effects',
-  'drc'
+  'lme4'
 )
 lapply(libs, require, character.only = TRUE)
 
@@ -203,20 +203,22 @@ runarea$logIsland <- log10(runarea$islandlen)
 runarea$logArea <- log10(runarea$area/1000000)
 
 ## linear relationship 
-summary(lm(log(area2)~log(islandlen), data = runarea))
+mod <- lmer(log(area2)~log(islandlen) + (1|ANIMAL_ID), data = runarea)
+summary(mod)
 
+new <- data.frame(islandlen = c(seq(0.001, 1, 0.001), seq(min(runarea$islandlen), 
+                          max(runarea$islandlen))))
+predicted_df <- predict(lm(area2~islandlen,
+                                      data = runarea), new, se.fit = TRUE)
 
-## Type II curve
-#m4 <- drc::drm(area2 ~ islandlen, data = runarea, fct = MM.2())
-#summary(m4)
-#plot(m4)
+predicted_df <- data.table(pred = predicted_df$fit,
+                           se = predicted_df$se.fit,
+                           islandlen = c(seq(0.001, 1, 0.001), 
+                                         seq(min(runarea$islandlen), 
+                                             max(runarea$islandlen))))
 
-#demo.fits <- expand.grid(conc=seq(min(runarea$islandlen), max(runarea$islandlen), length=100))
-# new data with predictions
-#pm <- predict(m4, newdata=demo.fits, interval="confidence") 
-#demo.fits$p <- pm[,1]
-#demo.fits$pmin <- pm[,2]
-#demo.fits$pmax <- pm[,3]
+predicted_df$pred <- predicted_df$pred - 35.5
+predicted_df$se <- predicted_df$se - 6.9
 
 labels <- data.frame(
   x = c(0.0025, 0.05, 5, 200),
@@ -230,14 +232,17 @@ labels <- data.frame(
               height = 0.1, 
               size = 2, 
               alpha = 0.75) +
-  geom_smooth(data = runarea, aes(islandlen, area2), method = "lm", color = "black") +
+  geom_line(data = predicted_df, aes(x = islandlen, y = pred), color='black') + 
+  #geom_line(data = predicted_df, aes(x = islandlen, y = pred - se), color='black' , lty = 2) +   
+  #geom_line(data = predicted_df, aes(x = islandlen, y = pred + se), color='black' , lty = 2) +
+#geom_smooth(data = runarea, aes(islandlen, area2), method = "lm", color = "black") +
   scale_y_log10(limits = c(0.01, 50000),
                 breaks = c(0.01, 0.1, 1, 10, 100, 1000, 10000),
                 labels = c('0.01', '0.1', '1', '10', '100', '1000', '10000')) +
   scale_x_log10(limits = c(0.0001, 1000), 
                 breaks = c(0.0001,0.001, 0.01, 0.1, 1, 10, 100, 1000),
                 labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000')) +
-  labs(y = 'Residency time (days)',
+  labs(y = 'Residency (days)',
        x = expression("Area of island"~(km^2))) +
   #geom_ribbon(data=demo.fits, aes(x = conc, y = p, ymin=pmin, ymax=pmax), alpha=0.2) + 
   #geom_line(data=demo.fits, aes(x = conc, y = p)) +
