@@ -237,8 +237,8 @@ labels <- data.frame(
   #geom_line(data = predicted_df, aes(x = islandlen, y = pred + se), color='black' , lty = 2) +
 #geom_smooth(data = runarea, aes(islandlen, area2), method = "lm", color = "black") +
   scale_y_log10(limits = c(0.01, 50000),
-                breaks = c(0.01, 0.1, 1, 10, 100, 1000, 10000),
-                labels = c('0.01', '0.1', '1', '10', '100', '1000', '10000')) +
+                breaks = c(0.01, 0.1, 1, 10, 100, 1000),
+                labels = c('0.01', '0.1', '1', '10', '100', '1000')) +
   scale_x_log10(limits = c(0.0001, 1000), 
                 breaks = c(0.0001,0.001, 0.01, 0.1, 1, 10, 100, 1000),
                 labels = c('0.0001', '0.001', '0.01', '0.1', '1', '10', '100', '1000')) +
