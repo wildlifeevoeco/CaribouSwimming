@@ -137,7 +137,18 @@ cost of swimming to and from an island is less than the value of resources on th
 caribou departs. Should these assumptions hold, we would predict a positive relationship where caribou
 depart smaller islands sooner than larger islands.
 
-`r nevents` 
+Swimming behavior was common among GPS radio-collared caribou in the population (n = 29, for collaring
+details see Peignier et al. 2019). We identified `r nevents` swimming events over three years (Figure
+2). In total, 13 of 29 collared female caribou swam among islands (Figure 2). Of the caribou that
+swam, caribou swam on average approximately `r neventidMean` (range = `r neventidMin`-`r neventidMax`)
+times per year and remained on each island for a median of `r dur` (range = 
+`r durMin`-`r durMax`) days before swimming again. We found that caribou residency increased
+proportionally with the size of the island, such that caribou spent less time on smaller islands and
+more time on larger islands, providing preliminary evidence for links between forage limitation and
+the marginal value theorem (Figure 2B).
+
+
+
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. Of the caribou that swam, caribou swam on average
 approximately `r neventidMean` (range = `r neventidMin`-`r neventidMax`) times
