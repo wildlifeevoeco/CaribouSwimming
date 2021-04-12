@@ -124,6 +124,19 @@ probability of occurrence decreases on the smaller islands. The low density of p
 the archipelago is therefore an unlikely driver of swimming in our system, though predation may
 still influence swimming behaviour for caribou elsewhere in their range (e.g. Jeffery et al. 2007).
 
+We identified swimming events as two consecutive GPS locations (2-hour relocation rates) on different
+islands. Newfoundland typically experiences pack ice in late winter and caribou may travel between
+islands by walking over the ice. We restricted our dataset between April 1 and December 31 to
+distinguish swimming from walking on ice. We calculated island residency as the duration of time,
+measured on 2-hour relocation rates, an individual caribou was observed on an island. Residency was
+therefore a proxy for when the benefits of foraging no longer exceeded the costs of swimming between
+islands. Our test of the marginal value theorem for the case of oceanic swimming by caribou is based
+on three assumptions: (1) resources are proportional to the size of each island; (2) caribou know
+approximate value of the resources on an island before they swim to and from that island; and (3) the
+cost of swimming to and from an island is less than the value of resources on that island when the
+caribou departs. Should these assumptions hold, we would predict a positive relationship where caribou
+depart smaller islands sooner than larger islands.
+
 `r nevents` 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
 Island archipelago. Of the caribou that swam, caribou swam on average
