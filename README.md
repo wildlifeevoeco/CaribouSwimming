@@ -1,6 +1,6 @@
 
 
-## Forage limitation as an explanation for oceanic swimming in woodland caribou
+## On the marginal value of swimming in woodland caribou
 
 
 
