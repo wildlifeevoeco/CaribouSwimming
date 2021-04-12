@@ -185,7 +185,15 @@ knitr::include_graphics('../graphics/Fig1.jpg')
 
 \newpage
 
-(ref:fig2) A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the frequency of swimming events throughout the year. Note, colours correspond to individual caribou and vertical black bars delineate the ice-free season (April 1 to December 31). C) Inset of swimming events between small islands on the northern coast of Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island. Note, the grey diamond represents the location we observed an adult male caribou swimming (see Figure 1).
+(ref:fig2) A) Map of the Fogo Island archipelago with swimming events from 13 caribou between islands.
+B) Correlation between area of an island (km2) and the residency in days an individual caribou spent
+on that island (linear mixed effects regression with ID as a random effect: ß = 1.08, SE = 0.06; tdf =
+177 = 17.5, p < 0.001). C) Inset of swimming events between small islands on the northern coast of
+Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island. The
+grey diamond represents the location we observed an adult male caribou swimming (see Figure 1). E)
+Histogram displaying the frequency of swimming events throughout the year. Colors correspond to
+individual caribou, which are consistent in all panels, and vertical black bars delineate the ice-free
+season (April 1 to December 31).
 
 
 ```{r, fig.cap = '(ref:fig2)', fig.width=4}
