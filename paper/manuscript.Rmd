@@ -163,18 +163,15 @@ novel natural history observation to explain swimming behavior for terrestrial a
 door for future studies of caribou in our system and other island archipelagos inhabited by caribou.
 
 **Acknowledgements**
-We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
-Logistical support was provided by L. Bixby. We thank all members of the
-Wildlife Evolutionary Ecology Lab, including C. Hart, C. Prokopenko, J. Kennah,
-J.W. Turner, and S. Boyle for their comments on previous versions of this
-manuscript. Newfoundland Wildlife Division including S. Moores, B. Adams, C.
-Doucet, W. Barney, and J. Neville for logistical support in the field as well as
-help with data data collection and management. We thank T. Bergerud and S.
-Mahoney for their vision in initiating much of the work on caribou in
-Newfoundland. Funding for this study was provided by the National Sciences and
-Engineering Research Council (QMRW, JGH, EVW). We respectfully acknowledge the
-territory in which data were collected and analyzed as the ancestral homelands
-of the Beothuk, and the island of Newfoundland as the ancestral homelands of the
+We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field. Logistical support was
+provided by L. Bixby. We thank J. Schaefer and one anonymous reviewer as well as all members of the
+Wildlife Evolutionary Ecology Lab for their comments on previous versions of this manuscript.
+Newfoundland Wildlife Division including S. Moores, B. Adams, C. Doucet, W. Barney, and J. Neville for
+logistical support in the field as well as help with data data collection and management. We thank T.
+Bergerud and S. Mahoney for their vision in initiating much of the work on caribou in Newfoundland.
+Funding for this study was provided by the Natural Sciences and Engineering Research Council (QMRW,
+JGH, EVW). We respectfully acknowledge the territory in which data were collected and analyzed as the
+ancestral homelands of the Beothuk, and the island of Newfoundland as the ancestral homelands of the
 Mi’kmaq and Beothuk.
 
 \newpage
