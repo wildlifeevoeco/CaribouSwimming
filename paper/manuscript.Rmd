@@ -140,8 +140,7 @@ depart smaller islands sooner than larger islands.
 Swimming behavior was common among GPS radio-collared caribou in the population (n = 29, for collaring
 details see Peignier et al. 2019). We identified `r nevents` swimming events over three years (Figure
 2). In total, 13 of 29 collared female caribou swam among islands (Figure 2). Of the caribou that
-swam, caribou swam on average approximately `r neventidMean` (range = `r neventidMin`-`r neventidMax`)
-times per year and remained on each island for a median of `r dur` (range = 
+swam, caribou swam on average approximately `r neventidMedian` (range = `r neventidMin`-` neventidMax`) times per year and remained on each island for a median of `r dur` (range = 
 `r durMin`-`r durMax`) days before swimming again. We found that caribou residency increased
 proportionally with the size of the island, such that caribou spent less time on smaller islands and
 more time on larger islands, providing preliminary evidence for links between forage limitation and
@@ -155,147 +154,6 @@ example:
 2)	Density-dependent habitat selection (Fretwell and Lucas 1969, Morris 2003) could be invoked to explain what drives caribou to swim and expand their ranges to include smaller islands. As caribou density increases on larger islands, competition for resources increases such that animals may have similar fitness benefits by selecting islands that at lower density would not be as profitable. At high local density, individual residency may decrease, thus, increasing the frequency of swimming. As such, density-dependent habitat selection may represent an ultimate explanation for why caribou swim between islands.
 3)	Cognition is an important proximate mechanism that drives swimming behaviour. For example, caribou primarily rely on their sense of hearing and smell thus may not see or perceive an island when they enter the water to swim to it. How then do caribou know about the presence, and subsequently the value, of an island? Social and spatial cognition are almost certainly involved and tests of the role of cognition could help elucidate why caribou swim. For example, a novice individual may trust an experienced individual to lead them to a new island, a result which is driven by aspects of social cognition (Seyfarth and Cheney 2015). Meanwhile, once an individual has visited an island, it may become part of the cognitive map used to navigate within their home range (e.g. African elephants Loxondonta africana Presotto et al. 2019).
 
-
-In total, 12 of 29 collared female caribou swam between islands in the Fogo
-Island archipelago. Of the caribou that swam, caribou swam on average
-approximately `r neventidMean` (range = `r neventidMin`-`r neventidMax`) times
-per year and remained on each island for approximately `r dur` (range = 
-`r durMin`-`r durMax`) days before swimming again. Based on GPS data to infer
-swimming, we separated the population into three apparent groups of individuals:
-those that swam regularly between islands (n = 3, every ~`r indMean` days);
-those that rarely engaged in swimming events (n = 9, every ~ `r ind2Mean` days);
-and those that never swam (n = 17).
-
-Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence exists
-that caribou swim in streams, rivers, and lakes during migration [@Leblond2016],
-to avoid predators [@Bergerud1985], and to access islands during calving
-[@Bergerud1990]. Even for adept swimmers like caribou, which have hollow hair
-shafts that aid in flotation, the energetic expenditure of swimming for
-quadrupedal mammals is significantly higher than walking or running, and
-drowning is also possible [@Miller1985]. Despite the abundance of coastal and
-island caribou herds, only a few studies have documented caribou swimming
-in the ocean, and most of these lack observation, but rather deduce swimming
-based on presence of caribou on a previously uninhabitated island  [e.g.
-@Miller1995; @Miller2002; @Jeffery2007; @Ricca2012]. Caribou may swim between
-islands in the ocean for similar reasons they swim in freshwater [@Leblond2016],
-mainly concerning predator avoidance or to access new habitats and foraging
-opportunities. We propose that one such explanation, the forage limitation
-hypothesis, is the most likely explanation for oceanic swimming for caribou that
-live on islands in the Fogo Island archipelago.
-
-Caribou were introduced to Fogo Island between 1964–67 as part of a series of
-translocations throughout the province [@Bergerud1989]. Typical caribou
-predators such as black bears (*Ursus americanus*) and wolves (*Canis lupus*)
-are absent from Fogo Island; the dominant predator is coyote (*Canis latrans*),
-which predate calves but it remains unclear what threat they pose, if any, to
-adult caribou [@Rayl2014]. Given the minimal risk of predation to adults and low
-density of coyote on Fogo Island, we propose that forage limitation is more
-likely to drive movement between islands than predator avoidance. For several
-decades after their introduction to Fogo Island, the caribou population did not
-exceed ~100 individuals [@Bergerud1989, Newfoundland and Labrador Wildlife
-Division, unpublished data]. During the 1990s, population density reached ~300
-animals and anecdotal evidence suggests caribou were first seen on nearby
-islands during this same period. Increased competition for resources on Fogo
-Island due to this increase in density could have precipitated movement to other
-islands.
-
-Forage limitation and over-grazing is a major concern for caribou populations
-and can lead to reduced female reproductive success [@Schaefer2016]. Forage
-scarcity has been proposed as a potential reason for caribou moving between
-arctic islands on the sea-ice in winter [@Miller1977]. For the Fogo Island
-population, as the population grew and predation pressure was insufficient to
-maintain population density, forage depletion could lead caribou to make
-similar, but riskier and more costly, movements between islands during the
-ice-free season. Given the small size of other islands near Fogo (Figure 2),
-over-grazing by newly arrived caribou could rapidly deplete forage on an annual
-cycle [@Bergerud1990], leading to more frequent movements back and forth between
-islands rather than permanent relocation.
-
-The trade-off associated with swimming between islands can be understood as
-density-dependent habitat selection governed by the Ideal Free Distribution
-[@Morris1987]. Ideal Free Distribution theory predicts a fitness
-equilibrium: when the density in a given habitat patch has exceeded the optimum
-for fitness within that patch, animals should relocate and settle new habitat
-patches, so that fitness is equal across all patches [@Morris1987]. Islands
-act as discrete habitat patches in this case, but the costs associated with
-swimming create a trade-off when moving between patches. For caribou in the Fogo
-Island archipelago, the role of forage limitation in habitat selection patterns
-remains unknown, but swimming between islands may be at least partially governed
-by density-dependent habitat selection.
-
-Forage limitation may be the ultimate explanation for caribou swimming between
-oceanic islands, but a number of proximate mechanisms remain untested. Our
-observations of caribou swimming in the ocean lead to five questions for future
-research:
-<!-- a) For the questions that arise, maybe try to generalize the language a bit
-so that they are a bit broader: caribou as model, but emphasize the
-ecological/evolutionary process it will comment on. 
-b.) Consider tweaking the
-intro the the questions less as 'someone could do this' as something along the
-lines of : this has ignited in us the idea that we can tailor our data
-collection in our closely studies system to access some of these questions. -->
-
-1) How do energetic costs and risks of swimming differ from walking on sea ice?
-Walking over ice is less energetically expensive than swimming, but may pose a
-greater risk of mortality from falling through the ice. Although the presence
-and extent of sea ice varies annually,  we deduce that although the majority of
-inter-island movements occur between April 1 and December 31, some inter-island
-movements appear to be caribou walking on sea ice between islands (Figure 2B).
-Our aim for future research on the trade-offs of these types of movement
-considers how the costs, e.g. energy expenditure or mortality, and benefits,
-e.g. novel foraging opportunities, may vary seasonally.
-
-<!--2) At which temporal and spatial scales do caribou choose to swim
-between islands? Does the time of day, weather, season, or availability
-of food influence swimming?-->
-
-<!--3) Does reproductive status (presence of a calf-at-heel) or demographic class
-(age or sex) influence propensity for oceanic swimming? Our initial observation
-was of an adult male, but all collared individuals were adult females. Are
-younger caribou more likely to swim if they are unable to compete with older
-individuals for resources? Are males or females without a calf-at-heel more
-likely to swim in the summer given they are not restricted based on presence of
-a calf-at-heel, as females are? -->
-
-2) If swimming is a function of density-dependent habitat selection, what are
-the costs of movement between patches? IFD assumes zero-cost movement, but could
-the risk and energetic costs associated with oceanic swimming be estimated using
-the potential fitness deficit that caribou are willing to tolerate before
-swimming to a new island?
-
-3) In relation to questions 1 and 2: how do individuals vary in their
-propensity to swim and their assessment of the costs and benefits of swimming
-between islands? We observed some individuals that regularly engaged in swimming
-events, while others were never observed swimming in the ocean? Our existing
-research on individual behavioural variation in caribou movement ecology
-]@Webber2020] provides a basis to investigate the role of inherent individual
-differences in swimming behaviour. Specifically, the forage limitation
-hypothesis applies uniformly across populations, but individuals could evaluate
-the costs and benefits of swimming differently.
-
-We surmise that for Fogo Island, as competition among conspecifics increased
-along with population size, density-dependent habitat selection resulted in
-expansion of the population to nearby islands. Following Ideal Free Distribution
-theory, caribou should swim to new islands when the average fitness of
-individuals on the starting island exceeds the density-fitness equilibrium
-[@Morris1987]. While this is an ultimate explanation, our data suggest caribou
-only remain on smaller islands for a few days at a time, so the fitness
-equilibrium remains a theoretical construct. More likely, however, is that
-fine-scale competition, density-dependent habitat selection, and forage
-depletion drives individuals to periodically swim between islands. Our focal
-observations add to the evidence that caribou can, and occasionally do, swim in
-the ocean [e.g. @Miller1995; @Miller2002;
-@Jeffery2007; @Ricca2012]. We suggest that swimming is likely more common than
-previously thought for caribou living on oceanic islands, and that forage
-limitation and the associated density-dependent habitat selection is an ultimate
-explanation for this phenomenon. Although our inference is limited to
-observations, islands appear to represent discrete foraging patches for
-terrestrial animals that can influence fitness via increased foraging
-opportunities. We also present several hypotheses related to the nuances and
-further variation within the idea that density-dependent habitat selection
-governs swimming behaviour, and posit that above and beyond these additional
-factors, individuals can vary in their evaluation of costs and benefits of
-movement between these habitat patches.
 
 **Acknowledgements**
 We thank M. Laforge, M. Bonar, C. Hart, and R. Huang for help in the field.
@@ -317,7 +175,7 @@ Mi’kmaq and Beothuk.
 (ref:fig1) Photograph of swimming unmarked adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.
 
 ```{r, fig.cap = '(ref:fig1)', fig.width=4}
-knitr::include_graphics('../graphics/IMG_1562_crop_edit.jpg')
+knitr::include_graphics('../graphics/Fig1.jpg')
 ```
 
 \newpage
