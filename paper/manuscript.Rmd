@@ -147,6 +147,13 @@ proportionally with the size of the island, such that caribou spent less time on
 more time on larger islands, providing preliminary evidence for links between forage limitation and
 the marginal value theorem (Figure 2B).
 
+The apparent relationship between island size and residency creates a framework to test our 
+assumptions about the marginal value of resource use by caribou. We extend this framework to test
+prospective mechanisms that drive movement by caribou more generally, and swimming specifically. For
+example:
+1)	If caribou assess the relative value of resources in a patch, or on an island, we predict that residency should increase as the value of resources elsewhere becomes depressed. Longer relative residency might be an indicator of forage limitation and variation in residency could be a predictor of fitness costs and reduced reproductive success.
+2)	Density-dependent habitat selection (Fretwell and Lucas 1969, Morris 2003) could be invoked to explain what drives caribou to swim and expand their ranges to include smaller islands. As caribou density increases on larger islands, competition for resources increases such that animals may have similar fitness benefits by selecting islands that at lower density would not be as profitable. At high local density, individual residency may decrease, thus, increasing the frequency of swimming. As such, density-dependent habitat selection may represent an ultimate explanation for why caribou swim between islands.
+3)	Cognition is an important proximate mechanism that drives swimming behaviour. For example, caribou primarily rely on their sense of hearing and smell thus may not see or perceive an island when they enter the water to swim to it. How then do caribou know about the presence, and subsequently the value, of an island? Social and spatial cognition are almost certainly involved and tests of the role of cognition could help elucidate why caribou swim. For example, a novice individual may trust an experienced individual to lead them to a new island, a result which is driven by aspects of social cognition (Seyfarth and Cheney 2015). Meanwhile, once an individual has visited an island, it may become part of the cognitive map used to navigate within their home range (e.g. African elephants Loxondonta africana Presotto et al. 2019).
 
 
 In total, 12 of 29 collared female caribou swam between islands in the Fogo
