@@ -176,7 +176,8 @@ Mi’kmaq and Beothuk.
 
 \newpage
 
-(ref:fig1) Photograph of swimming unmarked adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.
+(ref:fig1) Photograph of swimming unmarked adult male caribou (*Rangifer tarandus*) from Western 
+Perry Island to Eastern Perry Island taken on 30 May 2017.
 
 ```{r, fig.cap = '(ref:fig1)', fig.width=4}
 knitr::include_graphics('../graphics/Fig1.jpg')
