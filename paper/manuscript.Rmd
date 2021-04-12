@@ -1,5 +1,5 @@
 ---
-title: Interisland movements and oceanic swimming of woodland caribou in Newfoundland
+title: On the marginal value of swimming in woodland caribou
 author:
   - name: Quinn M.R. Webber
     institute: cabe
