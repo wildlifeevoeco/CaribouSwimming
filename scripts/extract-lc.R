@@ -48,3 +48,14 @@ DT <- DT[id == 120 | id == 128 | id == 124 |
          id == 75 | id == 70 | id == 125  |
          id == 78 | id == 73]
 
+DT$id[DT$id == 70] <- "Island 1"
+DT$id[DT$id == 73] <- "Island 2"
+DT$id[DT$id == 75] <- "Island 3"
+DT$id[DT$id == 78] <- "Island 4"
+DT$id[DT$id == 125] <- "Island 5"
+DT$id[DT$id == 120] <- "Fogo"
+DT$id[DT$id == 124] <- "E. Perry"
+DT$id[DT$id == 128] <- "W. Perry"
+
+DT$other <- DT$Broadleaf +DT$MixedWood + DT$Anthro + DT$NotAvail
+DT$conifer <- DT$ConiferScrub + DT$ConiferForest
