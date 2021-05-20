@@ -29,11 +29,22 @@ saveRDS(DT, '../caribou-swimming/output/fogo-prop-lc.Rds')
 DT <- readRDS('../caribou-swimming/output/fogo-prop-lc.Rds')
 legend <- fread('../fogo_coyote_repeat/data/raw-data/Landcover/Legend.csv')
 
-DT[is.na(DT)] <- 0
-
 setnames(DT, c("prop1", "prop2", "prop3", "prop4",
                "prop5", "prop6", "prop7", "prop8",
                "prop9", "propNA"),
          unique(legend$Cover))
 
+## island ids
+## Fogo = 120
+## W. Perry = 128
+## E. Perry = 124
+## Long skinny island north of W. Perry = 75
+## Island east of W. Perry = 70
+## Island southwest of W. Perry = 125
+## Island south of W. Perry = 78
+## Island southcentre of W. Perry = 73
+
+DT <- DT[id == 120 | id == 128 | id == 124 |
+         id == 75 | id == 70 | id == 125  |
+         id == 78 | id == 73]
 
