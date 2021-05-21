@@ -73,10 +73,7 @@ png('graphics/FigS1.png',
   res = 600)
 ggplot(islands) + 
   geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
-  #ylim(Sbox[['ymin']], Sbox[['ymax']]) +
-  #xlim(Sbox[['xmin']], Sbox[['xmax']]) +
   guides(color = FALSE) +
-  #scale_color_manual(values = cols) +
   labs(x = NULL, y = NULL) + 
   geom_sf_label_repel(aes(label = label), 
                       data = islands[islands$label != 'Fogo Island', ], 
