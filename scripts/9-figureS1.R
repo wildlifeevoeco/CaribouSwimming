@@ -8,7 +8,7 @@ libs <- c(
   'ggnetwork',
   'patchwork',
   'effects',
-  'lme4'
+  'mapview'
 )
 lapply(libs, require, character.only = TRUE)
 
@@ -16,6 +16,8 @@ lapply(libs, require, character.only = TRUE)
 ### Data ----
 islands <- readRDS('output/islandsPoly.Rds')
 edges <- readRDS('output/island-edges.Rds')
+
+mapview(islands)
 
 # Theme -------------------------------------------------------------------
 # Colors
@@ -48,7 +50,9 @@ cols <- pal[, setNames(col, ID)]
 
 
 # Base islands ------------------------------------------------------------
-labels <- data.table(id = c(70, ## Island 1
+labels <- data.table(id = c(58, ## Island 6
+                            72, ## Island 7
+                            70, ## Island 1
                             73, ## Island 2
                             75, ## Island 3
                             78, ## Island 4
@@ -56,7 +60,8 @@ labels <- data.table(id = c(70, ## Island 1
                             124, ## E. Perry
                             125, ## Island 5
                             128), ## W. Perry
-                     label = c('Island 1', 'Island 2', 'Island 3', 'Island 4',
+                     label = c('Island 6', 'Island 7',
+                               'Island 1', 'Island 2', 'Island 3', 'Island 4',
                                'Fogo Island', 'E. Perry Island','Island 5','W. Perry Island'))
 islands <- left_join(islands, labels, 'id')
 
@@ -71,7 +76,7 @@ ggplot(islands) +
   #ylim(Sbox[['ymin']], Sbox[['ymax']]) +
   #xlim(Sbox[['xmin']], Sbox[['xmax']]) +
   guides(color = FALSE) +
-  scale_color_manual(values = cols) +
+  #scale_color_manual(values = cols) +
   labs(x = NULL, y = NULL) + 
   geom_sf_label_repel(aes(label = label), 
                       data = islands[islands$label != 'Fogo Island', ], 
