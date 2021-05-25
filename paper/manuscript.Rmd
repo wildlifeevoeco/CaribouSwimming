@@ -189,3 +189,33 @@ knitr::kable(readRDS('../output/table1.Rds'),
 \newpage
 
 **Literature Cited**
+
+Bergerud, A. T., and W. E. Mercer. 1989. Caribou introductions in eastern North America. Wildlife Society Bulletin 17:111–120.
+
+Charnov, E. L. 1976. Optimal foraging, the marginal value theorem. Theoretical Population Biology 9:129–136.
+
+Fretwell, S. D., and H. L. J. Lucas. 1969. On territorial behaviour and other factors influencing habitat distribution in birds. Acta Biotheoretica 19:16–36.
+
+Huang, R. K. K., Q. M. R. Webber, M. P. Laforge, A. L. Robitaille, M. Bonar, J. Balluffi-Fry, S. Zabihi-Seissan, and E. Vander Wal. 2021. Coyote (*Canis latrans*) diet and spatial co-occurrence with woodland caribou (*Rangifer tarandus caribou*). Canadian Jounal of Zoology 99:391–399.
+
+Jeffery, R. A., R. D. Otto, and F. R. Phillips. 2007. George’s Island, Labrador - A high-density predator-free refuge for a woodland caribou subpopulation? Rangifer:51–56.
+
+Jordan, P. A., R. O. Peterson, and K. A. Ledoux. 2010. Swimming Wolves, Canis lupus, attack a swimming Moose, Alces alces. Canadian Field-Naturalist 124:54–56.
+
+Klein, D. R. 1991. Limiting factors in caribou population ecology. Rangifer 11:30.
+
+Lewis, K. P., and S. P. Mahoney. 2014. Caribou survival, fate, and cause of mortality in Newfoundland: a summary and analysis of the patterns and causes of caribou survival and mortality in Newfoundland during a period of rapid population decline (2003-2012). Technical Bulletin No. 009, Sustainable Development and Strategic Science. Government of Newfoundland and Labrador, St. John’s, NL.
+
+Miller, F. L., and A. Gunn. 1985. Observations of Barren-Ground Caribou Travelling on Thin Ice during Autumn Migration. Arctic 39:85–88.
+
+Miller, F. L., R. H. Russell, and A. Gunn. 1977. Interisland movements of Peary caribou (*Rangifer tarandus pearyi*) on western Queen Elizabeth Islands, Arctic Canada. Canadian Journal of Zoology 55:1029–1037.
+
+Morris, D. W. 2003. Toward an ecological synthesis: A case for habitat selection. Oecologia 136:1–13.
+
+Peignier, M., Q. M. R. Webber, E. L. Koen, M. P. Laforge, A. L. Robitaille, and E. Vander Wal. 2019. Space use and social association in a gregarious ungulate: Testing the conspecific attraction and resource dispersion hypotheses. Ecology & Evolution 9:5133–5145.
+
+Presotto, A., R. Fayrer-Hosken, C. Curry, and M. Madden. 2019. Spatial mapping shows that some African elephants use cognitive maps to navigate the core but not the periphery of their home ranges. Animal Cognition 22:251–263.
+
+Schaefer, J. A., S. P. Mahoney, J. N. Weir, J. G. Luther, and C. E. Soulliere. 2016. Decades of habitat use reveal food limitation of Newfoundland caribou. Journal of Mammalogy 97:386–393.
+
+Seyfarth, R. M., and D. L. Cheney. 2015. Social cognition. Animal Behaviour 103:191–202.
