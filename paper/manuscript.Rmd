@@ -88,33 +88,28 @@ nfull <- edges[, .N, .(ANIMAL_ID, season)]
 
 \newpage
 
-Movement is costly. Even for adept swimmers like caribou (*Rangifer tarandus*), which have hollow hair
-shafts that aid in flotation, the energetic expenditure of swimming for terrestrial mammals is
-markedly higher than walking or running (Miller and Gunn 1985). The drivers that promote the decision
-to swim for terrestrial mammals, like caribou, are often related to the profitability of forage
-(Miller et al. 1977) and the risks of predation (Jeffery et al. 2007, Jordan et al. 2010). The Fogo
-Island archipelago, off the coast of Newfoundland, Canada, is home to approximately 300 woodland
-caribou, descendants of 26 individuals introduced from the Island of Newfoundland to Fogo Island
-between 1964–67 (Bergerud and Mercer 1989). During fieldwork on May 30, 2017, we observed an unmarked
-adult male caribou swim between two smaller islands (Figure 1) a distance of 470 m which took
-approximately 9 minutes. Given that swimming is energetically expensive, we ask how often do caribou
-swim between islands, how long do they occupy islands, and ultimately what motivates swimming? Here,
-we frame swimming and island residency as a model of patch use as described by the marginal value
-theorem (Charnov 1976) within the context of the forage limitation hypothesis. For caribou, the forage
-limitation hypothesis is the constraints on food availability associated with changes in abundance
-through time (Klein 1991, Schaefer et al. 2016). Here, we integrate our understanding of forage
-limitation in caribou populations by using island residency as a proxy for time in patch and island
-size as a proxy for energy intake in a patch (Figure 2).
+Movement is costly. Even for adept swimmers like caribou (*Rangifer tarandus*), which 
+have hollow hair shafts that aid in flotation, the energetic expenditure of swimming 
+for terrestrial mammals is markedly higher than walking or running (Miller and Gunn 1985). 
+The drivers that promote the decision to swim for terrestrial mammals, like caribou, 
+are often related to the profitability of forage (Miller et al. 1977) and the risks 
+of predation (Jeffery et al. 2007, Jordan et al. 2010). The Fogo Island archipelago, 
+off the coast of Newfoundland, Canada, is home to approximately 300 woodland caribou, 
+descendants of 26 individuals introduced from the Island of Newfoundland to Fogo Island 
+between 1964–67 (Bergerud and Mercer 1989). During fieldwork on May 30, 2017, we 
+observed an unmarked adult male caribou swim between two smaller islands (Figure 1), 
+a distance of 470 m which took approximately 9 minutes. Given that swimming is 
+energetically expensive, we ask how often do caribou swim between islands, how 
+long do they occupy islands, and ultimately what motivates swimming? Here, we 
+frame swimming and island residency as a model of patch use as described by the 
+marginal value theorem (Charnov 1976) within the context of the forage limitation 
+hypothesis. For caribou, the forage limitation hypothesis refers to the 
+constraints on food availability associated with changes in abundance (Klein 1991, 
+Schaefer et al. 2016). Here, we integrate our understanding of forage limitation in
+caribou populations by using island residency as a proxy for time in a patch and 
+island size as a proxy for energy intake in a patch (Figure 2).
 
-Forage limitation and over-grazing is a concern for caribou populations and can lead to reduced female
-reproductive success (Klein 1991, Schaefer et al. 2016). Forage scarcity has been proposed as a
-potential reason for caribou moving between arctic islands on the sea-ice in winter (Miller et al.
-1977). We submit that testing the marginal value theorem could improve our understanding of forage
-limitation. The marginal value theorem posits that animals will forage optimally by depleting the
-resources in a given patch (i.e. island) before moving to a new patch (Charnov 1976). Depletion of
-resources on small islands could therefore mirror patterns of over-grazing and forage limitation that
-occur for caribou herds at higher densities in Newfoundland (Schaefer et al. 2016) and elsewhere in
-their range (Klein 1991).
+Forage limitation and over-grazing can reduce reproductive success of female caribou (Klein 1991, Schaefer et al. 2016). Forage scarcity has been proposed as a potential reason for caribou moving between arctic islands on the sea-ice in winter (Miller et al. 1977). We submit that testing the marginal value theorem could improve our understanding of forage limitation. The marginal value theorem posits that animals will forage optimally by depleting the resources in a given patch (i.e. island) before moving to a new patch (Charnov 1976). Depletion of resources on small islands could therefore mirror patterns of over-grazing and forage limitation that occur for caribou herds at higher densities in Newfoundland (Schaefer et al. 2016) and elsewhere in their range (Klein 1991).
 
 Our focus on forage is due to the limited presence of predators in our system. Throughout their range,
 wolves (*Canis lupus*) are the primary predator of caribou, although there are no wolves on the Island
