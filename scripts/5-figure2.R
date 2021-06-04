@@ -11,7 +11,8 @@ libs <- c(
   'ggnetwork',
   'patchwork',
   'effects',
-  'lme4'
+  'lme4',
+  'ggplot2'
 )
 lapply(libs, require, character.only = TRUE)
 

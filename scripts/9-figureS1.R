@@ -8,7 +8,8 @@ libs <- c(
   'ggnetwork',
   'patchwork',
   'effects',
-  'mapview'
+  'mapview',
+  'ggplot2'
 )
 lapply(libs, require, character.only = TRUE)
 
