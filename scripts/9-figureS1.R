@@ -8,7 +8,6 @@ libs <- c(
   'ggnetwork',
   'patchwork',
   'effects',
-  'mapview',
   'ggplot2'
 )
 lapply(libs, require, character.only = TRUE)
@@ -18,7 +17,6 @@ lapply(libs, require, character.only = TRUE)
 islands <- readRDS('output/islandsPoly.Rds')
 edges <- readRDS('output/island-edges.Rds')
 
-mapview(islands)
 
 # Theme -------------------------------------------------------------------
 # Colors
