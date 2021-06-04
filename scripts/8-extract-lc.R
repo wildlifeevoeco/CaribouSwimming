@@ -13,8 +13,8 @@ extract_lc <- function(value, lc, poly) {
 }
 
 ## load data
-fogopolys <- readRDS('../caribou-swimming/output/islandsPoly.Rds')
-fogolc <- raster('../fogo_coyote_repeat/data/raw-data/Landcover/FogoSDSS_RS.tif')
+fogopolys <- readRDS('output/islandsPoly.Rds')
+fogolc <- raster('../nl-landcover/output/fogo_lc.tif')
 
 ## extract proportion of habitat type by island
 values <- c(NA, unique(fogolc))
@@ -23,11 +23,11 @@ names(extracts) <- paste0('prop', values)
 DT <- as.data.table(extracts)
 DT[, id := fogopolys$id]
 DT[, area := fogopolys$area]
-saveRDS(DT, '../caribou-swimming/output/fogo-prop-lc.Rds')
+saveRDS(DT, 'output/fogo-prop-lc.Rds')
 
 ## load data
-DT <- readRDS('../caribou-swimming/output/fogo-prop-lc.Rds')
-legend <- fread('../fogo_coyote_repeat/data/raw-data/Landcover/Legend.csv')
+DT <- readRDS('output/fogo-prop-lc.Rds')
+legend <- fread('../nl-landcover/input/FINAL_PRODUCT/FINAL_RC_legend.csv')
 
 setnames(DT, c("prop1", "prop2", "prop3", "prop4",
                "prop5", "prop6", "prop7", "prop8",
