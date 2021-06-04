@@ -5,6 +5,7 @@
 ### Packages ----
 library(data.table)
 library(spatsoc)
+library(ggplot2)
 
 
 ### Data ----
