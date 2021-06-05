@@ -33,17 +33,6 @@ themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   axis.text = element_blank(),
                   axis.title = element_blank())
 
-# North/South regions
-edges[, region := ifelse(firstY < median(firstY) + 6500, 'South', 'North')]
-S <- edges[season == 'icefree' & region == 'South']
-
-# Bboxes
-Sbox <- c(ymin = min(S$NORTHING) - 1510, 
-          ymax = max(S$NORTHING) + 1510,
-          xmin = min(S$EASTING) - 1500, 
-          xmax = max(S$EASTING) + 2000)
-Ssfbox <- st_as_sf(st_as_sfc(st_bbox(Sbox, crs = utm)))
-
 # Palette
 pal <- unique(edges, by = 'ANIMAL_ID')[order(region), .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
 cols <- pal[, setNames(col, ID)]
