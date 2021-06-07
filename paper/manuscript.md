@@ -1,224 +1,183 @@
-Interisland movements and oceanic swimming of woodland caribou in
-Newfoundland
+On the marginal value of swimming in woodland caribou
 ================
-Quinn M.R. Webber<sup>2</sup>, Jack G. Hendrix<sup>2</sup>, Alec L.
-Robitaille<sup>1</sup>, and Eric Vander Wal<sup>1,2</sup>
+truetruetruetrue
 
-<sup>1</sup> Department of Biology, Memorial University of Newfoundland,
-Canada  
-<sup>2</sup> Cognitive and Behavioural Ecology Interdisciplinary
-Program, Memorial University of Newfoundland
+Movement is costly. Even for adept swimmers like caribou (*Rangifer
+tarandus*), which have hollow hair shafts that aid in flotation, the
+energetic expenditure of swimming for terrestrial mammals is markedly
+higher than walking or running (Miller and Gunn 1985). The drivers that
+promote the decision to swim for terrestrial mammals, like caribou, are
+often related to the profitability of forage (Miller et al. 1977) and
+the risks of predation (Jeffery et al. 2007, Jordan et al. 2010). The
+Fogo Island archipelago, off the coast of Newfoundland, Canada, is home
+to approximately 300 woodland caribou, descendants of 26 individuals
+introduced from the Island of Newfoundland to Fogo Island between
+1964–67 (Bergerud and Mercer 1989). During fieldwork on May 30, 2017, we
+observed an unmarked adult male caribou swim between two smaller islands
+(Figure 1), a distance of 470 m which took approximately 9 minutes.
+Given that swimming is energetically expensive, we ask how often do
+caribou swim between islands, how long do they occupy islands, and
+ultimately what motivates swimming? Here, we frame swimming and island
+residency as a model of patch use as described by the marginal value
+theorem (Charnov 1976) within the context of the forage limitation
+hypothesis. For caribou, the forage limitation hypothesis refers to the
+constraints on food availability associated with changes in abundance
+(Klein 1991, Schaefer et al. 2016). Here, we integrate our understanding
+of forage limitation in caribou populations by using island residency as
+a proxy for time in a patch and island size as a proxy for energy intake
+in a patch (Figure 2).
 
-The Fogo Island archipelago, off the coast of Newfoundland, Canada, is
-home to approximately 300 woodland caribou. During routine fieldwork on
-May 30, 2017, we observed an unmarked adult male caribou swim between
-two small islands (Figure 1 & 2), a distance of at least 470 m which
-took \~9 minutes (\~52 m per minute). Residents of Fogo Island confirmed
-this phenomenon and have also reported regularly observing caribou
-swimming between islands. This observation prompted us to investigate
-whether swimming behaviour was common among GPS radio-collared caribou
-in the population (n = 29, for collaring details see, Peignier et al.
-2019). We identified an individual’s swimming events as two consecutive
-GPS locations (2-hour relocation rates) on different islands.
-Newfoundland typically experiences pack ice in late winter and caribou
-,may travel between islands by walking over the ice. To identify
-swimming events, we restricted our dataset between April 1 and December
-31 and identified 127 swimming events over three years (Figure 2). Given
-the prevalence of swimming in this population, we discuss the causes and
-consequences of this behaviour and propose future areas of research.
+Forage limitation and over-grazing can reduce reproductive success of
+female caribou (Klein 1991, Schaefer et al. 2016). Forage scarcity has
+been proposed as a potential reason for caribou moving between arctic
+islands on the sea-ice in winter (Miller et al. 1977). We submit that
+testing the marginal value theorem could improve our understanding of
+forage limitation. The marginal value theorem posits that animals will
+forage optimally by depleting the resources in a given patch
+(i.e. island) before moving to a new patch (Charnov 1976). Depletion of
+resources on small islands could therefore mirror patterns of
+over-grazing and forage limitation that occur for caribou herds at
+higher densities in Newfoundland (Schaefer et al. 2016) and elsewhere in
+their range (Klein 1991).
 
-In total, 12 of 29 collared female caribou swam between islands in the
-Fogo Island archipelago. Of the caribou that swam, caribou swam on
-average approximately 11 (range = 2-34) times per year and remained on
-each island for approximately 30 (range = 0-724) days before swimming
-again. Based on GPS data to infer swimming, we separated the population
-into three apparent groups of individuals: those that swam regularly
-between islands (n = 3, every \~15 days); those that rarely engaged in
-swimming events (n = 9, every \~ 42 days); and those that never swam (n
-= 17).
+Our focus on forage is due to the limited presence of predators in our
+system. Throughout their range, wolves (*Canis lupus*) are the primary
+predator of caribou. Because there are no wolves on the Island of
+Newfoundland, coyotes (*Canis latrans*) and black bears (*Ursus
+americanus*) are the majors predator of caribou (Lewis and Mahoney
+2014). Within the Fogo Island archipelago there are no black bears and
+coyotes exist at low density (Huang et al. 2021), while the probability
+of coyote occurrence decreases on the smaller islands. The low density
+of predators throughout the archipelago is therefore an unlikely driver
+of swimming in our system, though predation may still influence swimming
+behaviour for caribou elsewhere in their range (e.g. Jeffery et
+al. 2007).
 
-Caribou (*Rangifer tarandus*) are exceptional swimmers. Ample evidence
-exists that caribou swim in streams, rivers, and lakes during migration
-(Leblond et al. 2016), to avoid predators (Bergerud 1985), and to access
-islands during calving (Bergerud et al. 1990). Even for adept swimmers
-like caribou, which have hollow hair shafts that aid in flotation, the
-energetic expenditure of swimming for quadrupedal mammals is
-significantly higher than walking or running, and drowning is also
-possible (Miller and Gunn 1985). Despite the abundance of coastal and
-island caribou herds, only a few studies have documented caribou
-swimming in the ocean, and most of these lack observation, but rather
-deduce swimming based on presence of caribou on a previously
-uninhabitated island (e.g. Miller 1995, 2002, Jeffery et al. 2007, Ricca
-et al. 2012). Caribou may swim between islands in the ocean for similar
-reasons they swim in freshwater (Leblond et al. 2016), mainly concerning
-predator avoidance or to access new habitats and foraging opportunities.
-We propose that one such explanation, the forage limitation hypothesis,
-is the most likely explanation for oceanic swimming for caribou that
-live on islands in the Fogo Island archipelago.
+We identified swimming events as two consecutive GPS locations (2-hour
+relocation rates) on different islands (n = 29, for collaring details
+see Peignier et al. 2019). Newfoundland typically experiences pack ice
+in late winter and caribou may travel between islands by walking over
+the ice. We restricted our dataset between April 1 and December 31 to
+distinguish swimming from walking on ice. We calculated island residency
+as the duration of time, measured on 2-hour relocation rates, an
+individual caribou was observed on an island. Residency was therefore a
+proxy for when the benefits of foraging no longer exceeded the costs of
+swimming between islands. Our test of the marginal value theorem for the
+case of oceanic swimming by caribou is based on three assumptions: (1)
+resources are proportional to the size of each island above
+approximately 0.1km2; (2) caribou know the approximate value of the
+resources on an island before they swim to and from that island; and (3)
+the cost of swimming to and from an island is less than the value of
+resources on that island when the caribou departs. Should these
+assumptions hold, we would predict a positive relationship where caribou
+depart smaller islands sooner than larger islands.
 
-Caribou were introduced to Fogo Island between 1964–67 as part of a
-series of translocations throughout the province (Bergerud and Mercer
-1989). Typical caribou predators such as black bears (*Ursus
-americanus*) and wolves (*Canis lupus*) are absent from Fogo Island; the
-dominant predator is coyote (*Canis latrans*), which predate calves but
-it remains unclear what threat they pose, if any, to adult caribou (Rayl
-et al. 2014). Given the minimal risk of predation to adults and low
-density of coyote on Fogo Island, we propose that forage limitation is
-more likely to drive movement between islands than predator avoidance.
-For several decades after their introduction to Fogo Island, the caribou
-population did not exceed \~100 individuals (Bergerud and Mercer 1989,
-Newfoundland and Labrador Wildlife Division, unpublished data). During
-the 1990s, population density reached \~300 animals and anecdotal
-evidence suggests caribou were first seen on nearby islands during this
-same period. Increased competition for resources on Fogo Island due to
-this increase in density could have precipitated movement to other
-islands.
+Swimming behavior was common among GPS radio-collared caribou in the
+population (n = 29, for collaring details see Peignier et al. 2019). We
+identified 127 swimming events over three years (Figure 2). In total, 13
+of 29 collared female caribou swam among islands (Figure 2). Of the
+caribou that swam, caribou swam on average approximately 3 (range =
+2-`neventidMax`) times per year and remained on each island for a median
+of 30 (range = 0-724) days before swimming again. We found that caribou
+residency increased proportionally with the size of the island for
+islands larger than approximately 0.1 km^2, such that caribou spent less
+time on smaller islands and more time on larger islands, providing
+preliminary evidence for links between forage limitation and the
+marginal value theorem (Figure 2B). In many cases, the smaller islands
+in the archipelago are forage limited and the larger islands provide
+greater opportunities to forage.
 
-Forage limitation and over-grazing is a major concern for caribou
-populations and can lead to reduced female reproductive success
-(Schaefer et al. 2016). Forage scarcity has been proposed as a potential
-reason for caribou moving between arctic islands on the sea-ice in
-winter (Miller et al. 1977). For the Fogo Island population, as the
-population grew and predation pressure was insufficient to maintain
-population density, forage depletion could lead caribou to make similar,
-but riskier and more costly, movements between islands during the
-ice-free season. Given the small size of other islands near Fogo (Figure
-2), over-grazing by newly arrived caribou could rapidly deplete forage
-on an annual cycle (Bergerud et al. 1990), leading to more frequent
-movements back and forth between islands rather than permanent
-relocation.
+The apparent relationship between island size and residency creates a
+framework to test our assumptions about the marginal value of resource
+use by caribou. We extend this framework to test prospective mechanisms
+that drive movement by caribou more generally, and swimming
+specifically. For example: 1) If caribou assess the relative value of
+resources in a patch, or on an island, we predict that residency should
+increase as the value of resources elsewhere becomes depressed. Longer
+relative residency might be an indicator of forage limitation and
+variation in residency could be a predictor of fitness costs and reduced
+reproductive success. 2) Density-dependent habitat selection (Fretwell
+and Lucas 1969, Morris 2003) could be invoked to explain what drives
+caribou to swim and expand their ranges to include smaller islands. As
+caribou density increases on larger islands, competition for resources
+increases such that animals may have similar fitness benefits by
+selecting islands that at lower density would not be as profitable. At
+high local density, individual residency may decrease, thus, increasing
+the frequency of swimming. As such, density-dependent habitat selection
+may represent an ultimate explanation for why caribou swim between
+islands. 3) Cognition is an important proximate mechanism that drives
+swimming behaviour. For example, caribou primarily rely on their sense
+of hearing and smell thus may not see or perceive an island when they
+enter the water to swim to it. How then do caribou know about the
+presence, and subsequently the value, of an island? Social and spatial
+cognition are almost certainly involved and tests of the role of
+cognition could help elucidate why caribou swim. For example, a novice
+individual may trust an experienced individual to lead them to a new
+island, a result which is driven by aspects of social cognition
+(Seyfarth and Cheney 2015). Meanwhile, once an individual has visited an
+island, it may become part of the cognitive map used to navigate within
+their home range (e.g. African elephants Loxondonta africana Presotto et
+al. 2019).
 
-The trade-off associated with swimming between islands can be understood
-as density-dependent habitat selection governed by the Ideal Free
-Distribution (Morris 1987). Ideal Free Distribution theory predicts a
-fitness equilibrium: when the density in a given habitat patch has
-exceeded the optimum for fitness within that patch, animals should
-relocate and settle new habitat patches, so that fitness is equal across
-all patches (Morris 1987). Islands act as discrete habitat patches in
-this case, but the costs associated with swimming create a trade-off
-when moving between patches. For caribou in the Fogo Island archipelago,
-the role of forage limitation in habitat selection patterns remains
-unknown, but swimming between islands may be at least partially governed
-by density-dependent habitat selection.
-
-Forage limitation may be the ultimate explanation for caribou swimming
-between oceanic islands, but a number of proximate mechanisms remain
-untested. Our observations of caribou swimming in the ocean lead to five
-questions for future research:
-<!-- a) For the questions that arise, maybe try to generalize the language a bit
-so that they are a bit broader: caribou as model, but emphasize the
-ecological/evolutionary process it will comment on. 
-b.) Consider tweaking the
-intro the the questions less as 'someone could do this' as something along the
-lines of : this has ignited in us the idea that we can tailor our data
-collection in our closely studies system to access some of these questions. -->
-
-1.  How do energetic costs and risks of swimming differ from walking on
-    sea ice? Walking over ice is less energetically expensive than
-    swimming, but may pose a greater risk of mortality from falling
-    through the ice. Although the presence and extent of sea ice varies
-    annually, we deduce that although the majority of inter-island
-    movements occur between April 1 and December 31, some inter-island
-    movements appear to be caribou walking on sea ice between islands
-    (Figure 2B). Our aim for future research on the trade-offs of these
-    types of movement considers how the costs, e.g. energy expenditure
-    or mortality, and benefits, e.g. novel foraging opportunities, may
-    vary seasonally.
-
-<!--2) At which temporal and spatial scales do caribou choose to swim
-between islands? Does the time of day, weather, season, or availability
-of food influence swimming?-->
-<!--3) Does reproductive status (presence of a calf-at-heel) or demographic class
-(age or sex) influence propensity for oceanic swimming? Our initial observation
-was of an adult male, but all collared individuals were adult females. Are
-younger caribou more likely to swim if they are unable to compete with older
-individuals for resources? Are males or females without a calf-at-heel more
-likely to swim in the summer given they are not restricted based on presence of
-a calf-at-heel, as females are? -->
-
-1.  If swimming is a function of density-dependent habitat selection,
-    what are the costs of movement between patches? IFD assumes
-    zero-cost movement, but could the risk and energetic costs
-    associated with oceanic swimming be estimated using the potential
-    fitness deficit that caribou are willing to tolerate before swimming
-    to a new island?
-
-2.  In relation to questions 1 and 2: how do individuals vary in their
-    propensity to swim and their assessment of the costs and benefits of
-    swimming between islands? We observed some individuals that
-    regularly engaged in swimming events, while others were never
-    observed swimming in the ocean? Our existing research on individual
-    behavioural variation in caribou movement ecology \]Webber et
-    al. (2020)\] provides a basis to investigate the role of inherent
-    individual differences in swimming behaviour. Specifically, the
-    forage limitation hypothesis applies uniformly across populations,
-    but individuals could evaluate the costs and benefits of swimming
-    differently.
-
-We surmise that for Fogo Island, as competition among conspecifics
-increased along with population size, density-dependent habitat
-selection resulted in expansion of the population to nearby islands.
-Following Ideal Free Distribution theory, caribou should swim to new
-islands when the average fitness of individuals on the starting island
-exceeds the density-fitness equilibrium (Morris 1987). While this is an
-ultimate explanation, our data suggest caribou only remain on smaller
-islands for a few days at a time, so the fitness equilibrium remains a
-theoretical construct. More likely, however, is that fine-scale
-competition, density-dependent habitat selection, and forage depletion
-drives individuals to periodically swim between islands. Our focal
-observations add to the evidence that caribou can, and occasionally do,
-swim in the ocean (e.g. Miller 1995, 2002, Jeffery et al. 2007, Ricca et
-al. 2012). We suggest that swimming is likely more common than
-previously thought for caribou living on oceanic islands, and that
-forage limitation and the associated density-dependent habitat selection
-is an ultimate explanation for this phenomenon. Although our inference
-is limited to observations, islands appear to represent discrete
-foraging patches for terrestrial animals that can influence fitness via
-increased foraging opportunities. We also present several hypotheses
-related to the nuances and further variation within the idea that
-density-dependent habitat selection governs swimming behaviour, and
-posit that above and beyond these additional factors, individuals can
-vary in their evaluation of costs and benefits of movement between these
-habitat patches.
+From our natural history observations and proximal movement data on
+caribou swimming, characteristics of destination islands, and residency
+on the islands, we have presented some evidence for the marginal value
+of resources that may serve as evidence of forage limitation for caribou
+swimming between islands. Further investigation into the nuance of
+forage profitability, local density, and the role of both social and
+spatial cognition is needed. Here, we have proposed a thought exercise
+that integrates the marginal value theorem with novel natural history
+observations to explain swimming behavior for terrestrial animals and
+opens the door for future studies of caribou in our system and other
+island archipelagos inhabited by caribou.
 
 **Acknowledgements** We thank M. Laforge, M. Bonar, C. Hart, and R.
 Huang for help in the field. Logistical support was provided by L.
-Bixby. We thank all members of the Wildlife Evolutionary Ecology Lab,
-including C. Hart, C. Prokopenko, J. Kennah, J.W. Turner, and S. Boyle
-for their comments on previous versions of this manuscript. Newfoundland
-Wildlife Division including S. Moores, B. Adams, C. Doucet, W. Barney,
-and J. Neville for logistical support in the field as well as help with
-data data collection and management. We thank T. Bergerud and S. Mahoney
-for their vision in initiating much of the work on caribou in
-Newfoundland. Funding for this study was provided by the National
-Sciences and Engineering Research Council (QMRW, JGH, EVW). We
-respectfully acknowledge the territory in which data were collected and
-analyzed as the ancestral homelands of the Beothuk, and the island of
-Newfoundland as the ancestral homelands of the Mi’kmaq and Beothuk.
+Bixby. We thank J. Schaefer and one anonymous reviewer as well as all
+members of the Wildlife Evolutionary Ecology Lab for their comments on
+previous versions of this manuscript. Newfoundland Wildlife Division
+including S. Moores, B. Adams, C. Doucet, W. Barney, and J. Neville for
+logistical support in the field as well as help with data data
+collection and management. We thank T. Bergerud and S. Mahoney for their
+vision in initiating much of the work on caribou in Newfoundland.
+Funding for this study was provided by the Natural Sciences and
+Engineering Research Council (QMRW, JGH, EVW). We respectfully
+acknowledge the territory in which data were collected and analyzed as
+the ancestral homelands of the Beothuk, and the island of Newfoundland
+as the ancestral homelands of the Mi’kmaq and Beothuk.
 
-<div class="figure" style="text-align: center">
+(ref:fig1) Photograph of swimming unmarked adult male caribou (*Rangifer
+tarandus*) from Western Perry Island to Eastern Perry Island taken on 30
+May 2017.
 
-<img src="../graphics/IMG_1562_crop_edit.jpg" alt="Photograph of swimming unmarked adult male caribou (*Rangifer tarandus*) from Western to Eastern Indian Island taken on 30 May 2017."  />
+<div class="figure">
+
+<img src="../graphics/Fig1.jpg" alt="(ref:fig1)"  />
 <p class="caption">
-Figure 1: Photograph of swimming unmarked adult male caribou (*Rangifer
-tarandus*) from Western to Eastern Indian Island taken on 30 May 2017.
+Figure 1: (ref:fig1)
 </p>
 
 </div>
 
-<div class="figure" style="text-align: center">
+2.  Correlation between area of an island (km2) and the residency in
+    days an individual caribou spent on that island (linear mixed
+    effects regression with ID as a random effect: ß = 1.08, SE = 0.06;
+    tdf = 177 = 17.5, p &lt; 0.001). C) Inset of swimming events between
+    small islands on the northern coast of Fogo island. D) Inset of
+    swimming events between islands on the southern coast of Fogo
+    island. The grey diamond represents the location we observed an
+    adult male caribou swimming (see Figure 1). E) Histogram displaying
+    the frequency of swimming events throughout the year. Colors
+    correspond to individual caribou, which are consistent in all
+    panels, and vertical black bars delineate the ice-free season (April
+    1 to December 31).
 
-<img src="../graphics/Fig2.png" alt="A) Map of the Fogo Island archipelago with swimming events between islands. B) Histogram displaying the frequency of swimming events throughout the year. Note, colours correspond to individual caribou and vertical black bars delineate the ice-free season (April 1 to December 31). C) Inset of swimming events between small islands on the northern coast of Fogo island. D) Inset of swimming events between islands on the southern coast of Fogo island. Note, the grey diamond represents the location we observed an adult male caribou swimming (see Figure 1)."  />
+<div class="figure">
+
+<img src="../graphics/Fig2.png" alt="A) Map of the Fogo Island archipelago with swimming events from 13 caribou between islands." width="3023" />
 <p class="caption">
 Figure 2: A) Map of the Fogo Island archipelago with swimming events
-between islands. B) Histogram displaying the frequency of swimming
-events throughout the year. Note, colours correspond to individual
-caribou and vertical black bars delineate the ice-free season (April 1
-to December 31). C) Inset of swimming events between small islands on
-the northern coast of Fogo island. D) Inset of swimming events between
-islands on the southern coast of Fogo island. Note, the grey diamond
-represents the location we observed an adult male caribou swimming (see
-Figure 1).
+from 13 caribou between islands.
 </p>
 
 </div>
@@ -235,133 +194,71 @@ fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch
 barrens.-->
 |                      | Moves to | Moves away | Proportion lichen | Estimated density (caribou per km2) | Average group size (95% CI) | Calf:cow ratio between June and August |
 |:---------------------|---------:|-----------:|------------------:|------------------------------------:|:----------------------------|:---------------------------------------|
-| Fogo Island          |       31 |         32 |              0.12 |                              0.9804 | 3.05 (2.7, 3.4)             | 0.34, (0.28, 0.39) (n = 283 groups)    |
-| Western Perry Island |       53 |         54 |              0.03 |                              6.6667 | 2.95 (1.89, 4.02)           | 0.22, (0.05, 0.39) (n = 23 groups)     |
-| Eastern Perry Island |       18 |         18 |              0.12 |                              5.2632 | 3.71 (1.97, 5.46)           | 0.67, (0.23, 1.00) (n = 7 groups)      |
+| Fogo Island          |        0 |          0 |              0.05 |                           0.9803922 | 3.05 (2.7, 3.4)             | 0.34, (0.28, 0.39) (n = 283 groups)    |
+| Western Perry Island |        0 |          0 |                NA |                           6.6666667 | 2.95 (1.89, 4.02)           | 0.22, (0.05, 0.39) (n = 23 groups)     |
+| Eastern Perry Island |        0 |          0 |                NA |                           5.2631579 | 3.71 (1.97, 5.46)           | 0.67, (0.23, 1.00) (n = 7 groups)      |
 
 Table 1:
 
 **Literature Cited**
 
-<div id="refs" class="references hanging-indent">
+Bergerud, A. T., and W. E. Mercer. 1989. Caribou introductions in
+eastern North America. Wildlife Society Bulletin 17:111–120.
 
-<div id="ref-Bergerud1985">
+Charnov, E. L. 1976. Optimal foraging, the marginal value theorem.
+Theoretical Population Biology 9:129–136.
 
-Bergerud, A. T. 1985. Antipredator strategies of caribou: dispersion
-along shorelines. Canadian Journal of Zoology 63:1324–1329.
+Fretwell, S. D., and H. L. J. Lucas. 1969. On territorial behaviour and
+other factors influencing habitat distribution in birds. Acta
+Biotheoretica 19:16–36.
 
-</div>
-
-<div id="ref-Bergerud1990">
-
-Bergerud, A. T., R. Ferguson, and H. E. Butler. 1990. Spring migration
-and dispersion of woodland caribou at calving. Animal Behaviour
-39:360–368.
-
-</div>
-
-<div id="ref-Bergerud1989">
-
-Bergerud, A. T., and W. E. Mercer. 1989. Caribou Introductions in
-Eastern North America. Wildlife Society Bulletin 17:111–120.
-
-</div>
-
-<div id="ref-Jeffery2007">
+Huang, R. K. K., Q. M. R. Webber, M. P. Laforge, A. L. Robitaille, M.
+Bonar, J. Balluffi-Fry, S. Zabihi-Seissan, and E. Vander Wal. 2021.
+Coyote (*Canis latrans*) diet and spatial co-occurrence with woodland
+caribou (*Rangifer tarandus caribou*). Canadian Jounal of Zoology
+99:391–399.
 
 Jeffery, R. A., R. D. Otto, and F. R. Phillips. 2007. George’s Island,
 Labrador - A high-density predator-free refuge for a woodland caribou
 subpopulation? Rangifer:51–56.
 
-</div>
+Jordan, P. A., R. O. Peterson, and K. A. Ledoux. 2010. Swimming Wolves,
+Canis lupus, attack a swimming Moose, Alces alces. Canadian
+Field-Naturalist 124:54–56.
 
-<div id="ref-Leblond2016">
+Klein, D. R. 1991. Limiting factors in caribou population ecology.
+Rangifer 11:30.
 
-Leblond, M., M.-H. St-Laurent, and S. D. Côté. 2016. Caribou, water, and
-ice – fine-scale movements of a migratory arctic ungulate in the context
-of climate change. Movement Ecology:4:14.
-
-</div>
-
-<div id="ref-Miller1995">
-
-Miller, F. L. 1995. Inter-island water crossings by peary caribou,
-south-central Queen Elizabeth Islands. Arctic 48:8–12.
-
-</div>
-
-<div id="ref-Miller2002">
-
-Miller, F. L. 2002. Multi-Island Seasonal Home Range Use by Two Peary
-Caribou, Canadian High Arctic Islands, Nunavut, 1993-94. Arctic
-55:133–142.
-
-</div>
-
-<div id="ref-Miller1985">
+Lewis, K. P., and S. P. Mahoney. 2014. Caribou survival, fate, and cause
+of mortality in Newfoundland: a summary and analysis of the patterns and
+causes of caribou survival and mortality in Newfoundland during a period
+of rapid population decline (2003-2012). Technical Bulletin No. 009,
+Sustainable Development and Strategic Science. Government of
+Newfoundland and Labrador, St. John’s, NL.
 
 Miller, F. L., and A. Gunn. 1985. Observations of Barren-Ground Caribou
 Travelling on Thin Ice during Autumn Migration. Arctic 39:85–88.
-
-</div>
-
-<div id="ref-Miller1977">
 
 Miller, F. L., R. H. Russell, and A. Gunn. 1977. Interisland movements
 of Peary caribou (*Rangifer tarandus pearyi*) on western Queen Elizabeth
 Islands, Arctic Canada. Canadian Journal of Zoology 55:1029–1037.
 
-</div>
-
-<div id="ref-Morris1987">
-
-Morris, D. W. 1987. Tests of density-dependent habitat selection in a
-patchy environment. Ecological Monographs 57:269–281.
-
-</div>
-
-<div id="ref-Peignier2019">
+Morris, D. W. 2003. Toward an ecological synthesis: A case for habitat
+selection. Oecologia 136:1–13.
 
 Peignier, M., Q. M. R. Webber, E. L. Koen, M. P. Laforge, A. L.
 Robitaille, and E. Vander Wal. 2019. Space use and social association in
 a gregarious ungulate: Testing the conspecific attraction and resource
 dispersion hypotheses. Ecology & Evolution 9:5133–5145.
 
-</div>
-
-<div id="ref-Rayl2014">
-
-Rayl, N. D., T. K. Fuller, J. F. Organ, J. E. McDonald, S. P. Mahoney,
-C. Soulliere, S. E. Gullage, T. Hodder, F. Norman, T. Porter, G.
-Bastille-Rousseau, J. A. Schaefer, and D. L. Murray. 2014. Mapping the
-distribution of a prey resource: neonate caribou in Newfoundland.
-Journal of Mammalogy 95:328–339.
-
-</div>
-
-<div id="ref-Ricca2012">
-
-Ricca, M. A., F. W. Weckerly, A. Duarte, and J. C. Williams. 2012. Range
-expansion of nonindigenous caribou in the Aleutian archipelago of
-Alaska. Biological Invasions 14:1779–1784.
-
-</div>
-
-<div id="ref-Schaefer2016">
+Presotto, A., R. Fayrer-Hosken, C. Curry, and M. Madden. 2019. Spatial
+mapping shows that some African elephants use cognitive maps to navigate
+the core but not the periphery of their home ranges. Animal Cognition
+22:251–263.
 
 Schaefer, J. A., S. P. Mahoney, J. N. Weir, J. G. Luther, and C. E.
 Soulliere. 2016. Decades of habitat use reveal food limitation of
 Newfoundland caribou. Journal of Mammalogy 97:386–393.
 
-</div>
-
-<div id="ref-Webber2020">
-
-Webber, Q. M. R., M. P. Laforge, M. Bonar, A. L. Robitaille, C. Hart, S.
-Zabihi-Seissan, and E. V. Wal. 2020. The ecology of individual
-differences empirically applied to space-use and movement tactics. The
-American Naturalist 196.
-
-</div>
-
-</div>
+Seyfarth, R. M., and D. L. Cheney. 2015. Social cognition. Animal
+Behaviour 103:191–202.
