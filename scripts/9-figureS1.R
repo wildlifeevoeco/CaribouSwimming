@@ -34,11 +34,6 @@ themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   axis.text = element_blank(),
                   axis.title = element_blank())
 
-# Palette
-pal <- unique(edges, by = 'ANIMAL_ID')[order(region), .(ID = unique(ANIMAL_ID), col = scales::viridis_pal()(.N))]
-cols <- pal[, setNames(col, ID)]
-
-
 # Base islands ------------------------------------------------------------
 labels <- data.table(id = c(58, ## Island 6
                             72, ## Island 7
