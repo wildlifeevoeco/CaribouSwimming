@@ -1,3 +1,5 @@
+### Figure S1 ====
+# Quinn M.R. Webber, Jack G. Hendrix, Alec L. Robitaille,  Eric Vander Wal
 
 ### Packages ----
 libs <- c(
