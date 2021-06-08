@@ -96,21 +96,12 @@ cols <- pal[, setNames(col, ID)]
 
 
 # Base islands ------------------------------------------------------------
-labels <- data.table(id = c(120, 124, 128),
-                     label = c('Fogo Island', 'E. Perry Island', 'W. Perry Island'))
-islands <- left_join(islands, labels, 'id')
-
 (gfogo <- ggplot(islands) + 
-    geom_sf(fill = islandcol, size = 0.13, color = coastcol) + 
+    geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
     themeMap +
     theme(axis.text = element_text(size = 11, color = 'black')) +
     scale_y_continuous(label = function(x) sprintf('%.2f°N', x)) +
     scale_x_continuous(label = function(x) sprintf('%.1f°W', -1 * x)))
-
-(gfogothick <- ggplot(islands) + 
-    geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
-    themeMap +
-    theme(axis.text = element_text(size = 11, color = 'black')))
 
 
 
