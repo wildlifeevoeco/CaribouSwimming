@@ -1,0 +1,88 @@
+---
+title: On the marginal value of swimming in woodland caribou
+author:
+  - name: Quinn M.R. Webber
+    institute: cabe
+    correspondence: true
+  - name: Jack G. Hendrix
+    institute: cabe
+  - name: Alec L. Robitaille
+    email: robit.alec@gmail.com
+    institute: bio
+  - name: Eric Vander Wal
+    institute: [bio, cabe]
+institute: 
+  - bio: Department of Biology, Memorial University of Newfoundland, Canada
+  - cabe: Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland 
+output:
+  bookdown::word_document2:
+    reference_docx: template.docx
+    fig_caption: no
+    pandoc_args:
+      - '--lua-filter=scholarly-metadata.lua'
+      - '--lua-filter=author-info-blocks.lua'
+  bookdown::github_document2:
+    toc: true
+bibliography: ../references/swim.bib
+csl: ecology.csl
+---
+
+
+```{r knitropts, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      eval = TRUE,
+                      fig.align = 'center')
+```
+
+
+```{r pkgs}
+library(data.table)
+DT <- readRDS('../output/islandsPoly-with-label.Rds')
+setDT(DT)
+```
+
+\newpage
+
+
+
+
+```{r}
+knitr::include_graphics('../graphics/FigS1.png')
+```
+
+
+Figure S1: Map of the Fogo Island archipelago. `r DT[!is.na(label), .N]` islands are identified and the dominant habitats on these islands are presented in Table S1. Note, numbered islands do not have official names and for ease of interpretation we identified them using numbers.
+
+
+\newpage
+
+```{r}
+prop <- readRDS('../output/fogo-prop-lc.Rds')[, .(
+  Island = label, 
+  `Area (km2)` = as.numeric(round(area / 1e+6, digits = 3)),
+  Lichen = `Lichen and Heath`,
+  Wetland,
+  `Conifer forest` = `Conifer Forest`,
+  `Rocky barrens` = `Rocky Barren`,
+  Freshwater = Water,
+  Other = Other
+)]
+mkpercent <- colnames(prop)[-c(1, 2)]
+prop[, (mkpercent) := lapply(.SD, function(x) scales::label_percent(0.01)(x)), .SDcols = mkpercent]
+knitr::kable(prop[order(-`Area (km2)`)], align = 'l',
+             caption = 'Table S1: Summary of primary habitat types for eight islands in the Fogo Island Archipelago. Habitat types were determined using supervised classification of Landsat 7 imagery (Integrated Informatics Inc., 2014). Habitats pooled in the ‘other’ category include broadleaf forest, mixed-wood forest, and anthropogenic habitats and we pooled conifer forest and conifer scrub together as these habitats are similar in their species composition. Descriptions of each habitat type and dominant plant species are presented in Table S2 and the location of each island is presented in Figure S1.')
+```
+
+\newpage
+
+```{r}
+knitr::kable(fread('../paper/tabs2.csv'), align = 'l',
+             caption = 'Table S2: Summary of common plant species and groups of species in four habitat types on Fogo Island, Newfoundland. Habitat types were determined using supervised classification of Landsat 7 imagery with 30×30m pixels to generate land cover classifications (Integrated Informatics Inc., 2014).')
+```
+
+
+
+**References**
+
+
+Integrated Informatics Inc. 2014. Sustainable Development and Strategic Science Branch Land cover classification. Sustainable Development and Strategic Science, Government of Newfoundland and Labrador, St. John’s, NL.
