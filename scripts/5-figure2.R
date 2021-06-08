@@ -76,7 +76,7 @@ S <- edges[season == 'icefree' & region == 'South']
 
 # Bboxes
 Nbox <- c(ymin = min(N$NORTHING) + 1250, 
-          ymax = max(N$NORTHING),
+          ymax = max(N$NORTHING) + 100,
           xmin = min(N$EASTING) + 5000, 
           xmax = max(N$EASTING))
 Nsfbox <- st_as_sf(st_as_sfc(st_bbox(Nbox, crs = utm)))
@@ -176,17 +176,19 @@ islandcents <- st_centroid(
       color = 'black',
       size = 0.3
     ) +
-    geom_sf_label(data = Nsfbox, aes(label = label)) +
+    geom_sf_label(data = Nsfbox, aes(label = label), segment.alpha = 0) +
     geom_sf(
       data = Ssfbox,
       fill = NA,
       color = 'black',
       size = 0.3
     ) +
-    geom_sf_label(data = Ssfbox, aes(label = label)) +
-    geom_sf_label(aes(label = label),
-                  data = islandcents,
-                  size = 2) +
+    geom_sf_label(aes(label = label), data = islandcents[grepl('Fogo', islandcents$label), ],
+                        size = 2) +
+    geom_sf_label_repel(aes(label = label), data = islandcents[!grepl('Fogo', islandcents$label),],
+                        size = 2, nudge_x = 7000) +
+    geom_sf_label(data = Ssfbox, aes(label = label), segment.alpha = 0) +
+    
     theme(axis.title = element_blank())
 )
 
