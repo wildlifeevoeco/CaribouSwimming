@@ -19,31 +19,26 @@ extract_lc <- function(value, lc, poly) {
 
 
 ### Data ----
-fogopolys <- readRDS('output/islandsPoly.Rds')
+islands <- readRDS('output/islandsPoly-with-label.Rds')
 fogolc <- raster('../nl-landcover/output/fogo_lc.tif')
 legend <- fread('../nl-landcover/input/FINAL_PRODUCT/FINAL_RC_legend.csv')
 
 ### Extract proportion of habitat type by island ----
 values <- c(NA, unique(fogolc))
-extracts <- lapply(values, extract_lc, fogolc, fogopolys)
+extracts <- lapply(values, extract_lc, fogolc, islands)
 names(extracts) <- paste0('prop', values)
 
 DT <- as.data.table(extracts)
 
-DT[, id := fogopolys$id]
-DT[, area := fogopolys$area]
+DT[, id := islands$id]
+DT[, area := islands$area]
 
 setnames(DT, c("prop1", "prop2", "prop3", "prop4",
                "prop5", "prop6", "prop7", "prop8",
                "prop9", "propNA"),
          c(unique(legend$Landcover), "Not Available"))
 
-selislands <- data.table(
-  id = c(120, 128, 124, 75, 70, 125, 78, 73, 58, 72),
-  name = c("Fogo", "W. Perry", "E. Perry", "Island 3", 
-           "Island 1", "Island 5", "Island 4", 
-           "Island 2", "Island 6", "Island 7")
-)
+selislands <- islands[!is.na(islands$label), ]
 DT <- DT[selislands, on = 'id']
 
 DT[, Other := Broadleaf + `Mixed Wood`  + `Anthropogenic and disturbance` +
