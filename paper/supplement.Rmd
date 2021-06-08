@@ -15,16 +15,14 @@ institute:
   - bio: Department of Biology, Memorial University of Newfoundland, Canada
   - cabe: Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland 
 output:
-   bookdown::word_document2:
-     reference_docx: template.docx
-     pandoc_args:
+  bookdown::word_document2:
+    reference_docx: template.docx
+    fig_caption: no
+    pandoc_args:
       - '--lua-filter=scholarly-metadata.lua'
       - '--lua-filter=author-info-blocks.lua'
   bookdown::github_document2:
     toc: true
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding,
-  output_dir = "paper", output_format = "all") })
 bibliography: ../references/swim.bib
 csl: ecology.csl
 ---
@@ -39,14 +37,52 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ```{r pkgs}
 library(data.table)
+DT <- readRDS('../output/islandsPoly-with-label.Rds')
+setDT(DT)
+```
+
+\newpage
+
+
+
+
+```{r}
+knitr::include_graphics('../graphics/FigS1.png')
+```
+
+
+Figure S1: Map of the Fogo Island archipelago. `r DT[!is.na(label), .N]` islands are identified and the dominant habitats on these islands are presented in Table S1. Note, islands listed as Island 1–5 correspond to those presented in Panel D in Figure 2 and Islands 6 and 7 correspond to those presented in Panel C in Figure 2. These numbered islands do not have official names and for ease of interpretation we identified them using numbers.
+
+
+\newpage
+
+```{r}
+prop <- readRDS('../output/fogo-prop-lc.Rds')[, .(
+  Island = label, 
+  `Area (km2)` = as.numeric(round(area / 1e+6, digits = 3)),
+  Lichen = `Lichen and Heath`,
+  Wetland,
+  `Conifer forest` = `Conifer Forest`,
+  `Rocky barrens` = `Rocky Barren`,
+  Freshwater = Water,
+  Other = Other
+)]
+mkpercent <- colnames(prop)[-c(1, 2)]
+prop[, (mkpercent) := lapply(.SD, function(x) scales::label_percent(0.01)(x)), .SDcols = mkpercent]
+knitr::kable(prop[order(-`Area (km2)`)], align = 'l',
+             caption = 'Table S1: Summary of primary habitat types for eight islands in the Fogo Island Archipelago. Habitat types were determined using supervised classification of Landsat 7 imagery (Integrated Informatics Inc., 2014). Habitats pooled in the ‘other’ category include broadleaf forest, mixed-wood forest, and anthropogenic habitats and we pooled conifer forest and conifer scrub together as these habitats are similar in their species composition. Descriptions of each habitat type and dominant plant species are presented in Table S2 and the location of each island is presented in Figure S1.')
+```
+
+\newpage
+
+```{r}
+knitr::kable(fread('../paper/tabs2.csv'), align = 'l',
+             caption = 'Table S2: Summary of common plant species and groups of species in four habitat types on Fogo Island, Newfoundland. Habitat types were determined using supervised classification of Landsat 7 imagery with 30×30m pixels to generate land cover classifications (Integrated Informatics Inc., 2014).')
 ```
 
 
 
+**References**
 
-|  			Habitat 			type 		        |  			Description 		     |  			Common 			species and groups of species 		        |
-|-|-|-|
-|  			Lichen 		     |  			A 			non-forested shrub-dominated habitat found on hummocky terrain and 			may have thin soils with exposed bedrock, ericaceous shrubs 			dominate having relatively high percent cover. Tree species are 			always stunted and rarely grow above the shrub layer. The herb 			layer is species-rich, is nearly always dominated by ground 			lichen. 		                       |  			Caribou 			lichen (Cladonia sp.)  			  			Sheep 			laurel (Kalmia sp.)  			  			Dwarf 			willow (Salix herbacea) 		                          |
-|  			Wetland 		     |  			Characterized 			by open or ponded water. Dominated by aquatic and submergent 			vegetation such as yellow pond lily and rushes. 		           |  			Sedges 			(Carex sp.)  			  			Rushes 			(Juncus sp.)  			  			Mosses 		                       |
-|  			Conifer 			forest 		        |  			Dominant 			tree species are typically balsam fir or black spruce with lesser 			amount of larch, ericaceous shrubs are found in this habitat and 			sheep laurel. 		              |  			White 			spruce (Picea glauca)  			  			Black 			spruce (Picea mariana)  			  			Balsam 			fir (Abies balsamea)  			  			Larch 			(Larix laricina) 		                                   |
-|  			Rocky 			barrens 		        |  			Windswept 			with thin layer that is comprised of bedrock, exposed soil, stone, 			and boulders. The shrub layer is composed mainly of ericaceous 			shrubs. Ground cover consists of grasses, lichens, mosses, and 			smaller berry plants. 		                 |  			Alder 			(Alnus sp.)  			  			Sheep 			laurel (Kalmia sp.)  			  			Crowberry 			(Empetrum nigrum)  			  			Vaccinium 			sp. 		                                   |
+
+Integrated Informatics Inc. 2014. Sustainable Development and Strategic Science Branch Land cover classification. Sustainable Development and Strategic Science, Government of Newfoundland and Labrador, St. John’s, NL.
