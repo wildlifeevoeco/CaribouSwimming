@@ -51,7 +51,7 @@ knitr::include_graphics('../graphics/FigS1.png')
 ```
 
 
-Figure S1: Map of the Fogo Island archipelago. `r DT[!is.na(label), .N]` islands are identified and the dominant habitats on these islands are presented in Table S1. Note, islands listed as Island 1–5 correspond to those presented in Panel D in Figure 2 and Islands 6 and 7 correspond to those presented in Panel C in Figure 2. These numbered islands do not have official names and for ease of interpretation we identified them using numbers.
+Figure S1: Map of the Fogo Island archipelago. `r DT[!is.na(label), .N]` islands are identified and the dominant habitats on these islands are presented in Table S1. Note, numbered islands do not have official names and for ease of interpretation we identified them using numbers.
 
 
 \newpage
