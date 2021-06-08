@@ -22,11 +22,6 @@ edges <- caribou[island != endisland]
 # Edge ID
 edges[, edgeID := .I]
 
-
-edges <- edges[!(between(i, 946, 947, incbounds = TRUE) & ANIMAL_ID == 'FO2017012') &
-                 !(between(i, 3771, 3772, incbounds = TRUE) & ANIMAL_ID == 'FO2017013')]
-
-
 ### Variables ----
 # Step length
 difXY <- c('difX', 'difY')
