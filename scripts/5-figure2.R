@@ -119,7 +119,7 @@ cols <- pal[, setNames(col, ID)]
 
 # Edges -------------------------------------------------------------------
 edgesize <- 1
-(gnetN <- gfogothick +
+(gnetN <- gfogo +
     geom_edges(data = N,
                aes(
                  x = firstX,
@@ -139,7 +139,7 @@ edgesize <- 1
   theme(axis.ticks = element_blank())
   )
 
-(gnetS <- gfogothick +
+(gnetS <- gfogo +
     geom_edges(data = S,
                aes(
                  x = firstX,
