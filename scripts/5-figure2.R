@@ -168,8 +168,6 @@ islandcents <- st_centroid(
   !grepl('Island ', islands$label) & 
   islands$area > units::as_units(1e5, 'm^2'),
 ])
-islandrepels <- islands[!islands$label %in% islandcents$label &
-                          !is.na(islands$label),]
 
 (withboxes <- gfogo +
     geom_sf(
@@ -186,11 +184,9 @@ islandrepels <- islands[!islands$label %in% islandcents$label &
       size = 0.3
     ) +
     geom_sf_label(data = Ssfbox, aes(label = label)) +
-    geom_sf_label_repel(aes(label = label), 
-                        data = islands[islands$label != 'Fogo Island', ], 
-                        nudge_x = 1.3e4, size = 2) +
-    geom_sf_label(aes(label = label), 
-                        data = islands[islands$label == 'Fogo Island', ], size = 2) +
+    geom_sf_label(aes(label = label),
+                  data = islandcents,
+                  size = 2) +
     theme(axis.title = element_blank())
 )
 
