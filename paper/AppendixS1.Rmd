@@ -73,18 +73,28 @@ prop <- readRDS('../output/fogo-prop-lc.Rds')[, .(
 )]
 mkpercent <- colnames(prop)[-c(1, 2)]
 prop[, (mkpercent) := lapply(.SD, function(x) scales::label_percent(0.01)(x)), .SDcols = mkpercent]
-knitr::kable(prop[order(-`Area (km2)`)], align = 'l',
-             caption = 'Table S1: Summary of primary habitat types for eight islands in the Fogo Island Archipelago. Habitat types were determined using supervised classification of Landsat 7 imagery (Integrated Informatics Inc., 2014). Habitats pooled in the ‘other’ category include broadleaf forest, mixed-wood forest, and anthropogenic habitats and we pooled conifer forest and conifer scrub together as these habitats are similar in their species composition. Descriptions of each habitat type and dominant plant species are presented in Table S2 and the location of each island is presented in Figure S1.')
 ```
+
+```{r}
+library(flextable)
+ft <- qflextable(prop[order(-`Area (km2)`)])
+set_caption(ft,
+            'Summary of primary habitat types for eight islands in the Fogo Island Archipelago. Habitat types were determined using supervised classification of Landsat 7 imagery (Integrated Informatics Inc., 2014). Habitats pooled in the ‘other’ category include broadleaf forest, mixed-wood forest, and anthropogenic habitats and we pooled conifer forest and conifer scrub together as these habitats are similar in their species composition. Descriptions of each habitat type and dominant plant species are presented in Table S2 and the location of each island is presented in Figure S1.')
+```
+
 
 \newpage
 
 ```{r}
-knitr::kable(fread('../paper/tabs2.csv'), align = 'l',
-             caption = 'Table S2: Summary of common plant species and groups of species in four habitat types on Fogo Island, Newfoundland. Habitat types were determined using supervised classification of Landsat 7 imagery with 30×30m pixels to generate land cover classifications (Integrated Informatics Inc., 2014).')
+ft2 <- flextable(fread('../paper/tabs2.csv'))
+
+set_caption(autofit(
+  colformat_md(ft2)),
+  caption = 'Summary of common plant species and groups of species in four habitat types on Fogo Island, Newfoundland. Habitat types were determined using supervised classification of Landsat 7 imagery with 30×30m pixels to generate land cover classifications (Integrated Informatics Inc., 2014).'
+)
 ```
 
-
+\newpage
 
 **References**
 
