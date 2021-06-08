@@ -162,6 +162,15 @@ edgesize <- 1
   theme(axis.ticks = element_blank())
 )
 
+islandcents <- st_centroid(
+  islands[
+  !is.na(islands$label) &
+  !grepl('Island ', islands$label) & 
+  islands$area > units::as_units(1e5, 'm^2'),
+])
+islandrepels <- islands[!islands$label %in% islandcents$label &
+                          !is.na(islands$label),]
+
 (withboxes <- gfogo +
     geom_sf(
       data = Nsfbox,
