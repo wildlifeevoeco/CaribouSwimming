@@ -18,7 +18,7 @@ lapply(libs, require, character.only = TRUE)
 
 
 ### Data ----
-islands <- readRDS('output/islandsPoly.Rds')
+islands <- readRDS('output/islandsPoly-with-label.Rds')
 edges <- readRDS('output/island-edges.Rds')
 net <- readRDS('output/island-network.Rds')
 runarea <- readRDS('output/runarea.Rds')
