@@ -1,5 +1,6 @@
 ---
 title: On the marginal value of swimming in woodland caribou
+subtitle: Appendix S1
 author:
   - name: Quinn M.R. Webber
     institute: cabe
@@ -29,14 +30,17 @@ csl: ecology.csl
 
 
 ```{r knitropts, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = TRUE,
-                      fig.align = 'center')
+knitr::opts_chunk$set(
+  echo = FALSE,
+  eval = TRUE,
+  fig.align = 'center'
+)
 ```
 
 
 ```{r pkgs}
 library(data.table)
+library(ftExtra)
 DT <- readRDS('../output/islandsPoly-with-label.Rds')
 setDT(DT)
 ```
