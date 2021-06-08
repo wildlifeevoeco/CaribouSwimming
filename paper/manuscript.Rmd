@@ -15,11 +15,16 @@ institute:
   - bio: Department of Biology, Memorial University of Newfoundland, Canada
   - cabe: Cognitive and Behavioural Ecology Interdisciplinary Program, Memorial University of Newfoundland 
 output:
-   bookdown::word_document2:
-     reference_docx: template.docx
-     pandoc_args:
+  bookdown::word_document2:
+    reference_docx: template.docx
+    pandoc_args:
       - '--lua-filter=scholarly-metadata.lua'
       - '--lua-filter=author-info-blocks.lua'
+  bookdown::github_document2:
+    toc: true
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding,
+  output_dir = "paper", output_format = "all") })
 bibliography: ../references/swim.bib
 csl: ecology.csl
 ---

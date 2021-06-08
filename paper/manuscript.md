@@ -45,11 +45,11 @@ system. Throughout their range, wolves (*Canis lupus*) are the primary
 predator of caribou. Because there are no wolves on the Island of
 Newfoundland, coyotes (*Canis latrans*) and black bears (*Ursus
 americanus*) are the majors predator of caribou (Lewis and Mahoney
-2014). Within the Fogo Island archipelago there are no black bears and
-coyotes exist at low density (Huang et al. 2021), while the probability
-of coyote occurrence decreases on the smaller islands. The low density
-of predators throughout the archipelago is therefore an unlikely driver
-of swimming in our system, though predation may still influence swimming
+2014). Within the Fogo Island archipelago there are no black bears; the
+density of coyotes is low (Huang et al. 2021) and the probability of
+coyote occurrence decreases on the smaller islands. The low density of
+predators throughout the archipelago is therefore an unlikely driver of
+swimming in our system, though predation may still influence swimming
 behaviour for caribou elsewhere in their range (e.g. Jeffery et
 al. 2007).
 
@@ -72,11 +72,9 @@ resources on that island when the caribou departs. Should these
 assumptions hold, we would predict a positive relationship where caribou
 depart smaller islands sooner than larger islands.
 
-Swimming behavior was common among GPS radio-collared caribou in the
-population (n = 29, for collaring details see Peignier et al. 2019). We
-identified 127 swimming events over three years (Figure 2). In total, 13
-of 29 collared female caribou swam among islands (Figure 2). Of the
-caribou that swam, caribou swam on average approximately 3 (range =
+We identified 129 swimming events over three years (Figure 2). In total,
+13 of 29 collared female caribou swam among islands (Figure 2). Of the
+caribou that swam, caribou swam on average approximately 4 (range =
 2-`neventidMax`) times per year and remained on each island for a median
 of 30 (range = 0-724) days before swimming again. We found that caribou
 residency increased proportionally with the size of the island for
@@ -150,7 +148,7 @@ as the ancestral homelands of the Mi’kmaq and Beothuk.
 tarandus*) from Western Perry Island to Eastern Perry Island taken on 30
 May 2017.
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 
 <img src="../graphics/Fig1.jpg" alt="(ref:fig1)"  />
 <p class="caption">
@@ -172,7 +170,7 @@ Figure 1: (ref:fig1)
     panels, and vertical black bars delineate the ice-free season (April
     1 to December 31).
 
-<div class="figure">
+<div class="figure" style="text-align: center">
 
 <img src="../graphics/Fig2.png" alt="A) Map of the Fogo Island archipelago with swimming events from 13 caribou between islands." width="3023" />
 <p class="caption">
@@ -194,9 +192,9 @@ fir (*Abies balsamea*), black spruce (*Picea mariana*), and white birch
 barrens.-->
 |                      | Moves to | Moves away | Proportion lichen | Estimated density (caribou per km2) | Average group size (95% CI) | Calf:cow ratio between June and August |
 |:---------------------|---------:|-----------:|------------------:|------------------------------------:|:----------------------------|:---------------------------------------|
-| Fogo Island          |        0 |          0 |              0.05 |                           0.9803922 | 3.05 (2.7, 3.4)             | 0.34, (0.28, 0.39) (n = 283 groups)    |
-| Western Perry Island |        0 |          0 |                NA |                           6.6666667 | 2.95 (1.89, 4.02)           | 0.22, (0.05, 0.39) (n = 23 groups)     |
-| Eastern Perry Island |        0 |          0 |                NA |                           5.2631579 | 3.71 (1.97, 5.46)           | 0.67, (0.23, 1.00) (n = 7 groups)      |
+| Fogo Island          |       32 |         33 |              0.12 |                           0.9803922 | 3.05 (2.7, 3.4)             | 0.34, (0.28, 0.39) (n = 283 groups)    |
+| Western Perry Island |       18 |         18 |              0.03 |                           6.6666667 | 2.95 (1.89, 4.02)           | 0.22, (0.05, 0.39) (n = 23 groups)     |
+| Eastern Perry Island |       53 |         54 |              0.12 |                           5.2631579 | 3.71 (1.97, 5.46)           | 0.67, (0.23, 1.00) (n = 7 groups)      |
 
 Table 1:
 
