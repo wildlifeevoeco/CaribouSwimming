@@ -15,7 +15,7 @@ lapply(libs, require, character.only = TRUE)
 
 
 ### Data ----
-islands <- readRDS('output/islandsPoly.Rds')
+islands <- readRDS('output/islandsPoly-with-label.Rds')
 edges <- readRDS('output/island-edges.Rds')
 
 
@@ -34,14 +34,8 @@ themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   axis.title = element_blank())
 
 # Base islands ------------------------------------------------------------
-labels <- data.table(
-  id = c(118, 126, 122, 75, 70, 125, 78, 73, 58, 72),
-  label = c("Fogo", "W. Perry", "E. Perry", "Island 3", 
-           "Island 1", "Island 5", "Island 4", 
-           "Island 2", "Island 6", "Island 7")
-)
-selislands <- merge(islands, labels, on = 'id')
-
+selislands <- islands[!is.na(islands$label),]
+centislands <- st_centroid(selislands)
 
 png('graphics/FigS1.png',
   width = 3000,
@@ -53,10 +47,10 @@ ggplot(selislands) +
   guides(color = FALSE) +
   labs(x = NULL, y = NULL) + 
   geom_sf_label_repel(aes(label = label), 
-                      data = selislands[selislands$label != 'Fogo Island', ], 
+                      data = centislands, 
                       nudge_x = 2.2e3, size = 2) +
-  geom_sf_label(aes(label = label), 
-                data = selislands[selislands$label == 'Fogo Island', ], size = 2) +
+  # geom_sf_label(aes(label = label), 
+  #               data = selislands[selislands$label == 'Fogo Island', ], size = 2) +
   themeMap + 
   theme(axis.text = element_text(size = 11, color = 'black'),
         axis.ticks = element_blank())
