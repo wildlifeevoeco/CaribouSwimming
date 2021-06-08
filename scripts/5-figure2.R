@@ -65,19 +65,19 @@ themeRes <- theme(legend.position = 'none',
 tofirst <- c('EASTING', 'NORTHING', 'endislandEAST', 'endislandNORTH')
 outfirst <- c(x = 'firstX', y = 'firstY', xend = 'endfirstX', yend = 'endfirstY')
 
-edges[, (outfirst) := .SD,
+edges[, (outfirst) := .SD, 
       by = .(island, ANIMAL_ID), .SDcols = tofirst]
 
 
 # North/South regions
-edges[, region := ifelse(firstY < median(firstY) + 6500, 'South', 'North')]
+edges[, region := ifelse(firstY < median(firstY) + 6000, 'South', 'North')]
 N <- edges[season == 'icefree' & region == 'North']
 S <- edges[season == 'icefree' & region == 'South']
 
 # Bboxes
-Nbox <- c(ymin = min(N$NORTHING), 
+Nbox <- c(ymin = min(N$NORTHING) + 1250, 
           ymax = max(N$NORTHING),
-          xmin = min(N$EASTING), 
+          xmin = min(N$EASTING) + 5000, 
           xmax = max(N$EASTING))
 Nsfbox <- st_as_sf(st_as_sfc(st_bbox(Nbox, crs = utm)))
 Nsfbox$label <- 'C'
