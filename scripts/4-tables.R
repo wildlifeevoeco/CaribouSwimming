@@ -16,14 +16,14 @@ caribou <- readRDS('output/islands-locs.Rds')
 
 ### Set island labels ----
 setDT(islands)
-numbsub <- 15
+numbsub <- 14
 labislands <- islands[id %in% edges[, unique(island)]][order(-area)][seq.int(numbsub)]
 nms <- c('Fogo Island', 'W. Perry', 'E. Perry')
 labislands[, label := c(nms, paste0('Island ', 4:numbsub))]
-labislands <- st_as_sf(labislands)
+islands <- st_as_sf(merge(islands, labislands[, .(id, label)], by = 'id', all.x = TRUE))
 
 ### Table 1 ----
-selislands <- labislands[labislands$label %in% nms, ]
+selislands <- islands[islands$label %in% nms, ]
 
 selislands$proplichen <- extract(lc == 8, selislands, fun = mean, na.rm = TRUE)
 
@@ -78,7 +78,4 @@ runarea[, .(area, islandlen)]
 ### Output ----
 saveRDS(runarea, 'output/runarea.Rds')
 saveRDS(tab1, 'output/table1.Rds')
-saveRDS(labislands, 'output/island-labels.Rds')
-
-
-  
+saveRDS(islands, 'output/islandsPoly.Rds')
