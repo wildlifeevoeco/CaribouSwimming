@@ -4,7 +4,6 @@
 ### Packages ----
 libs <- c(
   'data.table',
-  'dplyr',
   'sf',
   'ggsflabel',
   'ggnetwork',
@@ -35,20 +34,13 @@ themeMap <- theme(panel.border = element_rect(size = 1, fill = NA),
                   axis.title = element_blank())
 
 # Base islands ------------------------------------------------------------
-labels <- data.table(id = c(58, ## Island 6
-                            72, ## Island 7
-                            70, ## Island 1
-                            73, ## Island 2
-                            75, ## Island 3
-                            78, ## Island 4
-                            120, ## Fogo
-                            124, ## E. Perry
-                            125, ## Island 5
-                            128), ## W. Perry
-                     label = c('Island 6', 'Island 7',
-                               'Island 1', 'Island 2', 'Island 3', 'Island 4',
-                               'Fogo Island', 'E. Perry Island','Island 5','W. Perry Island'))
-islands <- left_join(islands, labels, 'id')
+labels <- data.table(
+  id = c(118, 126, 122, 75, 70, 125, 78, 73, 58, 72),
+  label = c("Fogo", "W. Perry", "E. Perry", "Island 3", 
+           "Island 1", "Island 5", "Island 4", 
+           "Island 2", "Island 6", "Island 7")
+)
+selislands <- merge(islands, labels, on = 'id')
 
 
 png('graphics/FigS1.png',
@@ -56,15 +48,15 @@ png('graphics/FigS1.png',
   height = 3000,
   units = 'px',
   res = 600)
-ggplot(islands) + 
+ggplot(selislands) + 
   geom_sf(fill = islandcol, size = 0.3, color = coastcol) + 
   guides(color = FALSE) +
   labs(x = NULL, y = NULL) + 
   geom_sf_label_repel(aes(label = label), 
-                      data = islands[islands$label != 'Fogo Island', ], 
+                      data = selislands[selislands$label != 'Fogo Island', ], 
                       nudge_x = 2.2e3, size = 2) +
   geom_sf_label(aes(label = label), 
-                data = islands[islands$label == 'Fogo Island', ], size = 2) +
+                data = selislands[selislands$label == 'Fogo Island', ], size = 2) +
   themeMap + 
   theme(axis.text = element_text(size = 11, color = 'black'),
         axis.ticks = element_blank())
