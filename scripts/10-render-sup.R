@@ -1,1 +1,1 @@
-rmarkdown::render('paper/supplement.Rmd')
+rmarkdown::render('paper/supplement.Rmd', 'all')

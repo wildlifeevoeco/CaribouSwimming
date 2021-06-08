@@ -20,6 +20,11 @@ output:
      pandoc_args:
       - '--lua-filter=scholarly-metadata.lua'
       - '--lua-filter=author-info-blocks.lua'
+  bookdown::github_document2:
+    toc: true
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding,
+  output_dir = "paper", output_format = "all") })
 bibliography: ../references/swim.bib
 csl: ecology.csl
 ---
