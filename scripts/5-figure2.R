@@ -27,7 +27,7 @@ runarea <- readRDS('output/runarea.Rds')
 utm <- st_crs('+proj=utm +zone=21 ellps=WGS84')
 
 # Drop some edges
-edges <- edges[!i %in% c(59, 11156, 4254, 4859, 11157)]
+edges <- edges[!(ANIMAL_ID == 'FO2016013' & (island == 5 | endisland == 5))]
 
 
 # summary stats for % swims per island
